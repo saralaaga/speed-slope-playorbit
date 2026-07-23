@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Local captures and scratch data
+_shot_*.png
+speed-slope-page.png
+.playwright-mcp/
+_gm_feed.json
+

@@ -1,0 +1,12 @@
+{
+  "site_name": "PlayOrbit",
+  "site_url": "https://www.playorbit.example",
+  "tagline": "Free online games, no downloads - play instantly in your browser.",
+  "launch_mode": "single",
+  "launch_game_slug": "speed-slope",
+  "contact_email": "hello@playorbit.example",
+  "games_email": "games@playorbit.example",
+  "legal_email": "legal@playorbit.example",
+  "ads_enabled": false,
+  "include_aggregate_rating_schema": false
+}
