@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://www.playorbit.example/</loc><lastmod>2026-07-22</lastmod><priority>1.0</priority></url>
-<url><loc>https://www.playorbit.example/speed-slope/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
-<url><loc>https://www.playorbit.example/games/racing/</loc><lastmod>2026-07-22</lastmod><priority>0.6</priority></url>
-<url><loc>https://www.playorbit.example/games/arcade/</loc><lastmod>2026-07-22</lastmod><priority>0.6</priority></url>
-<url><loc>https://www.playorbit.example/hot-games/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
-<url><loc>https://www.playorbit.example/new-games/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
-<url><loc>https://www.playorbit.example/search/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
-<url><loc>https://www.playorbit.example/about/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
-<url><loc>https://www.playorbit.example/contact/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
-<url><loc>https://www.playorbit.example/privacy/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
-<url><loc>https://www.playorbit.example/terms/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
-<url><loc>https://www.playorbit.example/dmca/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
+<url><loc>https://speedslope.net/</loc><lastmod>2026-07-22</lastmod><priority>1.0</priority></url>
+<url><loc>https://speedslope.net/speed-slope/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
+<url><loc>https://speedslope.net/games/racing/</loc><lastmod>2026-07-22</lastmod><priority>0.6</priority></url>
+<url><loc>https://speedslope.net/games/arcade/</loc><lastmod>2026-07-22</lastmod><priority>0.6</priority></url>
+<url><loc>https://speedslope.net/hot-games/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
+<url><loc>https://speedslope.net/new-games/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
+<url><loc>https://speedslope.net/search/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
+<url><loc>https://speedslope.net/about/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
+<url><loc>https://speedslope.net/contact/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
+<url><loc>https://speedslope.net/privacy/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
+<url><loc>https://speedslope.net/terms/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
+<url><loc>https://speedslope.net/dmca/</loc><lastmod>2026-07-22</lastmod><priority>0.8</priority></url>
 </urlset>

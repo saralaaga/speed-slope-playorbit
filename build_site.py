@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""PlayOrbit static portal generator.
+"""SpeedSlope.net static game site generator.
 
 Reads the full game catalog, publishes the configured subset, and emits HTML
 pages, thumbnails, games.json, sitemap.xml and robots.txt into ./app.
@@ -12,14 +12,14 @@ CONFIG_PATH = os.path.join(BASE, 'site_config.json')
 DATA_PATH = os.path.join(BASE, 'games_data.json')
 
 DEFAULT_CONFIG = {
-    'site_name': 'PlayOrbit',
-    'site_url': 'https://www.playorbit.example',
+    'site_name': 'SpeedSlope.net',
+    'site_url': 'https://speedslope.net',
     'tagline': 'Free online games, no downloads - play instantly in your browser.',
     'launch_mode': 'single',
     'launch_game_slug': '',
-    'contact_email': 'hello@playorbit.example',
-    'games_email': 'games@playorbit.example',
-    'legal_email': 'legal@playorbit.example',
+    'contact_email': 'hello@speedslope.net',
+    'games_email': 'games@speedslope.net',
+    'legal_email': 'legal@speedslope.net',
     'ads_enabled': False,
     'include_aggregate_rating_schema': False,
 }
@@ -184,7 +184,7 @@ def header(pre, active=''):
     mob_cats = ''.join(f'<a href="{cat_url(c, pre)}">{esc(n)}</a>' for c, (n, _) in CATS.items())
     return f'''<header class="site-header">
 <div class="container header-inner">
-<a class="logo" href="{pre}"><span class="logo-mark">{LOGO_SVG}</span>Play<em>Orbit</em></a>
+<a class="logo" href="{pre}"><span class="logo-mark">{LOGO_SVG}</span>Speed<em>Slope</em></a>
 <nav class="main-nav">
 <div class="nav-drop"><button type="button">Categories <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 9l6 6 6-6"/></svg></button>
 <div class="nav-drop-menu">{drops}</div></div>
@@ -216,7 +216,7 @@ def footer(pre):
     return f'''<footer class="site-footer">
 <div class="container footer-grid">
 <div>
-<a class="logo" href="{pre}"><span class="logo-mark">{LOGO_SVG}</span>Play<em>Orbit</em></a>
+<a class="logo" href="{pre}"><span class="logo-mark">{LOGO_SVG}</span>Speed<em>Slope</em></a>
 <p class="footer-blurb">{esc(TAGLINE)} New titles added every week.</p>
 </div>
 <div><h4>Categories</h4>{cat_links}</div>
@@ -233,7 +233,7 @@ def footer(pre):
 <a href="{pre}dmca/">Copyright / DMCA</a>
 </div>
 </div>
-<div class="footer-word">PLAYORBIT</div>
+<div class="footer-word">SPEED SLOPE</div>
 <div class="container footer-bottom">
 <span class="copy">© 2026 {SITE_NAME}. All rights reserved.</span>
 <a href="{pre}privacy/">Privacy</a><a href="{pre}terms/">Terms</a><a href="{pre}dmca/">DMCA</a>

@@ -1,4 +1,4 @@
-# PlayOrbit Static Game Site
+# SpeedSlope.net Static Game Site
 
 This project is a static site generator for a browser-game portal. It keeps the
 full catalog in `games_data.json`, then publishes only the game set selected in

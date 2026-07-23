@@ -1,12 +1,12 @@
 {
-  "site_name": "PlayOrbit",
-  "site_url": "https://www.playorbit.example",
+  "site_name": "SpeedSlope.net",
+  "site_url": "https://speedslope.net",
   "tagline": "Free online games, no downloads - play instantly in your browser.",
   "launch_mode": "single",
   "launch_game_slug": "speed-slope",
-  "contact_email": "hello@playorbit.example",
-  "games_email": "games@playorbit.example",
-  "legal_email": "legal@playorbit.example",
+  "contact_email": "hello@speedslope.net",
+  "games_email": "games@speedslope.net",
+  "legal_email": "legal@speedslope.net",
   "ads_enabled": false,
   "include_aggregate_rating_schema": false
 }

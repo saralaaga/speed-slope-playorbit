@@ -1,4 +1,4 @@
-/* PlayOrbit — portal interactions: lazy iframe player, fullscreen,
+/* SpeedSlope.net — portal interactions: lazy iframe player, fullscreen,
    theater mode, favorites, local rating, client search, sorting. */
 (function () {
   'use strict';
