@@ -23,8 +23,10 @@ The project is configured for a single-game launch:
 
 This produces a focused site with:
 
-- Home page
-- One game detail/play page
+- Home page that IS the play page: the game iframe loads automatically on
+  open, no "Play" click needed
+- The game slug URL (`/speed-slope/`) redirects to the home page (noindex,
+  canonical points at `/`) to avoid duplicate content
 - Category pages for that game's categories
 - Search, hot, new, about, contact, privacy, terms and DMCA pages
 - `games.json`, `sitemap.xml` and `robots.txt`

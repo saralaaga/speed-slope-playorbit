@@ -53,6 +53,11 @@ def assert_games_json(expected_slugs):
 
 
 def assert_sitemap(expected_slugs):
+    # In single mode the home page is the play page and /slug/ only redirects
+    # there (noindex), so game slugs are intentionally absent from the sitemap.
+    config = load_json('site_config.json')
+    if config.get('launch_mode', 'single') == 'single':
+        expected_slugs = set()
     tree = ET.parse(os.path.join(APP, 'sitemap.xml'))
     ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     locs = [node.text for node in tree.findall('.//sm:loc', ns)]

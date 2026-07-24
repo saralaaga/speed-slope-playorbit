@@ -83,9 +83,13 @@
     var errorBox = $('#stageError');
     var src = stage.getAttribute('data-src');
     var title = stage.getAttribute('data-title');
+    var autoplay = stage.getAttribute('data-autoplay') === '1';
     var timer = null;
+    var started = false;
 
-    playBtn.addEventListener('click', function () {
+    function loadGame() {
+      if (started) return;
+      started = true;
       cover.style.display = 'none';
       loading.classList.add('show');
       var ifr = document.createElement('iframe');
@@ -107,14 +111,22 @@
         }
       }, 20000);
       stage.appendChild(ifr);
-    });
+    }
+
+    playBtn.addEventListener('click', loadGame);
+    if (autoplay) loadGame();
 
     $('#openExternal').addEventListener('click', function () {
       window.open(src, '_blank', 'noopener');
     });
     $('#retryLoad').addEventListener('click', function () {
       errorBox.classList.remove('show');
-      cover.style.display = '';
+      // drop the failed iframe and allow a fresh attempt
+      var old = $('iframe', stage);
+      if (old) old.parentNode.removeChild(old);
+      started = false;
+      if (autoplay) loadGame();
+      else cover.style.display = '';
     });
   }
 

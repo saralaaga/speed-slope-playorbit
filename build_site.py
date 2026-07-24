@@ -280,6 +280,11 @@ def clean_output():
             os.remove(path)
 
 def page_home():
+    if CONFIG.get('launch_mode', 'single') == 'single':
+        # Single-game site: the home page IS the play page — the game loads
+        # automatically, no extra click. The /slug/ URL redirects here.
+        write('index.html', game_page_html(G[0], pre='', canonical='', autoplay=True, breadcrumb=False))
+        return
     pre = ''
     popular = sorted(G, key=lambda x: -x['plays'])
     featured = (sorted([g for g in G if g['hot']], key=lambda x: -x['plays']) or popular)[:3]
@@ -330,8 +335,9 @@ def page_home():
     html_doc += footer(pre)
     write('index.html', html_doc)
 
-def page_game(g):
-    pre = '../'
+def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True):
+    if canonical is None:
+        canonical = f'{g["slug"]}/'
     title = g.get('seo_title') or f'Play {g["title"]} Online Free — {SITE_NAME}'
     desc = g.get('meta_desc') or (f'{g["desc"][:140]}…' if len(g['desc']) > 140 else g['desc'])
     cat_names = [CATS[c][0] for c in g['cats']]
@@ -350,7 +356,7 @@ def page_game(g):
         (f'Can I play {g["title"]} on mobile?',
          f'Yes, {g["title"]} works in most mobile browsers. For the best experience rotate your phone to landscape and use the fullscreen button.'),
         (f'Do I need to download anything to play {g["title"]}?',
-         f'No download is needed. Press “Play Now” and the game loads right on this page. Your progress stays in this browser.'),
+         f'No download is needed. The game loads automatically right on this page. Your progress stays in this browser.'),
     ]
     faq_html = ''.join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faqs)
     controls = ''.join(f'<li><strong>{esc(k)}</strong> — {esc(v)}</li>' for k, v in g['controls'])
@@ -378,7 +384,7 @@ def page_game(g):
     ]
     stars = ''.join(f'<button type="button" aria-label="Rate {i} stars">{STAR}</button>' for i in range(1, 6))
     extra = ''.join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in ld)
-    html_doc = head(title, desc, pre, f'{g["slug"]}/', extra=extra, og_image='assets/thumbs/' + g.get('thumbfile', g['slug'] + '.svg'))
+    html_doc = head(title, desc, pre, canonical, extra=extra, og_image='assets/thumbs/' + g.get('thumbfile', g['slug'] + '.svg'))
     html_doc += header(pre)
     left_side = (f'''<aside class="play-side left theater-hide"><span class="side-title">You may also like</span>
 {''.join(mini_card(x, pre) for x in left_rel)}</aside>''' if left_rel else '')
@@ -394,19 +400,32 @@ def page_game(g):
     elif not left_side:
         layout_class += ' no-left'
 
+    crumb = ''
+    if breadcrumb:
+        crumb = f'''<nav style="font-size:13px;color:var(--muted);margin-bottom:14px" aria-label="Breadcrumb">
+<a href="{pre}" style="font-weight:700">Home</a> › <a href="{cat_url(prim, pre)}" style="font-weight:700">{esc(CATS[prim][0])}</a> › <span style="color:var(--text);font-weight:700">{esc(g['title'])}</span>
+</nav>'''
+    autoplay_attr = ' data-autoplay="1"' if autoplay else ''
+    cover_hint = ('The game loads automatically — no click needed' if autoplay
+                  else 'Loads the game only after you click')
+    more_section = ''
+    if more_rel:
+        more_section = f'''<section class="section">
+<div class="section-head"><h2><span class="tick">▸</span> More Games Like This</h2><a class="more" href="{cat_url(prim, pre)}">More {esc(CATS[prim][0])} →</a></div>
+<div class="game-grid">{''.join(game_card(x, pre) for x in more_rel)}</div>
+</section>'''
+
     html_doc += f'''<main class="container">
 {ad('ad-banner', 'Leaderboard 728×90')}
-<nav style="font-size:13px;color:var(--muted);margin-bottom:14px" aria-label="Breadcrumb">
-<a href="{pre}" style="font-weight:700">Home</a> › <a href="{cat_url(prim, pre)}" style="font-weight:700">{esc(CATS[prim][0])}</a> › <span style="color:var(--text);font-weight:700">{esc(g['title'])}</span>
-</nav>
+{crumb}
 <div class="{layout_class}">
 {left_side}
 <div class="stage-wrap">
-<div class="stage" id="stage" data-src="{esc(g['url'])}" data-title="{esc(g['title'])}">
+<div class="stage" id="stage" data-src="{esc(g['url'])}" data-title="{esc(g['title'])}"{autoplay_attr}>
 <div class="stage-cover" id="stageCover" style="background-image:url('{thumb_url(g, pre)}')">
 <h2>{esc(g['title'])}</h2>
 <button class="btn btn-primary btn-lg" id="playNow">{PLAY_TRI} Play Now</button>
-<span style="color:var(--muted);font-size:13px">Loads the game only after you click</span>
+<span style="color:var(--muted);font-size:13px">{cover_hint}</span>
 </div>
 <div class="stage-loading" id="stageLoading"><div class="spin"></div></div>
 <div class="stage-error" id="stageError">
@@ -443,13 +462,36 @@ def page_game(g):
 <h2>{esc(g['title'])} — FAQ</h2>
 {faq_html}
 </section>
-<section class="section">
-<div class="section-head"><h2><span class="tick">▸</span> More Games Like This</h2><a class="more" href="{cat_url(prim, pre)}">More {esc(CATS[prim][0])} →</a></div>
-<div class="game-grid">{''.join(game_card(x, pre) for x in more_rel)}</div>
-</section>
+{more_section}
 </main>'''
     html_doc += footer(pre)
-    write(f'{g["slug"]}/index.html', html_doc)
+    return html_doc
+
+def page_redirect(rel, target, label):
+    html_doc = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(label)} | {SITE_NAME}</title>
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="{SITE_URL}/{target}">
+<meta http-equiv="refresh" content="0; url={SITE_URL}/{target}">
+</head>
+<body>
+<p>This page has moved to <a href="{SITE_URL}/{target}">{SITE_URL}/{target}</a>.</p>
+<script>location.replace({json.dumps(SITE_URL + '/' + target)});</script>
+</body>
+</html>'''
+    write(rel, html_doc)
+
+def page_game(g):
+    if CONFIG.get('launch_mode', 'single') == 'single':
+        # Single-game site: home is the play page, so the /slug/ URL just
+        # redirects there (avoids duplicate content).
+        page_redirect(f'{g["slug"]}/index.html', '', f'Play {g["title"]} Online Free')
+        return
+    write(f'{g["slug"]}/index.html', game_page_html(g))
 
 def sort_bar(count_label=''):
     return f'''<div class="list-toolbar" id="sortBar">
@@ -513,7 +555,7 @@ def page_static(slug, h1, body):
 # ============================================================ static content
 ABOUT = f'''<p>{SITE_NAME} is a free browser-games portal. We hand-pick lightweight HTML5 games — basketball, sports, racing, puzzles, arcade classics and more — and make each one playable in a single click, with no downloads, no installs and no accounts.</p>
 <h2>What we do</h2>
-<ul><li>Curate and test every game before it goes live.</li><li>Write original guides, controls and tips for each title.</li><li>Keep the site fast: games only load after you press Play.</li></ul>
+<ul><li>Curate and test every game before it goes live.</li><li>Write original guides, controls and tips for each title.</li><li>Keep the site fast: the game loads automatically the moment you open the page.</li></ul>
 <h2>Who we are</h2>
 <p>A small team of casual-gaming fans. {SITE_NAME} started in 2026 as a side project and grows one game at a time.</p>'''
 
@@ -597,7 +639,8 @@ def main():
     write('games.json', json.dumps(data, ensure_ascii=False, indent=1))
 
     # sitemap + robots
-    urls = [''] + [f'{g["slug"]}/' for g in G] + [f'games/{c}/' for c in CATS] + \
+    game_urls = [] if CONFIG.get('launch_mode', 'single') == 'single' else [f'{g["slug"]}/' for g in G]
+    urls = [''] + game_urls + [f'games/{c}/' for c in CATS] + \
            ['hot-games/', 'new-games/', 'search/', 'about/', 'contact/', 'privacy/', 'terms/', 'dmca/']
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
