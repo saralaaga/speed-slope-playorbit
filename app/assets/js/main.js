@@ -75,34 +75,29 @@
   }
 
   /* ---------- iframe player ---------- */
-  var playBtn = $('#playNow');
-  if (playBtn) {
-    var stage = $('#stage');
+  var stage = $('#stage');
+  if (stage) {
     var cover = $('#stageCover');
+    var playBtn = $('#playNow');
     var loading = $('#stageLoading');
     var errorBox = $('#stageError');
     var src = stage.getAttribute('data-src');
     var title = stage.getAttribute('data-title');
-    var autoplay = stage.getAttribute('data-autoplay') === '1';
     var timer = null;
     var started = false;
 
-    function loadGame() {
-      if (started) return;
-      started = true;
-      cover.style.display = 'none';
-      loading.classList.add('show');
-      var ifr = document.createElement('iframe');
-      ifr.setAttribute('allow', 'autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking; cross-origin-isolated');
-      ifr.setAttribute('allowfullscreen', '');
-      ifr.setAttribute('title', title);
-      ifr.src = src;
+    function watch(ifr) {
       var done = false;
-      ifr.addEventListener('load', function () {
+      function finish() {
+        if (done) return;
         done = true;
         clearTimeout(timer);
         loading.classList.remove('show');
-      });
+      }
+      ifr.addEventListener('load', finish);
+      // window load also waits for iframes — covers the case where the
+      // iframe finished before this script attached its listener
+      window.addEventListener('load', finish);
       // if the game host blocks embedding or is unreachable, offer a way out
       timer = setTimeout(function () {
         if (!done) {
@@ -110,11 +105,31 @@
           errorBox.classList.add('show');
         }
       }, 20000);
+    }
+
+    function loadGame() {
+      if (started) return;
+      started = true;
+      if (cover) cover.style.display = 'none';
+      loading.classList.add('show');
+      var ifr = document.createElement('iframe');
+      ifr.setAttribute('allow', 'autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking; cross-origin-isolated');
+      ifr.setAttribute('allowfullscreen', '');
+      ifr.setAttribute('title', title);
+      ifr.src = src;
+      watch(ifr);
       stage.appendChild(ifr);
     }
 
-    playBtn.addEventListener('click', loadGame);
-    if (autoplay) loadGame();
+    var existing = $('iframe', stage);
+    if (existing) {
+      // autoplay pages render the iframe directly into the HTML
+      started = true;
+      watch(existing);
+    } else if (stage.getAttribute('data-autoplay') === '1') {
+      loadGame();
+    }
+    if (playBtn) playBtn.addEventListener('click', loadGame);
 
     $('#openExternal').addEventListener('click', function () {
       window.open(src, '_blank', 'noopener');
@@ -125,8 +140,8 @@
       var old = $('iframe', stage);
       if (old) old.parentNode.removeChild(old);
       started = false;
-      if (autoplay) loadGame();
-      else cover.style.display = '';
+      if (cover) cover.style.display = '';   // click-to-play pages: back to the cover
+      else loadGame();                       // autoplay pages: retry immediately
     });
   }
 

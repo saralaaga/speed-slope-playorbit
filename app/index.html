@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v=16ff1395">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "Speed Slope", "url": "https://speedslope.net/speed-slope/", "image": "https://speedslope.net/assets/thumbs/speed-slope.svg", "description": "Speed Slope is a fast 3D endless runner where a rolling ball races down a steep neon track. The goal is simple: stay on the platform, avoid blocks and gaps, and keep control as the slope becomes faster and less forgiving. It is easy to start, but every second demands sharper timing, calmer steering, and better anticipation.", "genre": ["Racing Games", "Arcade Games"], "gamePlatform": "Web Browser", "applicationCategory": "Game", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://speedslope.net/"}, {"@type": "ListItem", "position": 2, "name": "Racing Games", "item": "https://speedslope.net/games/racing/"}, {"@type": "ListItem", "position": 3, "name": "Speed Slope", "item": "https://speedslope.net/speed-slope/"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Speed Slope?", "acceptedAnswer": {"@type": "Answer", "text": "Speed Slope is a browser-based 3D endless runner where you guide a rolling ball down a high-speed slope and avoid obstacles for as long as possible."}}, {"@type": "Question", "name": "How do you control Speed Slope?", "acceptedAnswer": {"@type": "Answer", "text": "Use the left and right arrow keys or A and D to steer. The game is mostly about small, precise movements at high speed."}}, {"@type": "Question", "name": "Can I play Speed Slope without downloading it?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Speed Slope runs directly in your browser, so there is no download or installation required."}}, {"@type": "Question", "name": "Why does Speed Slope get harder?", "acceptedAnswer": {"@type": "Answer", "text": "The track feels harder as your speed increases. Obstacles arrive faster, gaps become less forgiving, and small steering mistakes matter more."}}]}</script>
 </head>
 <body><header class="site-header">
@@ -53,12 +53,8 @@
 
 <div class="stage-wrap">
 <div class="stage" id="stage" data-src="https://gamea.azgame.io/speed-slope/" data-title="Speed Slope" data-autoplay="1">
-<div class="stage-cover" id="stageCover" style="background-image:url('assets/thumbs/speed-slope.svg')">
-<h2>Speed Slope</h2>
-<button class="btn btn-primary btn-lg" id="playNow"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg> Play Now</button>
-<span style="color:var(--muted);font-size:13px">The game loads automatically — no click needed</span>
-</div>
-<div class="stage-loading" id="stageLoading"><div class="spin"></div></div>
+<div class="stage-loading show" id="stageLoading"><div class="spin"></div></div>
+<iframe id="gameFrame" src="https://gamea.azgame.io/speed-slope/" title="Speed Slope" allow="autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking; cross-origin-isolated" allowfullscreen></iframe>
 <div class="stage-error" id="stageError">
 <h3>Game didn’t load</h3>
 <p>The game host may be busy or blocking embedded play. You can retry, or open the game in a new tab instead.</p>
@@ -120,6 +116,6 @@
 <a href="privacy/">Privacy</a><a href="terms/">Terms</a><a href="dmca/">DMCA</a>
 </div>
 </footer>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js?v=6824eff7"></script>
 </body>
 </html>

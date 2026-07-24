@@ -148,6 +148,18 @@ def make_thumb(g):
     with open(path, 'w', encoding='utf-8') as f: f.write(svg)
 
 # ============================================================ shared chrome
+def _asset_version(rel):
+    # Content-hash the asset so returning visitors never run stale cached
+    # CSS/JS against new markup.
+    path = os.path.join(ROOT, rel)
+    if not os.path.exists(path):
+        return '1'
+    with open(path, 'rb') as f:
+        return hashlib.md5(f.read()).hexdigest()[:8]
+
+CSS_V = _asset_version('assets/css/style.css')
+JS_V = _asset_version('assets/js/main.js')
+
 STAR = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z"/></svg>'
 PLAY_TRI = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>'
 
@@ -171,7 +183,7 @@ def head(title, desc, pre, canonical, extra='', og_image=None):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{pre}assets/css/style.css">
+<link rel="stylesheet" href="{pre}assets/css/style.css?v={CSS_V}">
 {extra}
 </head>
 <body>'''
@@ -239,7 +251,7 @@ def footer(pre):
 <a href="{pre}privacy/">Privacy</a><a href="{pre}terms/">Terms</a><a href="{pre}dmca/">DMCA</a>
 </div>
 </footer>
-<script src="{pre}assets/js/main.js"></script>
+<script src="{pre}assets/js/main.js?v={JS_V}"></script>
 </body>
 </html>'''
 
@@ -406,8 +418,25 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
 <a href="{pre}" style="font-weight:700">Home</a> › <a href="{cat_url(prim, pre)}" style="font-weight:700">{esc(CATS[prim][0])}</a> › <span style="color:var(--text);font-weight:700">{esc(g['title'])}</span>
 </nav>'''
     autoplay_attr = ' data-autoplay="1"' if autoplay else ''
-    cover_hint = ('The game loads automatically — no click needed' if autoplay
-                  else 'Loads the game only after you click')
+    error_box = '''<div class="stage-error" id="stageError">
+<h3>Game didn’t load</h3>
+<p>The game host may be busy or blocking embedded play. You can retry, or open the game in a new tab instead.</p>
+<div style="display:flex;gap:10px"><button class="btn" id="retryLoad">Retry</button><button class="btn btn-primary" id="openExternal">Open in new tab</button></div>
+</div>'''
+    if autoplay:
+        # No click gate: the iframe is rendered right into the HTML so the
+        # game starts loading with the page itself, even before/without JS.
+        stage_inner = f'''<div class="stage-loading show" id="stageLoading"><div class="spin"></div></div>
+<iframe id="gameFrame" src="{esc(g['url'])}" title="{esc(g['title'])}" allow="autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking; cross-origin-isolated" allowfullscreen></iframe>
+{error_box}'''
+    else:
+        stage_inner = f'''<div class="stage-cover" id="stageCover" style="background-image:url('{thumb_url(g, pre)}')">
+<h2>{esc(g['title'])}</h2>
+<button class="btn btn-primary btn-lg" id="playNow">{PLAY_TRI} Play Now</button>
+<span style="color:var(--muted);font-size:13px">Loads the game only after you click</span>
+</div>
+<div class="stage-loading" id="stageLoading"><div class="spin"></div></div>
+{error_box}'''
     more_section = ''
     if more_rel:
         more_section = f'''<section class="section">
@@ -422,17 +451,7 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
 {left_side}
 <div class="stage-wrap">
 <div class="stage" id="stage" data-src="{esc(g['url'])}" data-title="{esc(g['title'])}"{autoplay_attr}>
-<div class="stage-cover" id="stageCover" style="background-image:url('{thumb_url(g, pre)}')">
-<h2>{esc(g['title'])}</h2>
-<button class="btn btn-primary btn-lg" id="playNow">{PLAY_TRI} Play Now</button>
-<span style="color:var(--muted);font-size:13px">{cover_hint}</span>
-</div>
-<div class="stage-loading" id="stageLoading"><div class="spin"></div></div>
-<div class="stage-error" id="stageError">
-<h3>Game didn’t load</h3>
-<p>The game host may be busy or blocking embedded play. You can retry, or open the game in a new tab instead.</p>
-<div style="display:flex;gap:10px"><button class="btn" id="retryLoad">Retry</button><button class="btn btn-primary" id="openExternal">Open in new tab</button></div>
-</div>
+{stage_inner}
 </div>
 <div class="game-bar">
 <h1>{esc(g['title'])}</h1>
