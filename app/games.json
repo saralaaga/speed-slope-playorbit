@@ -2,9 +2,10 @@
  {
   "title": "Speed Slope",
   "slug": "speed-slope",
-  "url": "speed-slope/",
+  "url": "",
   "thumb": "assets/thumbs/speed-slope.svg",
   "categories": [
+   "Slope Games",
    "Racing Games",
    "Arcade Games"
   ],
@@ -19,5 +20,135 @@
   "plays": 284000,
   "isHot": true,
   "isNew": true
+ },
+ {
+  "title": "Highway Driver 3D",
+  "slug": "highway-driver-3d",
+  "url": "highway-driver-3d/",
+  "thumb": "assets/thumbs/highway-driver-3d.jpg",
+  "categories": [
+   "Slope Games",
+   "Racing Games"
+  ],
+  "tags": [
+   "Driving",
+   "Highway",
+   "3D"
+  ],
+  "rating": 4.6,
+  "plays": 1772717,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Formula Car Circuit Racing",
+  "slug": "formula-car-circuit-racing",
+  "url": "formula-car-circuit-racing/",
+  "thumb": "assets/thumbs/formula-car-circuit-racing.jpg",
+  "categories": [
+   "Slope Games",
+   "Racing Games"
+  ],
+  "tags": [
+   "Formula",
+   "Circuit",
+   "Speed"
+  ],
+  "rating": 4.4,
+  "plays": 1251339,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Bike Racing Adventure",
+  "slug": "bike-racing-adventure",
+  "url": "bike-racing-adventure/",
+  "thumb": "assets/thumbs/bike-racing-adventure.jpg",
+  "categories": [
+   "Slope Games",
+   "Racing Games"
+  ],
+  "tags": [
+   "Moto",
+   "Stunts"
+  ],
+  "rating": 4.5,
+  "plays": 340852,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Apex Racer",
+  "slug": "apex-racer",
+  "url": "apex-racer/",
+  "thumb": "assets/thumbs/apex-racer.jpg",
+  "categories": [
+   "Slope Games",
+   "Racing Games"
+  ],
+  "tags": [
+   "Racing",
+   "3D"
+  ],
+  "rating": 4.3,
+  "plays": 3203602,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "PrismRoll 3D",
+  "slug": "prismroll-3d",
+  "url": "prismroll-3d/",
+  "thumb": "assets/thumbs/prismroll-3d.jpg",
+  "categories": [
+   "Slope Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "3D",
+   "Logic"
+  ],
+  "rating": 4.5,
+  "plays": 335660,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Obby: Three Challenges",
+  "slug": "obby-three-challenges",
+  "url": "obby-three-challenges/",
+  "thumb": "assets/thumbs/obby-three-challenges.jpg",
+  "categories": [
+   "Slope Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Obby",
+   "Parkour",
+   "Skill"
+  ],
+  "rating": 4.1,
+  "plays": 2210120,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Nullpulse Runner",
+  "slug": "nullpulse-runner",
+  "url": "nullpulse-runner/",
+  "thumb": "assets/thumbs/nullpulse-runner.jpg",
+  "categories": [
+   "Slope Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Runner",
+   "Reflex",
+   "Neon"
+  ],
+  "rating": 4.4,
+  "plays": 272835,
+  "isHot": false,
+  "isNew": false
  }
 ]

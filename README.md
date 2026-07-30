@@ -62,12 +62,19 @@ To publish a hand-picked set, change `site_config.json`:
 ```json
 {
   "launch_mode": "slugs",
+  "home_game_slug": "speed-slope",
   "published_game_slugs": [
+    "speed-slope",
     "basketball-stars-2026",
     "basketball-fever"
   ]
 }
 ```
+
+When `home_game_slug` is set, the homepage remains the flagship autoplay game
+page and that game's `/slug/` page redirects to `/` to avoid duplicate content.
+Other selected games are published as iframe-based child pages and appear in the
+homepage sidebars, search, category pages, hot games and new games.
 
 To publish the whole catalog:
 

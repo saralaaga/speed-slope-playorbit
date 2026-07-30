@@ -33,6 +33,14 @@ def selected_games():
     raise AssertionError(f'Unknown launch_mode: {mode}')
 
 
+def home_game_slug():
+    config = load_json('site_config.json')
+    games = selected_games()
+    slug = config.get('home_game_slug') or config.get('launch_game_slug') or games[0]['slug']
+    assert slug in {g['slug'] for g in games}, f'home_game_slug not selected for publishing: {slug}'
+    return slug
+
+
 def assert_no_stale_game_dirs(expected_slugs):
     dirs = {
         name for name in os.listdir(APP)
@@ -58,6 +66,9 @@ def assert_sitemap(expected_slugs):
     config = load_json('site_config.json')
     if config.get('launch_mode', 'single') == 'single':
         expected_slugs = set()
+    else:
+        expected_slugs = set(expected_slugs)
+        expected_slugs.discard(home_game_slug())
     tree = ET.parse(os.path.join(APP, 'sitemap.xml'))
     ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
     locs = [node.text for node in tree.findall('.//sm:loc', ns)]

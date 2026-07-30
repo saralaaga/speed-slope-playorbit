@@ -17,6 +17,7 @@ DEFAULT_CONFIG = {
     'tagline': 'Free online games, no downloads - play instantly in your browser.',
     'launch_mode': 'single',
     'launch_game_slug': '',
+    'home_game_slug': '',
     'contact_email': 'hello@speedslope.net',
     'games_email': 'games@speedslope.net',
     'legal_email': 'legal@speedslope.net',
@@ -41,9 +42,10 @@ TAGLINE = CONFIG['tagline']
 CONTACT_EMAIL = CONFIG['contact_email']
 GAMES_EMAIL = CONFIG['games_email']
 LEGAL_EMAIL = CONFIG['legal_email']
-TODAY = '2026-07-22'
+TODAY = datetime.date.today().isoformat()
 
 ALL_CATS = {
+    'slope':      ('Slope Games', 'Fast 3D reflex games like Speed Slope — roll, dodge, drift and survive through neon tracks, tunnels and obstacle courses.'),
     'basketball': ('Basketball Games', 'Dunk, shoot and score in the best free basketball games you can play right in your browser — from realistic shootouts to chaotic random physics matches.'),
     'sports':     ('Sports Games', 'Soccer, cricket, tennis, archery, pool and more — free sports games with instant browser play, no downloads and no sign-ups.'),
     'racing':     ('Racing Games', 'Drift, drive and battle your way to the finish line. Free racing and driving games playable instantly on desktop and mobile.'),
@@ -55,6 +57,7 @@ ALL_CATS = {
 }
 
 CAT_DOT = {
+    'slope': '#b9f226',
     'basketball': '#ff9f43', 'sports': '#3ddc84', 'racing': '#ff5d5d', 'puzzle': '#b98cff',
     'arcade': '#4dc3ff', '2-player': '#ffd93d', 'io': '#ff6ec7', 'classics': '#9aa78b',
 }
@@ -95,7 +98,17 @@ def fmt_plays(n):
 
 BY_SLUG = {g['slug']: g for g in G}
 
-def game_url(g, pre): return f'{pre}{g["slug"]}/'
+def home_game():
+    slug = CONFIG.get('home_game_slug') or CONFIG.get('launch_game_slug') or G[0]['slug']
+    game = BY_SLUG.get(slug)
+    if not game:
+        raise ValueError(f'home_game_slug not selected for publishing: {slug}')
+    return game
+
+def game_url(g, pre):
+    if g['slug'] == home_game()['slug']:
+        return pre
+    return f'{pre}{g["slug"]}/'
 def cat_url(c, pre): return f'{pre}games/{c}/'
 def thumb_url(g, pre): return f"{pre}assets/thumbs/{g.get('thumbfile', g['slug'] + '.svg')}"
 
@@ -295,7 +308,12 @@ def page_home():
     if CONFIG.get('launch_mode', 'single') == 'single':
         # Single-game site: the home page IS the play page — the game loads
         # automatically, no extra click. The /slug/ URL redirects here.
-        write('index.html', game_page_html(G[0], pre='', canonical='', autoplay=True, breadcrumb=False))
+        write('index.html', game_page_html(home_game(), pre='', canonical='', autoplay=True, breadcrumb=False))
+        return
+    if CONFIG.get('home_game_slug') or CONFIG.get('launch_game_slug'):
+        # Curated vertical site: keep the home page focused on the flagship
+        # game, while related selected games appear in the sidebars and lists.
+        write('index.html', game_page_html(home_game(), pre='', canonical='', autoplay=True, breadcrumb=False))
         return
     pre = ''
     popular = sorted(G, key=lambda x: -x['plays'])
@@ -505,7 +523,7 @@ def page_redirect(rel, target, label):
     write(rel, html_doc)
 
 def page_game(g):
-    if CONFIG.get('launch_mode', 'single') == 'single':
+    if g['slug'] == home_game()['slug']:
         # Single-game site: home is the play page, so the /slug/ URL just
         # redirects there (avoids duplicate content).
         page_redirect(f'{g["slug"]}/index.html', '', f'Play {g["title"]} Online Free')
@@ -651,14 +669,15 @@ def main():
     page_static('dmca', 'Copyright / DMCA', DMCA)
 
     # games.json (root-relative; search page prefixes its own depth)
-    data = [dict(title=g['title'], slug=g['slug'], url=f'{g["slug"]}/',
+    data = [dict(title=g['title'], slug=g['slug'], url=game_url(g, ''),
                  thumb='assets/thumbs/' + g.get('thumbfile', g['slug'] + '.svg'), categories=[CATS[c][0] for c in g['cats']],
                  tags=g['tags'], rating=g['rating'], plays=g['plays'], isHot=g['hot'], isNew=g['new'])
             for g in G]
     write('games.json', json.dumps(data, ensure_ascii=False, indent=1))
 
     # sitemap + robots
-    game_urls = [] if CONFIG.get('launch_mode', 'single') == 'single' else [f'{g["slug"]}/' for g in G]
+    home_slug = home_game()['slug']
+    game_urls = [] if CONFIG.get('launch_mode', 'single') == 'single' else [f'{g["slug"]}/' for g in G if g['slug'] != home_slug]
     urls = [''] + game_urls + [f'games/{c}/' for c in CATS] + \
            ['hot-games/', 'new-games/', 'search/', 'about/', 'contact/', 'privacy/', 'terms/', 'dmca/']
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',

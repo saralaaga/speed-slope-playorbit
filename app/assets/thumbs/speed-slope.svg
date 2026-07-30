@@ -2,7 +2,7 @@
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0" stop-color="#ca2ad5"/><stop offset="1" stop-color="#aa6d18"/></linearGradient></defs>
 <rect width="640" height="640" fill="url(#g)"/>
-<rect x="-120" y="120" width="900" height="58" rx="29" fill="#ffffff" opacity="0.14" transform="rotate(-18 320 320)"/><rect x="-120" y="260" width="900" height="58" rx="29" fill="#000000" opacity="0.10" transform="rotate(-18 320 320)"/><rect x="-120" y="400" width="900" height="58" rx="29" fill="#ffffff" opacity="0.10" transform="rotate(-18 320 320)"/>
+<circle cx="320" cy="320" r="240" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="34"/><circle cx="320" cy="320" r="150" fill="none" stroke="#000000" stroke-opacity="0.10" stroke-width="34"/>
 <text x="320" y="320" text-anchor="middle" dominant-baseline="central"
  font-family="Nunito, 'Arial Black', Arial, sans-serif" font-weight="900" font-size="250"
  fill="#000000" opacity="0.18" dy="14">SS</text>
