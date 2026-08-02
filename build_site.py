@@ -45,7 +45,7 @@ LEGAL_EMAIL = CONFIG['legal_email']
 TODAY = datetime.date.today().isoformat()
 
 ALL_CATS = {
-    'slope':      ('Slope Games', 'Fast 3D reflex games like Speed Slope — roll, dodge, drift and survive through neon tracks, tunnels and obstacle courses.'),
+    'slope':      ('Slope Games', 'Play slope games online, including fast 3D reflex games like Speed Slope. Roll, dodge, drift and survive through neon tracks, tunnels and obstacle courses.'),
     'basketball': ('Basketball Games', 'Dunk, shoot and score in the best free basketball games you can play right in your browser — from realistic shootouts to chaotic random physics matches.'),
     'sports':     ('Sports Games', 'Soccer, cricket, tennis, archery, pool and more — free sports games with instant browser play, no downloads and no sign-ups.'),
     'racing':     ('Racing Games', 'Drift, drive and battle your way to the finish line. Free racing and driving games playable instantly on desktop and mobile.'),
@@ -98,6 +98,16 @@ def fmt_plays(n):
 
 BY_SLUG = {g['slug']: g for g in G}
 
+SLOPE_GAME_ANGLES = {
+    'nullpulse-runner': 'Nullpulse Runner is one of the closest games like Speed Slope in this collection: it keeps the neon look, quick restarts, and reflex-first rhythm, but changes the challenge from steering a rolling ball to timing jumps through a glowing runner course.',
+    'highway-driver-3d': 'Highway Driver 3D is a good pick for players who like the speed pressure in Speed Slope. Instead of staying on a narrow slope, you read traffic patterns, dodge hazards, and survive longer as the road gets more crowded.',
+    'obby-three-challenges': 'Obby: Three Challenges fits Speed Slope players who enjoy obstacle timing and instant failure loops. The movement is more platformer-like, but the appeal is similar: learn the pattern, stay calm, and try one cleaner run.',
+    'apex-racer': 'Apex Racer is less about rolling downhill and more about high-speed track control, making it a useful related game for players who come to Speed Slope for speed, steering, and clean reaction timing.',
+    'formula-car-circuit-racing': 'Formula Car Circuit Racing gives Speed Slope fans a more traditional racing angle. The shared hook is precision at speed: read the track early, make small corrections, and avoid losing control when the pace rises.',
+    'bike-racing-adventure': 'Bike Racing Adventure is a related speed-and-balance game for players who like the tense control of Speed Slope. It swaps the neon slope for motorcycle challenges, traffic, checkpoints, and stunt timing.',
+    'prismroll-3d': 'PrismRoll 3D is the slower, puzzle-focused cousin of Speed Slope. It still uses rolling 3D movement, but the challenge is planning each move across tiles instead of reacting instantly to a fast slope.',
+}
+
 def home_game():
     slug = CONFIG.get('home_game_slug') or CONFIG.get('launch_game_slug') or G[0]['slug']
     game = BY_SLUG.get(slug)
@@ -111,6 +121,11 @@ def game_url(g, pre):
     return f'{pre}{g["slug"]}/'
 def cat_url(c, pre): return f'{pre}games/{c}/'
 def thumb_url(g, pre): return f"{pre}assets/thumbs/{g.get('thumbfile', g['slug'] + '.svg')}"
+
+def page_abs_url(g, canonical):
+    if canonical == '':
+        return SITE_URL + '/'
+    return f'{SITE_URL}/{g["slug"]}/'
 
 # ============================================================ thumbnails
 def palette(slug):
@@ -394,9 +409,16 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
     tips = ''.join(f'<li>{esc(s)}</li>' for s in g['tips'])
     tags = ''.join(f'<span class="tag">#{esc(t)}</span>' for t in g['tags'])
     cats_links = ' · '.join(f'<a href="{cat_url(c, pre)}" style="color:var(--accent);font-weight:700">{esc(CATS[c][0])}</a>' for c in g['cats'])
+    slope_angle = ''
+    if 'slope' in g['cats'] and g['slug'] != home_game()['slug']:
+        slope_angle_text = SLOPE_GAME_ANGLES.get(
+            g['slug'],
+            f'{g["title"]} belongs in Slope Games because it gives Speed Slope players another quick browser game built around speed, timing, and repeatable skill.'
+        )
+        slope_angle = f'<h3>Why Speed Slope Fans Might Like It</h3><p>{esc(slope_angle_text)}</p>'
     votes = max(60, int(g['plays'] / 900))
     game_ld = {"@context": "https://schema.org", "@type": "VideoGame", "name": g['title'],
-        "url": f'{SITE_URL}/{g["slug"]}/', "image": f"{SITE_URL}/assets/thumbs/" + g.get("thumbfile", g["slug"] + ".svg"),
+        "url": page_abs_url(g, canonical), "image": f"{SITE_URL}/assets/thumbs/" + g.get("thumbfile", g["slug"] + ".svg"),
         "description": g['desc'], "genre": cat_names, "gamePlatform": "Web Browser",
         "applicationCategory": "Game", "operatingSystem": "Any",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}
@@ -408,7 +430,7 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
         {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL + '/'},
             {"@type": "ListItem", "position": 2, "name": CATS[prim][0], "item": f'{SITE_URL}/games/{prim}/'},
-            {"@type": "ListItem", "position": 3, "name": g['title'], "item": f'{SITE_URL}/{g["slug"]}/'}]},
+            {"@type": "ListItem", "position": 3, "name": g['title'], "item": page_abs_url(g, canonical)}]},
         {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]},
     ]
@@ -488,6 +510,7 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
 <section class="content-block">
 <h2>About {esc(g['title'])}</h2>
 <p>{esc(g['desc'])}</p>
+{slope_angle}
 <p style="color:var(--muted);font-size:14px">Categories: {cats_links}</p>
 <h3>How to Play</h3><ol>{howto}</ol>
 <h3>Controls</h3><ul>{controls}</ul>
@@ -541,13 +564,25 @@ def sort_bar(count_label=''):
 def page_list(slug, h1, blurb, games, seo, canonical, active=''):
     pre = '../' * (slug.count('/') + 1)
     cards = ''.join(game_card(g, pre) for g in games)
-    html_doc = head(f'{h1} — Play Free Online | {SITE_NAME}', blurb[:155], pre, canonical)
+    page_title = f'{h1} — Play Free Online | {SITE_NAME}'
+    meta_desc = blurb[:155]
+    topic_block = ''
+    if canonical == 'games/slope/':
+        page_title = f'Slope Games - Games Like Speed Slope | {SITE_NAME}'
+        meta_desc = 'Play slope games online, including games like Speed Slope with fast 3D movement, quick reflexes, rolling challenges and instant browser play.'
+        topic_block = f'''<section class="content-block">
+<h2>Games Like Speed Slope</h2>
+<p>Slope games are fast browser games built around momentum, reaction time and narrow margins for error. If you searched for games like Speed Slope, start with rolling, racing and runner games that ask you to read the path early, make small corrections and restart quickly after a crash.</p>
+<p>This collection stays focused on 3D reflex games instead of mixing in unrelated sports, card or quiz pages. That makes it easier to find another game with the same speed, obstacle-dodging and one-more-run feeling as Speed Slope.</p>
+</section>'''
+    html_doc = head(page_title, meta_desc, pre, canonical)
     html_doc += header(pre, active)
     html_doc += f'''<main class="container">
 <div class="page-head"><h1>{esc(h1)} <span class="tick">.</span></h1><p>{esc(blurb)}</p></div>
 {sort_bar()}
 <div class="game-grid" id="sortGrid">{cards}</div>
 <div class="load-more-wrap" id="loadMoreWrap"><button class="btn btn-ghost btn-lg" id="loadMore">Load more games</button></div>
+{topic_block}
 {ad('ad-banner', 'Leaderboard 728×90')}
 <p class="seo-foot">{esc(seo)}</p>
 </main>'''
@@ -648,9 +683,14 @@ def main():
 
     for c, (name, blurb) in CATS.items():
         games = sorted([g for g in G if c in g['cats']], key=lambda x: -x['plays'])
-        seo = (f'Play the best free {name.lower()} on {SITE_NAME}. Every game runs instantly in your browser on desktop, '
-               f'tablet and mobile — no downloads, no sign-ups. We add new {name.lower()} every week, so bookmark this page '
-               f'and check back for fresh titles.')
+        if c == 'slope':
+            seo = (f'Play slope games online on {SITE_NAME}, including games like Speed Slope with 3D movement, fast restarts, '
+                   f'obstacle dodging and reflex-based control. These free browser games are selected for players who want speed, '
+                   f'rolling, racing or runner challenges without downloads or sign-ups.')
+        else:
+            seo = (f'Play the best free {name.lower()} on {SITE_NAME}. Every game runs instantly in your browser on desktop, '
+                   f'tablet and mobile — no downloads, no sign-ups. We add new {name.lower()} every week, so bookmark this page '
+                   f'and check back for fresh titles.')
         page_list(f'games/{c}', name, blurb, games, seo, f'games/{c}/')
 
     popular = sorted(G, key=lambda x: -x['plays'])
