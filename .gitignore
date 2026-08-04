@@ -8,5 +8,5 @@ __pycache__/
 _shot_*.png
 speed-slope-page.png
 .playwright-mcp/
+.omx/
 _gm_feed.json
-

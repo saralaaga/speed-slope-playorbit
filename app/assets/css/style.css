@@ -281,23 +281,33 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.2; }
 
 /* ---------- Play page layout ---------- */
 .play-layout {
-  display: grid; gap: 20px;
-  grid-template-columns: 180px minmax(0, 1fr) 180px;
+  display: grid; gap: 14px;
+  grid-template-columns: 150px minmax(0, 1fr) 150px;
   align-items: start;
 }
 .play-layout.no-sidebars { grid-template-columns: minmax(0, 1fr); }
-.play-layout.no-right { grid-template-columns: 180px minmax(0, 1fr); }
-.play-layout.no-left { grid-template-columns: minmax(0, 1fr) 180px; }
-.play-side { display: grid; gap: 12px; position: sticky; top: calc(var(--header-h) + 16px); }
-.side-title { font-size: 11px; text-transform: uppercase; letter-spacing: .14em; color: var(--muted); font-weight: 800; }
-.mini-game { display: block; }
+.play-layout.no-right { grid-template-columns: 150px minmax(0, 1fr); }
+.play-layout.no-left { grid-template-columns: minmax(0, 1fr) 150px; }
+.play-side {
+  display: grid; gap: 8px; align-content: start;
+  position: sticky; top: calc(var(--header-h) + 12px);
+}
+.side-title { font-size: 10px; text-transform: uppercase; letter-spacing: .14em; color: var(--muted); font-weight: 800; }
+.mini-game {
+  display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 8px;
+  align-items: center; min-height: 54px;
+}
 .mini-game .thumb {
-  aspect-ratio: 1; border: var(--border); border-radius: var(--radius-sm);
+  width: 48px; height: 48px; border: var(--border); border-radius: 8px;
   overflow: hidden; background: var(--surface); transition: border-color .15s, transform .15s;
 }
 .mini-game img { width: 100%; height: 100%; object-fit: cover; }
 .mini-game:hover .thumb { border-color: var(--accent); transform: translateY(-2px); }
-.mini-game .t { font-size: 12px; font-weight: 700; font-family: var(--font-display); margin-top: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mini-game .t {
+  font-size: 11px; line-height: 1.25; font-weight: 800; font-family: var(--font-display);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 .stage-wrap { min-width: 0; }
 .stage {
@@ -458,7 +468,7 @@ body.theater .stage { aspect-ratio: 16 / 8.2; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1080px) {
-  .play-layout { grid-template-columns: minmax(0, 1fr) 170px; }
+  .play-layout { grid-template-columns: minmax(0, 1fr) 140px; }
   .play-side.left { display: none; }
 }
 @media (max-width: 860px) {
