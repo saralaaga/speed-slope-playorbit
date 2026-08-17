@@ -2,7 +2,7 @@
   "site_name": "SpeedSlope.net",
   "site_url": "https://speedslope.net",
   "tagline": "Play Speed Slope and fast 3D reflex games instantly in your browser.",
-  "launch_mode": "slugs",
+  "launch_mode": "portal",
   "launch_game_slug": "speed-slope",
   "home_game_slug": "speed-slope",
   "published_game_slugs": [

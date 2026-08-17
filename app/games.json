@@ -7,7 +7,12 @@
   "categories": [
    "Slope Games",
    "Racing Games",
-   "Arcade Games"
+   "Arcade Games",
+   "Runner Games",
+   "Car Racing Games",
+   "Obstacle Course Games",
+   "Driving Games",
+   "Platformer Games"
   ],
   "tags": [
    "Speed Slope",
@@ -22,13 +27,283 @@
   "isNew": true
  },
  {
+  "title": "Basketball Stars 2026",
+  "slug": "basketball-stars-2026",
+  "url": "basketball-stars-2026/",
+  "thumb": "assets/thumbs/basketball-stars-2026.jpg",
+  "categories": [
+   "Basketball Games",
+   "Sports Games",
+   "Shooting Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Basketball",
+   "Sports",
+   "3D"
+  ],
+  "rating": 4.6,
+  "plays": 1199853,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Basketball Fever",
+  "slug": "basketball-fever",
+  "url": "basketball-fever/",
+  "thumb": "assets/thumbs/basketball-fever.jpg",
+  "categories": [
+   "Basketball Games",
+   "Sports Games",
+   "Shooting Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Basketball",
+   "Shots",
+   "Casual"
+  ],
+  "rating": 4.4,
+  "plays": 3418627,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "On Fire Basketball Shots",
+  "slug": "on-fire-basketball-shots",
+  "url": "on-fire-basketball-shots/",
+  "thumb": "assets/thumbs/on-fire-basketball-shots.jpg",
+  "categories": [
+   "Basketball Games",
+   "Arcade Games",
+   "Sports Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Basketball",
+   "Aim",
+   "Endless"
+  ],
+  "rating": 4.3,
+  "plays": 1917434,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Basketball Rush",
+  "slug": "basketball-rush",
+  "url": "basketball-rush/",
+  "thumb": "assets/thumbs/basketball-rush.jpg",
+  "categories": [
+   "Basketball Games",
+   "Arcade Games",
+   "Sports Games",
+   "Shooting Games",
+   "Runner Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Basketball",
+   "Runner"
+  ],
+  "rating": 4.5,
+  "plays": 2675932,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Bounce Dunk Basketball",
+  "slug": "bounce-dunk-basketball",
+  "url": "bounce-dunk-basketball/",
+  "thumb": "assets/thumbs/bounce-dunk-basketball.jpg",
+  "categories": [
+   "Basketball Games",
+   "Sports Games",
+   "Shooting Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Basketball",
+   "Dunk",
+   "Physics"
+  ],
+  "rating": 4.4,
+  "plays": 3594691,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Basketball Life 3d",
+  "slug": "basketball-life-3d",
+  "url": "basketball-life-3d/",
+  "thumb": "assets/thumbs/basketball-life-3d.jpg",
+  "categories": [
+   "Basketball Games",
+   "Sports Games",
+   "Shooting Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Basketball",
+   "3D"
+  ],
+  "rating": 4.4,
+  "plays": 3482123,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Football Penalty 2026",
+  "slug": "football-penalty-2026",
+  "url": "football-penalty-2026/",
+  "thumb": "assets/thumbs/football-penalty-2026.jpg",
+  "categories": [
+   "Sports Games",
+   "Football Games",
+   "Soccer Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Soccer",
+   "Penalty"
+  ],
+  "rating": 4.7,
+  "plays": 252206,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Football Heads 2026",
+  "slug": "football-heads-2026",
+  "url": "football-heads-2026/",
+  "thumb": "assets/thumbs/football-heads-2026.jpg",
+  "categories": [
+   "Sports Games",
+   "Football Games",
+   "Soccer Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Soccer",
+   "Heads",
+   "Funny"
+  ],
+  "rating": 4.2,
+  "plays": 3142089,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Tiny Golf King",
+  "slug": "tiny-golf-king",
+  "url": "tiny-golf-king/",
+  "thumb": "assets/thumbs/tiny-golf-king.jpg",
+  "categories": [
+   "Sports Games",
+   "Golf Games",
+   "IO Games"
+  ],
+  "tags": [
+   "Golf",
+   "Precision"
+  ],
+  "rating": 4.2,
+  "plays": 3891577,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "World Cup 2026 Soccer Game",
+  "slug": "world-cup-2026-soccer-game",
+  "url": "world-cup-2026-soccer-game/",
+  "thumb": "assets/thumbs/world-cup-2026-soccer-game.jpg",
+  "categories": [
+   "Sports Games",
+   "Football Games",
+   "Soccer Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Soccer",
+   "World Cup"
+  ],
+  "rating": 4.7,
+  "plays": 2039318,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Archery Master - Bow and Arrow",
+  "slug": "archery-master-bow-and-arrow",
+  "url": "archery-master-bow-and-arrow/",
+  "thumb": "assets/thumbs/archery-master-bow-and-arrow.jpg",
+  "categories": [
+   "Sports Games",
+   "Archery Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Archery",
+   "Aiming"
+  ],
+  "rating": 4.1,
+  "plays": 2050840,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Pool Duel",
+  "slug": "pool-duel",
+  "url": "pool-duel/",
+  "thumb": "assets/thumbs/pool-duel.jpg",
+  "categories": [
+   "Sports Games",
+   "Classic Games",
+   "Pool Games",
+   "Strategy Games",
+   "2 Player Games"
+  ],
+  "tags": [
+   "Pool",
+   "Billiards",
+   "8 Ball"
+  ],
+  "rating": 4.1,
+  "plays": 3849768,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Flick Shot Soccer",
+  "slug": "flick-shot-soccer",
+  "url": "flick-shot-soccer/",
+  "thumb": "assets/thumbs/flick-shot-soccer.jpg",
+  "categories": [
+   "Sports Games",
+   "Football Games",
+   "Soccer Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Soccer",
+   "Flick",
+   "Casual"
+  ],
+  "rating": 4.6,
+  "plays": 261909,
+  "isHot": false,
+  "isNew": true
+ },
+ {
   "title": "Highway Driver 3D",
   "slug": "highway-driver-3d",
   "url": "highway-driver-3d/",
   "thumb": "assets/thumbs/highway-driver-3d.jpg",
   "categories": [
    "Slope Games",
-   "Racing Games"
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
   ],
   "tags": [
    "Driving",
@@ -47,7 +322,9 @@
   "thumb": "assets/thumbs/formula-car-circuit-racing.jpg",
   "categories": [
    "Slope Games",
-   "Racing Games"
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
   ],
   "tags": [
    "Formula",
@@ -66,7 +343,11 @@
   "thumb": "assets/thumbs/bike-racing-adventure.jpg",
   "categories": [
    "Slope Games",
-   "Racing Games"
+   "Racing Games",
+   "Motorcycle Games",
+   "Stunt Games",
+   "Car Racing Games",
+   "Driving Games"
   ],
   "tags": [
    "Moto",
@@ -84,7 +365,9 @@
   "thumb": "assets/thumbs/apex-racer.jpg",
   "categories": [
    "Slope Games",
-   "Racing Games"
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
   ],
   "tags": [
    "Racing",
@@ -96,13 +379,54 @@
   "isNew": false
  },
  {
+  "title": "Car Drive Simulator",
+  "slug": "car-drive-simulator",
+  "url": "car-drive-simulator/",
+  "thumb": "assets/thumbs/car-drive-simulator.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Simulator",
+   "City Driving"
+  ],
+  "rating": 4.2,
+  "plays": 3317873,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Marble Sort",
+  "slug": "marble-sort",
+  "url": "marble-sort/",
+  "thumb": "assets/thumbs/marble-sort.jpg",
+  "categories": [
+   "Puzzle Games",
+   "Sorting Games"
+  ],
+  "tags": [
+   "Sorting",
+   "Logic",
+   "Relaxing"
+  ],
+  "rating": 4.2,
+  "plays": 3750929,
+  "isHot": false,
+  "isNew": false
+ },
+ {
   "title": "PrismRoll 3D",
   "slug": "prismroll-3d",
   "url": "prismroll-3d/",
   "thumb": "assets/thumbs/prismroll-3d.jpg",
   "categories": [
    "Slope Games",
-   "Puzzle Games"
+   "Puzzle Games",
+   "Obstacle Course Games",
+   "Sorting Games",
+   "Platformer Games"
   ],
   "tags": [
    "3D",
@@ -114,13 +438,108 @@
   "isNew": false
  },
  {
+  "title": "Word Search Universe Animals",
+  "slug": "word-search-universe-animals",
+  "url": "word-search-universe-animals/",
+  "thumb": "assets/thumbs/word-search-universe-animals.jpg",
+  "categories": [
+   "Puzzle Games",
+   "Word Games"
+  ],
+  "tags": [
+   "Word",
+   "Search"
+  ],
+  "rating": 4.3,
+  "plays": 2592370,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Triple Shelf Match",
+  "slug": "triple-shelf-match",
+  "url": "triple-shelf-match/",
+  "thumb": "assets/thumbs/triple-shelf-match.jpg",
+  "categories": [
+   "Puzzle Games",
+   "Sorting Games"
+  ],
+  "tags": [
+   "Match 3",
+   "Sorting"
+  ],
+  "rating": 4.6,
+  "plays": 3771997,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Animal Klotski",
+  "slug": "animal-klotski",
+  "url": "animal-klotski/",
+  "thumb": "assets/thumbs/animal-klotski.jpg",
+  "categories": [
+   "Puzzle Games",
+   "Sorting Games"
+  ],
+  "tags": [
+   "Sliding",
+   "Logic"
+  ],
+  "rating": 4.3,
+  "plays": 2296034,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "BlockBlast",
+  "slug": "blockblast",
+  "url": "blockblast/",
+  "thumb": "assets/thumbs/blockblast.jpg",
+  "categories": [
+   "Puzzle Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Blocks",
+   "Tetris-like"
+  ],
+  "rating": 4.8,
+  "plays": 593567,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Money 2048",
+  "slug": "money-2048",
+  "url": "money-2048/",
+  "thumb": "assets/thumbs/money-2048.jpg",
+  "categories": [
+   "Puzzle Games",
+   "Classic Games",
+   "Merge Games"
+  ],
+  "tags": [
+   "2048",
+   "Merge",
+   "Numbers"
+  ],
+  "rating": 4.6,
+  "plays": 3816853,
+  "isHot": true,
+  "isNew": false
+ },
+ {
   "title": "Obby: Three Challenges",
   "slug": "obby-three-challenges",
   "url": "obby-three-challenges/",
   "thumb": "assets/thumbs/obby-three-challenges.jpg",
   "categories": [
    "Slope Games",
-   "Arcade Games"
+   "Arcade Games",
+   "Obstacle Course Games",
+   "Platformer Games",
+   "Runner Games"
   ],
   "tags": [
    "Obby",
@@ -139,7 +558,9 @@
   "thumb": "assets/thumbs/nullpulse-runner.jpg",
   "categories": [
    "Slope Games",
-   "Arcade Games"
+   "Arcade Games",
+   "Runner Games",
+   "Platformer Games"
   ],
   "tags": [
    "Runner",
@@ -148,6 +569,418 @@
   ],
   "rating": 4.4,
   "plays": 272835,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Mario Jetpack Rush",
+  "slug": "mario-jetpack-rush",
+  "url": "mario-jetpack-rush/",
+  "thumb": "assets/thumbs/mario-jetpack-rush.jpg",
+  "categories": [
+   "Arcade Games",
+   "Runner Games",
+   "Platformer Games",
+   "IO Games"
+  ],
+  "tags": [
+   "Jetpack",
+   "Runner"
+  ],
+  "rating": 4.1,
+  "plays": 2366520,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Nibblix",
+  "slug": "nibblix",
+  "url": "nibblix/",
+  "thumb": "assets/thumbs/nibblix.jpg",
+  "categories": [
+   "Arcade Games"
+  ],
+  "tags": [
+   "Arcade",
+   "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 2989416,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Hop Hop",
+  "slug": "hop-hop",
+  "url": "hop-hop/",
+  "thumb": "assets/thumbs/hop-hop.jpg",
+  "categories": [
+   "Arcade Games",
+   "Runner Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Jumping",
+   "One Button"
+  ],
+  "rating": 4.3,
+  "plays": 928690,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Fireboy & Watergirl 7: and Friends",
+  "slug": "fireboy-watergirl-7-and-friends",
+  "url": "fireboy-watergirl-7-and-friends/",
+  "thumb": "assets/thumbs/fireboy-watergirl-7-and-friends.jpg",
+  "categories": [
+   "2 Player Games",
+   "Arcade Games",
+   "Platformer Games",
+   "Obstacle Course Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Co-op",
+   "Platformer",
+   "2 Player"
+  ],
+  "rating": 4.4,
+  "plays": 539675,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "2 Player Moto Racing",
+  "slug": "2-player-moto-racing",
+  "url": "2-player-moto-racing/",
+  "thumb": "assets/thumbs/2-player-moto-racing.jpg",
+  "categories": [
+   "2 Player Games",
+   "Racing Games",
+   "Driving Games",
+   "Motorcycle Games",
+   "Stunt Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Moto",
+   "2 Player",
+   "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 738994,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Tank Duel 3D",
+  "slug": "tank-duel-3d",
+  "url": "tank-duel-3d/",
+  "thumb": "assets/thumbs/tank-duel-3d.jpg",
+  "categories": [
+   "2 Player Games",
+   "Fighting Games",
+   "Shooting Games",
+   "Strategy Games"
+  ],
+  "tags": [
+   "Tanks",
+   "Duel",
+   "3D"
+  ],
+  "rating": 4.6,
+  "plays": 903485,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Stickman Temple Duel",
+  "slug": "stickman-temple-duel",
+  "url": "stickman-temple-duel/",
+  "thumb": "assets/thumbs/stickman-temple-duel.jpg",
+  "categories": [
+   "2 Player Games",
+   "Fighting Games"
+  ],
+  "tags": [
+   "Stickman",
+   "Duel"
+  ],
+  "rating": 4.2,
+  "plays": 2163209,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Martial Arts: Fighter Duel",
+  "slug": "martial-arts-fighter-duel",
+  "url": "martial-arts-fighter-duel/",
+  "thumb": "assets/thumbs/martial-arts-fighter-duel.jpg",
+  "categories": [
+   "2 Player Games",
+   "Fighting Games"
+  ],
+  "tags": [
+   "Fighting",
+   "Duel"
+  ],
+  "rating": 4.4,
+  "plays": 531291,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "2 Player Dark Racing",
+  "slug": "2-player-dark-racing",
+  "url": "2-player-dark-racing/",
+  "thumb": "assets/thumbs/2-player-dark-racing.jpg",
+  "categories": [
+   "2 Player Games",
+   "Racing Games",
+   "Driving Games"
+  ],
+  "tags": [
+   "2 Player",
+   "Racing"
+  ],
+  "rating": 4.4,
+  "plays": 2313171,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "2048 Snake.io",
+  "slug": "2048-snake-io",
+  "url": "2048-snake-io/",
+  "thumb": "assets/thumbs/2048-snake-io.jpg",
+  "categories": [
+   "IO Games",
+   "Classic Games",
+   "Strategy Games",
+   "Merge Games"
+  ],
+  "tags": [
+   "Snake",
+   "2048",
+   "IO"
+  ],
+  "rating": 4.7,
+  "plays": 3725502,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "SnakeLands.io",
+  "slug": "snakelands-io",
+  "url": "snakelands-io/",
+  "thumb": "assets/thumbs/snakelands-io.jpg",
+  "categories": [
+   "IO Games",
+   "Strategy Games"
+  ],
+  "tags": [
+   "Snake",
+   "IO",
+   "Multiplayer"
+  ],
+  "rating": 4.6,
+  "plays": 2559293,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "PaperWar.io",
+  "slug": "paperwar-io",
+  "url": "paperwar-io/",
+  "thumb": "assets/thumbs/paperwar-io.jpg",
+  "categories": [
+   "IO Games",
+   "Strategy Games"
+  ],
+  "tags": [
+   "Territory",
+   "IO"
+  ],
+  "rating": 4.7,
+  "plays": 1954374,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "ColorWars.io - Conquest Game",
+  "slug": "colorwars-io-conquest-game",
+  "url": "colorwars-io-conquest-game/",
+  "thumb": "assets/thumbs/colorwars-io-conquest-game.jpg",
+  "categories": [
+   "IO Games",
+   "Strategy Games"
+  ],
+  "tags": [
+   "Territory",
+   "IO",
+   "Conquest"
+  ],
+  "rating": 4.1,
+  "plays": 3143888,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Push.io",
+  "slug": "push-io",
+  "url": "push-io/",
+  "thumb": "assets/thumbs/push-io.jpg",
+  "categories": [
+   "IO Games",
+   "Strategy Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "IO",
+   "Arena"
+  ],
+  "rating": 4.3,
+  "plays": 1290722,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Bloons Survival.io",
+  "slug": "bloons-survival-io",
+  "url": "bloons-survival-io/",
+  "thumb": "assets/thumbs/bloons-survival-io.jpg",
+  "categories": [
+   "IO Games",
+   "Strategy Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Survival",
+   "IO"
+  ],
+  "rating": 4.7,
+  "plays": 241574,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Zen Solitaire",
+  "slug": "zen-solitaire",
+  "url": "zen-solitaire/",
+  "thumb": "assets/thumbs/zen-solitaire.jpg",
+  "categories": [
+   "Classic Games",
+   "Puzzle Games",
+   "Car Racing Games",
+   "Card Games",
+   "Solitaire Games"
+  ],
+  "tags": [
+   "Solitaire",
+   "Cards",
+   "Relaxing"
+  ],
+  "rating": 4.1,
+  "plays": 437320,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Solitaire Quest",
+  "slug": "solitaire-quest",
+  "url": "solitaire-quest/",
+  "thumb": "assets/thumbs/solitaire-quest.jpg",
+  "categories": [
+   "Classic Games",
+   "Car Racing Games",
+   "Card Games",
+   "Solitaire Games"
+  ],
+  "tags": [
+   "Solitaire",
+   "Cards"
+  ],
+  "rating": 4.1,
+  "plays": 3532088,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Office Spider Solitaire",
+  "slug": "office-spider-solitaire",
+  "url": "office-spider-solitaire/",
+  "thumb": "assets/thumbs/office-spider-solitaire.jpg",
+  "categories": [
+   "Classic Games",
+   "Card Games",
+   "Solitaire Games"
+  ],
+  "tags": [
+   "Spider",
+   "Solitaire"
+  ],
+  "rating": 4.8,
+  "plays": 1239271,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Solitaire Klondike: Eternal Russian Classic",
+  "slug": "solitaire-klondike-eternal-russian-classic",
+  "url": "solitaire-klondike-eternal-russian-classic/",
+  "thumb": "assets/thumbs/solitaire-klondike-eternal-russian-classic.jpg",
+  "categories": [
+   "Classic Games",
+   "Card Games",
+   "Solitaire Games"
+  ],
+  "tags": [
+   "Klondike",
+   "Solitaire"
+  ],
+  "rating": 4.8,
+  "plays": 881175,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Mahjong Duels",
+  "slug": "mahjong-duels",
+  "url": "mahjong-duels/",
+  "thumb": "assets/thumbs/mahjong-duels.jpg",
+  "categories": [
+   "Classic Games",
+   "Puzzle Games",
+   "2 Player Games",
+   "Fighting Games",
+   "Mahjong Games"
+  ],
+  "tags": [
+   "Mahjong",
+   "Tiles"
+  ],
+  "rating": 4.4,
+  "plays": 744699,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Chess 3D",
+  "slug": "chess-3d",
+  "url": "chess-3d/",
+  "thumb": "assets/thumbs/chess-3d.jpg",
+  "categories": [
+   "Classic Games",
+   "Strategy Games"
+  ],
+  "tags": [
+   "Chess",
+   "Strategy",
+   "3D"
+  ],
+  "rating": 4.3,
+  "plays": 989274,
   "isHot": false,
   "isNew": false
  }

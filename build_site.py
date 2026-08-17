@@ -46,14 +46,35 @@ TODAY = datetime.date.today().isoformat()
 
 ALL_CATS = {
     'slope':      ('Slope Games', 'Play slope games online, including fast 3D reflex games like Speed Slope. Roll, dodge, drift and survive through neon tracks, tunnels and obstacle courses.'),
-    'basketball': ('Basketball Games', 'Dunk, shoot and score in the best free basketball games you can play right in your browser — from realistic shootouts to chaotic random physics matches.'),
-    'sports':     ('Sports Games', 'Soccer, cricket, tennis, archery, pool and more — free sports games with instant browser play, no downloads and no sign-ups.'),
-    'racing':     ('Racing Games', 'Drift, drive and battle your way to the finish line. Free racing and driving games playable instantly on desktop and mobile.'),
-    'puzzle':     ('Puzzle Games', 'Give your brain a workout with free puzzle games — classic logic, match-3, tile merging and bubble popping fun.'),
-    'arcade':     ('Arcade Games', 'Fast, addictive arcade games. One more run is never enough — play free arcade hits instantly in your browser.'),
-    '2-player':   ('2 Player Games', 'Grab a friend and share the keyboard. The best free 2 player games for same-screen battles, races and random physics chaos.'),
-    'io':         ('IO Games', 'Jump into free .io games and compete against players from around the world — territory, karts and arena shooters.'),
-    'classics':   ('Classic Games', 'Timeless classics re-made for the browser: 2048, Minesweeper, Mahjong, Pool and more — free and instant.'),
+    'basketball': ('Basketball Games', 'Dunk, shoot and score in free basketball games, from clean shot practice to chaotic arcade hoops.'),
+    'sports':     ('Sports Games', 'Soccer, golf, archery, pool and more — free sports games that play instantly in the browser.'),
+    'racing':     ('Racing Games', 'Drift, drive and battle your way to the finish line in free racing and driving games.'),
+    'puzzle':     ('Puzzle Games', 'Work through logic, matching, sliding and sorting challenges with quick browser-friendly puzzle games.'),
+    'arcade':     ('Arcade Games', 'Fast, addictive arcade games with short loops, clean controls and instant restarts.'),
+    '2-player':   ('2 Player Games', 'Grab a friend and share the keyboard for same-screen battles, races and co-op runs.'),
+    'io':         ('IO Games', 'Jump into free .io games and compete in territory battles, survival arenas and quick multiplayer rounds.'),
+    'classics':   ('Classic Games', 'Timeless browser classics including 2048, Mahjong, Pool and Solitaire.'),
+    'runner':     ('Runner Games', 'Keep moving in endless runner games built around timing, rhythm and quick reactions.'),
+    'driving':    ('Driving Games', 'Take the wheel in free driving games that reward control, lane reading and steady hands.'),
+    'stunt':      ('Stunt Games', 'Launch, flip and land cleanly in stunt-heavy games with speed and momentum.'),
+    'motorcycle': ('Motorcycle Games', 'Ride bikes and motorbikes through speed runs, stunt tracks and rough terrain.'),
+    'car-racing': ('Car Racing Games', 'High-speed car games built around track control, traffic reading and sharp cornering.'),
+    'obstacle-course': ('Obstacle Course Games', 'Thread the needle through platform traps, gaps and hazards in obstacle-course games.'),
+    'platformer': ('Platformer Games', 'Jump, climb and time your way through free browser platformers and traversal games.'),
+    'football':   ('Football Games', 'Free football games with penalties, arcade headers and quick goal-scoring action.'),
+    'soccer':     ('Soccer Games', 'Kick, flick and shoot in soccer games built for quick browser play.'),
+    'archery':    ('Archery Games', 'Aim carefully and release clean shots in free archery games.'),
+    'pool':       ('Pool Games', 'Line up angles and sink balls in free pool and billiards games.'),
+    'golf':       ('Golf Games', 'Putt, aim and steer the ball through compact golf challenges.'),
+    'shooting':   ('Shooting Games', 'Aim-based games where timing, targeting and precision matter more than brute force.'),
+    'strategy':   ('Strategy Games', 'Think ahead in lane-control, territory and tactical browser games.'),
+    'card':       ('Card Games', 'Classic card games, from solitaire variants to relaxed browser decks.'),
+    'solitaire':  ('Solitaire Games', 'Free solitaire games with quick setups and calm solo play.'),
+    'mahjong':    ('Mahjong Games', 'Tile-matching mahjong games with fast resets and clean board reads.'),
+    'word':       ('Word Games', 'Word search and language games for quick, low-pressure play.'),
+    'sorting':    ('Sorting Games', 'Arrange, classify and untangle objects in tidy sorting games.'),
+    'merge':      ('Merge Games', 'Combine matching pieces and climb numbers in merge games.'),
+    'fighting':   ('Fighting Games', 'Face off in duels, brawls and combat-focused browser games.'),
 }
 
 CAT_DOT = {
@@ -61,6 +82,16 @@ CAT_DOT = {
     'basketball': '#ff9f43', 'sports': '#3ddc84', 'racing': '#ff5d5d', 'puzzle': '#b98cff',
     'arcade': '#4dc3ff', '2-player': '#ffd93d', 'io': '#ff6ec7', 'classics': '#9aa78b',
 }
+
+def cat_color(key):
+    if key in CAT_DOT:
+        return CAT_DOT[key]
+    h = int(hashlib.md5(key.encode()).hexdigest()[:8], 16)
+    hue = h % 360
+    sat = 62 + (h >> 8) % 16
+    light = 52 + (h >> 16) % 10
+    r, g, b = colorsys.hls_to_rgb(hue / 360, light / 100, sat / 100)
+    return '#%02x%02x%02x' % tuple(round(x * 255) for x in (r, g, b))
 
 def select_games(all_games):
     mode = CONFIG.get('launch_mode', 'single')
@@ -85,6 +116,92 @@ def select_games(all_games):
 # added, description, howto[], controls[(key, action)], tips[]
 ALL_GAMES = json.load(open(DATA_PATH, encoding='utf-8'))
 G = select_games(ALL_GAMES)
+def enrich_categories(game):
+    cats = list(dict.fromkeys(game['cats']))
+    text = ' '.join([game['slug'], game['title'], ' '.join(game.get('tags', []))]).lower()
+
+    def add(*keys):
+        for key in keys:
+            if key in ALL_CATS and key not in cats:
+                cats.append(key)
+
+    if game['slug'] == 'speed-slope':
+        add('runner', 'car-racing', 'obstacle-course', 'arcade')
+    if game['slug'] == 'highway-driver-3d':
+        add('driving', 'car-racing')
+    if game['slug'] == 'formula-car-circuit-racing':
+        add('driving', 'car-racing')
+    if game['slug'] == 'bike-racing-adventure':
+        add('motorcycle', 'stunt', 'car-racing')
+    if game['slug'] == 'apex-racer':
+        add('driving', 'car-racing')
+    if game['slug'] == 'prismroll-3d':
+        add('obstacle-course', 'sorting', 'puzzle')
+    if game['slug'] == 'obby-three-challenges':
+        add('obstacle-course', 'platformer', 'runner')
+    if game['slug'] == 'nullpulse-runner':
+        add('runner', 'platformer', 'arcade')
+    if game['slug'] == 'mario-jetpack-rush':
+        add('runner', 'platformer', 'arcade')
+    if game['slug'] == 'hop-hop':
+        add('runner', 'platformer', 'arcade')
+    if game['slug'] == 'fireboy-watergirl-7-and-friends':
+        add('2-player', 'platformer', 'obstacle-course', 'puzzle')
+
+    if 'basketball' in text:
+        add('basketball', 'sports', 'shooting', 'arcade')
+    if any(term in text for term in ('football', 'soccer')):
+        add('football', 'soccer', 'sports', 'shooting')
+    if 'golf' in text:
+        add('golf', 'sports')
+    if 'archery' in text:
+        add('archery', 'sports', 'shooting')
+    if 'pool' in text:
+        add('pool', 'sports', 'strategy')
+
+    if any(term in text for term in ('racing', 'race', 'racer', 'driver', 'driving')):
+        add('racing', 'driving')
+    if any(term in text for term in ('car', 'formula', 'highway', 'apex')):
+        add('car-racing')
+    if any(term in text for term in ('moto', 'motor', 'bike')):
+        add('motorcycle', 'stunt', 'car-racing')
+
+    if any(term in text for term in ('runner', 'jetpack', 'hop hop')):
+        add('runner', 'platformer', 'arcade')
+    if any(term in text for term in ('obby', 'fireboy', 'watergirl', 'prismroll')):
+        add('obstacle-course', 'platformer')
+    if 'duel' in text or '2 player' in text:
+        add('2-player')
+        if 'duel' in text and not any(term in text for term in ('pool', 'solitaire')):
+            add('fighting')
+
+    if 'io' in text:
+        add('io')
+    if any(term in text for term in ('snake', 'paperwar', 'colorwars', 'push', 'bloons')):
+        add('io', 'strategy')
+
+    if 'solitaire' in text:
+        add('card', 'solitaire', 'classics')
+    if 'mahjong' in text:
+        add('mahjong', 'classics', 'puzzle')
+    if 'chess' in text:
+        add('strategy', 'classics')
+    if 'word' in text:
+        add('word', 'puzzle')
+    if any(term in text for term in ('marble', 'sort', 'klotski', 'shelf match')):
+        add('sorting', 'puzzle')
+    if any(term in text for term in ('2048', 'merge')):
+        add('merge', 'classics')
+    if 'tank' in text:
+        add('fighting', 'shooting', 'strategy', '2-player')
+    if 'bloons' in text:
+        add('shooting', 'strategy')
+    if 'push.io' in text or game['slug'] == 'push-io':
+        add('arcade')
+    return cats
+
+for g in G:
+    g['cats'] = enrich_categories(g)
 ACTIVE_CAT_KEYS = {c for g in G for c in g['cats']}
 CATS = {k: v for k, v in ALL_CATS.items() if k in ACTIVE_CAT_KEYS}
 
@@ -343,7 +460,7 @@ def page_home():
     new = sorted([g for g in G if g['new']], key=lambda x: x['added'], reverse=True) or popular
     rec = popular[:12]
     chips = ''.join(
-        f'<a class="chip" href="{cat_url(c, pre)}"><span class="dot" style="background:{CAT_DOT[c]}"></span>{esc(n[:-6])} <small>{sum(1 for g in G if c in g["cats"])}</small></a>'
+        f'<a class="chip" href="{cat_url(c, pre)}"><span class="dot" style="background:{cat_color(c)}"></span>{esc(n[:-6])} <small>{sum(1 for g in G if c in g["cats"])}</small></a>'
         for c, (n, _) in CATS.items())
     rec_cards = []
     for i, g in enumerate(rec):

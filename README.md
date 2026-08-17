@@ -16,18 +16,18 @@ Open `http://127.0.0.1:8123/speed-slope/`.
 
 ## Current Launch Shape
 
-The project is configured for a single-game launch:
+The project is configured for a portal-style launch with Speed Slope as the
+flagship home page:
 
-- `launch_mode`: `single`
-- `launch_game_slug`: `speed-slope`
+- `launch_mode`: `portal`
+- `home_game_slug`: `speed-slope`
 
-This produces a focused site with:
+This produces:
 
-- Home page that IS the play page: the game iframe loads automatically on
-  open, no "Play" click needed
+- A homepage that is still the autoplay Speed Slope play page
 - The game slug URL (`/speed-slope/`) redirects to the home page (noindex,
   canonical points at `/`) to avoid duplicate content
-- Category pages for that game's categories
+- 30 themed category pages across the 49-game catalog
 - Search, hot, new, about, contact, privacy, terms and DMCA pages
 - `games.json`, `sitemap.xml` and `robots.txt`
 
