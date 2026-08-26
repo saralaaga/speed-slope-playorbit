@@ -15,7 +15,7 @@ python3 validate_site.py
 
 Before publishing new games, open them on `https://speedslope.net/<slug>/`, click `Play Now`, and remove any game whose iframe redirects to `blocked.html`, shows `not available here`, returns `unregistered=true`, or fails with 403. Do not keep externally blocked games in the catalog.
 
-A successful build currently reports `37 games, 27 categories, 116 files total`.
+A successful build currently reports `37 games, 27 categories, 117 files total`.
 
 ## Production Hosting
 

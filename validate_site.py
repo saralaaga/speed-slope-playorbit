@@ -135,14 +135,17 @@ def assert_categories_have_enough_games(min_count=1):
     assert not thin, f'Categories with fewer than {min_count} games: {thin}'
 
 
-def assert_featured_category_players():
+def build_constant(name, default):
     with open(os.path.join(BASE, 'build_site.py'), encoding='utf-8') as f:
         tree = ast.parse(f.read())
-    featured = {}
     for node in tree.body:
-        if isinstance(node, ast.Assign) and any(getattr(t, 'id', None) == 'FEATURED_CATEGORY_GAMES' for t in node.targets):
-            featured = ast.literal_eval(node.value)
-            break
+        if isinstance(node, ast.Assign) and any(getattr(t, 'id', None) == name for t in node.targets):
+            return ast.literal_eval(node.value)
+    return default
+
+
+def assert_featured_category_players():
+    featured = build_constant('FEATURED_CATEGORY_GAMES', {})
     game_urls = {g['slug']: g['url'] for g in load_json('games_data.json')}
     missing = []
     for cat, slug in featured.items():
@@ -161,6 +164,19 @@ def assert_featured_category_players():
         if html.count('class="game-card"') >= 4 and html.count('class="category-alt-game"') < 3:
             missing.append(rel + ' alternatives')
     assert not missing, f'Missing featured category players: {missing}'
+
+
+def assert_removed_game_redirects():
+    removed_slugs = build_constant('REMOVED_GAME_SLUGS', set())
+    removed_categories = build_constant('REMOVED_CATEGORY_REDIRECTS', {})
+    published_slugs = {g['slug'] for g in load_json(os.path.join('app', 'games.json'))}
+    leaked = sorted(published_slugs & set(removed_slugs))
+    assert not leaked, f'Removed games still published: {leaked}'
+    with open(os.path.join(APP, '_redirects'), encoding='utf-8') as f:
+        redirects = set(line.strip() for line in f if line.strip() and not line.startswith('#'))
+    missing = [f'/{slug}/ / 301' for slug in sorted(removed_slugs) if f'/{slug}/ / 301' not in redirects]
+    missing += [f'/games/{src}/ /games/{dst}/ 301' for src, dst in sorted(removed_categories.items()) if f'/games/{src}/ /games/{dst}/ 301' not in redirects]
+    assert not missing, f'Missing removed game/category redirects: {missing[:20]}'
 
 
 def assert_sidebar_mini_games_are_images_only():
@@ -189,6 +205,7 @@ def main():
     assert_golf_games_are_not_io_games()
     assert_categories_have_enough_games()
     assert_featured_category_players()
+    assert_removed_game_redirects()
     assert_sidebar_mini_games_are_images_only()
     print(f'OK - validated {len(expected_slugs)} published game(s)')
 

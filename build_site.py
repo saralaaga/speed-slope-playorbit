@@ -245,6 +245,27 @@ FEATURED_CATEGORY_GAMES = {
     'fighting': 'martial-arts-fighter-duel',
 }
 
+REMOVED_GAME_SLUGS = {
+    '2048-merge-world', 'ace-car-racing', 'animal-klotski', 'archer-vs-monsters',
+    'basketball-fever', 'basketball-life-3d', 'basketball-stars-2026',
+    'billiard-diamond-challenge', 'bloons-survival-io', 'city-drift-racing',
+    'crazy-bike-stunts-pvp', 'football-penalty-2026', 'fun-golf', 'golf-mini',
+    'golf-orbit', 'mahjong-duels', 'mahjong-match-line', 'mahjong-tile-club',
+    'merge-blocks-2048', 'mini-golf-battle', 'mini-golf-saga', 'money-2048',
+    'moto-race-city', 'moto-trials-rush', 'mystic-word-quests',
+    'nsr-street-car-racing', 'office-spider-solitaire', 'pixel-mini-golf',
+    'pool-8', 'pool-master', 'push-io', 'race-it-car-racing', 'robin-hood-archer',
+    'shanghai-town', 'slippery-drift-racing',
+    'solitaire-klondike-eternal-russian-classic', 'solitaire-quest', 'tetro-merge',
+    'theme-word-search', 'traffic-racing', 'word-search-universe-2', 'zen-solitaire',
+}
+
+REMOVED_CATEGORY_REDIRECTS = {
+    'card': 'classics',
+    'mahjong': 'classics',
+    'solitaire': 'classics',
+}
+
 SLOPE_GAME_ANGLES = {
     'nullpulse-runner': 'Nullpulse Runner is one of the closest games like Speed Slope in this collection: it keeps the neon look, quick restarts, and reflex-first rhythm, but changes the challenge from steering a rolling ball to timing jumps through a glowing runner course.',
     'highway-driver-3d': 'Highway Driver 3D is a good pick for players who like the speed pressure in Speed Slope. Instead of staying on a narrow slope, you read traffic patterns, dodge hazards, and survive longer as the road gets more crowded.',
@@ -731,6 +752,11 @@ def category_player(canonical, pre, games):
 </div>
 </section>'''
 
+def page_redirects():
+    lines = [f'/{slug}/ / 301' for slug in sorted(REMOVED_GAME_SLUGS)]
+    lines += [f'/games/{src}/ /games/{dst}/ 301' for src, dst in sorted(REMOVED_CATEGORY_REDIRECTS.items())]
+    write('_redirects', '\n'.join(lines) + '\n')
+
 def page_list(slug, h1, blurb, games, seo, canonical, active=''):
     pre = '../' * (slug.count('/') + 1)
     cards = ''.join(game_card(g, pre) for g in games)
@@ -899,6 +925,7 @@ def main():
     sm.append('</urlset>')
     write('sitemap.xml', '\n'.join(sm))
     write('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n')
+    page_redirects()
 
     n = sum(len(fs) for _, _, fs in os.walk(ROOT))
     print(f'OK — {len(G)} games, {len(CATS)} categories, {n} files total')
