@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """Offline checks for the generated static site."""
+import ast
 import json
 import os
 import re
@@ -107,6 +108,75 @@ def assert_local_links():
     assert not missing, f'Missing local links/assets: {missing[:20]}'
 
 
+def assert_nav_dropdown_hover_bridge():
+    with open(os.path.join(APP, 'assets', 'css', 'style.css'), encoding='utf-8') as f:
+        css = f.read()
+    assert '.nav-drop:hover::after' in css, 'Categories dropdown gap needs a hover bridge'
+
+
+def assert_car_racing_has_no_card_games():
+    games = load_json(os.path.join('app', 'games.json'))
+    bad = [g['slug'] for g in games if 'Car Racing Games' in g['categories'] and 'Card Games' in g['categories']]
+    assert not bad, f'Card games listed under Car Racing Games: {bad}'
+
+
+def assert_golf_games_are_not_io_games():
+    games = load_json(os.path.join('app', 'games.json'))
+    bad = [g['slug'] for g in games if 'Golf Games' in g['categories'] and 'IO Games' in g['categories']]
+    assert not bad, f'Golf games listed under IO Games: {bad}'
+
+
+def assert_categories_have_enough_games(min_count=1):
+    counts = {}
+    for g in load_json(os.path.join('app', 'games.json')):
+        for cat in g['categories']:
+            counts[cat] = counts.get(cat, 0) + 1
+    thin = {cat: count for cat, count in counts.items() if count < min_count}
+    assert not thin, f'Categories with fewer than {min_count} games: {thin}'
+
+
+def assert_featured_category_players():
+    with open(os.path.join(BASE, 'build_site.py'), encoding='utf-8') as f:
+        tree = ast.parse(f.read())
+    featured = {}
+    for node in tree.body:
+        if isinstance(node, ast.Assign) and any(getattr(t, 'id', None) == 'FEATURED_CATEGORY_GAMES' for t in node.targets):
+            featured = ast.literal_eval(node.value)
+            break
+    game_urls = {g['slug']: g['url'] for g in load_json('games_data.json')}
+    missing = []
+    for cat, slug in featured.items():
+        rel = f'games/{cat}/index.html'
+        iframe_src = game_urls.get(slug)
+        path = os.path.join(APP, rel)
+        if not os.path.exists(path):
+            continue
+        if not iframe_src:
+            missing.append(rel)
+            continue
+        with open(path, encoding='utf-8') as f:
+            html = f.read()
+        if 'class="category-player"' not in html or f'<iframe src="{iframe_src}"' not in html:
+            missing.append(rel)
+        if html.count('class="game-card"') >= 4 and html.count('class="category-alt-game"') < 3:
+            missing.append(rel + ' alternatives')
+    assert not missing, f'Missing featured category players: {missing}'
+
+
+def assert_sidebar_mini_games_are_images_only():
+    offenders = []
+    for root, _, files in os.walk(APP):
+        for name in files:
+            if name != 'index.html':
+                continue
+            path = os.path.join(root, name)
+            with open(path, encoding='utf-8') as f:
+                html = f.read()
+            if 'class="mini-game"' in html and 'class="t"' in html:
+                offenders.append(os.path.relpath(path, APP))
+    assert not offenders, f'Sidebar mini games still render text labels: {offenders[:20]}'
+
+
 def main():
     expected_slugs = {g['slug'] for g in selected_games()}
     assert expected_slugs, 'No games selected for publishing'
@@ -114,6 +184,12 @@ def main():
     assert_games_json(expected_slugs)
     assert_sitemap(expected_slugs)
     assert_local_links()
+    assert_nav_dropdown_hover_bridge()
+    assert_car_racing_has_no_card_games()
+    assert_golf_games_are_not_io_games()
+    assert_categories_have_enough_games()
+    assert_featured_category_players()
+    assert_sidebar_mini_games_are_images_only()
     print(f'OK - validated {len(expected_slugs)} published game(s)')
 
 

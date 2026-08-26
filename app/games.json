@@ -27,48 +27,6 @@
   "isNew": true
  },
  {
-  "title": "Basketball Stars 2026",
-  "slug": "basketball-stars-2026",
-  "url": "basketball-stars-2026/",
-  "thumb": "assets/thumbs/basketball-stars-2026.jpg",
-  "categories": [
-   "Basketball Games",
-   "Sports Games",
-   "Shooting Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Basketball",
-   "Sports",
-   "3D"
-  ],
-  "rating": 4.6,
-  "plays": 1199853,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Basketball Fever",
-  "slug": "basketball-fever",
-  "url": "basketball-fever/",
-  "thumb": "assets/thumbs/basketball-fever.jpg",
-  "categories": [
-   "Basketball Games",
-   "Sports Games",
-   "Shooting Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Basketball",
-   "Shots",
-   "Casual"
-  ],
-  "rating": 4.4,
-  "plays": 3418627,
-  "isHot": false,
-  "isNew": false
- },
- {
   "title": "On Fire Basketball Shots",
   "slug": "on-fire-basketball-shots",
   "url": "on-fire-basketball-shots/",
@@ -133,46 +91,6 @@
   "isNew": true
  },
  {
-  "title": "Basketball Life 3d",
-  "slug": "basketball-life-3d",
-  "url": "basketball-life-3d/",
-  "thumb": "assets/thumbs/basketball-life-3d.jpg",
-  "categories": [
-   "Basketball Games",
-   "Sports Games",
-   "Shooting Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Basketball",
-   "3D"
-  ],
-  "rating": 4.4,
-  "plays": 3482123,
-  "isHot": true,
-  "isNew": false
- },
- {
-  "title": "Football Penalty 2026",
-  "slug": "football-penalty-2026",
-  "url": "football-penalty-2026/",
-  "thumb": "assets/thumbs/football-penalty-2026.jpg",
-  "categories": [
-   "Sports Games",
-   "Football Games",
-   "Soccer Games",
-   "Shooting Games"
-  ],
-  "tags": [
-   "Soccer",
-   "Penalty"
-  ],
-  "rating": 4.7,
-  "plays": 252206,
-  "isHot": false,
-  "isNew": false
- },
- {
   "title": "Football Heads 2026",
   "slug": "football-heads-2026",
   "url": "football-heads-2026/",
@@ -199,9 +117,8 @@
   "url": "tiny-golf-king/",
   "thumb": "assets/thumbs/tiny-golf-king.jpg",
   "categories": [
-   "Sports Games",
    "Golf Games",
-   "IO Games"
+   "Sports Games"
   ],
   "tags": [
    "Golf",
@@ -474,24 +391,6 @@
   "isNew": true
  },
  {
-  "title": "Animal Klotski",
-  "slug": "animal-klotski",
-  "url": "animal-klotski/",
-  "thumb": "assets/thumbs/animal-klotski.jpg",
-  "categories": [
-   "Puzzle Games",
-   "Sorting Games"
-  ],
-  "tags": [
-   "Sliding",
-   "Logic"
-  ],
-  "rating": 4.3,
-  "plays": 2296034,
-  "isHot": false,
-  "isNew": false
- },
- {
   "title": "BlockBlast",
   "slug": "blockblast",
   "url": "blockblast/",
@@ -507,26 +406,6 @@
   "rating": 4.8,
   "plays": 593567,
   "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Money 2048",
-  "slug": "money-2048",
-  "url": "money-2048/",
-  "thumb": "assets/thumbs/money-2048.jpg",
-  "categories": [
-   "Puzzle Games",
-   "Classic Games",
-   "Merge Games"
-  ],
-  "tags": [
-   "2048",
-   "Merge",
-   "Numbers"
-  ],
-  "rating": 4.6,
-  "plays": 3816853,
-  "isHot": true,
   "isNew": false
  },
  {
@@ -580,8 +459,7 @@
   "categories": [
    "Arcade Games",
    "Runner Games",
-   "Platformer Games",
-   "IO Games"
+   "Platformer Games"
   ],
   "tags": [
    "Jetpack",
@@ -827,145 +705,6 @@
   "isNew": false
  },
  {
-  "title": "Push.io",
-  "slug": "push-io",
-  "url": "push-io/",
-  "thumb": "assets/thumbs/push-io.jpg",
-  "categories": [
-   "IO Games",
-   "Strategy Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "IO",
-   "Arena"
-  ],
-  "rating": 4.3,
-  "plays": 1290722,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Bloons Survival.io",
-  "slug": "bloons-survival-io",
-  "url": "bloons-survival-io/",
-  "thumb": "assets/thumbs/bloons-survival-io.jpg",
-  "categories": [
-   "IO Games",
-   "Strategy Games",
-   "Shooting Games"
-  ],
-  "tags": [
-   "Survival",
-   "IO"
-  ],
-  "rating": 4.7,
-  "plays": 241574,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Zen Solitaire",
-  "slug": "zen-solitaire",
-  "url": "zen-solitaire/",
-  "thumb": "assets/thumbs/zen-solitaire.jpg",
-  "categories": [
-   "Classic Games",
-   "Puzzle Games",
-   "Car Racing Games",
-   "Card Games",
-   "Solitaire Games"
-  ],
-  "tags": [
-   "Solitaire",
-   "Cards",
-   "Relaxing"
-  ],
-  "rating": 4.1,
-  "plays": 437320,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Solitaire Quest",
-  "slug": "solitaire-quest",
-  "url": "solitaire-quest/",
-  "thumb": "assets/thumbs/solitaire-quest.jpg",
-  "categories": [
-   "Classic Games",
-   "Car Racing Games",
-   "Card Games",
-   "Solitaire Games"
-  ],
-  "tags": [
-   "Solitaire",
-   "Cards"
-  ],
-  "rating": 4.1,
-  "plays": 3532088,
-  "isHot": true,
-  "isNew": false
- },
- {
-  "title": "Office Spider Solitaire",
-  "slug": "office-spider-solitaire",
-  "url": "office-spider-solitaire/",
-  "thumb": "assets/thumbs/office-spider-solitaire.jpg",
-  "categories": [
-   "Classic Games",
-   "Card Games",
-   "Solitaire Games"
-  ],
-  "tags": [
-   "Spider",
-   "Solitaire"
-  ],
-  "rating": 4.8,
-  "plays": 1239271,
-  "isHot": true,
-  "isNew": false
- },
- {
-  "title": "Solitaire Klondike: Eternal Russian Classic",
-  "slug": "solitaire-klondike-eternal-russian-classic",
-  "url": "solitaire-klondike-eternal-russian-classic/",
-  "thumb": "assets/thumbs/solitaire-klondike-eternal-russian-classic.jpg",
-  "categories": [
-   "Classic Games",
-   "Card Games",
-   "Solitaire Games"
-  ],
-  "tags": [
-   "Klondike",
-   "Solitaire"
-  ],
-  "rating": 4.8,
-  "plays": 881175,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Mahjong Duels",
-  "slug": "mahjong-duels",
-  "url": "mahjong-duels/",
-  "thumb": "assets/thumbs/mahjong-duels.jpg",
-  "categories": [
-   "Classic Games",
-   "Puzzle Games",
-   "2 Player Games",
-   "Fighting Games",
-   "Mahjong Games"
-  ],
-  "tags": [
-   "Mahjong",
-   "Tiles"
-  ],
-  "rating": 4.4,
-  "plays": 744699,
-  "isHot": false,
-  "isNew": false
- },
- {
   "title": "Chess 3D",
   "slug": "chess-3d",
   "url": "chess-3d/",
@@ -983,5 +722,25 @@
   "plays": 989274,
   "isHot": false,
   "isNew": false
+ },
+ {
+  "title": "Archery Legends",
+  "slug": "archery-legends",
+  "url": "archery-legends/",
+  "thumb": "assets/thumbs/archery-legends.jpg",
+  "categories": [
+   "Archery Games",
+   "Sports Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Archery",
+   "Precision",
+   "Targets"
+  ],
+  "rating": 4.5,
+  "plays": 194200,
+  "isHot": false,
+  "isNew": true
  }
 ]

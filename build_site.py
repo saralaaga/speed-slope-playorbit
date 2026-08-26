@@ -4,7 +4,7 @@
 Reads the full game catalog, publishes the configured subset, and emits HTML
 pages, thumbnails, games.json, sitemap.xml and robots.txt into ./app.
 """
-import json, os, html, hashlib, colorsys, datetime, shutil
+import json, os, html, hashlib, colorsys, datetime, shutil, re
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(BASE, 'app')
@@ -161,7 +161,7 @@ def enrich_categories(game):
 
     if any(term in text for term in ('racing', 'race', 'racer', 'driver', 'driving')):
         add('racing', 'driving')
-    if any(term in text for term in ('car', 'formula', 'highway', 'apex')):
+    if any(re.search(rf'(?<![a-z0-9]){term}(?![a-z0-9])', text) for term in ('car', 'formula', 'highway', 'apex')):
         add('car-racing')
     if any(term in text for term in ('moto', 'motor', 'bike')):
         add('motorcycle', 'stunt', 'car-racing')
@@ -175,7 +175,7 @@ def enrich_categories(game):
         if 'duel' in text and not any(term in text for term in ('pool', 'solitaire')):
             add('fighting')
 
-    if 'io' in text:
+    if re.search(r'(?<![a-z0-9])(?:io|\.io)(?![a-z0-9])', text):
         add('io')
     if any(term in text for term in ('snake', 'paperwar', 'colorwars', 'push', 'bloons')):
         add('io', 'strategy')
@@ -214,6 +214,36 @@ def fmt_plays(n):
     return str(n)
 
 BY_SLUG = {g['slug']: g for g in G}
+
+FEATURED_CATEGORY_GAMES = {
+    'slope': 'speed-slope',
+    'basketball': 'bounce-dunk-basketball',
+    'sports': 'tiny-golf-king',
+    'racing': 'speed-slope',
+    'puzzle': 'marble-sort',
+    'arcade': 'nullpulse-runner',
+    '2-player': 'fireboy-watergirl-7-and-friends',
+    'io': 'snakelands-io',
+    'classics': 'chess-3d',
+    'runner': 'nullpulse-runner',
+    'driving': 'highway-driver-3d',
+    'stunt': 'bike-racing-adventure',
+    'motorcycle': 'bike-racing-adventure',
+    'car-racing': 'formula-car-circuit-racing',
+    'obstacle-course': 'obby-three-challenges',
+    'platformer': 'fireboy-watergirl-7-and-friends',
+    'football': 'world-cup-2026-soccer-game',
+    'soccer': 'world-cup-2026-soccer-game',
+    'archery': 'archery-legends',
+    'pool': 'pool-duel',
+    'golf': 'tiny-golf-king',
+    'shooting': 'archery-legends',
+    'strategy': 'chess-3d',
+    'word': 'word-search-universe-animals',
+    'sorting': 'marble-sort',
+    'merge': '2048-snake-io',
+    'fighting': 'martial-arts-fighter-duel',
+}
 
 SLOPE_GAME_ANGLES = {
     'nullpulse-runner': 'Nullpulse Runner is one of the closest games like Speed Slope in this collection: it keeps the neon look, quick restarts, and reflex-first rhythm, but changes the challenge from steering a rolling ball to timing jumps through a glowing runner course.',
@@ -369,14 +399,12 @@ def header(pre, active=''):
 </nav>'''
 
 def footer(pre):
-    cat_links = ''.join(f'<a href="{cat_url(c, pre)}">{esc(n)}</a>' for c, (n, _) in CATS.items())
     return f'''<footer class="site-footer">
 <div class="container footer-grid">
 <div>
 <a class="logo" href="{pre}"><span class="logo-mark">{LOGO_SVG}</span>Speed<em>Slope</em></a>
 <p class="footer-blurb">{esc(TAGLINE)} New titles added every week.</p>
 </div>
-<div><h4>Categories</h4>{cat_links}</div>
 <div><h4>Discover</h4>
 <a href="{pre}hot-games/">Hot Games</a>
 <a href="{pre}new-games/">New Games</a>
@@ -409,9 +437,8 @@ def game_card(g, pre):
 <div class="sub"><span class="star">{STAR}{g['rating']:.1f}</span><span>{fmt_plays(g['plays'])} plays</span></div></div></a>'''
 
 def mini_card(g, pre):
-    return f'''<a class="mini-game" href="{game_url(g, pre)}">
-<div class="thumb"><img loading="lazy" src="{thumb_url(g, pre)}" alt="{esc(g['title'])}" width="96" height="96"></div>
-<div class="t">{esc(g['title'])}</div></a>'''
+    return f'''<a class="mini-game" href="{game_url(g, pre)}" aria-label="Play {esc(g['title'])}">
+<div class="thumb"><img loading="lazy" src="{thumb_url(g, pre)}" alt="" width="96" height="96"></div></a>'''
 
 def ad(cls_, size):
     if not CONFIG.get('ads_enabled'):
@@ -509,8 +536,8 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
     same.sort(key=lambda x: -x['plays'])
     others = sorted([x for x in G if x is not g and prim not in x['cats']], key=lambda x: -x['plays'])
     related = (same + others)
-    left_rel = related[:6]
-    right_rel = related[6:12]
+    left_rel = related[:8]
+    right_rel = related[8:16]
     more_rel = related[:10]
     faqs = g.get('faqs') or [
         (f'Is {g["title"]} free to play?',
@@ -678,6 +705,32 @@ def sort_bar(count_label=''):
 <span class="result-count" id="gridCount">{count_label}</span>
 </div>'''
 
+def category_player(canonical, pre, games):
+    cat = canonical.removeprefix('games/').strip('/')
+    g = BY_SLUG.get(FEATURED_CATEGORY_GAMES.get(cat, ''))
+    if not g:
+        return ''
+    alts = [x for x in games if x['slug'] != g['slug']][:3]
+    alt_links = ''.join(f'''<a class="category-alt-game" href="{game_url(x, pre)}" aria-label="Play {esc(x['title'])}">
+<img loading="lazy" src="{thumb_url(x, pre)}" alt="" width="96" height="96">
+</a>''' for x in alts)
+    alt_block = f'''<div class="category-alt-games">
+<span class="side-title">Try next</span>
+<div>{alt_links}</div>
+</div>''' if alt_links else ''
+    return f'''<section class="category-player">
+<div class="stage"><iframe src="{esc(g['url'])}" title="{esc(g['title'])}" allow="autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking; cross-origin-isolated" allowfullscreen></iframe></div>
+<div class="category-player-copy">
+<div class="category-player-text">
+<span class="side-title">Featured game</span>
+<h2>Play {esc(g['title'])}</h2>
+<p>{esc(g['desc'])}</p>
+<a class="btn btn-primary" href="{game_url(g, pre)}">Open full game page</a>
+</div>
+{alt_block}
+</div>
+</section>'''
+
 def page_list(slug, h1, blurb, games, seo, canonical, active=''):
     pre = '../' * (slug.count('/') + 1)
     cards = ''.join(game_card(g, pre) for g in games)
@@ -696,6 +749,7 @@ def page_list(slug, h1, blurb, games, seo, canonical, active=''):
     html_doc += header(pre, active)
     html_doc += f'''<main class="container">
 <div class="page-head"><h1>{esc(h1)} <span class="tick">.</span></h1><p>{esc(blurb)}</p></div>
+{category_player(canonical, pre, games)}
 {sort_bar()}
 <div class="game-grid" id="sortGrid">{cards}</div>
 <div class="load-more-wrap" id="loadMoreWrap"><button class="btn btn-ghost btn-lg" id="loadMore">Load more games</button></div>

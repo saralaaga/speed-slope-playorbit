@@ -82,86 +82,6 @@
   "embed_permission_status": "Public embed link found on 1000Games and AZGames; confirm with the publisher before production launch."
  },
  {
-  "slug": "basketball-stars-2026",
-  "title": "Basketball Stars 2026",
-  "url": "https://html5.gamedistribution.com/516d6908fbc848bdb89e65a58a43a7dc/",
-  "cats": [
-   "basketball",
-   "sports"
-  ],
-  "tags": [
-   "Basketball",
-   "Sports",
-   "3D"
-  ],
-  "rating": 4.6,
-  "plays": 1199853,
-  "hot": false,
-  "new": false,
-  "added": "2026-02-21",
-  "desc": "Basketball Stars is a cool 2 player basketball game by MadPuffers. Prepared for the 2025 basketball season. Choose your team and enter a challenging tournament. Control your player to perform awesome dunks and 3-pointers to win the game. Feel free to block and slap your opponent to knock him out and get the ball, and pay attention to the supershot bar on the top of the screen. Once fully loaded, you can use the hot special dunk from wherever you stand; it never fails. Be the best player!.",
-  "howto": [
-   "Basketball Stars is a cool 2 player basketball game by MadPuffers",
-   "Prepared for the 2025 basketball season",
-   "Choose your team and enter a challenging tournament",
-   "Control your player to perform awesome dunks and 3-pointers to win the game",
-   "Feel free to block and slap your opponent to knock him out and get the ball, and pay attention to the supershot bar on the top of the screen",
-   "Once fully loaded, you can use the hot special dunk from wherever you stand; it never fails"
-  ],
-  "controls": [
-   [
-    "WASD",
-    "move"
-   ],
-   [
-    "Arrow keys",
-    "move / steer"
-   ],
-   [
-    "Enter",
-    "confirm"
-   ]
-  ],
-  "tips": [
-   "Pump fake first — most defenders bite on it.",
-   "Release at the top of the arc for the best accuracy."
-  ],
-  "thumbfile": "basketball-stars-2026.jpg"
- },
- {
-  "slug": "basketball-fever",
-  "title": "Basketball Fever",
-  "url": "https://html5.gamedistribution.com/479bed08c46d43458b4ca6af84b27ede/",
-  "cats": [
-   "basketball"
-  ],
-  "tags": [
-   "Basketball",
-   "Shots",
-   "Casual"
-  ],
-  "rating": 4.4,
-  "plays": 3418627,
-  "hot": false,
-  "new": false,
-  "added": "2026-04-16",
-  "desc": "Get ready for endless basketball fun! Basketball Fever features four exciting basketball challenges anyone can enjoy. Sharpen your aim, beat your high score, or just enjoy quick bursts of arcade-style fun, Basketball Fever delivers nonstop action that’s easy to pick up and hard to put down. It’s the ultimate way to test your reflexes, timing, and accuracy. Simple controls, smooth gameplay, and satisfying physics make every shot feel rewarding.",
-  "howto": [
-   "use tap or click to interact with in game elements"
-  ],
-  "controls": [
-   [
-    "Click / tap",
-    "select & act"
-   ]
-  ],
-  "tips": [
-   "Pump fake first — most defenders bite on it.",
-   "Release at the top of the arc for the best accuracy."
-  ],
-  "thumbfile": "basketball-fever.jpg"
- },
- {
   "slug": "on-fire-basketball-shots",
   "title": "On Fire Basketball Shots",
   "url": "https://html5.gamedistribution.com/0e8ab73503cb457a8ae6936f464f4344/",
@@ -277,78 +197,6 @@
   "thumbfile": "bounce-dunk-basketball.jpg"
  },
  {
-  "slug": "basketball-life-3d",
-  "title": "Basketball Life 3d",
-  "url": "https://html5.gamedistribution.com/a8a2a2c5dbcd46fbbe2dfe2b7d371ee9/",
-  "cats": [
-   "basketball",
-   "sports"
-  ],
-  "tags": [
-   "Basketball",
-   "3D"
-  ],
-  "rating": 4.4,
-  "plays": 3482123,
-  "hot": true,
-  "new": false,
-  "added": "2025-10-14",
-  "desc": "Ready for the wonderful basketball challenge? Basketball Life 3D is a fun and creative sports game that tests your skills and timing! From classic hoop challenges to trick shots, every level is packed with excitement.",
-  "howto": [
-   "Mouse click or tap to play"
-  ],
-  "controls": [
-   [
-    "Click / tap",
-    "select & act"
-   ],
-   [
-    "Mouse",
-    "aim & interact"
-   ]
-  ],
-  "tips": [
-   "Pump fake first — most defenders bite on it.",
-   "Release at the top of the arc for the best accuracy."
-  ],
-  "thumbfile": "basketball-life-3d.jpg"
- },
- {
-  "slug": "football-penalty-2026",
-  "title": "Football Penalty 2026",
-  "url": "https://html5.gamedistribution.com/9e0857a030cf4c1f821af4b359a870fe/",
-  "cats": [
-   "sports"
-  ],
-  "tags": [
-   "Soccer",
-   "Penalty"
-  ],
-  "rating": 4.7,
-  "plays": 252206,
-  "hot": false,
-  "new": false,
-  "added": "2025-10-17",
-  "desc": "The time has come for the players to face off in an intense duel to prove who has the strongest, most accurate and most technically skilled kick. Show your opponents the power of your accurate shots and become a real football hero. The road to victory is yours!.",
-  "howto": [
-   "Face off against your rivals in free-kick duels",
-   "Shoot the ball at targets while avoiding obstacles like cones and boxes",
-   "Collect points for every target hit, progress through levels and improve your football skills",
-   "Win trophies, unlock new balls and earn even more prizes"
-  ],
-  "controls": [
-   [
-    "Mouse / touch",
-    "see the in-game tutorial"
-   ]
-  ],
-  "tips": [
-   "Timing beats power — wait for the perfect moment.",
-   "Learn one mode well before jumping into tournaments."
-  ],
-  "thumbfile": "football-penalty-2026.jpg"
- },
- {
   "slug": "football-heads-2026",
   "title": "Football Heads 2026",
   "url": "https://html5.gamedistribution.com/e28358852075425e9d70f65e90a9c34f/",
@@ -390,6 +238,7 @@
   "title": "Tiny Golf King",
   "url": "https://html5.gamedistribution.com/4b94472f98f442339ca0eb5312950482/",
   "cats": [
+   "golf",
    "sports"
   ],
   "tags": [
@@ -922,42 +771,6 @@
   "thumbfile": "triple-shelf-match.jpg"
  },
  {
-  "slug": "animal-klotski",
-  "title": "Animal Klotski",
-  "url": "https://html5.gamedistribution.com/ba097c40e304481daa8064d6e8b42f7d/",
-  "cats": [
-   "puzzle"
-  ],
-  "tags": [
-   "Sliding",
-   "Logic"
-  ],
-  "rating": 4.3,
-  "plays": 2296034,
-  "hot": false,
-  "new": false,
-  "added": "2025-10-05",
-  "desc": "Animal Klotski is a charming and addictive Klotski puzzle game where every move matters! Cute animals block the path, and it's up to you to slide them strategically and help the pink rabbit escape. Each level contains different animal-shaped blocks placed across the board. Perfect Animal puzzle for kids and casual lovers. Great combination of strategy, logic, and relaxation. If you enjoy logic puzzle games, you will love discovering new strategies to solve increasingly complex puzzles.",
-  "howto": [
-   "Click and drag to play"
-  ],
-  "controls": [
-   [
-    "Click / tap",
-    "select & act"
-   ],
-   [
-    "Drag",
-    "move items"
-   ]
-  ],
-  "tips": [
-   "Work from the corners — they constrain the board the most.",
-   "Plan two moves ahead before committing."
-  ],
-  "thumbfile": "animal-klotski.jpg"
- },
- {
   "slug": "blockblast",
   "title": "BlockBlast",
   "url": "https://html5.gamemonetize.co/ivi5haeja8jhdmevybipqfn74c9hsmc3/",
@@ -995,40 +808,6 @@
    "Plan two moves ahead before committing."
   ],
   "thumbfile": "blockblast.jpg"
- },
- {
-  "slug": "money-2048",
-  "title": "Money 2048",
-  "url": "https://html5.gamemonetize.co/atu6qyed79ja761210hiopooh3hr7jjj/",
-  "cats": [
-   "puzzle",
-   "classics"
-  ],
-  "tags": [
-   "2048",
-   "Merge",
-   "Numbers"
-  ],
-  "rating": 4.6,
-  "plays": 3816853,
-  "hot": true,
-  "new": false,
-  "added": "2025-10-24",
-  "desc": "Money 2048 is a fun and relaxing puzzle game where you merge matching money items to create bigger and more valuable ones. Start with small coins and keep combining them to unlock wallets, cash bundles, money bags, diamonds, and more. Think ahead, make smart moves, and see how far you can go. Easy to play but very challenging to master.",
-  "howto": [
-   "1 Swipe to move all items on the board 2 Merge two matching items to create a higher-value item 3 Keep merging to unlock new money treasures 4 Dont let the board fill up 5 Reach the highest score possible"
-  ],
-  "controls": [
-   [
-    "Touch / swipe",
-    "mobile controls"
-   ]
-  ],
-  "tips": [
-   "Work from the corners — they constrain the board the most.",
-   "Plan two moves ahead before committing."
-  ],
-  "thumbfile": "money-2048.jpg"
  },
  {
   "slug": "obby-three-challenges",
@@ -1601,268 +1380,6 @@
   "thumbfile": "colorwars-io-conquest-game.jpg"
  },
  {
-  "slug": "push-io",
-  "title": "Push.io",
-  "url": "https://html5.gamedistribution.com/4888156f33814739a696e11b32556159/",
-  "cats": [
-   "io"
-  ],
-  "tags": [
-   "IO",
-   "Arena"
-  ],
-  "rating": 4.3,
-  "plays": 1290722,
-  "hot": false,
-  "new": false,
-  "added": "2025-09-03",
-  "desc": "Push.io is a fast-paced arena game where you battle to stay on the map and push everyone else off. Wield your boomerang with precision to knock rivals into the water while dodging incoming attacks. The longer you survive, the higher you rank; fall early, and you’ll drop in the standings. Earn trophies, upgrade your boomerang between rounds, and rise through the ranks to become the ultimate arena champion.",
-  "howto": [
-   "WASD or mouse = move",
-   "Space bar or left mouse button = attack Mobile:",
-   "Joystick = move",
-   "Button = attack"
-  ],
-  "controls": [
-   [
-    "WASD",
-    "move"
-   ],
-   [
-    "Space",
-    "jump / action"
-   ],
-   [
-    "Mouse",
-    "aim & interact"
-   ]
-  ],
-  "tips": [
-   "Play safe early; grow before you pick fights.",
-   "Cut opponents off rather than chasing them."
-  ],
-  "thumbfile": "push-io.jpg"
- },
- {
-  "slug": "bloons-survival-io",
-  "title": "Bloons Survival.io",
-  "url": "https://html5.gamedistribution.com/0340635cab9e421ca6c3cda5acaa03f1/",
-  "cats": [
-   "io"
-  ],
-  "tags": [
-   "Survival",
-   "IO"
-  ],
-  "rating": 4.7,
-  "plays": 241574,
-  "hot": false,
-  "new": false,
-  "added": "2026-01-13",
-  "desc": "Bloons Survival. io is a fast-paced survival arcade game where you fight off endless waves of balloons! Control your monkey hero, throw darts automatically, and pop incoming enemies before they get too close. Collect coins and power-ups to grow stronger, but stay alert — one hit can end your run! How long can you survive?.",
-  "howto": [
-   "Move your character using mouse or touch -Darts are thrown automatically -Pop balloons to earn rewards -Avoid contact — balloons deal damage -Survive as long as possible and get stronger"
-  ],
-  "controls": [
-   [
-    "Mouse",
-    "aim & interact"
-   ],
-   [
-    "Touch / swipe",
-    "mobile controls"
-   ]
-  ],
-  "tips": [
-   "Play safe early; grow before you pick fights.",
-   "Cut opponents off rather than chasing them."
-  ],
-  "thumbfile": "bloons-survival-io.jpg"
- },
- {
-  "slug": "zen-solitaire",
-  "title": "Zen Solitaire",
-  "url": "https://html5.gamedistribution.com/544c6a00c1e54c4f85ac81aa00420425/",
-  "cats": [
-   "classics",
-   "puzzle"
-  ],
-  "tags": [
-   "Solitaire",
-   "Cards",
-   "Relaxing"
-  ],
-  "rating": 4.1,
-  "plays": 437320,
-  "hot": false,
-  "new": false,
-  "added": "2025-10-11",
-  "desc": "Zen Solitaire is a classic card game in the spirit of Klondike and Solitaire, where you need to arrange cards by suit and rank. Zen Solitaire uses familiar mechanics: cards are laid out in columns, some are face-up, some are face-down. The goal is to build foundation piles using strategy and attention. Zen Solitaire is perfect for anyone who enjoys Klondike, classic Patience, or Solitaire. The game develops logic, patience, and foresight, turning a simple card layout into a relaxing activity.",
-  "howto": [
-   "Zen Solitaire is a classic Klondike game where you arrange a 52-card deck into four foundation piles in ascending order (Ace to King)",
-   "It starts with seven columns, only the first card face-up",
-   "Move cards between columns in descending order and alternating colors",
-   "Use face-up cards to build foundations or reveal hidden cards, adding strategic depth"
-  ],
-  "controls": [
-   [
-    "Mouse / touch",
-    "see the in-game tutorial"
-   ]
-  ],
-  "tips": [
-   "Slow down — one rushed move ruins a good run.",
-   "Use hints sparingly; they cost more than they give."
-  ],
-  "thumbfile": "zen-solitaire.jpg"
- },
- {
-  "slug": "solitaire-quest",
-  "title": "Solitaire Quest",
-  "url": "https://html5.gamedistribution.com/bea514c5808240568c8b56e3a1716503/",
-  "cats": [
-   "classics"
-  ],
-  "tags": [
-   "Solitaire",
-   "Cards"
-  ],
-  "rating": 4.1,
-  "plays": 3532088,
-  "hot": true,
-  "new": false,
-  "added": "2025-11-28",
-  "desc": "Solitaire Quest is a beautifully designed classic Klondike solitaire game. Enjoy smooth gameplay, elegant visuals, and a relaxing card experience optimized for TV and desktop. Whether you're a beginner or a solitaire master, challenge yourself and improve your strategy with every game.",
-  "howto": [
-   "Move cards to build descending sequences with alternating colors",
-   "Place Aces on the foundation piles and build up to Kings",
-   "Use arrow keys to move, OK to select and place cards",
-   "Complete all four foundation piles to win the game"
-  ],
-  "controls": [
-   [
-    "Arrow keys",
-    "move / steer"
-   ]
-  ],
-  "tips": [
-   "Slow down — one rushed move ruins a good run.",
-   "Use hints sparingly; they cost more than they give."
-  ],
-  "thumbfile": "solitaire-quest.jpg"
- },
- {
-  "slug": "office-spider-solitaire",
-  "title": "Office Spider Solitaire",
-  "url": "https://html5.gamedistribution.com/09fd115d31734cb0bbab0e58fa6e4a1b/",
-  "cats": [
-   "classics"
-  ],
-  "tags": [
-   "Spider",
-   "Solitaire"
-  ],
-  "rating": 4.8,
-  "plays": 1239271,
-  "hot": true,
-  "new": false,
-  "added": "2026-04-20",
-  "desc": "Your objective in Office Spider Solitaire is to clear the table by creating suited sets from king to ace. The game has either one, two or four suits depending on the difficulty setting.",
-  "howto": [
-   "The game begins with four stacks of six and six stacks of five cards",
-   "The top card is dealt face up",
-   "You can move a card by dragging it on top of a one point higher value card",
-   "For example, you may move a seven of spades on top of an eight of hearts",
-   "You may move several cards with consecutive values and same suit simultaneously",
-   "Any card can be places on an empty lot"
-  ],
-  "controls": [
-   [
-    "Mouse / touch",
-    "see the in-game tutorial"
-   ]
-  ],
-  "tips": [
-   "Slow down — one rushed move ruins a good run.",
-   "Use hints sparingly; they cost more than they give."
-  ],
-  "thumbfile": "office-spider-solitaire.jpg"
- },
- {
-  "slug": "solitaire-klondike-eternal-russian-classic",
-  "title": "Solitaire Klondike: Eternal Russian Classic",
-  "url": "https://html5.gamedistribution.com/c6eb54e8432a480bab89a517bd1a897e/",
-  "cats": [
-   "classics"
-  ],
-  "tags": [
-   "Klondike",
-   "Solitaire"
-  ],
-  "rating": 4.8,
-  "plays": 881175,
-  "hot": false,
-  "new": false,
-  "added": "2025-10-26",
-  "desc": "Rediscover the captivating world of Solitaire Klondike! This timeless card game not only entertains but also enhances logical thinking, offering hours of engaging pastime. Play your favorite solitaire anytime, anywhere. Join the community of enthusiasts and prove your mastery in Klondike! Keep an eye on the leaderboard and become the top player among all!.",
-  "howto": [
-   "Objective: Arrange all the cards into four foundation piles by suit, starting with Ace and ending with King",
-   "Game Board: Seven columns are laid out on the table",
-   "Cards are placed in descending order, alternating between red and black suits",
-   "Moving Cards: You can move cards between columns if they follow the rules — in descending order and alternating colors",
-   "Both single cards and valid sequences can be moved",
-   "Empty Columns: Vacant columns can be filled only with Kings"
-  ],
-  "controls": [
-   [
-    "Mouse / touch",
-    "see the in-game tutorial"
-   ]
-  ],
-  "tips": [
-   "Slow down — one rushed move ruins a good run.",
-   "Use hints sparingly; they cost more than they give."
-  ],
-  "thumbfile": "solitaire-klondike-eternal-russian-classic.jpg"
- },
- {
-  "slug": "mahjong-duels",
-  "title": "Mahjong Duels",
-  "url": "https://html5.gamedistribution.com/978c131979974a8a9c77cf2f0fb51760/",
-  "cats": [
-   "classics",
-   "puzzle"
-  ],
-  "tags": [
-   "Mahjong",
-   "Tiles"
-  ],
-  "rating": 4.4,
-  "plays": 744699,
-  "hot": false,
-  "new": false,
-  "added": "2025-10-30",
-  "desc": "The amazing Chinese game of skill and strategy Mahjong is now social! Get in the arena and prepare to play with the most masterful opponents in this multiplayer Mahjong version and match your mystical tiles as a Chinese master of the game! Challenge and defeat your friends by finding first the matching symbols for bamboo, dragons, digits and other elements.",
-  "howto": [
-   "Each Mahjong tileset is made up of 144 tiles",
-   "There are 136 matching tiles, 4 Flowers, and 4 season tiles",
-   "The actual tiles will vary depending on the tileset you have selected but each set maintains the same groups and relationships",
-   "The Flower and Season tiles don’t match exactly, but there is always a visual relationship among the tiles in each group",
-   "You can match any Flower tile with any other Flower tile and any Season tile with any other season tile"
-  ],
-  "controls": [
-   [
-    "Mouse / touch",
-    "see the in-game tutorial"
-   ]
-  ],
-  "tips": [
-   "Slow down — one rushed move ruins a good run.",
-   "Use hints sparingly; they cost more than they give."
-  ],
-  "thumbfile": "mahjong-duels.jpg"
- },
- {
   "slug": "chess-3d",
   "title": "Chess 3D",
   "url": "https://html5.gamemonetize.co/kad9w33p7vtygydqcaeu5acmipv46aok/",
@@ -1898,5 +1415,40 @@
    "Use hints sparingly; they cost more than they give."
   ],
   "thumbfile": "chess-3d.jpg"
+ },
+ {
+  "slug": "archery-legends",
+  "title": "Archery Legends",
+  "url": "https://html5.gamedistribution.com/edbbaebf77684e2487c978537a37e5f4/",
+  "cats": [
+   "archery",
+   "sports",
+   "shooting"
+  ],
+  "tags": [
+   "Archery",
+   "Precision",
+   "Targets"
+  ],
+  "rating": 4.5,
+  "plays": 194200,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Archery Legends focuses on clean target shooting with simple controls and tight scoring. Draw the bow, adjust the angle and chase better accuracy across each round.",
+  "howto": [
+   "Archery Legends focuses on clean target shooting with simple controls and tight scoring."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "aim, hold and release"
+   ]
+  ],
+  "tips": [
+   "Hold steady before releasing.",
+   "Watch the target pattern before taking the first shot."
+  ],
+  "thumbfile": "archery-legends.jpg"
  }
 ]
