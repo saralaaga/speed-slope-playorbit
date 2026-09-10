@@ -50,11 +50,12 @@ The site is deployed on Cloudflare Pages.
 
 ## Deployment
 
-Cloudflare Pages handles production deployment from the `main` branch through its native Git integration.
+`speedslope-net` was created with Direct Upload, and Cloudflare does not allow attaching Git integration to an existing Direct Upload project. Continuous deployment therefore runs through GitHub Actions, which is Cloudflare's documented CI path for Direct Upload projects.
 
-- Project: `speedslope-net`
-- Output directory: `app/`
-- Production domains: `https://speedslope.net`, `https://www.speedslope.net`
-- GitHub Actions, Deploy Hooks, and Wrangler are not production deployment paths.
-- Keep the game availability gate for changed iframe URLs before merging.
-- The D1 comments database is a separate runtime resource; do not change or migrate it as part of a normal static content deploy.
+- Workflow: `.github/workflows/deploy.yml`, triggered by push to `main` (and manual dispatch)
+- Required repository secrets: `CLOUDFLARE_API_TOKEN` (Cloudflare Pages: Edit) and `CLOUDFLARE_ACCOUNT_ID`
+- The workflow runs `python3 build_site.py` and `python3 validate_site.py`, then runs `wrangler pages deploy app`
+- Cloudflare never builds this site, so the committed `app/` output and the deployed output can drift; the workflow rebuilds before every upload
+- Use `wrangler pages deploy` by hand only to bypass a broken workflow, and say so when you do
+- Keep the game availability gate for changed iframe URLs before merging
+- The D1 comments database is a separate runtime resource; do not change or migrate it as part of a normal static content deploy
