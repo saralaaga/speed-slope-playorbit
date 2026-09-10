@@ -58,9 +58,18 @@ The workflow needs two repository secrets:
 | `CLOUDFLARE_ACCOUNT_ID` | `dad5acc42b3eb97b72f90f9c825339fe` | set |
 | `CLOUDFLARE_API_TOKEN` | Cloudflare account API token with `Account > Cloudflare Pages > Edit` | **required** |
 
-`CLOUDFLARE_API_TOKEN` is an account-owned token (`cfat_` prefix) and is stored in **Infisical**
-under the `speedslope` project along with the project's other secrets. Mirror its value into the
-GitHub repository secret; do not commit it and do not paste it into pull requests or issues.
+`CLOUDFLARE_API_TOKEN` is an account-owned token (`cfat_` prefix). It lives in **Infisical** in the
+`speedslope` project (`bb2ed864-23f0-4304-b79f-f16ba16004b7`), `prod` environment, which is the
+store of record. The GitHub repository secret is a mirror of that value, so rotate it in Infisical
+first. Do not commit it and do not paste it into pull requests or issues.
+
+This Infisical instance is self-hosted, so the CLI needs the domain. Link a working directory once
+and read the secrets back:
+
+```bash
+infisical init                                   # pick the OPC org, then the speedslope project
+INFISICAL_DOMAIN=http://localhost/api infisical secrets --env prod
+```
 
 To create or replace it:
 
