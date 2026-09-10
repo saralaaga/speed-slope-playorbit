@@ -1,0 +1,47 @@
+{
+  "slug": "short-path-race",
+  "title": "Short Path Race",
+  "url": "https://html5.gamemonetize.co/op5pocumwqwl4ut82vzvaw3yyk4opvm0/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Adventure",
+    "amazing",
+    "Best Games",
+    "Brain",
+    "Crazy"
+  ],
+  "rating": 4.6,
+  "plays": 1485515,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-05",
+  "desc": "Race forward, think fast, and build your own path to victory! Sprint along a narrow track surrounded by water while collecting tiles scattered across the course. Use them wisely to create shortcuts, cross gaps, and outsmart the competition but be careful. Spending all your tiles too early could leave you stranded when the final platforms demand perfect planning. Balance speed, strategy, and timing as every decision shapes your route to the finish line. Easy to start but challenging to master, this fast-paced runner tests both reflexes and smart resource management. Will you rush ahead or save enough tiles to survive the final stretch?",
+  "howto": [
+    "How to Play Run and collect tiles Use them to build shortcuts over water Don rsquo t waste tiles - save some for the final gaps Reach the finish line first to win"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "short-path-race.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 115,
+  "faqs": []
+}

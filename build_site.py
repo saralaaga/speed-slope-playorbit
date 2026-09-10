@@ -4,12 +4,14 @@
 Reads the full game catalog, publishes the configured subset, and emits HTML
 pages, thumbnails, games.json, sitemap.xml and robots.txt into ./app.
 """
-import json, os, html, hashlib, colorsys, datetime, shutil, re
+import json, os, html, hashlib, colorsys, datetime, shutil, re, struct, zlib
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(BASE, 'app')
 CONFIG_PATH = os.path.join(BASE, 'site_config.json')
 DATA_PATH = os.path.join(BASE, 'games_data.json')
+CMS_DATA_DIR = os.path.join(BASE, 'cms-data')
+CMS_SITE_SLUG = os.environ.get('SPEEDSLOPE_CMS_SITE', 'speedslope-net')
 
 DEFAULT_CONFIG = {
     'site_name': 'SpeedSlope.net',
@@ -23,13 +25,20 @@ DEFAULT_CONFIG = {
     'legal_email': 'legal@speedslope.net',
     'ads_enabled': False,
     'include_aggregate_rating_schema': False,
+    'turnstile_site_key': '',
 }
 
+def read_json(path):
+    with open(path, encoding='utf-8') as f:
+        return json.load(f)
+
+
 def load_config():
-    if not os.path.exists(CONFIG_PATH):
+    cms_config_path = os.path.join(CMS_DATA_DIR, 'sites', CMS_SITE_SLUG + '.json')
+    config_path = cms_config_path if os.path.exists(cms_config_path) else CONFIG_PATH
+    if not os.path.exists(config_path):
         return DEFAULT_CONFIG.copy()
-    with open(CONFIG_PATH, encoding='utf-8') as f:
-        user_config = json.load(f)
+    user_config = read_json(config_path)
     config = DEFAULT_CONFIG.copy()
     config.update(user_config)
     config['site_url'] = config['site_url'].rstrip('/')
@@ -42,6 +51,7 @@ TAGLINE = CONFIG['tagline']
 CONTACT_EMAIL = CONFIG['contact_email']
 GAMES_EMAIL = CONFIG['games_email']
 LEGAL_EMAIL = CONFIG['legal_email']
+TURNSTILE_SITE_KEY = CONFIG.get('turnstile_site_key', '')
 TODAY = datetime.date.today().isoformat()
 
 ALL_CATS = {
@@ -93,7 +103,35 @@ def cat_color(key):
     r, g, b = colorsys.hls_to_rgb(hue / 360, light / 100, sat / 100)
     return '#%02x%02x%02x' % tuple(round(x * 255) for x in (r, g, b))
 
+REMOVED_GAME_SLUGS = {
+    '2-player-dark-racing', '2-player-moto-racing', '2048-merge-world',
+    '2048-snake-io', 'ace-car-racing', 'animal-klotski',
+    'archer-vs-monsters', 'archery-legends', 'archery-master-bow-and-arrow',
+    'basketball-fever', 'basketball-life-3d', 'basketball-rush',
+    'basketball-stars-2026', 'billiard-diamond-challenge', 'bloons-survival-io',
+    'bounce-dunk-basketball', 'city-drift-racing', 'colorwars-io-conquest-game',
+    'drift-car-driving',
+    'crazy-bike-stunts-pvp', 'fireboy-watergirl-7-and-friends',
+    'flick-shot-soccer', 'football-heads-2026', 'football-penalty-2026',
+    'formula-car-circuit-racing', 'formula-racing-games-car-game', 'fun-golf',
+    'golf-mini', 'golf-orbit', 'mahjong-duels', 'mahjong-match-line',
+    'mahjong-tile-club', 'marble-sort', 'martial-arts-fighter-duel',
+    'merge-blocks-2048', 'mini-golf-battle', 'mini-golf-saga', 'money-2048',
+    'moto-race-city', 'moto-trials-rush', 'mystic-word-quests',
+    'nsr-street-car-racing', 'office-spider-solitaire', 'on-fire-basketball-shots',
+    'paperwar-io', 'pixel-mini-golf', 'pool-8', 'pool-duel', 'pool-master',
+    'prismroll-3d', 'push-io', 'race-it-car-racing', 'racing-game-king-hp',
+    'robin-hood-archer', 'shanghai-town', 'slippery-drift-racing', 'slithoria',
+    'snake-duel', 'snakelands-io', 'solitaire-klondike-eternal-russian-classic',
+    'solitaire-quest', 'stickman-temple-duel', 'tank-duel-3d', 'tetro-merge',
+    'the-drag-racing-challenge', 'theme-word-search', 'tiny-golf-king',
+    'traffic-racing', 'triple-shelf-match', 'word-search-universe-2',
+    'word-search-universe-animals', 'world-cup-2026-soccer-game', 'zen-solitaire',
+}
+
+
 def select_games(all_games):
+    all_games = [g for g in all_games if g['slug'] not in REMOVED_GAME_SLUGS]
     mode = CONFIG.get('launch_mode', 'single')
     if mode == 'single':
         slug = CONFIG.get('launch_game_slug') or all_games[0]['slug']
@@ -112,9 +150,39 @@ def select_games(all_games):
         return all_games
     raise ValueError(f'Unknown launch_mode: {mode}')
 
+def normalize_pairs(items, first, second):
+    result = []
+    for item in items or []:
+        if isinstance(item, dict):
+            result.append([item.get(first, ''), item.get(second, '')])
+        elif isinstance(item, (list, tuple)) and len(item) >= 2:
+            result.append([item[0], item[1]])
+    return result
+
+
+def normalize_game(game):
+    game = dict(game)
+    game['controls'] = normalize_pairs(game.get('controls'), 'key', 'action')
+    if 'faqs' in game:
+        game['faqs'] = normalize_pairs(game.get('faqs'), 'question', 'answer')
+    return game
+
+
+def load_games_data():
+    cms_games_dir = os.path.join(CMS_DATA_DIR, 'games')
+    if os.path.isdir(cms_games_dir):
+        games = [
+            normalize_game(read_json(os.path.join(cms_games_dir, name)))
+            for name in os.listdir(cms_games_dir)
+            if name.endswith('.json')
+        ]
+        return sorted(games, key=lambda g: (g.get('sort_order', 999999), g['slug']))
+    return [normalize_game(g) for g in read_json(DATA_PATH)]
+
+
 # slug, title, iframe URL, categories[0]=primary, tags, rating, plays, hot, new,
 # added, description, howto[], controls[(key, action)], tips[]
-ALL_GAMES = json.load(open(DATA_PATH, encoding='utf-8'))
+ALL_GAMES = load_games_data()
 G = select_games(ALL_GAMES)
 def enrich_categories(game):
     cats = list(dict.fromkeys(game['cats']))
@@ -218,52 +286,49 @@ BY_SLUG = {g['slug']: g for g in G}
 FEATURED_CATEGORY_GAMES = {
     'slope': 'speed-slope',
     'basketball': 'bounce-dunk-basketball',
-    'sports': 'tiny-golf-king',
+    'sports': 'neon-mini-golf',
     'racing': 'speed-slope',
     'puzzle': 'marble-sort',
     'arcade': 'nullpulse-runner',
     '2-player': 'fireboy-watergirl-7-and-friends',
-    'io': 'snakelands-io',
     'classics': 'chess-3d',
     'runner': 'nullpulse-runner',
     'driving': 'highway-driver-3d',
     'stunt': 'bike-racing-adventure',
     'motorcycle': 'bike-racing-adventure',
-    'car-racing': 'formula-car-circuit-racing',
+    'car-racing': 'car-drive-simulator',
     'obstacle-course': 'obby-three-challenges',
     'platformer': 'fireboy-watergirl-7-and-friends',
     'football': 'world-cup-2026-soccer-game',
     'soccer': 'world-cup-2026-soccer-game',
     'archery': 'archery-legends',
     'pool': 'pool-duel',
-    'golf': 'tiny-golf-king',
+    'golf': 'neon-mini-golf',
     'shooting': 'archery-legends',
     'strategy': 'chess-3d',
     'word': 'word-search-universe-animals',
     'sorting': 'marble-sort',
-    'merge': '2048-snake-io',
     'fighting': 'martial-arts-fighter-duel',
 }
 
-REMOVED_GAME_SLUGS = {
-    '2048-merge-world', 'ace-car-racing', 'animal-klotski', 'archer-vs-monsters',
-    'basketball-fever', 'basketball-life-3d', 'basketball-stars-2026',
-    'billiard-diamond-challenge', 'bloons-survival-io', 'city-drift-racing',
-    'crazy-bike-stunts-pvp', 'football-penalty-2026', 'fun-golf', 'golf-mini',
-    'golf-orbit', 'mahjong-duels', 'mahjong-match-line', 'mahjong-tile-club',
-    'merge-blocks-2048', 'mini-golf-battle', 'mini-golf-saga', 'money-2048',
-    'moto-race-city', 'moto-trials-rush', 'mystic-word-quests',
-    'nsr-street-car-racing', 'office-spider-solitaire', 'pixel-mini-golf',
-    'pool-8', 'pool-master', 'push-io', 'race-it-car-racing', 'robin-hood-archer',
-    'shanghai-town', 'slippery-drift-racing',
-    'solitaire-klondike-eternal-russian-classic', 'solitaire-quest', 'tetro-merge',
-    'theme-word-search', 'traffic-racing', 'word-search-universe-2', 'zen-solitaire',
-}
-
 REMOVED_CATEGORY_REDIRECTS = {
+    '2-player': 'arcade',
+    'archery': 'arcade',
+    'basketball': 'arcade',
     'card': 'classics',
+    'fighting': 'arcade',
+    'football': 'arcade',
+    'golf': 'arcade',
+    'io': 'arcade',
     'mahjong': 'classics',
+    'merge': 'puzzle',
+    'pool': 'classics',
+    'shooting': 'arcade',
+    'soccer': 'arcade',
     'solitaire': 'classics',
+    'sorting': 'puzzle',
+    'sports': 'arcade',
+    'word': 'puzzle',
 }
 
 SLOPE_GAME_ANGLES = {
@@ -288,12 +353,17 @@ def game_url(g, pre):
         return pre
     return f'{pre}{g["slug"]}/'
 def cat_url(c, pre): return f'{pre}games/{c}/'
-def thumb_url(g, pre): return f"{pre}assets/thumbs/{g.get('thumbfile', g['slug'] + '.svg')}"
+def thumb_file(g): return g.get('thumbfile', g['slug'] + '.png')
+def thumb_url(g, pre): return f"{pre}assets/thumbs/{thumb_file(g)}"
+def thumb_abs_url(g): return f"{SITE_URL}/assets/thumbs/{thumb_file(g)}"
+
+def game_abs_url(g):
+    return SITE_URL + '/' if g['slug'] == home_game()['slug'] else f'{SITE_URL}/{g["slug"]}/'
 
 def page_abs_url(g, canonical):
     if canonical == '':
         return SITE_URL + '/'
-    return f'{SITE_URL}/{g["slug"]}/'
+    return game_abs_url(g)
 
 # ============================================================ thumbnails
 def palette(slug):
@@ -323,7 +393,65 @@ MOTIFS = {
     'classics': ''.join(f'<rect x="{(i % 4) * 160}" y="{(i // 4) * 160}" width="160" height="160" fill="#000000" opacity="0.08"/>' for i in range(16) if (i % 4 + i // 4) % 2 == 0),
 }
 
+def write_png(path, w, h, rgb_at):
+    raw = bytearray()
+    for y in range(h):
+        raw.append(0)
+        for x in range(w):
+            raw.extend(rgb_at(x, y))
+    def chunk(kind, data):
+        return struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind + data) & 0xffffffff)
+    png = b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB', w, h, 8, 2, 0, 0, 0)) + chunk(b'IDAT', zlib.compress(bytes(raw), 9)) + chunk(b'IEND', b'')
+    with open(path, 'wb') as f:
+        f.write(png)
+
+
+def make_speed_slope_png(path, size=640):
+    def rgb_at(x, y):
+        t = y / (size - 1)
+        r = int(3 + 4 * (1 - t))
+        g = int(10 + 32 * (1 - t))
+        b = int(8 + 22 * (1 - t))
+        cx = size / 2
+        if y > size * 0.18:
+            road_w = 34 + (y - size * 0.18) / (size * 0.82) * (size * 0.92)
+            left, right = cx - road_w / 2, cx + road_w / 2
+            if left < x < right:
+                r, g, b = 4, 28, 20
+                if min(abs(x - left), abs(x - right)) < 4:
+                    r, g, b = 90, 255, 60
+                lane = abs(((x - cx) / max(road_w, 1) * 8) % 1 - .5)
+                if lane < .035:
+                    r, g, b = max(r, 30), max(g, 170), max(b, 45)
+                grid = (y - size * 0.18) / (size * 0.82)
+                if abs((grid * grid * 18) % 1) < .035:
+                    r, g, b = max(r, 50), max(g, 220), max(b, 70)
+        dx, dy = x - cx, y - size * 0.46
+        d = (dx * dx + dy * dy) ** .5
+        if 34 < d < 48:
+            r, g, b = 110, 255, 65
+        elif d <= 34:
+            r, g, b = 3, 18, 14
+        return r, g, b
+    write_png(path, size, size, rgb_at)
+
+
+def make_icon_png(path, size):
+    def rgb_at(x, y):
+        cx = cy = size / 2
+        r = ((x - cx) ** 2 + (y - cy) ** 2) ** .5
+        if r > size * .46:
+            return 0, 0, 0
+        if x > size * .39 and x < size * .39 + (y - size * .30) * .85 and x < size * .39 + (size * .70 - y) * .85 and size * .30 < y < size * .70:
+            return 17, 21, 3
+        return 185, 242, 38
+    write_png(path, size, size, rgb_at)
+
+
 def make_thumb(g):
+    if g['slug'] == 'speed-slope':
+        make_speed_slope_png(os.path.join(ROOT, 'assets', 'thumbs', 'speed-slope.png'))
+        return
     c1, c2 = palette(g['slug'])
     motif = MOTIFS.get(g['cats'][0], MOTIFS['arcade'])
     ini = initials(g['title'])
@@ -360,7 +488,9 @@ STAR = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.
 PLAY_TRI = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>'
 
 def head(title, desc, pre, canonical, extra='', og_image=None):
-    og = f'<meta property="og:image" content="{SITE_URL}/{og_image}">' if og_image else ''
+    social_image = f'{SITE_URL}/{og_image}' if og_image else ''
+    og = f'<meta property="og:image" content="{social_image}">\n<meta property="og:image:width" content="640">\n<meta property="og:image:height" content="640">' if og_image else ''
+    twitter_image = f'<meta name="twitter:image" content="{social_image}">' if og_image else ''
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -368,6 +498,7 @@ def head(title, desc, pre, canonical, extra='', og_image=None):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="{SITE_URL}/{canonical}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{SITE_NAME}">
@@ -375,7 +506,11 @@ def head(title, desc, pre, canonical, extra='', og_image=None):
 <meta property="og:description" content="{esc(desc)}">
 {og}
 <meta name="twitter:card" content="summary_large_image">
+{twitter_image}
 <link rel="icon" href="{pre}assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{pre}assets/favicon-48x48.png" sizes="48x48" type="image/png">
+<link rel="apple-touch-icon" href="{pre}assets/apple-touch-icon.png">
+<link rel="manifest" href="{pre}site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
@@ -420,6 +555,7 @@ def header(pre, active=''):
 </nav>'''
 
 def footer(pre):
+    turnstile = '<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>' if TURNSTILE_SITE_KEY else ''
     return f'''<footer class="site-footer">
 <div class="container footer-grid">
 <div>
@@ -445,6 +581,7 @@ def footer(pre):
 <a href="{pre}privacy/">Privacy</a><a href="{pre}terms/">Terms</a><a href="{pre}dmca/">DMCA</a>
 </div>
 </footer>
+{turnstile}
 <script src="{pre}assets/js/main.js?v={JS_V}"></script>
 </body>
 </html>'''
@@ -465,6 +602,23 @@ def ad(cls_, size):
     if not CONFIG.get('ads_enabled'):
         return ''
     return f'<div class="ad-slot {cls_}"><span class="ad-label">Advertisement</span><span class="ad-size">{esc(size)}</span></div>'
+
+
+def comments_section(g, pre):
+    sitekey = esc(TURNSTILE_SITE_KEY)
+    turnstile = f'<div class="cf-turnstile" data-sitekey="{sitekey}"></div>' if sitekey else '<p class="comment-note">Comment posting is waiting for spam-check setup.</p>'
+    disabled = '' if sitekey else ' disabled'
+    return f'''<section class="content-block comments-panel" id="comments" data-comments data-slug="{esc(g['slug'])}">
+<div class="comments-head"><div><h2>Comments</h2><p>Share a quick note about this game. Email is optional and never shown publicly.</p></div><span id="commentsCount">0 comments</span></div>
+<div class="comments-list" id="commentsList"><p class="comment-note">Loading comments...</p></div>
+<form class="comment-form" id="commentForm">
+<div class="comment-fields"><label>Name <input name="displayName" maxlength="60" autocomplete="name" placeholder="Anonymous"></label><label>Email <input name="email" maxlength="254" autocomplete="email" inputmode="email" placeholder="Optional"></label></div>
+<label>Comment <textarea name="body" maxlength="1000" required placeholder="What did you think?"></textarea></label>
+<label class="comment-hp">Website <input name="website" tabindex="-1" autocomplete="off"></label>
+{turnstile}
+<div class="comment-actions"><button class="btn btn-primary" type="submit"{disabled}>Post comment</button><span id="commentStatus" class="comment-note"></span></div>
+</form>
+</section>'''
 
 
 # ============================================================ pages
@@ -557,8 +711,8 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
     same.sort(key=lambda x: -x['plays'])
     others = sorted([x for x in G if x is not g and prim not in x['cats']], key=lambda x: -x['plays'])
     related = (same + others)
-    left_rel = related[:8]
-    right_rel = related[8:16]
+    left_rel = related[:7]
+    right_rel = related[7:14]
     more_rel = related[:10]
     faqs = g.get('faqs') or [
         (f'Is {g["title"]} free to play?',
@@ -583,7 +737,7 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
         slope_angle = f'<h3>Why Speed Slope Fans Might Like It</h3><p>{esc(slope_angle_text)}</p>'
     votes = max(60, int(g['plays'] / 900))
     game_ld = {"@context": "https://schema.org", "@type": "VideoGame", "name": g['title'],
-        "url": page_abs_url(g, canonical), "image": f"{SITE_URL}/assets/thumbs/" + g.get("thumbfile", g["slug"] + ".svg"),
+        "url": page_abs_url(g, canonical), "image": thumb_abs_url(g),
         "description": g['desc'], "genre": cat_names, "gamePlatform": "Web Browser",
         "applicationCategory": "Game", "operatingSystem": "Any",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}
@@ -601,7 +755,7 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
     ]
     stars = ''.join(f'<button type="button" aria-label="Rate {i} stars">{STAR}</button>' for i in range(1, 6))
     extra = ''.join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in ld)
-    html_doc = head(title, desc, pre, canonical, extra=extra, og_image='assets/thumbs/' + g.get('thumbfile', g['slug'] + '.svg'))
+    html_doc = head(title, desc, pre, canonical, extra=extra, og_image='assets/thumbs/' + thumb_file(g))
     html_doc += header(pre)
     left_side = (f'''<aside class="play-side left theater-hide"><span class="side-title">You may also like</span>
 {''.join(mini_card(x, pre) for x in left_rel)}</aside>''' if left_rel else '')
@@ -631,11 +785,12 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
     if autoplay:
         # No click gate: the iframe is rendered right into the HTML so the
         # game starts loading with the page itself, even before/without JS.
-        stage_inner = f'''<div class="stage-loading show" id="stageLoading"><div class="spin"></div></div>
+        stage_inner = f'''<div class="stage-loading show" id="stageLoading"><img class="stage-preview-img" src="{thumb_url(g, pre)}" alt="{esc(g['title'])} online game screenshot" width="640" height="640"><div class="spin"></div></div>
 <iframe id="gameFrame" src="{esc(g['url'])}" title="{esc(g['title'])}" allow="autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking; cross-origin-isolated" allowfullscreen></iframe>
 {error_box}'''
     else:
         stage_inner = f'''<div class="stage-cover" id="stageCover" style="background-image:url('{thumb_url(g, pre)}')">
+<img class="stage-preview-img" src="{thumb_url(g, pre)}" alt="{esc(g['title'])} online game screenshot" width="640" height="640">
 <h2>{esc(g['title'])}</h2>
 <button class="btn btn-primary btn-lg" id="playNow">{PLAY_TRI} Play Now</button>
 <span style="color:var(--muted);font-size:13px">Loads the game only after you click</span>
@@ -672,6 +827,7 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
 </div>
 {right_side}
 </div>
+{comments_section(g, pre)}
 <section class="content-block">
 <h2>About {esc(g['title'])}</h2>
 <p>{esc(g['desc'])}</p>
@@ -726,9 +882,19 @@ def sort_bar(count_label=''):
 <span class="result-count" id="gridCount">{count_label}</span>
 </div>'''
 
+def item_list_ld(name, canonical, games):
+    return {"@context": "https://schema.org", "@type": "ItemList", "name": name,
+            "url": f'{SITE_URL}/{canonical}', "numberOfItems": len(games),
+            "itemListElement": [
+                {"@type": "ListItem", "position": i + 1, "url": game_abs_url(g), "name": g['title'], "image": thumb_abs_url(g)}
+                for i, g in enumerate(games[:24])
+            ]}
+
+
 def category_player(canonical, pre, games):
     cat = canonical.removeprefix('games/').strip('/')
-    g = BY_SLUG.get(FEATURED_CATEGORY_GAMES.get(cat, ''))
+    featured_slug = FEATURED_CATEGORY_GAMES.get(cat, '')
+    g = next((x for x in games if x['slug'] == featured_slug), games[0] if games else None)
     if not g:
         return ''
     alts = [x for x in games if x['slug'] != g['slug']][:3]
@@ -740,7 +906,7 @@ def category_player(canonical, pre, games):
 <div>{alt_links}</div>
 </div>''' if alt_links else ''
     return f'''<section class="category-player">
-<div class="stage"><iframe src="{esc(g['url'])}" title="{esc(g['title'])}" allow="autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking; cross-origin-isolated" allowfullscreen></iframe></div>
+<div class="stage"><img class="stage-preview-img" src="{thumb_url(g, pre)}" alt="{esc(g['title'])} online game screenshot" width="640" height="640"><iframe src="{esc(g['url'])}" title="{esc(g['title'])}" allow="autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking; cross-origin-isolated" allowfullscreen></iframe></div>
 <div class="category-player-copy">
 <div class="category-player-text">
 <span class="side-title">Featured game</span>
@@ -754,7 +920,7 @@ def category_player(canonical, pre, games):
 
 def page_redirects():
     lines = [f'/{slug}/ / 301' for slug in sorted(REMOVED_GAME_SLUGS)]
-    lines += [f'/games/{src}/ /games/{dst}/ 301' for src, dst in sorted(REMOVED_CATEGORY_REDIRECTS.items())]
+    lines += [f'/games/{src}/ /games/{dst}/ 301' for src, dst in sorted(REMOVED_CATEGORY_REDIRECTS.items()) if src not in CATS]
     write('_redirects', '\n'.join(lines) + '\n')
 
 def page_list(slug, h1, blurb, games, seo, canonical, active=''):
@@ -771,7 +937,9 @@ def page_list(slug, h1, blurb, games, seo, canonical, active=''):
 <p>Slope games are fast browser games built around momentum, reaction time and narrow margins for error. If you searched for games like Speed Slope, start with rolling, racing and runner games that ask you to read the path early, make small corrections and restart quickly after a crash.</p>
 <p>This collection stays focused on 3D reflex games instead of mixing in unrelated sports, card or quiz pages. That makes it easier to find another game with the same speed, obstacle-dodging and one-more-run feeling as Speed Slope.</p>
 </section>'''
-    html_doc = head(page_title, meta_desc, pre, canonical)
+    extra = f'<script type="application/ld+json">{json.dumps(item_list_ld(h1, canonical, games))}</script>'
+    og_image = 'assets/thumbs/' + thumb_file(games[0]) if games else None
+    html_doc = head(page_title, meta_desc, pre, canonical, extra=extra, og_image=og_image)
     html_doc += header(pre, active)
     html_doc += f'''<main class="container">
 <div class="page-head"><h1>{esc(h1)} <span class="tick">.</span></h1><p>{esc(blurb)}</p></div>
@@ -819,6 +987,174 @@ def page_static(slug, h1, body):
     html_doc += f'<main class="container"><div class="prose"><h1>{esc(h1)}</h1>{body}</div></main>'
     html_doc += footer(pre)
     write(slug + '/index.html', html_doc)
+
+
+def page_admin_comments():
+    pre = '../../'
+    html_doc = head(f'Comment Moderation | {SITE_NAME}', 'Review submitted comments.', pre, 'admin/comments/').replace(
+        'index,follow,max-image-preview:large', 'noindex,nofollow'
+    )
+    html_doc += header(pre)
+    html_doc += '''<main class="container">
+<div class="page-head"><h1>Comment Moderation <span class="tick">.</span></h1><p>Review pending comments and keep spam off the site.</p></div>
+<section class="content-block admin-comments" id="adminComments">
+<div class="list-toolbar"><button class="sort-btn active" data-status="pending">Pending</button><button class="sort-btn" data-status="approved">Approved</button><button class="sort-btn" data-status="rejected">Rejected</button><button class="sort-btn" data-status="hidden">Hidden</button><span class="result-count" id="adminCommentCount"></span></div>
+<div id="adminCommentList" class="comments-list"><p class="comment-note">Loading comments...</p></div>
+</section>
+</main>'''
+    html_doc += footer(pre)
+    write('admin/comments/index.html', html_doc)
+
+
+def yaml_quote(value):
+    return '"' + str(value).replace('\\', '\\\\').replace('"', '\\"') + '"'
+
+
+def cms_config_yml():
+    category_options = '\n'.join(
+        f'          - {{ label: {yaml_quote(label)}, value: {yaml_quote(slug)} }}'
+        for slug, (label, _) in sorted(ALL_CATS.items())
+    )
+    return f'''# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+backend:
+  name: github
+  repo: saralaaga/speed-slope-playorbit
+  branch: main
+
+media_folder: app/assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: sites
+    label: Sites
+    files:
+      - name: speedslope_net
+        label: SpeedSlope.net
+        file: cms-data/sites/speedslope-net.json
+        format: json
+        fields:
+          - {{ label: Site Name, name: site_name, widget: string }}
+          - {{ label: Site URL, name: site_url, widget: string }}
+          - {{ label: Site Slug, name: slug, widget: string, required: false }}
+          - {{ label: Domain, name: domain, widget: string, required: false }}
+          - {{ label: Tagline, name: tagline, widget: text }}
+          - {{ label: Launch Mode, name: launch_mode, widget: select, options: [single, portal, slugs] }}
+          - {{ label: Launch Game Slug, name: launch_game_slug, widget: string, required: false }}
+          - {{ label: Home Game Slug, name: home_game_slug, widget: string, required: false }}
+          - label: Published Game Slugs
+            name: published_game_slugs
+            widget: list
+            required: false
+            field: {{ label: Game Slug, name: slug, widget: string }}
+          - {{ label: Contact Email, name: contact_email, widget: string }}
+          - {{ label: Games Email, name: games_email, widget: string }}
+          - {{ label: Legal Email, name: legal_email, widget: string }}
+          - {{ label: Ads Enabled, name: ads_enabled, widget: boolean, default: false }}
+          - {{ label: Aggregate Rating Schema, name: include_aggregate_rating_schema, widget: boolean, default: false }}
+          - {{ label: Turnstile Site Key, name: turnstile_site_key, widget: string, required: false }}
+
+  - name: games
+    label: Games
+    folder: cms-data/games
+    extension: json
+    format: json
+    create: true
+    slug: "{{{{slug}}}}"
+    identifier_field: title
+    summary: "{{{{title}}}} · {{{{slug}}}}"
+    sortable_fields: [title, slug, plays, rating, added, sort_order]
+    fields:
+      - {{ label: Sort Order, name: sort_order, widget: number, value_type: int, required: false }}
+      - {{ label: Title, name: title, widget: string }}
+      - {{ label: Slug, name: slug, widget: string }}
+      - {{ label: Iframe URL, name: url, widget: string }}
+      - label: Categories
+        name: cats
+        widget: select
+        multiple: true
+        options:
+{category_options}
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        field: {{ label: Tag, name: tag, widget: string }}
+      - {{ label: Rating, name: rating, widget: number, value_type: float, min: 1, max: 5 }}
+      - {{ label: Plays, name: plays, widget: number, value_type: int, min: 0 }}
+      - {{ label: Hot, name: hot, widget: boolean, default: false }}
+      - {{ label: New, name: "new", widget: boolean, default: false }}
+      - {{ label: Added Date, name: added, widget: string, required: false }}
+      - {{ label: SEO Title, name: seo_title, widget: string, required: false }}
+      - {{ label: Meta Description, name: meta_desc, widget: text, required: false }}
+      - {{ label: Description, name: desc, widget: text }}
+      - label: How To Play
+        name: howto
+        widget: list
+        required: false
+        field: {{ label: Step, name: step, widget: string }}
+      - label: Controls
+        name: controls
+        widget: list
+        required: false
+        fields:
+          - {{ label: Key, name: key, widget: string }}
+          - {{ label: Action, name: action, widget: string }}
+      - label: Tips
+        name: tips
+        widget: list
+        required: false
+        field: {{ label: Tip, name: tip, widget: string }}
+      - label: FAQs
+        name: faqs
+        widget: list
+        required: false
+        fields:
+          - {{ label: Question, name: question, widget: string }}
+          - {{ label: Answer, name: answer, widget: text }}
+      - {{ label: Embed Source, name: embed_source, widget: string, required: false }}
+      - {{ label: Thumbnail URL, name: thumb_url, widget: string, required: false }}
+
+  - name: categories
+    label: Categories
+    folder: cms-data/categories
+    extension: json
+    format: json
+    create: true
+    slug: "{{{{slug}}}}"
+    identifier_field: name
+    fields:
+      - {{ label: Name, name: name, widget: string }}
+      - {{ label: Slug, name: slug, widget: string }}
+      - {{ label: Active, name: active, widget: boolean, default: true }}
+'''
+
+
+def page_admin_cms():
+    html_doc = '''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Content CMS</title>
+</head>
+<body>
+<script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
+</body>
+</html>'''
+    redirect_doc = '''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="refresh" content="0; url=../">
+<title>Content CMS</title>
+</head>
+<body><a href="../">Open Content CMS</a></body>
+</html>'''
+    write('admin/index.html', html_doc)
+    write('admin/config.yml', cms_config_yml())
+    write('admin/cms/index.html', redirect_doc)
 
 
 # ============================================================ static content
@@ -869,11 +1205,18 @@ DMCA = f'''<p>{SITE_NAME} respects the intellectual-property rights of game deve
 def main():
     clean_output()
     os.makedirs(os.path.join(ROOT, 'assets', 'thumbs'), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, 'assets', 'uploads'), exist_ok=True)
     for g in G:
         if 'thumbfile' not in g: make_thumb(g)
 
     favicon = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#b9f226"/><path d="M26 20l18 12-18 12z" fill="#111503"/></svg>'''
     write('assets/favicon.svg', favicon)
+    make_icon_png(os.path.join(ROOT, 'assets', 'favicon-48x48.png'), 48)
+    make_icon_png(os.path.join(ROOT, 'assets', 'apple-touch-icon.png'), 180)
+    write('site.webmanifest', json.dumps({"name": SITE_NAME, "short_name": "SpeedSlope", "icons": [
+        {"src": "assets/favicon-48x48.png", "sizes": "48x48", "type": "image/png"},
+        {"src": "assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}
+    ], "theme_color": "#b9f226", "background_color": "#0a0d07", "display": "browser"}, indent=1))
 
     page_home()
     for g in G: page_game(g)
@@ -904,10 +1247,12 @@ def main():
     page_static('privacy', 'Privacy Policy', PRIVACY)
     page_static('terms', 'Terms of Use', TERMS)
     page_static('dmca', 'Copyright / DMCA', DMCA)
+    page_admin_comments()
+    page_admin_cms()
 
     # games.json (root-relative; search page prefixes its own depth)
     data = [dict(title=g['title'], slug=g['slug'], url=game_url(g, ''),
-                 thumb='assets/thumbs/' + g.get('thumbfile', g['slug'] + '.svg'), categories=[CATS[c][0] for c in g['cats']],
+                 thumb='assets/thumbs/' + thumb_file(g), categories=[CATS[c][0] for c in g['cats']],
                  tags=g['tags'], rating=g['rating'], plays=g['plays'], isHot=g['hot'], isNew=g['new'])
             for g in G]
     write('games.json', json.dumps(data, ensure_ascii=False, indent=1))

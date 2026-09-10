@@ -1,0 +1,49 @@
+{
+  "slug": "car-stunt-master-3d",
+  "title": "Car Stunt Master 3D",
+  "url": "https://html5.gamemonetize.co/whif0oyefcqgtgtoa8clf8rxrna53gui/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "3D",
+    "Arcade",
+    "Car",
+    "Driving",
+    "jump",
+    "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1544160,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-18",
+  "desc": "Take control of a powerful sports car and conquer spectacular sky-high stunt tracks. Race across ramps, loops, and narrow platforms, perform daring jumps, and reach the finish without falling. Web Dev &lt;a href='https://www.bestcrazygames.com/'&gt;https://www.bestcrazygames.com/&lt;/a&gt;",
+  "howto": [
+    "Use WASD or the Arrow keys to drive and steer Press Space for the handbrake Follow the course control the car in the air and reach the finish line"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-stunt-master-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 58,
+  "faqs": []
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "basketball-rush",
+  "title": "Basketball Rush",
+  "url": "https://html5.gamedistribution.com/c9c7eaeae8484aeda3b27e5543313292/",
+  "cats": [
+    "basketball",
+    "arcade"
+  ],
+  "tags": [
+    "Basketball",
+    "Runner"
+  ],
+  "rating": 4.5,
+  "plays": 2675932,
+  "hot": false,
+  "new": false,
+  "added": "2025-12-02",
+  "desc": "This isn’t just about shooting — it's about precision, patience and strategy. As you score, the game intensifies, but with helpful power-ups at your disposal, you’ll be ready for anything. Unlock a variety of unique ball skins to customize your game and add even more excitement.",
+  "howto": [
+    "Drag and release the ball to aim and shoot it into the basket",
+    "The more baskets you score, the more difficult the game becomes!",
+    "Use power-ups to help you in challenging moments",
+    "Earn coins with every successful shot to unlock new ball skins",
+    "Keep playing to beat your high score and master the game!"
+  ],
+  "controls": [
+    {
+      "key": "Drag",
+      "action": "move items"
+    }
+  ],
+  "tips": [
+    "Pump fake first — most defenders bite on it.",
+    "Release at the top of the arc for the best accuracy."
+  ],
+  "thumbfile": "basketball-rush.jpg",
+  "sort_order": 2,
+  "faqs": []
+}

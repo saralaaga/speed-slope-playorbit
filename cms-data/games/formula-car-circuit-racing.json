@@ -1,0 +1,44 @@
+{
+  "slug": "formula-car-circuit-racing",
+  "title": "Formula Car Circuit Racing",
+  "url": "https://html5.gamemonetize.co/jyuol9zck6ti6y3654qqs6pg0r857df8/",
+  "cats": [
+    "slope",
+    "racing"
+  ],
+  "tags": [
+    "Formula",
+    "Circuit",
+    "Speed"
+  ],
+  "rating": 4.4,
+  "plays": 1251339,
+  "hot": false,
+  "new": false,
+  "added": "2026-01-18",
+  "desc": "Experience the thrill of high-speed motorsport in Formula Car Real Racing! Jump behind the wheel of powerful formula racing cars and compete against skilled rivals on stunning race tracks. Push your driving skills to the limit as you overtake opponents, master sharp turns, and race for the championship title. Enjoy realistic racing action, smooth controls, dynamic environments, and intense competition across multiple challenging circuits. Upgrade your racing skills, chase the fastest lap times, and prove that you have what it takes to become the ultimate formula racing champion.",
+  "howto": [
+    "W up arrow key accelerate A left arrow key turn left D right arrow key turn right S down arrow key brake B look back C change camera view Mouse Click To Interact"
+  ],
+  "controls": [
+    {
+      "key": "Arrow keys",
+      "action": "move / steer"
+    },
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    }
+  ],
+  "tips": [
+    "Brake before the corner, accelerate out of it.",
+    "A clean lap beats a risky overtake."
+  ],
+  "thumbfile": "formula-car-circuit-racing.jpg",
+  "sort_order": 20,
+  "faqs": []
+}

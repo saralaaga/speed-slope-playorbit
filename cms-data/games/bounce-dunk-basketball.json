@@ -1,0 +1,39 @@
+{
+  "slug": "bounce-dunk-basketball",
+  "title": "Bounce Dunk Basketball",
+  "url": "https://html5.gamedistribution.com/1fc360a54d2a4289967880fbf6e3834c/",
+  "cats": [
+    "basketball"
+  ],
+  "tags": [
+    "Basketball",
+    "Dunk",
+    "Physics"
+  ],
+  "rating": 4.4,
+  "plays": 3594691,
+  "hot": true,
+  "new": true,
+  "added": "2026-06-19",
+  "desc": "Love basketball? Want to master the art of bouncing and dunking? In Bounce Dunk - Basketball, you must skillfully control the balls bounce to make perfect shots and get high scores. Tap the screen to control the angle and strength of the basketball so that the ball bounces perfectly into the basket. Or destroy enemies, get coins, etc.",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    }
+  ],
+  "tips": [
+    "Pump fake first — most defenders bite on it.",
+    "Release at the top of the arc for the best accuracy."
+  ],
+  "thumbfile": "bounce-dunk-basketball.jpg",
+  "sort_order": 3,
+  "faqs": []
+}

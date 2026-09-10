@@ -1,0 +1,47 @@
+{
+  "slug": "extreme-monster-truck",
+  "title": "Extreme Monster Truck",
+  "url": "https://html5.gamemonetize.co/wmbjgaewe5ml9mhrj60s9587bckiy6ts/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Adventure",
+    "Car",
+    "Driving",
+    "Monster",
+    "monstertruck"
+  ],
+  "rating": 4.5,
+  "plays": 1500426,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-13",
+  "desc": "Get ready for the most thrilling and action-packed offroad experience in Extreme Monster Truck! Drive powerful monster trucks across challenging terrains, conquer impossible tracks, and prove your driving skills in this high-energy racing adventure. Take control of massive trucks with incredible power and perform jaw-dropping stunts on rugged hills, muddy roads, desert tracks, and dangerous obstacles. Every level is designed to test your precision, speed, and control. Can you handle the extreme challenge?",
+  "howto": [
+    "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "extreme-monster-truck.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 110,
+  "faqs": []
+}

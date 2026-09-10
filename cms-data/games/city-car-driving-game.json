@@ -1,0 +1,46 @@
+{
+  "slug": "city-car-driving-game",
+  "title": "City Car Driving Game",
+  "url": "https://html5.gamemonetize.co/m00hcof3fuskic5zjn56oyceee6it6ub/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Adventure",
+    "Best Games",
+    "Cars",
+    "Race"
+  ],
+  "rating": 4.3,
+  "plays": 1542014,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-10",
+  "desc": "City Car Driving Game is an exciting 3D driving experience where players can explore city roads, control a powerful car, and enjoy smooth driving gameplay. Take control of your vehicle, navigate through urban streets, avoid obstacles, and improve your driving skills while exploring the city environment. Get behind the wheel and experience realistic city driving with simple and responsive controls. Carefully drive through busy roads, maintain control of your car, and complete different driving challenges.",
+  "howto": [
+    "To Play Game Use Mouse Arrow Up rarr Move Front Arrow Down rarr Move Back Arrow Left rarr Move Left Arrow Right rarr Move Right"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "city-car-driving-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 65,
+  "faqs": []
+}

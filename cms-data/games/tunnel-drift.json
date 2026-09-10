@@ -1,0 +1,46 @@
+{
+  "slug": "tunnel-drift",
+  "title": "Tunnel Drift",
+  "url": "https://html5.gamemonetize.co/4ox8d1qc9bwgge7gxfj7pw1hj9cgfz3t/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "1 Player",
+    "2026 games",
+    "Action",
+    "Race",
+    "survival"
+  ],
+  "rating": 4.2,
+  "plays": 1472861,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-17",
+  "desc": "Tunnel Drift is an intense endless arcade racer where precision is key. Key Features: Heavy Duty Drifting: Experience unique handling as you drift a heavy truck through a 360-degree rotating tunnel. Endless Challenge: The further you go, the faster it gets. Procedurally generated levels mean no two runs are the same! High Score Hunt: Collect Rings to maximize your points and challenge players worldwide on the Global Leaderboard. Instant Action: Simple controls, hard to master gameplay. Just tap to drift and survive!",
+  "howto": [
+    "Controls Keyboard Left Arrow or A Rotate Tunnel Left Right Arrow or D Rotate Tunnel Right Mouse Touch Click Tap Left Side of Screen Rotate Left Click Tap Right Side of Screen Rotate Right"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "tunnel-drift.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 129,
+  "faqs": []
+}

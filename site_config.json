@@ -19,5 +19,6 @@
   "games_email": "games@speedslope.net",
   "legal_email": "legal@speedslope.net",
   "ads_enabled": false,
-  "include_aggregate_rating_schema": false
+  "include_aggregate_rating_schema": false,
+  "turnstile_site_key": "0x4AAAAAAEdziIcGbfacR9-v"
 }

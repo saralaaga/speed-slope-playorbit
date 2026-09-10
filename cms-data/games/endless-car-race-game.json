@@ -1,0 +1,47 @@
+{
+  "slug": "endless-car-race-game",
+  "title": "Endless Car Race Game",
+  "url": "https://html5.gamemonetize.co/dlr5gxvflvpqqj28bpylyte7sn88mx1r/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Adventure",
+    "Best Games",
+    "Cars",
+    "Highscore",
+    "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1540312,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-04",
+  "desc": "Get ready for an exciting and fast-paced driving experience with Endless Car Race Game! Take control of your car, hit the road, avoid obstacles, and see how far you can go in this thrilling endless racing adventure. Drive through challenging roads, react quickly to traffic and obstacles, and keep your car moving for as long as possible. The game is easy to play but becomes increasingly challenging as you continue, making every run exciting and unpredictable.",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "endless-car-race-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 70,
+  "faqs": []
+}

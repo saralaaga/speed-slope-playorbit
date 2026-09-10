@@ -1,0 +1,47 @@
+{
+  "slug": "vehicle-masters",
+  "title": "Vehicle Masters",
+  "url": "https://html5.gamemonetize.co/k516anavcz2cqqtuee6aa5gjst8m0vxn/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "1 Player",
+    "carparking",
+    "Cars",
+    "Parking",
+    "Simulation",
+    "Truck"
+  ],
+  "rating": 4.3,
+  "plays": 1521590,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-13",
+  "desc": "Vehicle Masters is a minimalist arcade parking challenge with over 40 increasingly difficult levels. Maneuver your car through tight spaces, avoid obstacles, and park perfectly in the marked spot. Each level introduces new layouts &amp;mdash; narrow alleys, moving barriers, sharp corners, and crowded lots. What makes it unique? Simple controls with realistic physics: steering plus manual gear shifting (forward and reverse). On desktop you control gears manually with keys; on mobile you only steer &amp;mdash; gears switch automatically for smooth gameplay. With clean visuals and progressive difficulty, this game tests precision and patience. P",
+  "howto": [
+    "Park inside the green zone without hitting walls or obstacles Complete each level to unlock the next Desktop ndash Arrow keys or WASD to steer R for reverse gear D for drive gear Spacebar for brake Mobile ndash Only steering mdash tap left rig"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "vehicle-masters.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 86,
+  "faqs": []
+}

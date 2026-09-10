@@ -1,0 +1,49 @@
+{
+  "slug": "dead-paradise",
+  "title": "Dead Paradise",
+  "url": "https://html5.gamemonetize.co/td7r994z5ls02swod3lm0gk9h2jl2jmi/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "shooting",
+    "arcade"
+  ],
+  "tags": [
+    "3D",
+    "3D Games",
+    "Action",
+    "Cars",
+    "Shoot 'Em Up",
+    "Shooting"
+  ],
+  "rating": 4.4,
+  "plays": 1515300,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-05",
+  "desc": "Dead Paradise: Race Shooter is an apocalyptic car game where you have to shoot your enemies. Drive and shoot your enemies at the same time to finish the level! Your goal is not only to finish the race, but to survive it. Your enemies will come after you in all sorts of vehicles. Finish the level and earn coins to upgrade your car in the garage. There are missile upgrades, armor upgrades, engine upgrades and fuel upgrades to unlock that will increase your damage, health and speed. There are even other awesome looking vehicles that you can buy.",
+  "howto": [
+    "Accelerate - arrow up Slow down - arrow down Launch missiles - x Adjust firing direction - z Nitro - space"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "dead-paradise.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 93,
+  "faqs": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "drive-and-dodge-car-racing-3d",
+  "title": "Drive and Dodge: Car Racing 3D",
+  "url": "https://html5.gamemonetize.co/eevs3wrwe1jwqi87dh1ov6n2opkmdb1y/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "1 Player",
+    "3D",
+    "Android",
+    "Arcade",
+    "Car",
+    "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 1536131,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-29",
+  "desc": "Get ready for the ultimate high-speed test of reflexes in Drive and Dodge: Car Racing 3D! Race against a ticking clock with smooth auto-acceleration. Hit Blue +5 panels to gain time, avoid Red -5 panels, and master sharp drifts to charge your Nitro and smash through obstacles. Unlock new cars and test your driving skills now! - Fast-Paced Action: Race against a ticking clock with smooth auto-acceleration. - Time Management: Hit Blue +5 panels to gain time and avoid Red -5 panels. - Nitro Boosts: Master sharp drifts to charge your Nitro and smash through obstacles. - Garage &amp;amp; Upgrades: Unlock new cars with special pre-game advantages.",
+  "howto": [
+    "Acceleration Auto Brake Space Bar Time Boost E Life Boost Q Activate Nitro W Turn Left Right A D Buy Nitro T"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "drive-and-dodge-car-racing-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 75,
+  "faqs": []
+}

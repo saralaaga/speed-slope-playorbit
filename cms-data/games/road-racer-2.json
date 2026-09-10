@@ -1,0 +1,46 @@
+{
+  "slug": "road-racer-2",
+  "title": "Road Racer 2",
+  "url": "https://html5.gamemonetize.co/zru2a1xcmbfoa11pq8nqlce2dzfes58a/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Car",
+    "Driving",
+    "endless",
+    "Racing",
+    "spin-wheel"
+  ],
+  "rating": 4.3,
+  "plays": 1470493,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-09",
+  "desc": "Experience the thrill of the neon highway in Road Racer 2! Drive at high speeds, dodge heavy traffic, and survive the realistic day-night cycle with dynamic street lighting. Features smooth physics-based steering, stunning visual effects, and intense endless gameplay. How far can you go without crashing?",
+  "howto": [
+    "Desktop Use Left and Right Arrow keys to steer Mobile Tap the Left or Right side of the screen to move"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "road-racer-2.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 135,
+  "faqs": []
+}

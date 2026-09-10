@@ -1,0 +1,44 @@
+{
+  "slug": "prismroll-3d",
+  "title": "PrismRoll 3D",
+  "url": "https://html5.gamedistribution.com/dfc9440057754f419595aca5be1633fc/",
+  "cats": [
+    "slope",
+    "puzzle"
+  ],
+  "tags": [
+    "3D",
+    "Logic"
+  ],
+  "rating": 4.5,
+  "plays": 335660,
+  "hot": false,
+  "new": false,
+  "added": "2026-01-19",
+  "desc": "PrismRoll 3D is a challenging puzzle game where you swipe to roll a 3D block across different tiles to reach the target hole. Navigate through fragile tiles, switches, teleporters, and split mechanics across 100 unique levels. Customize your block with different skins and shapes. Can you beat them all?.",
+  "howto": [
+    "Swipe or use Arrow Keys/WASD to roll the block",
+    "Reach the red target hole to complete each level",
+    "Avoid falling off edges and fragile tiles!",
+    "Press switches to open bridges",
+    "Stand on blue split pads to split into two halves",
+    "tap or press Spacebar to switch between them"
+  ],
+  "controls": [
+    {
+      "key": "WASD",
+      "action": "move"
+    },
+    {
+      "key": "Touch / swipe",
+      "action": "mobile controls"
+    }
+  ],
+  "tips": [
+    "Work from the corners — they constrain the board the most.",
+    "Plan two moves ahead before committing."
+  ],
+  "thumbfile": "prismroll-3d.jpg",
+  "sort_order": 25,
+  "faqs": []
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "advance-car-game-parking",
+  "title": "Advance Car Game Parking",
+  "url": "https://html5.gamemonetize.co/dmbvkzqhkgd6mxchjrkvg95q2ra1xw7m/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Action",
+    "Adventure",
+    "Car",
+    "carparking",
+    "Police"
+  ],
+  "rating": 4.7,
+  "plays": 1541496,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-06",
+  "desc": "Snow Car Parking Game is a fun and challenging 3D driving game where you test your parking skills in a snowy environment. Drive carefully through icy roads, avoid traffic cones and obstacles, and park your car perfectly in the marked parking area. Control your vehicle on slippery surfaces, complete challenging levels, and improve your precision and driving skills. With realistic car physics, winter environments, and smooth gameplay, Snow Car Parking Game offers an exciting parking experience for driving game fans.",
+  "howto": [
+    "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "advance-car-game-parking.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 68,
+  "faqs": []
+}

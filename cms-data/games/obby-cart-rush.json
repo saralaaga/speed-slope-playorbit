@@ -1,0 +1,49 @@
+{
+  "slug": "obby-cart-rush",
+  "title": "Obby Cart Rush",
+  "url": "https://html5.gamemonetize.co/tmhj9i3trg8ot0u7h9qahh6flzn9zkjp/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "3D",
+    "Adventure",
+    "Arcade",
+    "Car",
+    "Cartoon",
+    "Driving"
+  ],
+  "rating": 4.3,
+  "plays": 1539276,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-03",
+  "desc": "Obby Cart Rush is a fast, colorful 3D cart-coaster obby! Jump into your wooden minecart and race down wild roller-coaster tracks across 5 themed worlds - Mountain, House, Forest, City and Zoo. Hold to speed up, brake before the signs, survive loops and steep drops, and reach the flag as fast as you can to earn Bronze, Silver and Gold medals. Simple one-tap controls, works great on mobile (landscape) and desktop. How fast can you finish every track? Play Obby Cart Rush now!",
+  "howto": [
+    "Hold press UP to accelerate the cart release or press DOWN to brake before the speed signs Survive the loops and drops and reach the flag Mobile on-screen gas amp brake pedals joystick Desktop W UP to go S DOWN to brake R to restart"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "obby-cart-rush.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 71,
+  "faqs": []
+}

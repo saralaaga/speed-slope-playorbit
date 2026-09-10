@@ -1,0 +1,49 @@
+{
+  "slug": "police-chase-run",
+  "title": "Police Chase Run",
+  "url": "https://html5.gamemonetize.co/ug1zf1xxd9mujhwnmtnmskyc3waohc1w/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "1 Player",
+    "2026 games",
+    "2D",
+    "Android",
+    "Car",
+    "Cars"
+  ],
+  "rating": 4.7,
+  "plays": 1531728,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-23",
+  "desc": "Take the wheel and try to survive as long as possible in a tense police chase. The car keeps moving forward, while you steer at the right moment, avoid police cars, and collect coins. The longer the run, the higher the score. Unlock new cars, improve your result, and compete for a place on the leaderboard. The game is made for one player and works well for quick arcade sessions.",
+  "howto": [
+    "Control the car with the on-screen steering wheel Turn in time to avoid crashing into police cars Collect coins during the run and try to stay in the chase for as long as possible After losing you can restart open the shop and choose another car Th"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "police-chase-run.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 78,
+  "faqs": []
+}

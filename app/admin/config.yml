@@ -1,0 +1,140 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+backend:
+  name: github
+  repo: saralaaga/speed-slope-playorbit
+  branch: main
+
+media_folder: app/assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: sites
+    label: Sites
+    files:
+      - name: speedslope_net
+        label: SpeedSlope.net
+        file: cms-data/sites/speedslope-net.json
+        format: json
+        fields:
+          - { label: Site Name, name: site_name, widget: string }
+          - { label: Site URL, name: site_url, widget: string }
+          - { label: Site Slug, name: slug, widget: string, required: false }
+          - { label: Domain, name: domain, widget: string, required: false }
+          - { label: Tagline, name: tagline, widget: text }
+          - { label: Launch Mode, name: launch_mode, widget: select, options: [single, portal, slugs] }
+          - { label: Launch Game Slug, name: launch_game_slug, widget: string, required: false }
+          - { label: Home Game Slug, name: home_game_slug, widget: string, required: false }
+          - label: Published Game Slugs
+            name: published_game_slugs
+            widget: list
+            required: false
+            field: { label: Game Slug, name: slug, widget: string }
+          - { label: Contact Email, name: contact_email, widget: string }
+          - { label: Games Email, name: games_email, widget: string }
+          - { label: Legal Email, name: legal_email, widget: string }
+          - { label: Ads Enabled, name: ads_enabled, widget: boolean, default: false }
+          - { label: Aggregate Rating Schema, name: include_aggregate_rating_schema, widget: boolean, default: false }
+          - { label: Turnstile Site Key, name: turnstile_site_key, widget: string, required: false }
+
+  - name: games
+    label: Games
+    folder: cms-data/games
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: title
+    summary: "{{title}} · {{slug}}"
+    sortable_fields: [title, slug, plays, rating, added, sort_order]
+    fields:
+      - { label: Sort Order, name: sort_order, widget: number, value_type: int, required: false }
+      - { label: Title, name: title, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Iframe URL, name: url, widget: string }
+      - label: Categories
+        name: cats
+        widget: select
+        multiple: true
+        options:
+          - { label: "2 Player Games", value: "2-player" }
+          - { label: "Arcade Games", value: "arcade" }
+          - { label: "Archery Games", value: "archery" }
+          - { label: "Basketball Games", value: "basketball" }
+          - { label: "Car Racing Games", value: "car-racing" }
+          - { label: "Card Games", value: "card" }
+          - { label: "Classic Games", value: "classics" }
+          - { label: "Driving Games", value: "driving" }
+          - { label: "Fighting Games", value: "fighting" }
+          - { label: "Football Games", value: "football" }
+          - { label: "Golf Games", value: "golf" }
+          - { label: "IO Games", value: "io" }
+          - { label: "Mahjong Games", value: "mahjong" }
+          - { label: "Merge Games", value: "merge" }
+          - { label: "Motorcycle Games", value: "motorcycle" }
+          - { label: "Obstacle Course Games", value: "obstacle-course" }
+          - { label: "Platformer Games", value: "platformer" }
+          - { label: "Pool Games", value: "pool" }
+          - { label: "Puzzle Games", value: "puzzle" }
+          - { label: "Racing Games", value: "racing" }
+          - { label: "Runner Games", value: "runner" }
+          - { label: "Shooting Games", value: "shooting" }
+          - { label: "Slope Games", value: "slope" }
+          - { label: "Soccer Games", value: "soccer" }
+          - { label: "Solitaire Games", value: "solitaire" }
+          - { label: "Sorting Games", value: "sorting" }
+          - { label: "Sports Games", value: "sports" }
+          - { label: "Strategy Games", value: "strategy" }
+          - { label: "Stunt Games", value: "stunt" }
+          - { label: "Word Games", value: "word" }
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        field: { label: Tag, name: tag, widget: string }
+      - { label: Rating, name: rating, widget: number, value_type: float, min: 1, max: 5 }
+      - { label: Plays, name: plays, widget: number, value_type: int, min: 0 }
+      - { label: Hot, name: hot, widget: boolean, default: false }
+      - { label: New, name: "new", widget: boolean, default: false }
+      - { label: Added Date, name: added, widget: string, required: false }
+      - { label: SEO Title, name: seo_title, widget: string, required: false }
+      - { label: Meta Description, name: meta_desc, widget: text, required: false }
+      - { label: Description, name: desc, widget: text }
+      - label: How To Play
+        name: howto
+        widget: list
+        required: false
+        field: { label: Step, name: step, widget: string }
+      - label: Controls
+        name: controls
+        widget: list
+        required: false
+        fields:
+          - { label: Key, name: key, widget: string }
+          - { label: Action, name: action, widget: string }
+      - label: Tips
+        name: tips
+        widget: list
+        required: false
+        field: { label: Tip, name: tip, widget: string }
+      - label: FAQs
+        name: faqs
+        widget: list
+        required: false
+        fields:
+          - { label: Question, name: question, widget: string }
+          - { label: Answer, name: answer, widget: text }
+      - { label: Embed Source, name: embed_source, widget: string, required: false }
+      - { label: Thumbnail URL, name: thumb_url, widget: string, required: false }
+
+  - name: categories
+    label: Categories
+    folder: cms-data/categories
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: name
+    fields:
+      - { label: Name, name: name, widget: string }
+      - { label: Slug, name: slug, widget: string }
+      - { label: Active, name: active, widget: boolean, default: true }

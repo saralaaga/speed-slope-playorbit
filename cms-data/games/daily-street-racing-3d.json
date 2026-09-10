@@ -1,0 +1,47 @@
+{
+  "slug": "daily-street-racing-3d",
+  "title": "Daily Street Racing 3D",
+  "url": "https://html5.gamemonetize.co/6cyxbsqng97tkppnn0gbai0pgdfz4i25/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "3D",
+    "Car",
+    "Cars",
+    "Casual",
+    "Hypercasual"
+  ],
+  "rating": 4.3,
+  "plays": 1488919,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-08",
+  "desc": "Race, merge, and dominate in Everyday Racing &amp;mdash; a fun and fast-paced merge racing game! In this exciting 2-in-1 racing challenge, you can combine two identical cars to upgrade them into stronger, faster rides. Build your dream garage, enter thrilling races, and win tons of rewards! During races, collect useful power-ups to boost your performance, outplay your rivals, and even snatch their cars to grow your collection even faster. Keep merging, keep racing, and become the ultimate road champion!",
+  "howto": [
+    "Mouse click or tap to play Use the wasd arrow keys to move"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "daily-street-racing-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 114,
+  "faqs": []
+}

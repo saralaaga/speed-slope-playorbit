@@ -1,0 +1,39 @@
+{
+  "slug": "marble-sort",
+  "title": "Marble Sort",
+  "url": "https://html5.gamedistribution.com/0ad5260ef01948faa1b4fab8ecd4c1b2/",
+  "cats": [
+    "puzzle"
+  ],
+  "tags": [
+    "Sorting",
+    "Logic",
+    "Relaxing"
+  ],
+  "rating": 4.2,
+  "plays": 3750929,
+  "hot": false,
+  "new": false,
+  "added": "2026-03-29",
+  "desc": "Marble Sort is a fun and satisfying puzzle game where colorful marbles travel along a conveyor belt waiting to be sorted. Fill matching trays, complete sets of three identical marbles, and clear every level. Plan your moves carefully, manage the flow, and enjoy smooth animations, relaxing gameplay, and rewarding sorting challenges. Easy to learn, hard to master!.",
+  "howto": [
+    "Tap a tray to release marbles onto the conveyor belt",
+    "Sort the moving marbles into matching holders by color",
+    "Every holder is completed when it contains three identical marbles",
+    "Keep the conveyor organized, avoid mistakes, and finish all trays to complete the level",
+    "Think ahead and use strategy to achieve perfect sorting!"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "see the in-game tutorial"
+    }
+  ],
+  "tips": [
+    "Work from the corners — they constrain the board the most.",
+    "Plan two moves ahead before committing."
+  ],
+  "thumbfile": "marble-sort.jpg",
+  "sort_order": 24,
+  "faqs": []
+}

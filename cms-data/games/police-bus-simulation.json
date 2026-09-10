@@ -1,0 +1,45 @@
+{
+  "slug": "police-bus-simulation",
+  "title": "Police Bus Simulation",
+  "url": "https://html5.gamemonetize.co/8bj8ydqwu9vy28zeoa34bvv3sump5adx/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "bus",
+    "Police",
+    "Simulation"
+  ],
+  "rating": 4.1,
+  "plays": 1518001,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-08",
+  "desc": "Police Bus Simulation puts you behind the wheel of a heavy-duty police bus on a mission to catch criminals on the run. This fast-paced arcade chaser blends pursuit action with vehicle handling. Drive through city streets in both day and night themed levels, chase down thief cars, and ram them to make an arrest. What makes it unique? Youre not in a small police car &amp;mdash; you control a massive bus that requires smart positioning and timing to trap speeding vehicles. Each level brings faster and more aggressive criminals.",
+  "howto": [
+    "Your goal is simple catch all escaping vehicles in each level before time runs out Chase thief cars vans or any suspicious vehicle and make contact to arrest them Complete all chases in a level to advance As you progress criminals drive faster and"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "police-bus-simulation.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 91,
+  "faqs": []
+}

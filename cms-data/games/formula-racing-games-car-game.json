@@ -1,0 +1,38 @@
+{
+  "slug": "formula-racing-games-car-game",
+  "title": "Formula Racing Games Car Game",
+  "url": "https://html5.gamedistribution.com/f597ef614f4f42768bf4f566d76021bc/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Formula",
+    "Car",
+    "Racing",
+    "3D"
+  ],
+  "rating": 4.3,
+  "plays": 239700,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Formula Racing Games Car Game puts you into fast 3D formula-style racing tracks. Steer through corners, keep the car under control and chase clean laps against the field.",
+  "howto": [
+    "Use the driving controls to steer through each track, avoid losing speed in corners and finish ahead of rivals."
+  ],
+  "controls": [
+    {
+      "key": "WASD",
+      "action": "drive and steer"
+    }
+  ],
+  "tips": [
+    "Turn early on tight corners.",
+    "A stable racing line beats late full-speed steering."
+  ],
+  "thumbfile": "formula-racing-games-car-game.jpg",
+  "sort_order": 48,
+  "faqs": []
+}

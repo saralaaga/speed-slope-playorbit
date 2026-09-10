@@ -1,0 +1,50 @@
+{
+  "slug": "mini-golf-3d",
+  "title": "Mini Golf 3D",
+  "url": "https://html5.gamemonetize.co/e3iz4assj31kbmfzgq647codbozk956c/",
+  "cats": [
+    "golf",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Golf",
+    "Mini Golf",
+    "3D",
+    "Physics",
+    "Skill"
+  ],
+  "rating": 4.6,
+  "plays": 371228,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Mini Golf 3D is a smooth arcade golf game with more than 40 progressively harder levels. Aim, charge your shot, avoid sand and water hazards, and master compact courses with clean physics.",
+  "howto": [
+    "Click or tap to start aiming.",
+    "Set the shot direction and power.",
+    "Avoid hazards that slow the ball or cost strokes.",
+    "Earn gems and unlock new colored balls as you progress."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "aim and set power"
+    },
+    {
+      "key": "Release",
+      "action": "putt"
+    }
+  ],
+  "tips": [
+    "Plan around hazards before choosing power.",
+    "Use lighter shots near sand traps and water.",
+    "A clean angle into a wall can open blocked holes.",
+    "Replay early levels to learn how hard each power level hits."
+  ],
+  "thumbfile": "mini-golf-3d.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 9,
+  "faqs": []
+}

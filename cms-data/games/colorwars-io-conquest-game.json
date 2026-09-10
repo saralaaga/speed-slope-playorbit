@@ -1,0 +1,39 @@
+{
+  "slug": "colorwars-io-conquest-game",
+  "title": "ColorWars.io - Conquest Game",
+  "url": "https://html5.gamedistribution.com/ed99a63b0a35407792cbd1f93b7b7b83/",
+  "cats": [
+    "io"
+  ],
+  "tags": [
+    "Territory",
+    "IO",
+    "Conquest"
+  ],
+  "rating": 4.1,
+  "plays": 3143888,
+  "hot": true,
+  "new": false,
+  "added": "2025-10-19",
+  "desc": "Color Wars is a fast-paced strategy game where you battle three opponents to control the most territory before time runs out. Deploy powerful cards like Warrior, Ranger, Thunder, and Wizard, each with unique abilities. Earn trophies by ranking in the top two and use gold to upgrade your cards. Plan smart moves, outplay rivals, and dominate the battlefield.",
+  "howto": [
+    "Use mouse/finger to drag & drop cards"
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    },
+    {
+      "key": "Drag",
+      "action": "move items"
+    }
+  ],
+  "tips": [
+    "Play safe early; grow before you pick fights.",
+    "Cut opponents off rather than chasing them."
+  ],
+  "thumbfile": "colorwars-io-conquest-game.jpg",
+  "sort_order": 43,
+  "faqs": []
+}

@@ -37,12 +37,47 @@
       favBtn.classList.toggle('active', on);
       $('span', favBtn).textContent = on ? 'Saved' : 'Save';
     };
+    function tryBrowserBookmark() {
+      if (window.sidebar && window.sidebar.addPanel) {
+        window.sidebar.addPanel(document.title, location.href, '');
+        return true;
+      }
+      if (window.external && typeof window.external.AddFavorite === 'function') {
+        window.external.AddFavorite(location.href, document.title);
+        return true;
+      }
+      return false;
+    }
     favBtn.addEventListener('click', function () {
-      var f = getFavs(), i = f.indexOf(slug);
-      if (i === -1) f.push(slug); else f.splice(i, 1);
-      setFavs(f); render();
+      var f = getFavs();
+      if (f.indexOf(slug) === -1) {
+        f.push(slug);
+        setFavs(f);
+      }
+      render();
+      if (!tryBrowserBookmark()) {
+        alert((/Mac|iPhone|iPad|iPod/.test(navigator.platform) ? 'Press Command+D' : 'Press Ctrl+D') + ' to bookmark this game.');
+      }
     });
     render();
+  }
+
+  /* ---------- align side game rails ---------- */
+  var playLayout = $('.play-layout');
+  if (playLayout) {
+    var sideResizeTimer = null;
+    function syncSideRails() {
+      var stageWrap = $('.stage-wrap', playLayout);
+      if (!stageWrap) return;
+      var h = stageWrap.offsetHeight;
+      $$('.play-side', playLayout).forEach(function (side) { side.style.setProperty('--play-side-max', h + 'px'); });
+    }
+    window.addEventListener('load', syncSideRails);
+    window.addEventListener('resize', function () {
+      clearTimeout(sideResizeTimer);
+      sideResizeTimer = setTimeout(syncSideRails, 120);
+    });
+    syncSideRails();
   }
 
   /* ---------- rating widget ---------- */
@@ -206,6 +241,201 @@
     if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
     if (n >= 1e3) return (n / 1e3).toFixed(1).replace(/\.0$/, '') + 'K';
     return String(n);
+  }
+
+  /* ---------- comments ---------- */
+  var commentsBox = $('[data-comments]');
+  if (commentsBox) {
+    var commentsSlug = commentsBox.getAttribute('data-slug');
+    var commentsList = $('#commentsList');
+    var commentsCount = $('#commentsCount');
+    var commentForm = $('#commentForm');
+    var commentStatus = $('#commentStatus');
+
+    function commentDate(value) {
+      var d = new Date(value);
+      return isNaN(d.getTime()) ? '' : d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+    }
+    function renderComments(items) {
+      commentsList.innerHTML = '';
+      commentsCount.textContent = items.length + (items.length === 1 ? ' comment' : ' comments');
+      if (!items.length) {
+        var empty = document.createElement('p');
+        empty.className = 'comment-note';
+        empty.textContent = 'No comments yet. Be the first to leave one.';
+        commentsList.appendChild(empty);
+        return;
+      }
+      items.forEach(function (item) {
+        var wrap = document.createElement('article');
+        wrap.className = 'comment-item';
+        var meta = document.createElement('div');
+        meta.className = 'comment-meta';
+        var name = document.createElement('span');
+        name.className = 'comment-name';
+        name.textContent = item.displayName || 'Anonymous';
+        var date = document.createElement('span');
+        date.className = 'comment-date';
+        date.textContent = commentDate(item.createdAt);
+        var body = document.createElement('div');
+        body.className = 'comment-body';
+        body.textContent = item.body || '';
+        meta.appendChild(name);
+        if (date.textContent) meta.appendChild(date);
+        wrap.appendChild(meta);
+        wrap.appendChild(body);
+        commentsList.appendChild(wrap);
+      });
+    }
+    function loadComments() {
+      fetch('/api/comments?slug=' + encodeURIComponent(commentsSlug))
+        .then(function (r) { return r.json().then(function (data) { return { ok: r.ok, data: data }; }); })
+        .then(function (res) {
+          if (!res.ok || !res.data.ok) throw new Error(res.data.error || 'Comments unavailable');
+          renderComments(res.data.comments || []);
+        })
+        .catch(function () {
+          commentsList.innerHTML = '<p class="comment-note">Comments are not available right now.</p>';
+        });
+    }
+    loadComments();
+
+    if (commentForm) {
+      commentForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        commentStatus.textContent = 'Posting...';
+        var fd = new FormData(commentForm);
+        fetch('/api/comments', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({
+            slug: commentsSlug,
+            displayName: fd.get('displayName'),
+            email: fd.get('email'),
+            body: fd.get('body'),
+            website: fd.get('website'),
+            turnstileToken: fd.get('cf-turnstile-response')
+          })
+        }).then(function (r) {
+          return r.json().then(function (data) { return { ok: r.ok, data: data }; });
+        }).then(function (res) {
+          if (!res.ok || !res.data.ok) throw new Error(res.data.error || 'Could not post comment.');
+          commentForm.reset();
+          if (window.turnstile) window.turnstile.reset();
+          commentStatus.textContent = res.data.message || 'Thanks. Your comment is waiting for review.';
+          loadComments();
+        }).catch(function (err) {
+          commentStatus.textContent = err.message;
+          if (window.turnstile) window.turnstile.reset();
+        });
+      });
+    }
+  }
+
+  /* ---------- admin comments ---------- */
+  var adminComments = $('#adminComments');
+  if (adminComments) {
+    var adminList = $('#adminCommentList');
+    var adminCount = $('#adminCommentCount');
+    var adminStatus = 'pending';
+    var adminToken = sessionStorage.getItem('ss_admin_token') || '';
+
+    function promptAdminToken() {
+      adminToken = prompt('Admin token') || '';
+      if (adminToken) sessionStorage.setItem('ss_admin_token', adminToken);
+      return adminToken;
+    }
+    function adminHeaders(extra) {
+      var headers = extra || {};
+      if (adminToken) headers.authorization = 'Bearer ' + adminToken;
+      return headers;
+    }
+    function adminFetch(url, options) {
+      options = options || {};
+      options.headers = adminHeaders(options.headers);
+      return fetch(url, options).then(function (r) {
+        if (r.status !== 403 || adminToken) return r;
+        sessionStorage.removeItem('ss_admin_token');
+        if (!promptAdminToken()) return r;
+        options.headers = adminHeaders(options.headers);
+        return fetch(url, options);
+      });
+    }
+
+    function button(label, status, id) {
+      var b = document.createElement('button');
+      b.className = status === 'approved' ? 'btn btn-primary' : 'btn btn-ghost';
+      b.type = 'button';
+      b.textContent = label;
+      b.addEventListener('click', function () {
+        adminFetch('/api/admin/comments/' + id, {
+          method: 'PATCH',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ status: status })
+        }).then(function (r) {
+          if (!r.ok) throw new Error('Moderation failed');
+          loadAdminComments();
+        }).catch(function (err) { alert(err.message); });
+      });
+      return b;
+    }
+    function renderAdmin(items) {
+      adminList.innerHTML = '';
+      adminCount.textContent = items.length + (items.length === 1 ? ' comment' : ' comments');
+      if (!items.length) {
+        adminList.innerHTML = '<p class="comment-note">No comments in this queue.</p>';
+        return;
+      }
+      items.forEach(function (item) {
+        var wrap = document.createElement('article');
+        wrap.className = 'comment-item';
+        var meta = document.createElement('div');
+        meta.className = 'comment-meta';
+        var name = document.createElement('span');
+        name.className = 'comment-name';
+        name.textContent = item.displayName || 'Anonymous';
+        var game = document.createElement('span');
+        game.className = 'comment-date';
+        game.textContent = item.gameSlug || '';
+        var email = document.createElement('span');
+        email.className = 'admin-comment-email';
+        email.textContent = item.email || 'no email';
+        var body = document.createElement('div');
+        body.className = 'comment-body';
+        body.textContent = item.body || '';
+        var actions = document.createElement('div');
+        actions.className = 'admin-comment-actions';
+        actions.appendChild(button('Approve', 'approved', item.id));
+        actions.appendChild(button('Reject', 'rejected', item.id));
+        actions.appendChild(button('Hide', 'hidden', item.id));
+        meta.appendChild(name);
+        meta.appendChild(game);
+        meta.appendChild(email);
+        wrap.appendChild(meta);
+        wrap.appendChild(body);
+        wrap.appendChild(actions);
+        adminList.appendChild(wrap);
+      });
+    }
+    function loadAdminComments() {
+      adminList.innerHTML = '<p class="comment-note">Loading comments...</p>';
+      adminFetch('/api/admin/comments?status=' + encodeURIComponent(adminStatus))
+        .then(function (r) { if (r.status === 403) sessionStorage.removeItem('ss_admin_token'); return r.json().then(function (data) { return { ok: r.ok, data: data }; }); })
+        .then(function (res) {
+          if (!res.ok || !res.data.ok) throw new Error(res.data.error || 'Could not load comments.');
+          renderAdmin(res.data.comments || []);
+        })
+        .catch(function (err) { adminList.innerHTML = '<p class="comment-note">' + err.message + '</p>'; });
+    }
+    $$('[data-status]', adminComments).forEach(function (b) {
+      b.addEventListener('click', function () {
+        $$('[data-status]', adminComments).forEach(function (x) { x.classList.remove('active'); });
+        b.classList.add('active');
+        adminStatus = b.getAttribute('data-status');
+        loadAdminComments();
+      });
+    });
+    loadAdminComments();
   }
 
   /* ---------- sortable game grids (category / hot / new pages) ---------- */

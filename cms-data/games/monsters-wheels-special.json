@@ -1,0 +1,49 @@
+{
+  "slug": "monsters-wheels-special",
+  "title": "Monsters' Wheels Special",
+  "url": "https://html5.gamemonetize.co/mde2rzu4y35gw7d96xo2wrjojaz1nx99/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "2D",
+    "Car",
+    "Cars",
+    "jump",
+    "Racing",
+    "Truck"
+  ],
+  "rating": 4.7,
+  "plays": 1470900,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-12",
+  "desc": "Drive your huge and powerful car on various trucks. Go over hills, precipices and jump over different obstacles. Participate in races against strong opponents and very powerful cars. Ram your opponents and crush them because in demolition derby you need to win by whatever means necessary. Earn money, unlock new cars and upgrade you engine power, durability, nitro and so on. Get behind the wheel, step on the juice and enjoy these dynamic racing game!",
+  "howto": [
+    "Arrow up - gas Arrow down - brake Arrow left - balance left Arrow right - balance right Space X - nitro"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "monsters-wheels-special.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 134,
+  "faqs": []
+}

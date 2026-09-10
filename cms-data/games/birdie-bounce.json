@@ -1,0 +1,50 @@
+{
+  "slug": "birdie-bounce",
+  "title": "Birdie Bounce",
+  "url": "https://html5.gamemonetize.co/r859o5fks18qjz7vtal0q5sjwchiq73v/",
+  "cats": [
+    "golf",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Golf",
+    "Arcade",
+    "Physics",
+    "Aim",
+    "Skill"
+  ],
+  "rating": 4.4,
+  "plays": 342905,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Birdie Bounce is an arcade golf game where you bounce the ball across platforms and try to reach the hole cleanly. Charge each shot, aim carefully, and work through 50 holes across colorful courses.",
+  "howto": [
+    "Hold click or touch to charge the shot.",
+    "Aim toward the platform, wall, or hole you want to reach.",
+    "Release to send the ball flying.",
+    "Use fewer shots to earn more stars."
+  ],
+  "controls": [
+    {
+      "key": "Hold mouse / touch",
+      "action": "charge and aim"
+    },
+    {
+      "key": "Release",
+      "action": "shoot"
+    }
+  ],
+  "tips": [
+    "Do not always aim straight at the hole; bouncing can be safer.",
+    "Charge less on narrow platforms so the ball stays controllable.",
+    "Watch where the ball lands before planning the next shot.",
+    "Star scores reward consistency more than maximum power."
+  ],
+  "thumbfile": "birdie-bounce.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 8,
+  "faqs": []
+}

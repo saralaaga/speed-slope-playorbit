@@ -1,0 +1,54 @@
+{
+  "slug": "neon-mini-golf",
+  "title": "Neon Mini Golf",
+  "url": "https://html5.gamemonetize.co/jjbc1jhdydn8azhcmbnpo3tvzbkyhy76/",
+  "cats": [
+    "golf",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Golf",
+    "Mini Golf",
+    "Physics",
+    "Skill",
+    "Neon"
+  ],
+  "rating": 4.6,
+  "plays": 383742,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Neon Mini Golf is a stylish arcade mini-golf game with glowing courses, realistic ball physics, and 39 handcrafted levels. Drag, aim, and release to send the ball toward the hole while bumpers, walls, and teleporters challenge your timing and precision.",
+  "howto": [
+    "Click or tap and drag to aim your shot.",
+    "Release to putt the ball toward the hole.",
+    "Use walls, bumpers, and teleporters to solve each compact course.",
+    "Finish with fewer strokes to earn better results and unlock more levels."
+  ],
+  "controls": [
+    {
+      "key": "Mouse drag",
+      "action": "aim and set power"
+    },
+    {
+      "key": "Release",
+      "action": "shoot"
+    },
+    {
+      "key": "Touch drag",
+      "action": "mobile aim and power"
+    }
+  ],
+  "tips": [
+    "Use small power adjustments when the hole is close.",
+    "Bank shots off walls when a direct line is blocked.",
+    "Watch the first bounce before committing to a harder shot.",
+    "Teleporters can save strokes if you aim for the entry angle, not just the portal."
+  ],
+  "thumbfile": "neon-mini-golf.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 6,
+  "faqs": []
+}

@@ -271,6 +271,444 @@
   "thumbfile": "tiny-golf-king.jpg"
  },
  {
+  "slug": "neon-mini-golf",
+  "title": "Neon Mini Golf",
+  "url": "https://html5.gamemonetize.co/jjbc1jhdydn8azhcmbnpo3tvzbkyhy76/",
+  "cats": [
+   "golf",
+   "sports",
+   "arcade"
+  ],
+  "tags": [
+   "Golf",
+   "Mini Golf",
+   "Physics",
+   "Skill",
+   "Neon"
+  ],
+  "rating": 4.6,
+  "plays": 383742,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Neon Mini Golf is a stylish arcade mini-golf game with glowing courses, realistic ball physics, and 39 handcrafted levels. Drag, aim, and release to send the ball toward the hole while bumpers, walls, and teleporters challenge your timing and precision.",
+  "howto": [
+   "Click or tap and drag to aim your shot.",
+   "Release to putt the ball toward the hole.",
+   "Use walls, bumpers, and teleporters to solve each compact course.",
+   "Finish with fewer strokes to earn better results and unlock more levels."
+  ],
+  "controls": [
+   [
+    "Mouse drag",
+    "aim and set power"
+   ],
+   [
+    "Release",
+    "shoot"
+   ],
+   [
+    "Touch drag",
+    "mobile aim and power"
+   ]
+  ],
+  "tips": [
+   "Use small power adjustments when the hole is close.",
+   "Bank shots off walls when a direct line is blocked.",
+   "Watch the first bounce before committing to a harder shot.",
+   "Teleporters can save strokes if you aim for the entry angle, not just the portal."
+  ],
+  "thumbfile": "neon-mini-golf.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "pro-golfer-game",
+  "title": "Pro Golfer Game",
+  "url": "https://html5.gamemonetize.co/lzjgq0b17ad2v91aaosalfcsntdvibxg/",
+  "cats": [
+   "golf",
+   "sports"
+  ],
+  "tags": [
+   "Golf",
+   "Sports",
+   "Precision",
+   "3D",
+   "Casual"
+  ],
+  "rating": 4.5,
+  "plays": 356814,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Pro Golfer Game is a relaxed sports golf game where each course tests aim, shot power, and timing. Line up the ball, adjust your strength, avoid tricky obstacles, and try to finish each hole with the fewest strokes.",
+  "howto": [
+   "Use the mouse to aim your golf shot.",
+   "Adjust power before releasing the ball.",
+   "Read slopes, walls, and obstacles before each swing.",
+   "Complete each course in as few strokes as possible."
+  ],
+  "controls": [
+   [
+    "Mouse",
+    "aim and set power"
+   ],
+   [
+    "Click / release",
+    "shoot"
+   ],
+   [
+    "Touch",
+    "mobile aim and shoot"
+   ]
+  ],
+  "tips": [
+   "Start with medium power until you learn the course speed.",
+   "Aim for safe angles instead of forcing every direct shot.",
+   "Use obstacles as banks when the hole is not open.",
+   "A controlled two-shot setup often beats one risky full-power swing."
+  ],
+  "thumbfile": "pro-golfer-game.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "birdie-bounce",
+  "title": "Birdie Bounce",
+  "url": "https://html5.gamemonetize.co/r859o5fks18qjz7vtal0q5sjwchiq73v/",
+  "cats": [
+   "golf",
+   "sports",
+   "arcade"
+  ],
+  "tags": [
+   "Golf",
+   "Arcade",
+   "Physics",
+   "Aim",
+   "Skill"
+  ],
+  "rating": 4.4,
+  "plays": 342905,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Birdie Bounce is an arcade golf game where you bounce the ball across platforms and try to reach the hole cleanly. Charge each shot, aim carefully, and work through 50 holes across colorful courses.",
+  "howto": [
+   "Hold click or touch to charge the shot.",
+   "Aim toward the platform, wall, or hole you want to reach.",
+   "Release to send the ball flying.",
+   "Use fewer shots to earn more stars."
+  ],
+  "controls": [
+   [
+    "Hold mouse / touch",
+    "charge and aim"
+   ],
+   [
+    "Release",
+    "shoot"
+   ]
+  ],
+  "tips": [
+   "Do not always aim straight at the hole; bouncing can be safer.",
+   "Charge less on narrow platforms so the ball stays controllable.",
+   "Watch where the ball lands before planning the next shot.",
+   "Star scores reward consistency more than maximum power."
+  ],
+  "thumbfile": "birdie-bounce.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "mini-golf-3d",
+  "title": "Mini Golf 3D",
+  "url": "https://html5.gamemonetize.co/e3iz4assj31kbmfzgq647codbozk956c/",
+  "cats": [
+   "golf",
+   "sports",
+   "arcade"
+  ],
+  "tags": [
+   "Golf",
+   "Mini Golf",
+   "3D",
+   "Physics",
+   "Skill"
+  ],
+  "rating": 4.6,
+  "plays": 371228,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Mini Golf 3D is a smooth arcade golf game with more than 40 progressively harder levels. Aim, charge your shot, avoid sand and water hazards, and master compact courses with clean physics.",
+  "howto": [
+   "Click or tap to start aiming.",
+   "Set the shot direction and power.",
+   "Avoid hazards that slow the ball or cost strokes.",
+   "Earn gems and unlock new colored balls as you progress."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "aim and set power"
+   ],
+   [
+    "Release",
+    "putt"
+   ]
+  ],
+  "tips": [
+   "Plan around hazards before choosing power.",
+   "Use lighter shots near sand traps and water.",
+   "A clean angle into a wall can open blocked holes.",
+   "Replay early levels to learn how hard each power level hits."
+  ],
+  "thumbfile": "mini-golf-3d.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "endless-golf",
+  "title": "Endless Golf",
+  "url": "https://html5.gamemonetize.co/bxbyf7u1sn08wedto751ju4elnngz9qf/",
+  "cats": [
+   "golf",
+   "sports",
+   "arcade"
+  ],
+  "tags": [
+   "Golf",
+   "Physics",
+   "Aim",
+   "Endless",
+   "Skill"
+  ],
+  "rating": 4.3,
+  "plays": 329774,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Endless Golf is a physics golf challenge built around careful aim, power control, and changing wind. Pull back, line up the shot, and adapt as each terrain and biome changes how the ball travels.",
+  "howto": [
+   "Tap or click the golf ball to begin a shot.",
+   "Drag backward to set direction and power.",
+   "Watch the wind indicator before releasing.",
+   "Reach the hole in as few shots as possible."
+  ],
+  "controls": [
+   [
+    "Click / tap",
+    "select the ball"
+   ],
+   [
+    "Drag",
+    "aim and set power"
+   ],
+   [
+    "Release",
+    "shoot"
+   ]
+  ],
+  "tips": [
+   "Compensate for wind before adding power.",
+   "Use higher arcs when the terrain blocks a flat shot.",
+   "Do not chase perfect power until your angle is right.",
+   "Different biomes change how cautious you should be."
+  ],
+  "thumbfile": "endless-golf.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "go-golf",
+  "title": "Go Golf",
+  "url": "https://html5.gamemonetize.co/vyoai08811vqppdfilocq5k1f7emjsxg/",
+  "cats": [
+   "golf",
+   "sports",
+   "puzzle"
+  ],
+  "tags": [
+   "Golf",
+   "Puzzle",
+   "Aim",
+   "Physics",
+   "Casual"
+  ],
+  "rating": 4.2,
+  "plays": 301488,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Go Golf is a compact sports puzzle game where every stroke matters. Observe the terrain, aim precisely, and send the golf ball into the hole before you run out of turns.",
+  "howto": [
+   "Use the mouse to line up each shot.",
+   "Choose enough power to reach the hole or a safe setup spot.",
+   "Avoid wasting strokes on rushed angles.",
+   "Clear each level within the stroke limit."
+  ],
+  "controls": [
+   [
+    "Mouse",
+    "aim and shoot"
+   ],
+   [
+    "Touch",
+    "mobile aim and shoot"
+   ]
+  ],
+  "tips": [
+   "Study the terrain before the first stroke.",
+   "Leave yourself a simple second shot when the direct route is risky.",
+   "Soft shots are easier to correct than overhit ones.",
+   "Use walls only when they create a cleaner final angle."
+  ],
+  "thumbfile": "go-golf.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "speeding-ball",
+  "title": "Speeding Ball",
+  "url": "https://html5.gamemonetize.co/paag9a0xkq1j6sjber4mtmsisfh4vb0x/",
+  "cats": [
+   "golf",
+   "sports",
+   "arcade"
+  ],
+  "tags": [
+   "Golf",
+   "3D",
+   "Arcade",
+   "Aim",
+   "Precision"
+  ],
+  "rating": 4.1,
+  "plays": 286339,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Speeding Ball is a one-stroke arcade golf challenge. Each hole gives you a single chance to calculate direction and power, then roll the ball into the cup without a second attempt.",
+  "howto": [
+   "Click or tap to aim the ball.",
+   "Set the shot direction carefully.",
+   "Release when the power feels right.",
+   "Sink the ball in one stroke to clear the hole."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "aim and set power"
+   ],
+   [
+    "Release",
+    "shoot"
+   ]
+  ],
+  "tips": [
+   "Treat every shot as final; there is no recovery stroke.",
+   "Use less power when the cup is close to an edge.",
+   "Line up the direction before thinking about speed.",
+   "A clean straight shot is better than a flashy bank."
+  ],
+  "thumbfile": "speeding-ball.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "sport-sort-puzzle",
+  "title": "Sport Sort Puzzle",
+  "url": "https://html5.gamemonetize.co/3krfv60cepeo48qbi5r5ngeavynpztlk/",
+  "cats": [
+   "sports",
+   "puzzle",
+   "sorting"
+  ],
+  "tags": [
+   "Sports",
+   "Sorting",
+   "Puzzle",
+   "Balls",
+   "Casual"
+  ],
+  "rating": 4.4,
+  "plays": 318624,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Sport Sort Puzzle is a sports-ball sorting game with football, basketball, tennis, golf, baseball, volleyball, and more. Move balls between bottles until every bottle contains one matching type.",
+  "howto": [
+   "Tap a bottle to pick up the top ball.",
+   "Tap another bottle to place it on a matching ball or empty space.",
+   "Sort each bottle so it contains one ball type.",
+   "Use hints and undo when the board gets crowded."
+  ],
+  "controls": [
+   [
+    "Click / tap",
+    "select and move balls"
+   ]
+  ],
+  "tips": [
+   "Keep at least one empty bottle available as a buffer.",
+   "Move rare ball types together early.",
+   "Do not bury a nearly complete bottle under the wrong ball.",
+   "Undo is most useful before a chain of forced moves."
+  ],
+  "thumbfile": "sport-sort-puzzle.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "fall-ball-idle",
+  "title": "Fall Ball Idle",
+  "url": "https://html5.gamemonetize.co/bdd2sl8whgdpwuliwnspyxh2321wzb99/",
+  "cats": [
+   "sports",
+   "arcade"
+  ],
+  "tags": [
+   "Sports",
+   "Ball",
+   "Physics",
+   "Idle",
+   "Clicker"
+  ],
+  "rating": 4.2,
+  "plays": 294116,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Fall Ball Idle is a physics idle game where sports balls, including golf balls, drop through colorful obstacle paths. Nudge the balls, earn coins, buy upgrades, and keep the flow moving.",
+  "howto": [
+   "Click or tap near balls to nudge their path.",
+   "Guide balls through obstacles to earn coins.",
+   "Spend coins on upgrades and stronger traits.",
+   "Let idle income build while you improve the setup."
+  ],
+  "controls": [
+   [
+    "Click / tap",
+    "nudge balls"
+   ],
+   [
+    "Drag",
+    "interact with upgrades"
+   ]
+  ],
+  "tips": [
+   "Upgrade steady income before chasing expensive boosts.",
+   "Nudge only when a ball is about to miss a useful path.",
+   "Physics runs are uneven, so judge upgrades over several drops.",
+   "Keep reinvesting early coins to speed up later progress."
+  ],
+  "thumbfile": "fall-ball-idle.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
   "slug": "world-cup-2026-soccer-game",
   "title": "World Cup 2026 Soccer Game",
   "url": "https://html5.gamedistribution.com/ad37a85f16e246fabdc818f375a5eb45/",
@@ -1450,5 +1888,4207 @@
    "Watch the target pattern before taking the first shot."
   ],
   "thumbfile": "archery-legends.jpg"
+ },
+ {
+  "slug": "racing-game-king-hp",
+  "title": "Racing Game King HP",
+  "url": "https://html5.gamedistribution.com/d132f5f8eab94506828f58ef0c5b1e29/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Car",
+   "Racing",
+   "Circuit",
+   "Nitro"
+  ],
+  "rating": 4.4,
+  "plays": 286400,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Racing Game King HP is a car racing game with circuit races, sprint races, time attack, knockout events and speed trap challenges. Drive clean lines, use nitro on straights and fight for first place across multiple modes.",
+  "howto": [
+   "Choose a race mode, steer through the track, brake before corners and use nitro when the road opens up."
+  ],
+  "controls": [
+   [
+    "Arrow keys",
+    "drive"
+   ],
+   [
+    "N",
+    "nitro"
+   ],
+   [
+    "Space",
+    "brake"
+   ],
+   [
+    "C",
+    "change camera"
+   ]
+  ],
+  "tips": [
+   "Brake before the corner instead of during the turn.",
+   "Save nitro for exits and long straights."
+  ],
+  "thumbfile": "racing-game-king-hp.jpg"
+ },
+ {
+  "slug": "the-drag-racing-challenge",
+  "title": "The Drag Racing Challenge",
+  "url": "https://html5.gamedistribution.com/4fee373f40e54e209cf439e467da7730/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Car",
+   "Drag Racing",
+   "Upgrade",
+   "Speed"
+  ],
+  "rating": 4.5,
+  "plays": 264900,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "The Drag Racing Challenge is an arcade car racing game with quick races, gear shifts, nitro boosts and upgradeable cars. Time each shift, accelerate hard and beat rival drivers across city tracks.",
+  "howto": [
+   "Accelerate from the start, shift gears at the right moment and use nitro to pull ahead before the finish line."
+  ],
+  "controls": [
+   [
+    "W / mouse",
+    "accelerate"
+   ],
+   [
+    "E",
+    "gear up"
+   ],
+   [
+    "Q",
+    "gear down"
+   ],
+   [
+    "N",
+    "nitro"
+   ]
+  ],
+  "tips": [
+   "Shift near the ideal rev range for stronger acceleration.",
+   "Use nitro after a clean gear change, not too early."
+  ],
+  "thumbfile": "the-drag-racing-challenge.jpg"
+ },
+ {
+  "slug": "formula-racing-games-car-game",
+  "title": "Formula Racing Games Car Game",
+  "url": "https://html5.gamedistribution.com/f597ef614f4f42768bf4f566d76021bc/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Formula",
+   "Car",
+   "Racing",
+   "3D"
+  ],
+  "rating": 4.3,
+  "plays": 239700,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Formula Racing Games Car Game puts you into fast 3D formula-style racing tracks. Steer through corners, keep the car under control and chase clean laps against the field.",
+  "howto": [
+   "Use the driving controls to steer through each track, avoid losing speed in corners and finish ahead of rivals."
+  ],
+  "controls": [
+   [
+    "WASD",
+    "drive and steer"
+   ]
+  ],
+  "tips": [
+   "Turn early on tight corners.",
+   "A stable racing line beats late full-speed steering."
+  ],
+  "thumbfile": "formula-racing-games-car-game.jpg"
+ },
+ {
+  "slug": "slithoria",
+  "title": "Slithoria",
+  "url": "https://html5.gamedistribution.com/05b423bd34b74cca8d325705acb00f8a/",
+  "cats": [
+   "io",
+   "arcade",
+   "strategy"
+  ],
+  "tags": [
+   "Snake",
+   "IO",
+   "Arena",
+   "Survival"
+  ],
+  "rating": 4.5,
+  "plays": 272800,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Slithoria is a snake-style arena game where you collect energy, grow longer and avoid being trapped by rivals. Move carefully, cut clean paths and survive longer in each round.",
+  "howto": [
+   "Guide your snake through the arena, collect energy, avoid crashes and use smart turns to outlast rivals."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "steer and move"
+   ]
+  ],
+  "tips": [
+   "Do not turn into crowded lanes too early.",
+   "Use wider loops when your snake becomes longer."
+  ],
+  "thumbfile": "slithoria.jpg"
+ },
+ {
+  "slug": "snake-duel",
+  "title": "Snake Duel",
+  "url": "https://html5.gamedistribution.com/8b15910a7ae247da9b36923bded72e32/",
+  "cats": [
+   "io",
+   "arcade",
+   "strategy"
+  ],
+  "tags": [
+   "Snake",
+   "Duel",
+   "Arena",
+   "Survival"
+  ],
+  "rating": 4.4,
+  "plays": 231900,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Snake Duel is a fast arena snake game built around growth, positioning and clean movement. Collect pickups, avoid enemy lines and use careful turns to stay alive.",
+  "howto": [
+   "Move through the arena, collect pickups to grow and avoid crashing into rival snakes or unsafe paths."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "steer and move"
+   ]
+  ],
+  "tips": [
+   "Keep room to turn before chasing pickups.",
+   "Let opponents make risky moves first."
+  ],
+  "thumbfile": "snake-duel.jpg"
+ },
+ {
+  "slug": "real-car-bmw-m4-drift",
+  "title": "Real Car Bmw M4 Drift",
+  "url": "https://html5.gamemonetize.co/ef6sv06uq0ksnqhc9kq6v0u0soeksh0k/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "3D",
+   "Car",
+   "Cars",
+   "drift"
+  ],
+  "rating": 4.1,
+  "plays": 1545751,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Real Car BMW M4 Drift is a fast-paced driving game focused on BMW M4 drifting. Drive through different environments, perform long drifts, master sharp corners and test your driving skills. Enjoy smooth controls, high-speed driving and challenging drift action. Get behind the wheel, push the BMW M4 to its limits and become the ultimate drift driver.",
+  "howto": [
+   "WASD is used to drive the car and Space is used to brake Mobile touch controls are also available allowing the game to be played on both PC and mobile devices"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "real-car-bmw-m4-drift.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "mob-runner-master",
+  "title": "Mob Runner Master",
+  "url": "https://html5.gamemonetize.co/wtxa0pc697eocve1685m71y78xje0ecn/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "Best",
+   "Best Games",
+   "Fun",
+   "Puzzle",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1545566,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-25",
+  "desc": "Get ready for chaotic and funny action in Ragdoll Rush Game! Control your ragdoll as you rush through challenging levels filled with obstacles and tricky paths. Avoid dangerous objects, keep your balance, and reach the finish line without getting knocked out. Use quick reactions and smart movement to overcome every challenge.",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "mob-runner-master.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "extreme-car-parking-3d",
+  "title": "Extreme Car Parking 3D",
+  "url": "https://html5.gamemonetize.co/szauuex5osv2tahnsbq541e8ws4ajg0g/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "3D",
+   "Car",
+   "carparking",
+   "Driving",
+   "Parking",
+   "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 1545307,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-24",
+  "desc": "Take parking to the extreme on dangerous elevated obstacle courses. Drive across narrow platforms, climb steep ramps, avoid barriers, and park precisely without falling from the track. Web Dev &lt;a href='https://www.crazygamesx.com/'&gt;https://www.crazygamesx.com/&lt;/a&gt;",
+  "howto": [
+   "Use WASD or the Arrow keys to drive and steer Press Space for the brake Move carefully through each obstacle and stop fully inside the marked parking zone"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "extreme-car-parking-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "mega-ramp-stunt-racing-3d",
+  "title": "Mega Ramp Stunt Racing 3D",
+  "url": "https://html5.gamemonetize.co/w1vpt19ecav4gskdw7q7gilslwroj4kn/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "2-player"
+  ],
+  "tags": [
+   "2 Player",
+   "2 Player Games",
+   "2026 games",
+   "3D",
+   "3D Games",
+   "Car"
+  ],
+  "rating": 4.4,
+  "plays": 1545122,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-23",
+  "desc": "Mega Ramp Stunt Racing 3D is an exciting racing game where you can compete alone or challenge a friend in 2-player mode. Race through massive ramps, perform crazy stunts, overcome challenging obstacles and reach the finish line first. Master your driving skills, stay on the track and use the ramps to gain speed. Can you complete every stunt and become the ultimate racing champion?",
+  "howto": [
+   "WASD or the Arrow Keys can be used to control the vehicle Mobile touch controls are also available allowing the game to be played on both PC and mobile devices"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "mega-ramp-stunt-racing-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "city-parking-master-3d",
+  "title": "City Parking Master 3D",
+  "url": "https://html5.gamemonetize.co/wlhii8os2iawrbgwwz0dpjr1ptghc3rj/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "3D",
+   "Car",
+   "carparking",
+   "city",
+   "Driving",
+   "Parking"
+  ],
+  "rating": 4.6,
+  "plays": 1544678,
+  "hot": true,
+  "new": false,
+  "added": "2026-08-21",
+  "desc": "Test your precision driving skills in challenging city parking missions. Navigate traffic cones, tight corners, and busy parking areas, then stop perfectly inside the marked space without crashing. Web Dev &lt;a href='https://www.crazygamesonline.com/'&gt;https://www.crazygamesonline.com/&lt;/a&gt;",
+  "howto": [
+   "Use WASD or the Arrow keys to drive and steer Press Space for the brake Follow the parking guides and place the entire vehicle inside the highlighted bay"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "city-parking-master-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "upgrade-the-cars",
+  "title": "Upgrade the CARS",
+  "url": "https://html5.gamemonetize.co/953yn8f4xz452ul466usenlduvgyq5bw/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "2025 games",
+   "2026 games",
+   "3D",
+   "3D Games",
+   "Android"
+  ],
+  "rating": 4.7,
+  "plays": 1544234,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-20",
+  "desc": "Upgrade the CARS is a 3D driving game where every gate you pass makes your ride better &amp;mdash; or worse. Steer your car through the green plus gates to boost your engine, body and speed, and dodge the red minus ones that strip your upgrades away. Reach the end of the track with the strongest car you can build, then cash it in. Spend your earnings on new parking spots, unlock fresh cars in the garage, and repaint them in the texture shop. Every run funds the next one. Push far enough and the road stops being empty &amp;mdash; giant kaiju block the way, and you will need weapons to clear them. Collect money on every lap",
+  "howto": [
+   "Drag with the mouse or swipe on touch to steer your car left and right Drive through the plus gates to upgrade and avoid the minus gates Tap the on-screen buttons to buy upgrades sell cars and unlock new spots"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "upgrade-the-cars.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "us-truck-game",
+  "title": "US Truck Game",
+  "url": "https://html5.gamemonetize.co/eptpq9j13u1ntvmd294yan19fg5y2w8u/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Adventure",
+   "Best Games",
+   "city",
+   "Fun",
+   "Simulation",
+   "Truck"
+  ],
+  "rating": 4.1,
+  "plays": 1544197,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-19",
+  "desc": "Hit the open road and experience long-haul logistics like never before in US Truck Game. Take control of a powerful, heavy-duty orange semi-truck hauling a massive Cargo EX trailer through detailed urban landscapes, highway interchanges, and complex intersections. Master the unique mechanics of steering an articulated rig as you navigate tricky turns, follow road signs, and manage tight corners under realistic traffic conditions. Featuring expansive environments, industrial zones, and precision driving challenges, this simulation puts your commercial trucking skills to the ultimate test.",
+  "howto": [
+   "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "us-truck-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-stunt-master-3d",
+  "title": "Car Stunt Master 3D",
+  "url": "https://html5.gamemonetize.co/whif0oyefcqgtgtoa8clf8rxrna53gui/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "3D",
+   "Arcade",
+   "Car",
+   "Driving",
+   "jump",
+   "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1544160,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-18",
+  "desc": "Take control of a powerful sports car and conquer spectacular sky-high stunt tracks. Race across ramps, loops, and narrow platforms, perform daring jumps, and reach the finish without falling. Web Dev &lt;a href='https://www.bestcrazygames.com/'&gt;https://www.bestcrazygames.com/&lt;/a&gt;",
+  "howto": [
+   "Use WASD or the Arrow keys to drive and steer Press Space for the handbrake Follow the course control the car in the air and reach the finish line"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-stunt-master-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-destruction-king",
+  "title": "Car Destruction King",
+  "url": "https://html5.gamemonetize.co/tg6ydm6ksp5s83vk3zxfe7g8bdkdgvxp/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Car",
+   "Cars",
+   "destruction",
+   "Driving",
+   "King",
+   "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 1543531,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-17",
+  "desc": "A adrenaline-fueled 3D vehicular combat and derby arena game where power, speed, and total destruction reign supreme! In Car Destruction King, take the wheel of heavily fortified vehicles, slam into rival cars, and tear through dynamic arenas packed with hazards and obstacles. Key Features: Intense Demolition Gameplay: Experience realistic physics, dynamic mesh deformation, and satisfying crash mechanics as parts fly and metals twist in real time. Diverse Vehicle Roster: Unlock and upgrade a wide variety of cars&amp;mdash;from high-speed muscle cars and rugged pickup trucks to massive armored monster trucks.",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-destruction-king.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "cargo-truck-game",
+  "title": "Cargo Truck Game",
+  "url": "https://html5.gamemonetize.co/tpyow50cvodm1m69t1ftvmtn7kxuq4hs/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Adventure",
+   "Best",
+   "Forest",
+   "Fun",
+   "offroad",
+   "Sim"
+  ],
+  "rating": 4.4,
+  "plays": 1543161,
+  "hot": true,
+  "new": false,
+  "added": "2026-08-16",
+  "desc": "Take command of heavy machinery and conquer rugged terrain in Cargo Truck Game. Step into the drivers seat of a powerful, heavy-duty yellow dump truck heavily loaded with a massive mound of coal, and prepare for an authentic off-road transportation challenge. Navigate treacherous dirt tracks, muddy paths, and steep mountain slopes surrounded by sprawling forests and breathtaking sunrise skies. Every transport mission requires expert gear handling, careful throttle control, and steady steering to keep your valuable cargo secure across bumpy, uneven roads.",
+  "howto": [
+   "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "cargo-truck-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "vehice-rush-master",
+  "title": "Vehice Rush Master",
+  "url": "https://html5.gamemonetize.co/jheblnqcjryfd1dsq5zfx7jhe3xopy2j/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Car",
+   "Cars",
+   "Casual",
+   "Hypercasual",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.5,
+  "plays": 1543124,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-15",
+  "desc": "Prepare for a heart-pounding, high-speed journey into the digital hyperverse with Vehicle Rush Master. In this electrifying arcade racing experience, you take control of a sleek, high-performance yellow sports car equipped with powerful blue thrusters, rocketing down an endless highway. Push your driving reflexes to the absolute limit as you blast through mesmerizing, futuristic neon tunnels bursting with vibrant rings of pink, blue, and purple light. Every second demands razor-sharp focus and lightning-fast agility to dodge obstacles, maintain insane velocities, and scrape against the asphalt with dazzling sparks flying from your tires.",
+  "howto": [
+   "A D or Arrow Keys ndash Move Left Right"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "vehice-rush-master.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "faster-car-race",
+  "title": "Faster Car Race",
+  "url": "https://html5.gamemonetize.co/9qpvw299afzmy7aok2xph76if4npkrg1/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "3D",
+   "Adventure",
+   "Best Games",
+   "Cars",
+   "Casual",
+   "Game"
+  ],
+  "rating": 4.6,
+  "plays": 1543087,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-14",
+  "desc": "Get ready for the ultimate adrenaline rush in Faster Car Race, a high-octane mobile racing experience designed to test your reflexes and driving skills to the absolute limit. Put the pedal to the metal as you pilot sleek, high-performance cars across breathtaking asphalt tracks surrounded by lush green pine forests, towering mountain peaks, and vibrant grandstands filled with cheering crowds. Feel the intense rush of speed as your nitro boost ignites, sending streaks of blue flame out of your exhaust while motion blur effects warp the world around you.",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "faster-car-race.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "bus-driving-master-3d",
+  "title": "Bus Driving Master 3D",
+  "url": "https://html5.gamemonetize.co/zlaendl789evsri1tisxazdrh41sf5fn/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Action",
+   "Adventure",
+   "bus",
+   "Parking"
+  ],
+  "rating": 4.1,
+  "plays": 1542273,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-12",
+  "desc": "Bus Driving Simulator is an exciting 3D driving game where you become a professional bus driver. Pick up passengers from busy city stops and safely transport them to their destinations. Drive through highways, city streets, and beautiful mountain routes while following traffic rules and avoiding obstacles. Complete passenger transport missions, earn rewards, and improve your driving skills as the routes become more challenging. With realistic bus controls, detailed 3D environments, and smooth gameplay, Bus Driving Simulator offers an enjoyable experience for fans of driving and simulation games.",
+  "howto": [
+   "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "bus-driving-master-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "cycle-racing-game",
+  "title": "Cycle Racing Game",
+  "url": "https://html5.gamemonetize.co/kxtqgfy0t8zbz9hh44068ythow4chjxy/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Best Games",
+   "Bicycle",
+   "Casual",
+   "city",
+   "Puzzle",
+   "Race"
+  ],
+  "rating": 4.2,
+  "plays": 1542125,
+  "hot": true,
+  "new": false,
+  "added": "2026-08-11",
+  "desc": "Experience the ultimate adrenaline rush of off-road cycling in Cycle Racing Game. Pedal hard and test your endurance as you race up steep, rugged mountain trails from an immersive first-person perspective, with your hands firmly gripping the handlebars of a high-performance red and black mountain bike. Compete against skilled rivals across demanding uphill tracks surrounded by lush green pine forests, rocky slopes, and breathtaking alpine landscapes dotted with colorful hot air balloons floating in the bright blue sky. Every climb demands precise balance, tactical stamina management, and sharp reflexes to outpace your competitors.",
+  "howto": [
+   "A D or Arrow Keys ndash Move Left Right"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "cycle-racing-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "city-car-driving-game",
+  "title": "City Car Driving Game",
+  "url": "https://html5.gamemonetize.co/m00hcof3fuskic5zjn56oyceee6it6ub/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Best Games",
+   "Cars",
+   "Race"
+  ],
+  "rating": 4.3,
+  "plays": 1542014,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-10",
+  "desc": "City Car Driving Game is an exciting 3D driving experience where players can explore city roads, control a powerful car, and enjoy smooth driving gameplay. Take control of your vehicle, navigate through urban streets, avoid obstacles, and improve your driving skills while exploring the city environment. Get behind the wheel and experience realistic city driving with simple and responsive controls. Carefully drive through busy roads, maintain control of your car, and complete different driving challenges.",
+  "howto": [
+   "To Play Game Use Mouse Arrow Up rarr Move Front Arrow Down rarr Move Back Arrow Left rarr Move Left Arrow Right rarr Move Right"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "city-car-driving-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-driving-school-game",
+  "title": "Car Driving School Game",
+  "url": "https://html5.gamemonetize.co/gzflbajv1u83ewinan6z4zi45b8pezix/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Car",
+   "carparking",
+   "Cars",
+   "Driving",
+   "Game",
+   "Parking"
+  ],
+  "rating": 4.4,
+  "plays": 1541977,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-09",
+  "desc": "Step behind the wheel and master the art of driving with Car Driving School Game, an immersive simulation experience designed to test your precision and road safety knowledge. Navigate through bustling city streets, follow intricate traffic rules, obey road signs, and learn to handle everything from classic cars to heavy vehicles. Featuring realistic physics, intelligent AI traffic, detailed vehicle interiors, and challenging parking missions, this game provides an authentic academy test environment to sharpen your skills. Whether you are practicing smooth steering or working toward earning your virtual drivers license, it delivers ultimate",
+  "howto": [
+   "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-driving-school-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "turbo-team-racing",
+  "title": "Turbo Team Racing",
+  "url": "https://html5.gamemonetize.co/8b02mtykblur16cydn1hkg316mp0e0ir/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "drift",
+   "drifting",
+   "Driving",
+   "mapi games",
+   "Pixel",
+   "Race"
+  ],
+  "rating": 4.6,
+  "plays": 1541681,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-07",
+  "desc": "Turbo Team Racing is a fast-paced top-down arcade racing game inspired by classic retro racers. Master tight corners, avoid damage, collect power-ups and push your car to the limit across different tracks and weather conditions. Beat your best lap times, challenge your rivals and enjoy pure arcade speed with simple controls and addictive gameplay.",
+  "howto": [
+   "Desktop Arrow Keys A-D Steer Up Arrow W Accelerate Down Arrow S Brake Reverse N Nitro if available Mobile Tap left right controls to steer Use on-screen pedals to accelerate and brake Hint Drive smoothly through corners to keep your spe"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "turbo-team-racing.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "advance-car-game-parking",
+  "title": "Advance Car Game Parking",
+  "url": "https://html5.gamemonetize.co/dmbvkzqhkgd6mxchjrkvg95q2ra1xw7m/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Action",
+   "Adventure",
+   "Car",
+   "carparking",
+   "Police"
+  ],
+  "rating": 4.7,
+  "plays": 1541496,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-06",
+  "desc": "Snow Car Parking Game is a fun and challenging 3D driving game where you test your parking skills in a snowy environment. Drive carefully through icy roads, avoid traffic cones and obstacles, and park your car perfectly in the marked parking area. Control your vehicle on slippery surfaces, complete challenging levels, and improve your precision and driving skills. With realistic car physics, winter environments, and smooth gameplay, Snow Car Parking Game offers an exciting parking experience for driving game fans.",
+  "howto": [
+   "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "advance-car-game-parking.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "formula-car-stunt-game",
+  "title": "Formula Car Stunt Game",
+  "url": "https://html5.gamemonetize.co/veee08w4fcs1kodxfcmnycjgpmch0go6/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Best Games",
+   "Car",
+   "Racing",
+   "Stunts"
+  ],
+  "rating": 4.1,
+  "plays": 1540867,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-05",
+  "desc": "Get ready for an adrenaline-pumping driving experience with Formula Car Stunt Game! Take control of a powerful Formula racing car and challenge yourself on exciting stunt tracks filled with ramps, sharp turns, huge jumps, and thrilling obstacles. Drive at high speed, perform spectacular jumps, maintain control of your formula car, and reach the finish line without falling off the track. Each stunt track is designed to test your driving skills, timing, balance, and precision.",
+  "howto": [
+   "To Play Game Use Mouse To Play Game Use Keyboard"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "formula-car-stunt-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "endless-car-race-game",
+  "title": "Endless Car Race Game",
+  "url": "https://html5.gamemonetize.co/dlr5gxvflvpqqj28bpylyte7sn88mx1r/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Best Games",
+   "Cars",
+   "Highscore",
+   "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1540312,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-04",
+  "desc": "Get ready for an exciting and fast-paced driving experience with Endless Car Race Game! Take control of your car, hit the road, avoid obstacles, and see how far you can go in this thrilling endless racing adventure. Drive through challenging roads, react quickly to traffic and obstacles, and keep your car moving for as long as possible. The game is easy to play but becomes increasingly challenging as you continue, making every run exciting and unpredictable.",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "endless-car-race-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "obby-cart-rush",
+  "title": "Obby Cart Rush",
+  "url": "https://html5.gamemonetize.co/tmhj9i3trg8ot0u7h9qahh6flzn9zkjp/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "3D",
+   "Adventure",
+   "Arcade",
+   "Car",
+   "Cartoon",
+   "Driving"
+  ],
+  "rating": 4.3,
+  "plays": 1539276,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-03",
+  "desc": "Obby Cart Rush is a fast, colorful 3D cart-coaster obby! Jump into your wooden minecart and race down wild roller-coaster tracks across 5 themed worlds - Mountain, House, Forest, City and Zoo. Hold to speed up, brake before the signs, survive loops and steep drops, and reach the flag as fast as you can to earn Bronze, Silver and Gold medals. Simple one-tap controls, works great on mobile (landscape) and desktop. How fast can you finish every track? Play Obby Cart Rush now!",
+  "howto": [
+   "Hold press UP to accelerate the cart release or press DOWN to brake before the speed signs Survive the loops and drops and reach the flag Mobile on-screen gas amp brake pedals joystick Desktop W UP to go S DOWN to brake R to restart"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "obby-cart-rush.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-evolution-game",
+  "title": "Car Evolution Game",
+  "url": "https://html5.gamemonetize.co/rrflwl9gzd8jw3wpk6mzgwfzi32pvnlp/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Action",
+   "Adventure",
+   "Best Games",
+   "Car",
+   "Hypercasual",
+   "Race"
+  ],
+  "rating": 4.4,
+  "plays": 1539054,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-02",
+  "desc": "Car Evolution is an exciting driving and upgrade adventure where every choice makes your car stronger and faster! Race through challenging tracks, collect power-ups, pass through upgrade gates, and evolve your vehicle into the ultimate supercar. Avoid obstacles, make smart decisions, and unlock powerful new models as you progress through increasingly difficult levels. Enjoy smooth controls, realistic driving mechanics, stunning 3D graphics, and satisfying car transformations. Test your reflexes, improve your strategy, and race toward victory. Whether youre a casual gamer or a car enthusiast, Car Evolution offers endless fun and thrilling gam",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-evolution-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-stunt-master-game",
+  "title": "Car Stunt Master Game",
+  "url": "https://html5.gamemonetize.co/gixytcyqjodb9t1bd6z6c2bhuc0n2zqi/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "amazing",
+   "Best Games",
+   "Car",
+   "drifting"
+  ],
+  "rating": 4.6,
+  "plays": 1537500,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-31",
+  "desc": "Get ready for an exciting driving adventure in Car Stunt Master Game! Drive powerful sports cars across impossible tracks filled with ramps, loops, sharp turns, and challenging obstacles. Perform amazing stunts, master tricky levels, and prove your driving skills in this thrilling car stunt simulator. Challenge yourself with a variety of unique levels designed to test your precision, speed, and control. Jump over huge gaps, balance on narrow tracks, avoid dangerous obstacles, and reach the finish line without crashing. Every level brings a new stunt challenge that keeps the gameplay exciting and rewarding.",
+  "howto": [
+   "W uarr Arrow ndash Accelerate S darr Arrow ndash Brake Reverse A larr Arrow ndash Turn Left D rarr Arrow ndash Turn Right"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-stunt-master-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "police-car-parking-2026",
+  "title": "Police Car Parking 2026",
+  "url": "https://html5.gamemonetize.co/zo8ocq9uu0gjavl3iazgiessapj6ov6n/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "carparking",
+   "Driving",
+   "Police",
+   "Skill",
+   "Unity3D",
+   "WebGL"
+  ],
+  "rating": 4.7,
+  "plays": 1537352,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-30",
+  "desc": "Master the art of precision driving in Police Car Parking 2026! Navigate challenging city streets, tight alleys, and busy lots as you park your police cruiser with expert skill. Test your reflexes across multiple levels with increasing difficulty. Avoid obstacles, respect traffic rules, and prove you have what it takes to handle law enforcement vehicles. Web Dev &lt;a href='https://www.crazygames.com.es/'&gt;https://www.crazygames.com.es/&lt;/a&gt; With realistic controls and immersive Unity3D graphics, this WebGL game delivers thrilling parking action for players of all ages. Play now and become the ultimate parking officer!",
+  "howto": [
+   "Use WASD to drive the car"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "police-car-parking-2026.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "drive-and-dodge-car-racing-3d",
+  "title": "Drive and Dodge: Car Racing 3D",
+  "url": "https://html5.gamemonetize.co/eevs3wrwe1jwqi87dh1ov6n2opkmdb1y/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "3D",
+   "Android",
+   "Arcade",
+   "Car",
+   "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 1536131,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-29",
+  "desc": "Get ready for the ultimate high-speed test of reflexes in Drive and Dodge: Car Racing 3D! Race against a ticking clock with smooth auto-acceleration. Hit Blue +5 panels to gain time, avoid Red -5 panels, and master sharp drifts to charge your Nitro and smash through obstacles. Unlock new cars and test your driving skills now! - Fast-Paced Action: Race against a ticking clock with smooth auto-acceleration. - Time Management: Hit Blue +5 panels to gain time and avoid Red -5 panels. - Nitro Boosts: Master sharp drifts to charge your Nitro and smash through obstacles. - Garage &amp;amp; Upgrades: Unlock new cars with special pre-game advantages.",
+  "howto": [
+   "Acceleration Auto Brake Space Bar Time Boost E Life Boost Q Activate Nitro W Turn Left Right A D Buy Nitro T"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "drive-and-dodge-car-racing-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-parking-driving-game",
+  "title": "Car Parking Driving Game",
+  "url": "https://html5.gamemonetize.co/tw5q4hpa0iplg8vdpd1ztxohsofmdc63/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Arcade",
+   "Car",
+   "carparking",
+   "Driving",
+   "Parking",
+   "Race"
+  ],
+  "rating": 4.3,
+  "plays": 1534096,
+  "hot": true,
+  "new": false,
+  "added": "2026-07-27",
+  "desc": "Test your driving precision in Car Parking Driving Game, where every level challenges your parking and control skills. Drive a variety of realistic vehicles through detailed environments, avoid obstacles, and park perfectly before time runs out. From narrow city streets to challenging parking lots, each mission requires patience, accuracy, and smooth driving. Unlock new cars, complete increasingly difficult parking challenges, and improve your driving abilities as you progress. Whether youre a casual player or a parking master, the game offers a fun and rewarding experience with realistic physics and responsive controls.",
+  "howto": [
+   "W up arrow key accelerate A left arrow key turn left D right arrow key turn right S down arrow key brake B look back C change camera view Mouse Click To Interact"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-parking-driving-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "formula-car-circuit-racing-2",
+  "title": "Formula Car Circuit Racing",
+  "url": "https://html5.gamemonetize.co/jyuol9zck6ti6y3654qqs6pg0r857df8/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "3D Games",
+   "Cars",
+   "drifting",
+   "Driving",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1532172,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-24",
+  "desc": "Experience the thrill of high-speed motorsport in Formula Car Real Racing! Jump behind the wheel of powerful formula racing cars and compete against skilled rivals on stunning race tracks. Push your driving skills to the limit as you overtake opponents, master sharp turns, and race for the championship title. Enjoy realistic racing action, smooth controls, dynamic environments, and intense competition across multiple challenging circuits. Upgrade your racing skills, chase the fastest lap times, and prove that you have what it takes to become the ultimate formula racing champion.",
+  "howto": [
+   "W up arrow key accelerate A left arrow key turn left D right arrow key turn right S down arrow key brake B look back C change camera view Mouse Click To Interact"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "formula-car-circuit-racing-2.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "police-chase-run",
+  "title": "Police Chase Run",
+  "url": "https://html5.gamemonetize.co/ug1zf1xxd9mujhwnmtnmskyc3waohc1w/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "2D",
+   "Android",
+   "Car",
+   "Cars"
+  ],
+  "rating": 4.7,
+  "plays": 1531728,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-23",
+  "desc": "Take the wheel and try to survive as long as possible in a tense police chase. The car keeps moving forward, while you steer at the right moment, avoid police cars, and collect coins. The longer the run, the higher the score. Unlock new cars, improve your result, and compete for a place on the leaderboard. The game is made for one player and works well for quick arcade sessions.",
+  "howto": [
+   "Control the car with the on-screen steering wheel Turn in time to avoid crashing into police cars Collect coins during the run and try to stay in the chase for as long as possible After losing you can restart open the shop and choose another car Th"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "police-chase-run.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-evolution-pro-math-gates",
+  "title": "Car Evolution Pro : Math Gates",
+  "url": "https://html5.gamemonetize.co/sqtuqupfoswoie8rutb8035178dem34x/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "3D",
+   "Brain",
+   "Car",
+   "car tuning",
+   "Cars"
+  ],
+  "rating": 4.3,
+  "plays": 1529360,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-20",
+  "desc": "Car Evolution Pro : Math Gates turns math practice into a race! Drive down the road to the question gates. Each gate shows a math problem with two answer lanes &amp;mdash; steer through the correct one. Answer enough correctly to pass the level and unlock a brand-new part for your car. Watch it evolve from a bare frame into a fully built machine, level by level.",
+  "howto": [
+   "bull Swipe left right or use the arrow keys to steer bull A math question appears above each gate mdash drive through the lane with the correct answer bull Answer enough questions correctly to pass the level bull Every level you pass unlock"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-evolution-pro-math-gates.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "mini-car-runner-meme-games",
+  "title": "Mini Car Runner Meme Games",
+  "url": "https://html5.gamemonetize.co/5sh8t4wul1u5743j9cd6jap365ow17b3/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "3D",
+   "Brainrot",
+   "Car",
+   "Cars",
+   "Driving",
+   "endless"
+  ],
+  "rating": 4.4,
+  "plays": 1529323,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-19",
+  "desc": "Mini Car Runner - Meme Games is a fast-paced 3D car running game packed with hilarious meme energy. Jump behind the wheel of your mini car and race down endless roads while dodging traffic, obstacles, and other vehicles that get in your way. The further you drive, the faster things get, so keep your reflexes sharp and your eyes on the road! Collect coins along the way, unlock fun new cars, and chase the highest score you can reach. With its bright cartoon visuals, silly meme-inspired style, and simple one-touch controls, this arcade racer is easy to pick up but tough to put down. Perfect for quick play sessions, Mini Car Runner challenges you",
+  "howto": [
+   "Use the Left and Right Arrow Keys or A D to steer your car and switch lanes On mobile tap or swipe left and right to move Avoid obstacles and oncoming traffic collect coins and drive as far as you can"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "mini-car-runner-meme-games.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "highway-rush",
+  "title": "Highway Rush",
+  "url": "https://html5.gamemonetize.co/3sl2g4pcon6uwny2h16xaqplmm675spv/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "2D",
+   "Adventure",
+   "amazing",
+   "Car",
+   "Cars"
+  ],
+  "rating": 4.5,
+  "plays": 1528657,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-18",
+  "desc": "Drive your car on a busy highway. Dodge oncoming traffic, collect coins, and survive as long as you can! Control your car using A/D keys, Arrow keys, or Mouse/Touch.",
+  "howto": [
+   "A Left Arrow to turn left D Right Arrow to turn right You can also use mouse or touch"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "highway-rush.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "extreme-car-racing",
+  "title": "Extreme Car Racing",
+  "url": "https://html5.gamemonetize.co/aw97e3jihnd8b0txhj0ngq4353xi0zh3/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Action",
+   "Adventure",
+   "Best Games",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1525401,
+  "hot": true,
+  "new": true,
+  "added": "2026-07-17",
+  "desc": "Highway Rush Police Chasing Game is an action-packed racing and chasing game where speed, control, and quick decisions matter the most. In this thrilling game, players take part in high-speed highway chases, racing through busy roads while avoiding traffic, obstacles, and intense police pursuits. The gameplay is fast, exciting, and easy to learn. Players control their vehicle on an endless highway filled with moving traffic, sharp turns, and challenging situations. Your goal is to survive as long as possible, escape police cars, and push your driving skills to the limit.",
+  "howto": [
+   "- To click any button use mouse"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "extreme-car-racing.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "rally-race-pro-3-0-car-racing",
+  "title": "Rally Race Pro 3.0 Car Racing",
+  "url": "https://html5.gamemonetize.co/ya4wsn7zuy2cct6n3l8pn122yq8mihy8/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "3D",
+   "Car",
+   "Cars",
+   "drift",
+   "drifting"
+  ],
+  "rating": 4.7,
+  "plays": 1523477,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-16",
+  "desc": "Experience intense rally racing action in this realistic car driving simulator. Race across rugged hill roads, sharp turns, and challenging terrains while mastering drifting, braking, and precision driving. Tune your suspension, improve lap times, and climb the leaderboard in immersive offline rally races. Enjoy dynamic weather, realistic physics, detailed cars, and exciting driving challenges designed for fans of rally racing and car simulation games.",
+  "howto": [
+   "Keyboard Controls bull W Up Arrow ndash Accelerate bull S Down Arrow ndash Brake Reverse bull A Left Arrow ndash Steer Left bull D Right Arrow ndash Steer Right bull Spacebar ndash Handbrake Drift bull C ndash Change Ca"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "rally-race-pro-3-0-car-racing.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "drift-car-driving",
+  "title": "Drift Car Driving",
+  "url": "https://html5.gamemonetize.co/psaxcnaaudnghwtus0rvv9lsb3gczzxv/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Car",
+   "drifting",
+   "Driving",
+   "Racing"
+  ],
+  "rating": 4.1,
+  "plays": 1522774,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-15",
+  "desc": "Highway Drift Car Racing Game is an action-packed car racing game designed for players who love high-speed driving, realistic car simulation, and extreme drifting challenges. This car racing game delivers an immersive experience with smooth controls, stunning 3D graphics, and thrilling gameplay that keeps you engaged for hours. If you are a fan of car games, racing games, drifting games, or driving simulator games, then this highway racing game is perfect for you. In this exciting car driving simulator, you will take control of powerful sports cars and race across busy highways filled with traffic.",
+  "howto": [
+   "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "drift-car-driving.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "draw-a-road",
+  "title": "Draw a road",
+  "url": "https://html5.gamemonetize.co/vwlxxpvqaxkoz2zmb8l842w1fo0aoafq/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "2025 games",
+   "Brain",
+   "Bridge",
+   "Car",
+   "Casual"
+  ],
+  "rating": 4.2,
+  "plays": 1522293,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-14",
+  "desc": "Draw a road is an addictive physics puzzle where you draw the road for a car to reach the finish line. The car cannot pass on its own &amp;mdash; you have to draw bridges, ramps and paths to get it across pits, gaps and obstacles. The car drives exactly where you draw! Each level brings a new challenge: holes, cliffs, boxes and hills. Collect nitro along the way for a speed boost, upgrade your wheels and paint your car any color you like. Dozens of levels with rising difficulty keep things fun and tricky. Simple to start, hard to put down. Perfect for short breaks and great for training spatial thinking.",
+  "howto": [
+   "Draw a road from the car to the finish flag with your mouse or finger The car drives automatically along the line you draw - Draw bridges over gaps and ramps to jump obstacles - Collect nitro and tap the button for a speed boost - Tap HINT to watch a he"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "draw-a-road.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "vehicle-masters",
+  "title": "Vehicle Masters",
+  "url": "https://html5.gamemonetize.co/k516anavcz2cqqtuee6aa5gjst8m0vxn/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "carparking",
+   "Cars",
+   "Parking",
+   "Simulation",
+   "Truck"
+  ],
+  "rating": 4.3,
+  "plays": 1521590,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-13",
+  "desc": "Vehicle Masters is a minimalist arcade parking challenge with over 40 increasingly difficult levels. Maneuver your car through tight spaces, avoid obstacles, and park perfectly in the marked spot. Each level introduces new layouts &amp;mdash; narrow alleys, moving barriers, sharp corners, and crowded lots. What makes it unique? Simple controls with realistic physics: steering plus manual gear shifting (forward and reverse). On desktop you control gears manually with keys; on mobile you only steer &amp;mdash; gears switch automatically for smooth gameplay. With clean visuals and progressive difficulty, this game tests precision and patience. P",
+  "howto": [
+   "Park inside the green zone without hitting walls or obstacles Complete each level to unlock the next Desktop ndash Arrow keys or WASD to steer R for reverse gear D for drive gear Spacebar for brake Mobile ndash Only steering mdash tap left rig"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "vehicle-masters.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "crazy-moto",
+  "title": "Crazy Moto",
+  "url": "https://html5.gamemonetize.co/s74g69865ye0ps8z2bvoc4cyu7r5iock/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "motorcycle",
+   "stunt"
+  ],
+  "tags": [
+   "2025 games",
+   "2026 games",
+   "2D",
+   "Arcade",
+   "Balance",
+   "Bike"
+  ],
+  "rating": 4.4,
+  "plays": 1520776,
+  "hot": true,
+  "new": false,
+  "added": "2026-07-12",
+  "desc": "Crazy Moto is a fast-paced motorcycle stunt racing game where physics and balance decide everything. Twist the throttle, fly off ramps and blast through 22 hand-crafted levels packed with loops, explosive barrels, spikes, collapsing platforms and deadly drops. Beat the clock to earn up to 3 stars on every level and chain insane mid-air tricks &amp;mdash; Front Flip, Back Flip, Double Flip and Wheelie &amp;mdash; to rack up a higher score and a faster best time. Spend your stars to unlock and ride powerful new bikes, including the Desert Racer, the Martian and the Firehead, each with its own look and feel.",
+  "howto": [
+   "Desktop Arrow Up W accelerate Arrow Down S brake amp reverse Arrow Left-Right A-D lean and balance the rider in the air for flips Mobile On-screen gas and brake pedals tilt control with the brake gas buttons to balance and perform flip"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "crazy-moto.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "monster-truck-offroad",
+  "title": "Monster Truck Offroad",
+  "url": "https://html5.gamemonetize.co/a3jgsz6mwp6ygkkc79pga3s4k9st3i43/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "offroad",
+   "Race",
+   "Truck"
+  ],
+  "rating": 4.5,
+  "plays": 1519407,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-11",
+  "desc": "Monster Truck Offroad Racing Game is a rugged arcade racer where massive trucks tear through dirt, mud, and rocky terrain. Crush obstacles, jump over ravines, and smash through destructible objects as you race to the finish. The game features multiple monster trucks with unique stats &amp;mdash; speed, crush power, and suspension. What makes it unique? Unlike standard racers, you earn points for crushing cars and destroying the environment. Bigger trucks can flatten smaller obstacles, while lighter ones climb steeper hills. With bumpy tracks, hidden shortcuts, and realistic weight physics, every race feels powerful and unpredictable. Perfect",
+  "howto": [
+   "Reach the finish line first or complete destruction goals Your truck handles rough terrain mdash use momentum to climb hills Desktop ndash Left right arrows to steer Up arrow to accelerate Down arrow to brake reverse Spacebar to crush jump Mobil"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "monster-truck-offroad.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-stunt-racing-stylized",
+  "title": "Car Stunt Racing Stylized",
+  "url": "https://html5.gamemonetize.co/wc1jkzey2mu15um074zx1mgujcp2nc8l/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "Car",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1519222,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-10",
+  "desc": "Stylized Car Racing Game is a fast-paced arcade racer with a unique visual flair &amp;mdash; think bold colors, cel-shaded graphics, and exaggerated speed effects. Zoom through winding tracks, drift around corners, and overtake rivals to reach the finish line first. The game features multiple cars to unlock, each with distinct handling. What makes it unique? The stylized art style combines cartoon aesthetics with smooth racing physics, creating a vibrant world that stands out from realistic racers. With responsive controls, boost pads, and tight cornering, every race feels exhilarating. Perfect for quick play sessions on desktop and mobile br",
+  "howto": [
+   "Beat rival cars to win races and unlock new tracks Your car accelerates automatically mdash focus on steering and drifting Desktop ndash Left right arrows to steer Spacebar for handbrake drift Down arrow to slow down Mobile ndash Tilt your devi"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-stunt-racing-stylized.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "go-kart-racing-game",
+  "title": "Go Kart Racing Game",
+  "url": "https://html5.gamemonetize.co/op8z87x6dltznob1zzs7yu2n3xqxktlg/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Adventure",
+   "amazing",
+   "Car",
+   "drifting",
+   "Driving",
+   "Fun"
+  ],
+  "rating": 4.7,
+  "plays": 1518038,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-09",
+  "desc": "Go Kart Racing Game is an exciting and fast-paced racing adventure where players compete in thrilling kart battles across dynamic tracks and challenging environments. Drive powerful go-karts, avoid obstacles, collect rewards, and race against skilled opponents to become the ultimate champion. Enjoy smooth controls, colorful graphics, and action-packed gameplay designed for endless fun and entertainment. Unlock new karts, improve your racing skills, and experience the excitement of high-speed competition anytime, anywhere.",
+  "howto": [
+   "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "go-kart-racing-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "police-bus-simulation",
+  "title": "Police Bus Simulation",
+  "url": "https://html5.gamemonetize.co/8bj8ydqwu9vy28zeoa34bvv3sump5adx/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "bus",
+   "Police",
+   "Simulation"
+  ],
+  "rating": 4.1,
+  "plays": 1518001,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-08",
+  "desc": "Police Bus Simulation puts you behind the wheel of a heavy-duty police bus on a mission to catch criminals on the run. This fast-paced arcade chaser blends pursuit action with vehicle handling. Drive through city streets in both day and night themed levels, chase down thief cars, and ram them to make an arrest. What makes it unique? Youre not in a small police car &amp;mdash; you control a massive bus that requires smart positioning and timing to trap speeding vehicles. Each level brings faster and more aggressive criminals.",
+  "howto": [
+   "Your goal is simple catch all escaping vehicles in each level before time runs out Chase thief cars vans or any suspicious vehicle and make contact to arrest them Complete all chases in a level to advance As you progress criminals drive faster and"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "police-bus-simulation.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "max-speed",
+  "title": "Max Speed",
+  "url": "https://html5.gamemonetize.co/ai9lo8rruqqnfxpsvk6fveoe6yzs9bfo/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "3D",
+   "Action",
+   "Car",
+   "Dinosaur",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1517076,
+  "hot": true,
+  "new": false,
+  "added": "2026-07-07",
+  "desc": "Race shiny sports cars on thrilling 3D tracks full of jumps, stunts, and intense battles. Explore exciting locations with unique challenges, perform daring tricks, upgrade and customize your cars, and test your skills in fast-paced arcade races. Enjoy high-speed action, stunning visuals, and nonstop adrenaline right in your browser.",
+  "howto": [
+   "Mouse click or tap to playArrow Up W - Front flip Arrow Down S - Back flip Shift Space - Nitro Arrow Left A - Turn left Barrel Flip Arrow Right D - Turn right Barrel flip"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "max-speed.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "dead-paradise",
+  "title": "Dead Paradise",
+  "url": "https://html5.gamemonetize.co/td7r994z5ls02swod3lm0gk9h2jl2jmi/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "shooting",
+   "arcade"
+  ],
+  "tags": [
+   "3D",
+   "3D Games",
+   "Action",
+   "Cars",
+   "Shoot 'Em Up",
+   "Shooting"
+  ],
+  "rating": 4.4,
+  "plays": 1515300,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-05",
+  "desc": "Dead Paradise: Race Shooter is an apocalyptic car game where you have to shoot your enemies. Drive and shoot your enemies at the same time to finish the level! Your goal is not only to finish the race, but to survive it. Your enemies will come after you in all sorts of vehicles. Finish the level and earn coins to upgrade your car in the garage. There are missile upgrades, armor upgrades, engine upgrades and fuel upgrades to unlock that will increase your damage, health and speed. There are even other awesome looking vehicles that you can buy.",
+  "howto": [
+   "Accelerate - arrow up Slow down - arrow down Launch missiles - x Adjust firing direction - z Nitro - space"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "dead-paradise.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "moto-adventure",
+  "title": "Moto Adventure",
+  "url": "https://html5.gamemonetize.co/ifiockt551pv3vcfrsplz20ztctyk149/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "motorcycle",
+   "stunt"
+  ],
+  "tags": [
+   "1 Player",
+   "2D",
+   "Moto",
+   "Motorcycle",
+   "Race"
+  ],
+  "rating": 4.6,
+  "plays": 1511119,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-03",
+  "desc": "This is a fun little racing game with various interesting gameplay elements. The simple gameplay and diverse levels designed for players will give you a unique gaming experience. All the graphics are very high-definition. Players can adventure in this game with many game modes and diverse levels. Complete various levels in your own way to experience adventure and racing in China. Players will be able to experience a unique gaming experience.",
+  "howto": [
+   "This is a simple and fun adventure game where players control a motorcycle to move forward and backward to reach the finish line"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "moto-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "ultra-crash-car-simulator-2026",
+  "title": "Ultra Crash Car Simulator 2026",
+  "url": "https://html5.gamemonetize.co/bevbu07wktcxyyg5hwz42yh36bg5maio/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "3D",
+   "3D Games",
+   "Car",
+   "jeep"
+  ],
+  "rating": 4.2,
+  "plays": 1510490,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-30",
+  "desc": "Welcome to Ultra Crash Car Simulator 2026, a realistic car crash simulator with detailed damage physics, multiple vehicles, and open-world maps. If you enjoy car destruction games, extreme car crashes, and realistic car simulator gameplay, this car crash simulator is made for you. Hit the gas and turn every drive into pure chaos!",
+  "howto": [
+   "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right To click any button use mouse"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "ultra-crash-car-simulator-2026.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "astro-racing",
+  "title": "Astro Racing",
+  "url": "https://html5.gamemonetize.co/ctty3hla6y6cocro7k8tr4egapzms8re/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Ai Games",
+   "mapi games",
+   "Race",
+   "Racing",
+   "Retro",
+   "Space"
+  ],
+  "rating": 4.3,
+  "plays": 1510157,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-29",
+  "desc": "Blast off into space and race across 10 alien planets in Astro Racing! Pilot your spaceship through cosmic circuits, drift through space gravity, and hit warp boosts to surge ahead. Avoid ion clouds that flip your controls! Finish 1st to unlock the next planet. 10 planets, 5 laps each - from Luna Base to the legendary Warp Zone. Can you become the Intergalactic Champion?",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "astro-racing.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "hill-climb-racings-2",
+  "title": "HIll climb Racings 2",
+  "url": "https://html5.gamemonetize.co/1vxk8rfmkpin0l0ex7atiuftp6l3mu6p/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Adventure",
+   "Funny",
+   "Kids",
+   "kiz10",
+   "Racing"
+  ],
+  "rating": 4.4,
+  "plays": 1509935,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-28",
+  "desc": "Hill Climb Racings 2 is back, bigger, better and Its even more fun! Join millions of players from around the world in this action packed car racing game with realistic physics",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "play and interact"
+   ],
+   [
+    "Click / tap",
+    "select and act"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "hill-climb-racings-2.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "bike-rush-xtreme",
+  "title": "Bike Rush Xtreme",
+  "url": "https://html5.gamemonetize.co/2l0kjbzdmrlfrzbs7epvarvnkn0788cr/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "motorcycle",
+   "stunt"
+  ],
+  "tags": [
+   "Action",
+   "Bike",
+   "Racing",
+   "Stunts"
+  ],
+  "rating": 4.5,
+  "plays": 1509306,
+  "hot": true,
+  "new": true,
+  "added": "2026-06-27",
+  "desc": "The sun sets over rugged canyon trails as you rev your engine and dive into the high-speed world of Bike Rush Xtreme. What starts as a struggle on a second-hand bike quickly becomes a journey of skill, speed, and determination. Master sharp turns, push your limits, and rise through intense races to build your legacy. Every track brings new challenges, where precision and control decide your fate.",
+  "howto": [
+   "Use W to speed up and S to slow down Press A and D to lean left or right while turning Hit the Spacebar when you need a quick strong brake"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "bike-rush-xtreme.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "ultimate-bus-simulator-game",
+  "title": "Ultimate Bus Simulator Game",
+  "url": "https://html5.gamemonetize.co/9de53pdsruhg1wy9wxq7byk6wmci9o9j/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "bus",
+   "Driving",
+   "Fun",
+   "Parking",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1509121,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-26",
+  "desc": "Welcome to the world of Ultimate Bus Simulator Game. Select your favorite bus and get behind the wheels of steering start the bus engine to show the exact precision of driving and parking in a realistic city environment. Bus driving games have three different modes like pick and drop, bus parking and free mode.",
+  "howto": [
+   "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "play and interact"
+   ],
+   [
+    "Click / tap",
+    "select and act"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "ultimate-bus-simulator-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "cars-vs-zombies",
+  "title": "Cars vs Zombies",
+  "url": "https://html5.gamemonetize.co/37xbo1bp2zlvfzd3bldtpksm3oon99n8/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "shooting",
+   "arcade"
+  ],
+  "tags": [
+   "Car",
+   "car tuning",
+   "Cars",
+   "Casual",
+   "destroy",
+   "destroying"
+  ],
+  "rating": 4.7,
+  "plays": 1507678,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-25",
+  "desc": "Cars vs Zombies is an arcade vehicular survival action game. Drive your car, annihilate waves of zombies, and destroy the interactive environment in the arenas. Earn resources to upgrade your vehicles in the garage: improve stats, install attachable armor, and equip boosters. Multiple maps and vehicle types are available.",
+  "howto": [
+   "Your goal is to drive the car collect points and crush zombies on the road Use the arrow keys or WASD to control your vehicle"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "cars-vs-zombies.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "sling-drift-racing-games",
+  "title": "Sling Drift Racing Games",
+  "url": "https://html5.gamemonetize.co/zdb7o25pse63etszu7kb8p3mu6xxzab1/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "drift",
+   "drifting",
+   "Driving",
+   "Race"
+  ],
+  "rating": 4.1,
+  "plays": 1507308,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-24",
+  "desc": "Ready to trade the asphalt for the ocean? Sling Drift Racing Games brings you the most intense water-drifting experience on mobile. Forget tires and tracks&amp;mdash;it&amp;rsquo;s all about the current, the wake, and the perfect sling! Hook, Sling, and Slide Master the art of the maritime drift. With simple, responsive one-tap controls, tap and hold to anchor your boat to the buoy and swing around sharp bends. Release to catch the straightaway and build up insane speed. Can you navigate the narrowest channels without a collision? Key Features: Realistic Water Physics Epic Fleet Collection Endless Oceanic Tracks Satisfying Combos",
+  "howto": [
+   "If you love the thrill of Sling Drift style gameplay but want a fresh aquatic twist this is the game for you It rsquo s a minimalist high-speed arcade challenge that tests your reflexes timing and precision Whether you have 30 seconds or 30 minutes"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "sling-drift-racing-games.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "ben-car-adventure",
+  "title": "Ben Car Adventure",
+  "url": "https://html5.gamemonetize.co/wcuyk2mgaf8haip2aeeyjftd4h3qjbt9/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Arcade",
+   "Balance",
+   "Ben 10",
+   "Car",
+   "Driving",
+   "Fun"
+  ],
+  "rating": 4.2,
+  "plays": 1506568,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-23",
+  "desc": "Ben Car Adventure is an exciting platform driving game where you join Ben on a fun and action-packed journey! Drive across challenging obstacles, jump over tricky terrain, and collect valuable items along the way. Test your skills as you balance speed and control to reach the finish line without crashing. Can you help Ben complete every level?",
+  "howto": [
+   "Mouse to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "ben-car-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "buggy-racing",
+  "title": "Buggy Racing",
+  "url": "https://html5.gamemonetize.co/6jl490z6y1sr7d71i9iw0ogqqblwchu8/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Adventure",
+   "Arcade",
+   "buggy",
+   "Race",
+   "WebGL"
+  ],
+  "rating": 4.3,
+  "plays": 1505939,
+  "hot": true,
+  "new": false,
+  "added": "2026-06-22",
+  "desc": "Buggy Racing is an exciting off-road driving game packed with speed, fun, and adventure! Choose from 3 unique buggies and 3 different characters, each with their own style. Explore 3 thrilling game modes: Race against opponents in Racing Mode, beat the clock in Time Lap Mode, or survive as long as you can in Endless Mode. Drive through challenging tracks, avoid obstacles, and prove your skills. Enjoy smooth controls, engaging gameplay, and fast-paced action in this ultimate buggy racing experience!",
+  "howto": [
+   "Buggy Racing offers smooth and easy-to-use controls for both mobile and keyboard players giving you full control of your buggy in every situation On mobile use the on-screen buttons to move left and right control speed and navigate through challengin"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "buggy-racing.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "escape-the-lava",
+  "title": "Escape the lava",
+  "url": "https://html5.gamemonetize.co/6xsuk99lx4wifzilgiosj5p6s2ottads/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "slope",
+   "arcade"
+  ],
+  "tags": [
+   "3D",
+   "Arcade",
+   "Ball",
+   "Highscore",
+   "Obstacle",
+   "Race"
+  ],
+  "rating": 4.4,
+  "plays": 1505791,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-21",
+  "desc": "Escape the Lava In this game you are a ball, and your goal is to collect points and dodge obstacles. You can buy skins, in the store. - Green - Red - Blue - Pink - Glowy - White - Black - Mat - Glass ball . . . and much more . . . Also you can use power-ups scatterd around the randomly generating map! - Faster movement - Double points - Magnet (Collects coins from further away) Made by . : Nitram1234 (M. Martin)",
+  "howto": [
+   "Move - W A S D Collect coins - On contact"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "escape-the-lava.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "gt-truck-racer",
+  "title": "GT Truck Racer",
+  "url": "https://html5.gamemonetize.co/ypdftekz1flkogkne2r1ej9hn8oxl3ml/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Car",
+   "Cars",
+   "Driving",
+   "Traffic",
+   "unity"
+  ],
+  "rating": 4.5,
+  "plays": 1505421,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-20",
+  "desc": "GT Truck Racer is an exciting truck driving game where you experience realistic driving across different cities and weather conditions. Take control of powerful trucks, navigate challenging roads, and avoid obstacles to reach your destination safely. Enjoy smooth controls, immersive environments, and dynamic gameplay that keeps you engaged. Test your driving skills, complete missions, and become the ultimate truck racer on every road you conquer",
+  "howto": [
+   "Use intuitive on-screen controls to drive your vehicle smoothly Tap left and right buttons to steer switch camera views anytime for a better perspective and activate the booster button for an instant speed boost Enjoy responsive gameplay and dynamic d"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "gt-truck-racer.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "wrong-side-driving-car-game",
+  "title": "Wrong Side Driving Car Game",
+  "url": "https://html5.gamemonetize.co/61jfjtg8j15v0mxqya1uzhjc1iftdah4/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Car",
+   "Race",
+   "Racing",
+   "Supercars",
+   "survival"
+  ],
+  "rating": 4.6,
+  "plays": 1505088,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-19",
+  "desc": "Wrong Side Driving is a fast-paced endless driving game where you take the ultimate risk &amp;mdash; driving on the wrong side of the road! Dodge oncoming traffic, collect power-ups, and test your reflexes as the speed increases with every passing second. One mistake and it&amp;rsquo;s game over with a big crash explosion! Perfect for both casual players and thrill-seekers, this game guarantees endless fun and excitement.",
+  "howto": [
+   "Tap Let Right or Use Arrow Keys to control"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "wrong-side-driving-car-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "skill-driver-game",
+  "title": "Skill Driver Game",
+  "url": "https://html5.gamemonetize.co/zor0wgcoadh5ifc11fqb9faqtnvf0736/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "amazing",
+   "Car",
+   "Fun",
+   "Puzzle"
+  ],
+  "rating": 4.2,
+  "plays": 1503201,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-16",
+  "desc": "Get ready for an exciting and action-packed gaming experience! This game is designed to test your skills, reflexes, and strategy in a fun and engaging way. With smooth controls and immersive gameplay, players can enjoy endless challenges and thrilling moments.",
+  "howto": [
+   "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "skill-driver-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "neon-dash-survive-the-dash",
+  "title": "Neon Dash: Survive the Dash",
+  "url": "https://html5.gamemonetize.co/e0xia9yrddigo8oa7mpf73frigo428zy/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "2D",
+   "dash",
+   "running",
+   "survival"
+  ],
+  "rating": 4.3,
+  "plays": 1502609,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-15",
+  "desc": "Neon Dash: Survive the Dash is a high-octane, rhythm-based platformer where precision is everything. Navigate a gritty, dark-pop world filled with lethal spikes, rotating sawblades, and shifting gravity. Use jump pads and mid-air orbs to defy death as the speed intensifies across multiple neon-drenched levels. Experience cinematic visuals with a pulse-pounding aesthetic designed for those with lightning-fast reflexes. Can you survive the dash?",
+  "howto": [
+   "Jump Tap the screen or press SPACE UP to leap over hazards Mid-Air Orbs Tap while near Cyan Yellow Rings to perform a second jump in mid-air Jump Pads Contact Yellow Pink Pads for an automatic high-velocity boost Portals Pass through Speed Gate"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "move"
+   ],
+   [
+    "Space",
+    "jump"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "neon-dash-survive-the-dash.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "kigali-drift-king",
+  "title": "Kigali Drift King",
+  "url": "https://html5.gamemonetize.co/ezh2ais4qk74un2uy1wzg3elrm32877u/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "drift",
+   "drifting",
+   "endless",
+   "HTML5",
+   "Mobile",
+   "Racing"
+  ],
+  "rating": 4.4,
+  "plays": 1501647,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-14",
+  "desc": "Endless drift racer set in Kigalis hills. Hold left/right to steer, drift through curves for combo multipliers. Avoid road edges! Features: procedural neon cars, day/night cycle, particle effects, procedural audio. Controls: Arrow keys or tap left/right halves of screen. High-score chasing with smooth 60fps game play.",
+  "howto": [
+   "Arrow Keys Touch Left-Right"
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "play and interact"
+   ],
+   [
+    "Click / tap",
+    "select and act"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "kigali-drift-king.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "extreme-monster-truck",
+  "title": "Extreme Monster Truck",
+  "url": "https://html5.gamemonetize.co/wmbjgaewe5ml9mhrj60s9587bckiy6ts/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Car",
+   "Driving",
+   "Monster",
+   "monstertruck"
+  ],
+  "rating": 4.5,
+  "plays": 1500426,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-13",
+  "desc": "Get ready for the most thrilling and action-packed offroad experience in Extreme Monster Truck! Drive powerful monster trucks across challenging terrains, conquer impossible tracks, and prove your driving skills in this high-energy racing adventure. Take control of massive trucks with incredible power and perform jaw-dropping stunts on rugged hills, muddy roads, desert tracks, and dangerous obstacles. Every level is designed to test your precision, speed, and control. Can you handle the extreme challenge?",
+  "howto": [
+   "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "extreme-monster-truck.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "crazy-traffick-racing-2026",
+  "title": "Crazy Traffick Racing 2026",
+  "url": "https://html5.gamemonetize.co/rpt63wnb02mf115ji991bxziuhoorxeo/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Car",
+   "Cars",
+   "Driving",
+   "Traffic",
+   "unity",
+   "WebGL"
+  ],
+  "rating": 4.7,
+  "plays": 1498724,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-11",
+  "desc": "Crazy Traffic Racing delivers a high-octane arcade experience where speed meets precision. Navigate through dense urban highways, weaving between unpredictable vehicles and dodging dangerous obstacles to keep your streak alive. As you master the chaos, earn rewards to unlock a diverse fleet of powerful cars in the shop. Each vehicle offers unique handling to help you survive the rush. Web Dev &lt;a href='https://www.y8.org.es/'&gt;https://www.y8.org.es/&lt;/a&gt; Strap in, floor the gas, and conquer the ultimate asphalt challenge!",
+  "howto": [
+   "Use button from the game for left and right"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "crazy-traffick-racing-2026.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "morph-racers",
+  "title": "Morph Racers",
+  "url": "https://html5.gamemonetize.co/831mmgpd6esv8e8q9cr5ul5kp2nx0pd6/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Ai Games",
+   "amazing",
+   "Best",
+   "Best Games"
+  ],
+  "rating": 4.1,
+  "plays": 1497725,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-10",
+  "desc": "Morph Racers is a fast-paced racing game where speed alone isn&amp;rsquo;t enough adaptation is key. Race against others across dynamic tracks that shift between roads, water, climbs, and obstacles. Instantly switch between forms like car, runner, boat, and helicopter to overcome each challenge. Choose the right form at the right time to stay ahead and claim victory.",
+  "howto": [
+   "Race against other players on parallel tracks Switch forms based on terrain car road runner climb boat water helicopter special obstacles Time your transformations to maintain speed Reach the finish line first to win"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "morph-racers.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "tractor-drift-3d",
+  "title": "Tractor Drift 3D",
+  "url": "https://html5.gamemonetize.co/sg03xvvfnhfcwq78l15fip3smlbjf34r/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "3D",
+   "Racing",
+   "Simulator",
+   "tractor"
+  ],
+  "rating": 4.2,
+  "plays": 1495098,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-09",
+  "desc": "Master the art of tractor drifting in Tractor Drift 3D! Experience a unique mix of heavy machinery and high-speed sideways action. Chain smooth drifts, master the physics, and chase high scores on precision-built tracks. Raw Physics: Test your timing and throttle control with heavy machines. Progress: Unlock different tractors and find the perfect handling for your style. Leaderboards: Dominate the ranks with massive combos and perfect lines. Addictive gameplay that&amp;rsquo;s easy to learn but hard to master. Prove that tractors can drift just as hard as any race car!",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "play and interact"
+   ],
+   [
+    "Click / tap",
+    "select and act"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "tractor-drift-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "daily-street-racing-3d",
+  "title": "Daily Street Racing 3D",
+  "url": "https://html5.gamemonetize.co/6cyxbsqng97tkppnn0gbai0pgdfz4i25/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "3D",
+   "Car",
+   "Cars",
+   "Casual",
+   "Hypercasual"
+  ],
+  "rating": 4.3,
+  "plays": 1488919,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-08",
+  "desc": "Race, merge, and dominate in Everyday Racing &amp;mdash; a fun and fast-paced merge racing game! In this exciting 2-in-1 racing challenge, you can combine two identical cars to upgrade them into stronger, faster rides. Build your dream garage, enter thrilling races, and win tons of rewards! During races, collect useful power-ups to boost your performance, outplay your rivals, and even snatch their cars to grow your collection even faster. Keep merging, keep racing, and become the ultimate road champion!",
+  "howto": [
+   "Mouse click or tap to play Use the wasd arrow keys to move"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "daily-street-racing-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "short-path-race",
+  "title": "Short Path Race",
+  "url": "https://html5.gamemonetize.co/op5pocumwqwl4ut82vzvaw3yyk4opvm0/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "amazing",
+   "Best Games",
+   "Brain",
+   "Crazy"
+  ],
+  "rating": 4.6,
+  "plays": 1485515,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-05",
+  "desc": "Race forward, think fast, and build your own path to victory! Sprint along a narrow track surrounded by water while collecting tiles scattered across the course. Use them wisely to create shortcuts, cross gaps, and outsmart the competition but be careful. Spending all your tiles too early could leave you stranded when the final platforms demand perfect planning. Balance speed, strategy, and timing as every decision shapes your route to the finish line. Easy to start but challenging to master, this fast-paced runner tests both reflexes and smart resource management. Will you rush ahead or save enough tiles to survive the final stretch?",
+  "howto": [
+   "How to Play Run and collect tiles Use them to build shortcuts over water Don rsquo t waste tiles - save some for the final gaps Reach the finish line first to win"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "short-path-race.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "jetpack-race-arena",
+  "title": "Jetpack Race Arena",
+  "url": "https://html5.gamemonetize.co/8w5era60ysasbih0fsjtusrw19rqfenx/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Action",
+   "Arcade",
+   "Arena",
+   "endless",
+   "fly"
+  ],
+  "rating": 4.7,
+  "plays": 1484849,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-04",
+  "desc": "Blast off with Jetpack Race ArenaRush! Fly bullet-powered jetpacks, ride crazy vehicles, and surf the wave-rider through thrilling arenas. Dodge lasers, zappers, and guided missiles while collecting coins and making millions of dollars. Complete daring missions to boost your rank, equip high-tech gadgets and power-ups, and storm arenas in giant mechs. Customise your look with stylish outfits, earn achievements, and battle friends in endless high-flying action. Test your reflexes with simple one-touch controls and enjoy new free game modes in special events!",
+  "howto": [
+   "Swipe to move along the rope Tap amp hold for speed boost"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "jetpack-race-arena.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "drifty-race-challenge",
+  "title": "Drifty Race Challenge",
+  "url": "https://html5.gamemonetize.co/wt2gtbv3n0gln7se0yl8dxu31ms1vrj4/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Arcade",
+   "Best Games",
+   "Car",
+   "drift",
+   "drifting"
+  ],
+  "rating": 4.1,
+  "plays": 1484368,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-03",
+  "desc": "Drifty car Race Challenge drifting game provides an ultimate experience of real car driving and drifting. Drift and drive real fast cars in an open-world city and jump through the obstacles and ramps provided in a real car game, for you to test your car driving and drifting skills. Experience the thrill of victory as you complete the various extreme car drifting game challenges and complete different challenges of car driving and drifting. Its time to drift in the real car driving game, perform extreme car drifting, and choose a lot of supercars in the car driving and drifting game.",
+  "howto": [
+   "Mouse Click to drift the car"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "drifty-race-challenge.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "police-chase-car-simulator",
+  "title": "Police Chase Car Simulator",
+  "url": "https://html5.gamemonetize.co/1hf3m6hqeubtwjyibxy2p5qvlr0rk955/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "2-player"
+  ],
+  "tags": [
+   "2 Player",
+   "2026 games",
+   "3D Games",
+   "Best Games",
+   "Car",
+   "city"
+  ],
+  "rating": 4.2,
+  "plays": 1482814,
+  "hot": true,
+  "new": false,
+  "added": "2026-06-02",
+  "desc": "Step into the role of a powerful cop car chase police simulator officer and experience an action-filled police simulator. This game offers many different missions that are easy to understand and fun to play. Enjoy fast speed car chase missions where you follow and stop criminals on busy roads. Take part in parking lane fine missions by checking vehicles and managing traffic rules. Perform border checking missions where you inspect cars and help maintain security. Feel the responsibility during President car escort missions by guiding the convoy safely through the city. Complete terrorist arrest missions and help restore peace.",
+  "howto": [
+   "WASD for move tap to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "police-chase-car-simulator.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "offroad-truck-driving-simulator",
+  "title": "Offroad Truck Driving Simulator",
+  "url": "https://html5.gamemonetize.co/bwrunfiqbjfxprp91bq5v0xhtqzmukno/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "3D",
+   "3D Games",
+   "cargo",
+   "Driving",
+   "offroad"
+  ],
+  "rating": 4.3,
+  "plays": 1482296,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-01",
+  "desc": "Offroad Truck Driving Simulator is the ultimate off-road mud truck driving game and realistic car racing simulator! Experience stunning graphics, real driving physics, and a huge selection of 4x4 trucks with unique characteristics. Customize and tune your vehicles endlessly, conquer extreme obstacles, and complete dozens of offroad racing challenges, time trials, and dirt races. Enjoy real truck sounds, a simple in-game map, and epic open-road adventures. Fans of Snow Runner, Mud Runner, 4x4 Mania, and Offroad Outlaws will love this ultimate off-roading diesel truck simulator!",
+  "howto": [
+   "W A S D Or Arrow Keys rarr Move Truck H rarr Horn R rarr Reverse"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "offroad-truck-driving-simulator.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-eats-car-underwater-adventure",
+  "title": "Car Eats Car: Underwater Adventure",
+  "url": "https://html5.gamemonetize.co/bieldl49kbvg52gjrcruztap5nmvhynm/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Action",
+   "Car",
+   "Cars",
+   "Cartoon",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.5,
+  "plays": 1481667,
+  "hot": false,
+  "new": true,
+  "added": "2026-05-30",
+  "desc": "Up for a fight against rivals in a dynamic race on the highway? Overtake enemies and create your own car in the incubator in Car Eats Car: Underwater Adventure! Your friends are put to prison - do everything you can to free evil cars! Good driving skills and turbo speed come in handy in this crazy driving simulator and a police chase game. Become a car tycoon, upgrade cars, and play for monster cars against the cops! Fight the boss to survive in these ultimate crazy races!",
+  "howto": [
+   "Space - Bombs X - Turbo W - Gas S - Brake A D - Balancing Arrow keys - Gas Brake Balancing"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-eats-car-underwater-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-eats-car-sea-adventure",
+  "title": "Car Eats Car: Sea Adventure",
+  "url": "https://html5.gamemonetize.co/eio98g4rp8ec0nj0fpi2n78hhrbun3l1/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Action",
+   "Car",
+   "Cars",
+   "Cartoon",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1481630,
+  "hot": false,
+  "new": false,
+  "added": "2026-05-29",
+  "desc": "Up for a fight against rivals in a dynamic race on the highway? Overtake enemies and create your own car in the incubator in Car Eats Car: Sea Adventure! Your friends are put to prison - do everything you can to free evil cars! Good driving skills and turbo speed come in handy in this crazy driving simulator and a police chase game. Become a car tycoon, upgrade cars, and play for monster cars against the cops! Fight the boss to survive in these ultimate crazy races!",
+  "howto": [
+   "Space - Bombs X - Turbo W - Gas S - Brake A D - Balancing Arrow keys - Gas Brake Balancing"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-eats-car-sea-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-eats-car-arctic-adventure",
+  "title": "Car Eats Car: Arctic Adventure",
+  "url": "https://html5.gamemonetize.co/tjfsfsiwef7r77fwey3g68cujt80yg6l/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Action",
+   "Car",
+   "Cars",
+   "Cartoon",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.7,
+  "plays": 1481593,
+  "hot": true,
+  "new": false,
+  "added": "2026-08-26",
+  "desc": "Up for a fight against rivals in a dynamic race on the highway? Overtake enemies and create your own car in the incubator in Car Eats Car: Sea Adventure! Your friends are put to prison - do everything you can to free evil cars! Good driving skills and turbo speed come in handy in this crazy driving simulator and a police chase game. Become a car tycoon, upgrade cars, and play for monster cars against the cops! Fight the boss to survive in these ultimate crazy races!",
+  "howto": [
+   "Space - Bombs X - Turbo W - Gas S - Brake A D - Balancing Arrow keys - Gas Brake Balancing"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-eats-car-arctic-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "stickman-stack-race",
+  "title": "Stickman Stack Race",
+  "url": "https://html5.gamemonetize.co/vbwc7vu6fyrkmcy143eanyv618vh75q6/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "2026 games",
+   "endless",
+   "Game",
+   "Hypercasual",
+   "Kids",
+   "Obstacle"
+  ],
+  "rating": 4.1,
+  "plays": 1479632,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-25",
+  "desc": "Lead your stickman crowd, crush obstacles, and dominate the streets in Stickman Stack Race! Choose the right gates, gather warriors, and multiply your team to beat rival crowds. Collect coins, upgrade your stickmen, and race through crowded city streets toward the ultimate battle. Face the King-stickman in the final clash and claim the castle! With bright 3D graphics, simple controls, and addictive stacking action, Stickman Stack Race offers endless fun, strategy, and thrills. Become the ultimate crowd master and rule the race!",
+  "howto": [
+   "Swipe the mouse to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "stickman-stack-race.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "slime-run",
+  "title": "Slime Run",
+  "url": "https://html5.gamemonetize.co/xev0z6srg4q342zrorz0hhwoxn0evfyg/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "Color",
+   "Fun",
+   "Monster",
+   "run"
+  ],
+  "rating": 4.2,
+  "plays": 1477671,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-24",
+  "desc": "Sime Run is a fun action game where you control a Slime sliding quickly across the arena to color your territory. Competing directly with other Slimes, you need to move skillfully and occupy as much colored space as possible to win. Fast-paced, simple yet dramatic rules, Sime Run offers exciting and entertaining competitions.",
+  "howto": [
+   "Use arrow button to move"
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "play and interact"
+   ],
+   [
+    "Click / tap",
+    "select and act"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "slime-run.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "online-taxi-simulator",
+  "title": "Online Taxi Simulator",
+  "url": "https://html5.gamemonetize.co/dxx6hd8bgffy3onznooyb7ikugv5ilmy/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "carparking",
+   "Simulation",
+   "Taxi"
+  ],
+  "rating": 4.3,
+  "plays": 1477079,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-23",
+  "desc": "Experience the life of a taxi driver in our latest taxi simulator game. Complete different types of driving missions as a taxi or private taxi driver and pick your favorite car from a selection of over 30 amazing vehicles, with more new cars being added weekly. Navigate around huge cities like New York, Miami, Rome or Los Angeles and adjust your driving style to different types of clients - some are in a hurry and don&amp;rsquo;t care if you run a red light, while others are terrified of dangerous driving. We take taxi simulation games to a new level with VIP clients, undecided clients and various types of daily and lifetime milestones. Start",
+  "howto": [
+   "use arrows key for movement"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "online-taxi-simulator.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-eats-car-volcanic-adventure",
+  "title": "Car Eats Car: Volcanic Adventure",
+  "url": "https://html5.gamemonetize.co/s482azgnri3397pp3919i5xx4f8kfvyi/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2D",
+   "Action",
+   "Car",
+   "Cars",
+   "Cartoon",
+   "Race"
+  ],
+  "rating": 4.5,
+  "plays": 1475377,
+  "hot": true,
+  "new": false,
+  "added": "2026-08-21",
+  "desc": "Up for a fight against rivals in a dynamic race on the highway? Overtake enemies and create your own car in the incubator in Car Eats Car: Volcanic Adventure! Your friends are put to prison - do everything you can to free evil cars! Good driving skills and turbo speed come in handy in this crazy driving simulator and a police chase game. Become a car tycoon, upgrade cars, and play for monster cars against the cops! Fight the boss to survive in these ultimate crazy races!",
+  "howto": [
+   "Space - Bombs X - Turbo W - Gas S - Brake A D - Balancing Arrow keys - Gas Brake Balancing"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-eats-car-volcanic-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "escape-the-police",
+  "title": "Escape the Police",
+  "url": "https://html5.gamemonetize.co/2lzr44fn0gin4uqxgjfqcbqt1ul43r6h/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Adventure",
+   "Police"
+  ],
+  "rating": 4.6,
+  "plays": 1474970,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-20",
+  "desc": "Youre a wanted man mr.X!!! Dont let the police near you and have fun!!! Escape the Police is a simple html game developed in 2025 by FLGames",
+  "howto": [
+   "WASD or arrows to move"
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "play and interact"
+   ],
+   [
+    "Click / tap",
+    "select and act"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "escape-the-police.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "hill-climb-racing-adventure",
+  "title": "Hill Climb Racing Adventure",
+  "url": "https://html5.gamemonetize.co/4gytlbqiojhlxt2r5vc4sbma091103b5/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "Car",
+   "Driving",
+   "Racing"
+  ],
+  "rating": 4.7,
+  "plays": 1473860,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-19",
+  "desc": "Play the original classic Hill Climb Racing! Race your way uphill in this physics based driving game, playable offline! Meet Bill, the young aspiring uphill racer. He is about to embark on a journey through Climb Canyon that takes him to where no ride has ever been before. With little respect to the laws of physics, Bill will not rest until he has conquered the highest hills up on the moon!",
+  "howto": [
+   "use forward and backward arrow keys"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "hill-climb-racing-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "tunnel-drift",
+  "title": "Tunnel Drift",
+  "url": "https://html5.gamemonetize.co/4ox8d1qc9bwgge7gxfj7pw1hj9cgfz3t/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "Action",
+   "Race",
+   "survival"
+  ],
+  "rating": 4.2,
+  "plays": 1472861,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-17",
+  "desc": "Tunnel Drift is an intense endless arcade racer where precision is key. Key Features: Heavy Duty Drifting: Experience unique handling as you drift a heavy truck through a 360-degree rotating tunnel. Endless Challenge: The further you go, the faster it gets. Procedurally generated levels mean no two runs are the same! High Score Hunt: Collect Rings to maximize your points and challenge players worldwide on the Global Leaderboard. Instant Action: Simple controls, hard to master gameplay. Just tap to drift and survive!",
+  "howto": [
+   "Controls Keyboard Left Arrow or A Rotate Tunnel Left Right Arrow or D Rotate Tunnel Right Mouse Touch Click Tap Left Side of Screen Rotate Left Click Tap Right Side of Screen Rotate Right"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "tunnel-drift.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "precision-car-parking-3d",
+  "title": "Precision Car Parking 3D",
+  "url": "https://html5.gamemonetize.co/7borf8z2jzentis77i6zz882h7lrvxwo/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "3D",
+   "Car",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 1472750,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-16",
+  "desc": "Test your driving skills in Precision Parking 3D, a realistic and challenging parking simulation game where accuracy matters more than speed! Navigate through tight spaces, avoid obstacles, and park your vehicle perfectly in a variety of carefully designed levels. Each stage pushes your control, patience, and precision to the limit.",
+  "howto": [
+   "W To Forward A D For Left Right S to Reverse amp Space To Brake"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "precision-car-parking-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "gear-shift-race",
+  "title": "Gear Shift Race",
+  "url": "https://html5.gamemonetize.co/bwxvpns0l9v0vxqcsj2v5uw6ummx54zr/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2026 games",
+   "3D",
+   "Arcade",
+   "Best Games",
+   "Car",
+   "Casual"
+  ],
+  "rating": 4.4,
+  "plays": 1472269,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-15",
+  "desc": "Gear Shift Race is an adrenaline-fueled drag racing game that puts you in control of fully manual cars with realistic gear shifting and clutch timing. Set in a sprawling city ruled by rival street gangs and their powerful leaders, every race is a fight for speed, skill, and reputation. Rise through the underground ranks by defeating gang kings in intense drag battles. Earn cash and reputation to upgrade engine power, tuning, paint, and skins. Master precise gear shifts and perfect clutch control to unleash maximum acceleration. In Gear Shift Race, split-second decisions decide victory or defeat.",
+  "howto": [
+   "Tap or mouse click on the gear"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "gear-shift-race.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-eats-car-dungeon-adventure",
+  "title": "Car Eats Car: Dungeon Adventure",
+  "url": "https://html5.gamemonetize.co/2ysdz38kvh0t5zfu64oew4wzbbginajp/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "2D",
+   "Action",
+   "Car",
+   "Cars",
+   "Family",
+   "Race"
+  ],
+  "rating": 4.5,
+  "plays": 1472084,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-14",
+  "desc": "Up for a fight against rivals in a dynamic race on the highway? Overtake enemies and create your own car in the incubator in Car Eats Car: Dungeon Adventure! Your friends are put to prison - do everything you can to free evil cars! Good driving skills and turbo speed come in handy in this crazy driving simulator and a police chase game. Become a car tycoon, upgrade cars, and play for monster cars against the cops! Fight the boss to survive in these ultimate crazy races!",
+  "howto": [
+   "Space - Bombs X - Turbo W - Gas S - Brake A D - Balancing Arrow keys - Gas Brake Balancing"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-eats-car-dungeon-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-parkour-challenge",
+  "title": "Car Parkour Challenge",
+  "url": "https://html5.gamemonetize.co/ym2qhm2n7ceu7xmckpqtzocnxfewxgm9/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "Arcade",
+   "2026 games",
+   "3D Games",
+   "Arcade",
+   "Best Games",
+   "Car"
+  ],
+  "rating": 4.6,
+  "plays": 1471640,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-13",
+  "desc": "Stunt Car Parkour challenge is the ultimate stunt and trial car skill racing game with both entertaining and awe-inspiring tracks. The main tracks are designed for casual play, but the bonus tracks offer more extreme challenge! The bonus tracks have high risks but also high rewards. Levels include hard trial levels, easy speed levels, and casual and fun jump ramp levels. You get more challenges as you progress in the levels. The game has a daily challenge mode, in which you try to win real players drives. In the cups mode, you race against three drivers in three race tracks in a roll.",
+  "howto": [
+   "Move Forward - - Up Arrow Back - - Down Arrow Left - - Left Arrow Right - - Right Arrow"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-parkour-challenge.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "monsters-wheels-special",
+  "title": "Monsters' Wheels Special",
+  "url": "https://html5.gamemonetize.co/mde2rzu4y35gw7d96xo2wrjojaz1nx99/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "runner",
+   "platformer"
+  ],
+  "tags": [
+   "2D",
+   "Car",
+   "Cars",
+   "jump",
+   "Racing",
+   "Truck"
+  ],
+  "rating": 4.7,
+  "plays": 1470900,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-12",
+  "desc": "Drive your huge and powerful car on various trucks. Go over hills, precipices and jump over different obstacles. Participate in races against strong opponents and very powerful cars. Ram your opponents and crush them because in demolition derby you need to win by whatever means necessary. Earn money, unlock new cars and upgrade you engine power, durability, nitro and so on. Get behind the wheel, step on the juice and enjoy these dynamic racing game!",
+  "howto": [
+   "Arrow up - gas Arrow down - brake Arrow left - balance left Arrow right - balance right Space X - nitro"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "monsters-wheels-special.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "road-racer-2",
+  "title": "Road Racer 2",
+  "url": "https://html5.gamemonetize.co/zru2a1xcmbfoa11pq8nqlce2dzfes58a/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Car",
+   "Driving",
+   "endless",
+   "Racing",
+   "spin-wheel"
+  ],
+  "rating": 4.3,
+  "plays": 1470493,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-09",
+  "desc": "Experience the thrill of the neon highway in Road Racer 2! Drive at high speeds, dodge heavy traffic, and survive the realistic day-night cycle with dynamic street lighting. Features smooth physics-based steering, stunning visual effects, and intense endless gameplay. How far can you go without crashing?",
+  "howto": [
+   "Desktop Use Left and Right Arrow keys to steer Mobile Tap the Left or Right side of the screen to move"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Read the next obstacle early before making a move.",
+   "Use small, steady inputs instead of overcorrecting.",
+   "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "road-racer-2.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "retro-x-racer",
+  "title": "Retro x Racer",
+  "url": "https://html5.gamemonetize.co/n6uz0z9jcww93cq7k5nn8guh2244qc1j/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "1 Player",
+   "2025 games",
+   "3D",
+   "Racing",
+   "Space"
+  ],
+  "rating": 4.4,
+  "plays": 315662,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Pilot a high-speed jet in Retro X Racer! Dodge infinite towers, collect credits, and grab power-ups to survive as long as you can. Use A/D or Arrow Keys to steer and set the highest score.",
+  "howto": [
+   "Controls A or Left Arrow Key Move Left D or Right Arrow Key Move Right"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Brake before sharp turns, then accelerate out cleanly.",
+   "Use small steering corrections at high speed.",
+   "Learn the first track pattern before chasing risky shortcuts."
+  ],
+  "thumbfile": "retro-x-racer.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "dual-control-racing-stunt-3d",
+  "title": "Dual Control Racing Stunt 3D",
+  "url": "https://html5.gamemonetize.co/j8uoj1uqfpg3y9mng1jgds80ko8bov3c/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing",
+   "stunt"
+  ],
+  "tags": [
+   "2025 games",
+   "3D Games",
+   "Car",
+   "Crazy",
+   "Driving",
+   "jump"
+  ],
+  "rating": 4.5,
+  "plays": 315646,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Ever wish to be a furious car driver in extreme driving games and drive awesome cars in the mountain? So enjoy the best car games that you have never play before. Car driving simulator games are one of the most played car games in the play store. Adrenaline will rush through your bone in these casual driving games. The car game include many 3d cars to keep you in this car master game. Stunning features are also included in this car games simulator to fulfill your desire to be the gt car master. Some obstacle will help you in the race car game 3d to find out your car love. Your main goal in car games is to win the racing championship.",
+  "howto": [
+   "Left amp Right Mouse Buttons"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Brake before sharp turns, then accelerate out cleanly.",
+   "Use small steering corrections at high speed.",
+   "Learn the first track pattern before chasing risky shortcuts."
+  ],
+  "thumbfile": "dual-control-racing-stunt-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "car-climb-mountain",
+  "title": "Car Climb Mountain",
+  "url": "https://html5.gamemonetize.co/899s3080d4it19lz5a6frfaj6ik8z0mp/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Adventure",
+   "Cars",
+   "Cartoon",
+   "drift"
+  ],
+  "rating": 4.6000000000000005,
+  "plays": 315640,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Complete fun, enthusiasm, and exploit - these are various of the words that perfectly describe Car Climb Mountain. It is an adventure-filled game with excellent graphics and exciting sound effects. Get ready for the most amazing hill car climb mountain hill racing game on the market today. The challenging environment makes for a tough Hill Adventure time for you the driver as you face this unique challenging hill car climb simulator game with dangerous unwelcomed mountains. Swinging bridges and the other crazy Hill car climb hurdles which makes the drive difficult and fun all at the same time.",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Brake before sharp turns, then accelerate out cleanly.",
+   "Use small steering corrections at high speed.",
+   "Learn the first track pattern before chasing risky shortcuts."
+  ],
+  "thumbfile": "car-climb-mountain.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "racing-master-3d",
+  "title": "Racing Master 3D",
+  "url": "https://html5.gamemonetize.co/0zvdndep52fquu58jwu2lej6g1zsk8m2/",
+  "cats": [
+   "racing",
+   "driving",
+   "car-racing"
+  ],
+  "tags": [
+   "Car",
+   "Driving",
+   "realistic",
+   "Simulator"
+  ],
+  "rating": 4.5,
+  "plays": 515582,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Racing Master 3D is a 3D racing driving simulation game thatll get your adrenaline pumping in seconds! Here, youll drive ultra-cool cars at full throttle. Race through the fully immersive 3D tracks. Enjoy the realistic car driving simulation. Hit the nitro button and blast past every rival in seconds.",
+  "howto": [
+   "Mouse click or tap to play"
+  ],
+  "controls": [
+   [
+    "WASD / arrow keys",
+    "drive and steer"
+   ],
+   [
+    "Mouse / touch",
+    "use menus and buttons"
+   ]
+  ],
+  "tips": [
+   "Brake before sharp turns, then accelerate out cleanly.",
+   "Use small steering corrections at high speed.",
+   "Learn the first track pattern before chasing risky shortcuts."
+  ],
+  "thumbfile": "racing-master-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
  }
 ]

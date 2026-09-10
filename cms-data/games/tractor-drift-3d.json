@@ -1,0 +1,45 @@
+{
+  "slug": "tractor-drift-3d",
+  "title": "Tractor Drift 3D",
+  "url": "https://html5.gamemonetize.co/sg03xvvfnhfcwq78l15fip3smlbjf34r/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "3D",
+    "Racing",
+    "Simulator",
+    "tractor"
+  ],
+  "rating": 4.2,
+  "plays": 1495098,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-09",
+  "desc": "Master the art of tractor drifting in Tractor Drift 3D! Experience a unique mix of heavy machinery and high-speed sideways action. Chain smooth drifts, master the physics, and chase high scores on precision-built tracks. Raw Physics: Test your timing and throttle control with heavy machines. Progress: Unlock different tractors and find the perfect handling for your style. Leaderboards: Dominate the ranks with massive combos and perfect lines. Addictive gameplay that&amp;rsquo;s easy to learn but hard to master. Prove that tractors can drift just as hard as any race car!",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "play and interact"
+    },
+    {
+      "key": "Click / tap",
+      "action": "select and act"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "tractor-drift-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 113,
+  "faqs": []
+}

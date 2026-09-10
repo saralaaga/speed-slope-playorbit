@@ -1,0 +1,49 @@
+{
+  "slug": "car-parkour-challenge",
+  "title": "Car Parkour Challenge",
+  "url": "https://html5.gamemonetize.co/ym2qhm2n7ceu7xmckpqtzocnxfewxgm9/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "Arcade",
+    "2026 games",
+    "3D Games",
+    "Arcade",
+    "Best Games",
+    "Car"
+  ],
+  "rating": 4.6,
+  "plays": 1471640,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-13",
+  "desc": "Stunt Car Parkour challenge is the ultimate stunt and trial car skill racing game with both entertaining and awe-inspiring tracks. The main tracks are designed for casual play, but the bonus tracks offer more extreme challenge! The bonus tracks have high risks but also high rewards. Levels include hard trial levels, easy speed levels, and casual and fun jump ramp levels. You get more challenges as you progress in the levels. The game has a daily challenge mode, in which you try to win real players drives. In the cups mode, you race against three drivers in three race tracks in a roll.",
+  "howto": [
+    "Move Forward - - Up Arrow Back - - Down Arrow Left - - Left Arrow Right - - Right Arrow"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-parkour-challenge.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 133,
+  "faqs": []
+}

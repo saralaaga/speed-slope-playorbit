@@ -1,0 +1,49 @@
+{
+  "slug": "mob-runner-master",
+  "title": "Mob Runner Master",
+  "url": "https://html5.gamemonetize.co/wtxa0pc697eocve1685m71y78xje0ecn/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "Best",
+    "Best Games",
+    "Fun",
+    "Puzzle",
+    "Race",
+    "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1545566,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-25",
+  "desc": "Get ready for chaotic and funny action in Ragdoll Rush Game! Control your ragdoll as you rush through challenging levels filled with obstacles and tricky paths. Avoid dangerous objects, keep your balance, and reach the finish line without getting knocked out. Use quick reactions and smart movement to overcome every challenge.",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "mob-runner-master.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 52,
+  "faqs": []
+}

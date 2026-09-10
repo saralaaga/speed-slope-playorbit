@@ -1,0 +1,39 @@
+{
+  "slug": "pool-duel",
+  "title": "Pool Duel",
+  "url": "https://html5.gamedistribution.com/db26a7860d1540089be6bb8f6bca230a/",
+  "cats": [
+    "sports",
+    "classics"
+  ],
+  "tags": [
+    "Pool",
+    "Billiards",
+    "8 Ball"
+  ],
+  "rating": 4.1,
+  "plays": 3849768,
+  "hot": true,
+  "new": false,
+  "added": "2025-09-09",
+  "desc": "Keep your focus sharp as the clock ticks down, knowing that timing and precision will lead you to victory. Master your aim and cue control, because flawless execution and smart strategy separate true champions from the rest in every challenging match.",
+  "howto": [
+    "Players alternate turns to pocket all assigned balls (stripes or solids) and finally the 8-ball",
+    "Each shot must be made within 30 seconds",
+    "Earn prize money to unlock new cues and table skins",
+    "Play strategically to outscore your opponent and win matches"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "see the in-game tutorial"
+    }
+  ],
+  "tips": [
+    "Timing beats power — wait for the perfect moment.",
+    "Learn one mode well before jumping into tournaments."
+  ],
+  "thumbfile": "pool-duel.jpg",
+  "sort_order": 17,
+  "faqs": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "go-kart-racing-game",
+  "title": "Go Kart Racing Game",
+  "url": "https://html5.gamemonetize.co/op8z87x6dltznob1zzs7yu2n3xqxktlg/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Adventure",
+    "amazing",
+    "Car",
+    "drifting",
+    "Driving",
+    "Fun"
+  ],
+  "rating": 4.7,
+  "plays": 1518038,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-09",
+  "desc": "Go Kart Racing Game is an exciting and fast-paced racing adventure where players compete in thrilling kart battles across dynamic tracks and challenging environments. Drive powerful go-karts, avoid obstacles, collect rewards, and race against skilled opponents to become the ultimate champion. Enjoy smooth controls, colorful graphics, and action-packed gameplay designed for endless fun and entertainment. Unlock new karts, improve your racing skills, and experience the excitement of high-speed competition anytime, anywhere.",
+  "howto": [
+    "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "go-kart-racing-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 90,
+  "faqs": []
+}

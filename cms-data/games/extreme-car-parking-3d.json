@@ -1,0 +1,47 @@
+{
+  "slug": "extreme-car-parking-3d",
+  "title": "Extreme Car Parking 3D",
+  "url": "https://html5.gamemonetize.co/szauuex5osv2tahnsbq541e8ws4ajg0g/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "3D",
+    "Car",
+    "carparking",
+    "Driving",
+    "Parking",
+    "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 1545307,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-24",
+  "desc": "Take parking to the extreme on dangerous elevated obstacle courses. Drive across narrow platforms, climb steep ramps, avoid barriers, and park precisely without falling from the track. Web Dev &lt;a href='https://www.crazygamesx.com/'&gt;https://www.crazygamesx.com/&lt;/a&gt;",
+  "howto": [
+    "Use WASD or the Arrow keys to drive and steer Press Space for the brake Move carefully through each obstacle and stop fully inside the marked parking zone"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "extreme-car-parking-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 53,
+  "faqs": []
+}

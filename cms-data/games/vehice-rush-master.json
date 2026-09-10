@@ -1,0 +1,47 @@
+{
+  "slug": "vehice-rush-master",
+  "title": "Vehice Rush Master",
+  "url": "https://html5.gamemonetize.co/jheblnqcjryfd1dsq5zfx7jhe3xopy2j/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Car",
+    "Cars",
+    "Casual",
+    "Hypercasual",
+    "Race",
+    "Racing"
+  ],
+  "rating": 4.5,
+  "plays": 1543124,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-15",
+  "desc": "Prepare for a heart-pounding, high-speed journey into the digital hyperverse with Vehicle Rush Master. In this electrifying arcade racing experience, you take control of a sleek, high-performance yellow sports car equipped with powerful blue thrusters, rocketing down an endless highway. Push your driving reflexes to the absolute limit as you blast through mesmerizing, futuristic neon tunnels bursting with vibrant rings of pink, blue, and purple light. Every second demands razor-sharp focus and lightning-fast agility to dodge obstacles, maintain insane velocities, and scrape against the asphalt with dazzling sparks flying from your tires.",
+  "howto": [
+    "A D or Arrow Keys ndash Move Left Right"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "vehice-rush-master.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 61,
+  "faqs": []
+}

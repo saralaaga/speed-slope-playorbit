@@ -1,0 +1,50 @@
+{
+  "slug": "the-drag-racing-challenge",
+  "title": "The Drag Racing Challenge",
+  "url": "https://html5.gamedistribution.com/4fee373f40e54e209cf439e467da7730/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Car",
+    "Drag Racing",
+    "Upgrade",
+    "Speed"
+  ],
+  "rating": 4.5,
+  "plays": 264900,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "The Drag Racing Challenge is an arcade car racing game with quick races, gear shifts, nitro boosts and upgradeable cars. Time each shift, accelerate hard and beat rival drivers across city tracks.",
+  "howto": [
+    "Accelerate from the start, shift gears at the right moment and use nitro to pull ahead before the finish line."
+  ],
+  "controls": [
+    {
+      "key": "W / mouse",
+      "action": "accelerate"
+    },
+    {
+      "key": "E",
+      "action": "gear up"
+    },
+    {
+      "key": "Q",
+      "action": "gear down"
+    },
+    {
+      "key": "N",
+      "action": "nitro"
+    }
+  ],
+  "tips": [
+    "Shift near the ideal rev range for stronger acceleration.",
+    "Use nitro after a clean gear change, not too early."
+  ],
+  "thumbfile": "the-drag-racing-challenge.jpg",
+  "sort_order": 47,
+  "faqs": []
+}

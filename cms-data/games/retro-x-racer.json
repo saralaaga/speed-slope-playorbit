@@ -1,0 +1,46 @@
+{
+  "slug": "retro-x-racer",
+  "title": "Retro x Racer",
+  "url": "https://html5.gamemonetize.co/n6uz0z9jcww93cq7k5nn8guh2244qc1j/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "1 Player",
+    "2025 games",
+    "3D",
+    "Racing",
+    "Space"
+  ],
+  "rating": 4.4,
+  "plays": 315662,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Pilot a high-speed jet in Retro X Racer! Dodge infinite towers, collect credits, and grab power-ups to survive as long as you can. Use A/D or Arrow Keys to steer and set the highest score.",
+  "howto": [
+    "Controls A or Left Arrow Key Move Left D or Right Arrow Key Move Right"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Brake before sharp turns, then accelerate out cleanly.",
+    "Use small steering corrections at high speed.",
+    "Learn the first track pattern before chasing risky shortcuts."
+  ],
+  "thumbfile": "retro-x-racer.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 136,
+  "faqs": []
+}

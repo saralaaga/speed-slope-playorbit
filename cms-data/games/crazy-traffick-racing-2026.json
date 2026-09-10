@@ -1,0 +1,47 @@
+{
+  "slug": "crazy-traffick-racing-2026",
+  "title": "Crazy Traffick Racing 2026",
+  "url": "https://html5.gamemonetize.co/rpt63wnb02mf115ji991bxziuhoorxeo/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Car",
+    "Cars",
+    "Driving",
+    "Traffic",
+    "unity",
+    "WebGL"
+  ],
+  "rating": 4.7,
+  "plays": 1498724,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-11",
+  "desc": "Crazy Traffic Racing delivers a high-octane arcade experience where speed meets precision. Navigate through dense urban highways, weaving between unpredictable vehicles and dodging dangerous obstacles to keep your streak alive. As you master the chaos, earn rewards to unlock a diverse fleet of powerful cars in the shop. Each vehicle offers unique handling to help you survive the rush. Web Dev &lt;a href='https://www.y8.org.es/'&gt;https://www.y8.org.es/&lt;/a&gt; Strap in, floor the gas, and conquer the ultimate asphalt challenge!",
+  "howto": [
+    "Use button from the game for left and right"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "crazy-traffick-racing-2026.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 111,
+  "faqs": []
+}

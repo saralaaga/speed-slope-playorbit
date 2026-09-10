@@ -1,0 +1,50 @@
+{
+  "slug": "racing-game-king-hp",
+  "title": "Racing Game King HP",
+  "url": "https://html5.gamedistribution.com/d132f5f8eab94506828f58ef0c5b1e29/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Car",
+    "Racing",
+    "Circuit",
+    "Nitro"
+  ],
+  "rating": 4.4,
+  "plays": 286400,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Racing Game King HP is a car racing game with circuit races, sprint races, time attack, knockout events and speed trap challenges. Drive clean lines, use nitro on straights and fight for first place across multiple modes.",
+  "howto": [
+    "Choose a race mode, steer through the track, brake before corners and use nitro when the road opens up."
+  ],
+  "controls": [
+    {
+      "key": "Arrow keys",
+      "action": "drive"
+    },
+    {
+      "key": "N",
+      "action": "nitro"
+    },
+    {
+      "key": "Space",
+      "action": "brake"
+    },
+    {
+      "key": "C",
+      "action": "change camera"
+    }
+  ],
+  "tips": [
+    "Brake before the corner instead of during the turn.",
+    "Save nitro for exits and long straights."
+  ],
+  "thumbfile": "racing-game-king-hp.jpg",
+  "sort_order": 46,
+  "faqs": []
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "formula-car-circuit-racing-2",
+  "title": "Formula Car Circuit Racing",
+  "url": "https://html5.gamemonetize.co/jyuol9zck6ti6y3654qqs6pg0r857df8/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "3D Games",
+    "Cars",
+    "drifting",
+    "Driving",
+    "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1532172,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-24",
+  "desc": "Experience the thrill of high-speed motorsport in Formula Car Real Racing! Jump behind the wheel of powerful formula racing cars and compete against skilled rivals on stunning race tracks. Push your driving skills to the limit as you overtake opponents, master sharp turns, and race for the championship title. Enjoy realistic racing action, smooth controls, dynamic environments, and intense competition across multiple challenging circuits. Upgrade your racing skills, chase the fastest lap times, and prove that you have what it takes to become the ultimate formula racing champion.",
+  "howto": [
+    "W up arrow key accelerate A left arrow key turn left D right arrow key turn right S down arrow key brake B look back C change camera view Mouse Click To Interact"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "formula-car-circuit-racing-2.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 77,
+  "faqs": []
+}

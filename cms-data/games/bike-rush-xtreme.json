@@ -1,0 +1,47 @@
+{
+  "slug": "bike-rush-xtreme",
+  "title": "Bike Rush Xtreme",
+  "url": "https://html5.gamemonetize.co/2l0kjbzdmrlfrzbs7epvarvnkn0788cr/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "motorcycle",
+    "stunt"
+  ],
+  "tags": [
+    "Action",
+    "Bike",
+    "Racing",
+    "Stunts"
+  ],
+  "rating": 4.5,
+  "plays": 1509306,
+  "hot": true,
+  "new": true,
+  "added": "2026-06-27",
+  "desc": "The sun sets over rugged canyon trails as you rev your engine and dive into the high-speed world of Bike Rush Xtreme. What starts as a struggle on a second-hand bike quickly becomes a journey of skill, speed, and determination. Master sharp turns, push your limits, and rise through intense races to build your legacy. Every track brings new challenges, where precision and control decide your fate.",
+  "howto": [
+    "Use W to speed up and S to slow down Press A and D to lean left or right while turning Hit the Spacebar when you need a quick strong brake"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "bike-rush-xtreme.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 98,
+  "faqs": []
+}

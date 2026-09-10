@@ -1,0 +1,45 @@
+{
+  "slug": "extreme-car-racing",
+  "title": "Extreme Car Racing",
+  "url": "https://html5.gamemonetize.co/aw97e3jihnd8b0txhj0ngq4353xi0zh3/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Action",
+    "Adventure",
+    "Best Games",
+    "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1525401,
+  "hot": true,
+  "new": true,
+  "added": "2026-07-17",
+  "desc": "Highway Rush Police Chasing Game is an action-packed racing and chasing game where speed, control, and quick decisions matter the most. In this thrilling game, players take part in high-speed highway chases, racing through busy roads while avoiding traffic, obstacles, and intense police pursuits. The gameplay is fast, exciting, and easy to learn. Players control their vehicle on an endless highway filled with moving traffic, sharp turns, and challenging situations. Your goal is to survive as long as possible, escape police cars, and push your driving skills to the limit.",
+  "howto": [
+    "- To click any button use mouse"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "extreme-car-racing.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 82,
+  "faqs": []
+}

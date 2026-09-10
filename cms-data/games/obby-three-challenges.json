@@ -1,0 +1,57 @@
+{
+  "slug": "obby-three-challenges",
+  "title": "Obby: Three Challenges",
+  "url": "https://html5.gamemonetize.co/fmakum6porvqo9filr74wxl0t256pmds/",
+  "cats": [
+    "slope",
+    "arcade"
+  ],
+  "tags": [
+    "Obby",
+    "Parkour",
+    "Skill"
+  ],
+  "rating": 4.1,
+  "plays": 2210120,
+  "hot": false,
+  "new": false,
+  "added": "2026-03-20",
+  "desc": "THREE LEVELS. ONE CHANCE. NO MERCY. Every great champion starts somewhere. Today, that somewhere is Obby: Three Challenges — a platformer designed to test your reflexes, patience, and determination. • EASY — learn the basics. Find your rhythm. • MEDIUM — the traps get smarter. So must you. • IMPOSSIBLE — only the best will survive. Each level is packed with unique obstacles: spinning blades, deadly drops, and more. With fluid movement, double jumps, and a sprint ability, you have the tools. But do you have the skill? FEATURES: • 3 difficulty levels • Responsive controls — jump, • Visual feedback with particles and sound.",
+  "howto": [
+    "PC W A S D",
+    "Walking Movement Hold Right Mouse Button Move Mouse",
+    "Look around Space",
+    "Jump Double Jump Left Shift",
+    "Sprint TAB",
+    "Pause Menu Mobile Joystick left side"
+  ],
+  "controls": [
+    {
+      "key": "Space",
+      "action": "jump / action"
+    },
+    {
+      "key": "Shift",
+      "action": "sprint"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    },
+    {
+      "key": "Tab",
+      "action": "menu"
+    },
+    {
+      "key": "Touch / swipe",
+      "action": "mobile controls"
+    }
+  ],
+  "tips": [
+    "Short, controlled inputs beat button mashing.",
+    "Watch patterns once before going for the record."
+  ],
+  "thumbfile": "obby-three-challenges.jpg",
+  "sort_order": 29,
+  "faqs": []
+}

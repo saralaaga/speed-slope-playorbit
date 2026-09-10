@@ -1,0 +1,45 @@
+{
+  "slug": "racing-master-3d",
+  "title": "Racing Master 3D",
+  "url": "https://html5.gamemonetize.co/0zvdndep52fquu58jwu2lej6g1zsk8m2/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Car",
+    "Driving",
+    "realistic",
+    "Simulator"
+  ],
+  "rating": 4.5,
+  "plays": 515582,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Racing Master 3D is a 3D racing driving simulation game thatll get your adrenaline pumping in seconds! Here, youll drive ultra-cool cars at full throttle. Race through the fully immersive 3D tracks. Enjoy the realistic car driving simulation. Hit the nitro button and blast past every rival in seconds.",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Brake before sharp turns, then accelerate out cleanly.",
+    "Use small steering corrections at high speed.",
+    "Learn the first track pattern before chasing risky shortcuts."
+  ],
+  "thumbfile": "racing-master-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 139,
+  "faqs": []
+}

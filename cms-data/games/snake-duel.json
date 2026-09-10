@@ -1,0 +1,38 @@
+{
+  "slug": "snake-duel",
+  "title": "Snake Duel",
+  "url": "https://html5.gamedistribution.com/8b15910a7ae247da9b36923bded72e32/",
+  "cats": [
+    "io",
+    "arcade",
+    "strategy"
+  ],
+  "tags": [
+    "Snake",
+    "Duel",
+    "Arena",
+    "Survival"
+  ],
+  "rating": 4.4,
+  "plays": 231900,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Snake Duel is a fast arena snake game built around growth, positioning and clean movement. Collect pickups, avoid enemy lines and use careful turns to stay alive.",
+  "howto": [
+    "Move through the arena, collect pickups to grow and avoid crashing into rival snakes or unsafe paths."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "steer and move"
+    }
+  ],
+  "tips": [
+    "Keep room to turn before chasing pickups.",
+    "Let opponents make risky moves first."
+  ],
+  "thumbfile": "snake-duel.jpg",
+  "sort_order": 50,
+  "faqs": []
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "2048-snake-io",
+  "title": "2048 Snake.io",
+  "url": "https://html5.gamedistribution.com/2b02a32600534fe38857f28bae216ea7/",
+  "cats": [
+    "io",
+    "classics"
+  ],
+  "tags": [
+    "Snake",
+    "2048",
+    "IO"
+  ],
+  "rating": 4.7,
+  "plays": 3725502,
+  "hot": true,
+  "new": false,
+  "added": "2026-04-11",
+  "desc": "Collect cubes, merge matching numbers, and grow the biggest chain on the arena. Outsmart rivals, plan every move carefully, expand your chain, and dominate the battlefield to reach the highest score possible!.",
+  "howto": [
+    "Hold and drag with your finger or mouse to control movement",
+    "Collect numbered cubes and merge blocks with the same value",
+    "Look for the best path, avoid dangerous collisions, and plan your movement ahead",
+    "The more successful merges you make, the higher your final score becomes"
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    },
+    {
+      "key": "Drag",
+      "action": "move items"
+    }
+  ],
+  "tips": [
+    "Play safe early; grow before you pick fights.",
+    "Cut opponents off rather than chasing them."
+  ],
+  "thumbfile": "2048-snake-io.jpg",
+  "sort_order": 40,
+  "faqs": []
+}

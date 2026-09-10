@@ -1,0 +1,47 @@
+{
+  "slug": "cargo-truck-game",
+  "title": "Cargo Truck Game",
+  "url": "https://html5.gamemonetize.co/tpyow50cvodm1m69t1ftvmtn7kxuq4hs/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Adventure",
+    "Best",
+    "Forest",
+    "Fun",
+    "offroad",
+    "Sim"
+  ],
+  "rating": 4.4,
+  "plays": 1543161,
+  "hot": true,
+  "new": false,
+  "added": "2026-08-16",
+  "desc": "Take command of heavy machinery and conquer rugged terrain in Cargo Truck Game. Step into the drivers seat of a powerful, heavy-duty yellow dump truck heavily loaded with a massive mound of coal, and prepare for an authentic off-road transportation challenge. Navigate treacherous dirt tracks, muddy paths, and steep mountain slopes surrounded by sprawling forests and breathtaking sunrise skies. Every transport mission requires expert gear handling, careful throttle control, and steady steering to keep your valuable cargo secure across bumpy, uneven roads.",
+  "howto": [
+    "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "cargo-truck-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 60,
+  "faqs": []
+}

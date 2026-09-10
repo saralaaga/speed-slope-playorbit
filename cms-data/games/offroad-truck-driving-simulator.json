@@ -1,0 +1,47 @@
+{
+  "slug": "offroad-truck-driving-simulator",
+  "title": "Offroad Truck Driving Simulator",
+  "url": "https://html5.gamemonetize.co/bwrunfiqbjfxprp91bq5v0xhtqzmukno/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "3D",
+    "3D Games",
+    "cargo",
+    "Driving",
+    "offroad"
+  ],
+  "rating": 4.3,
+  "plays": 1482296,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-01",
+  "desc": "Offroad Truck Driving Simulator is the ultimate off-road mud truck driving game and realistic car racing simulator! Experience stunning graphics, real driving physics, and a huge selection of 4x4 trucks with unique characteristics. Customize and tune your vehicles endlessly, conquer extreme obstacles, and complete dozens of offroad racing challenges, time trials, and dirt races. Enjoy real truck sounds, a simple in-game map, and epic open-road adventures. Fans of Snow Runner, Mud Runner, 4x4 Mania, and Offroad Outlaws will love this ultimate off-roading diesel truck simulator!",
+  "howto": [
+    "W A S D Or Arrow Keys rarr Move Truck H rarr Horn R rarr Reverse"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "offroad-truck-driving-simulator.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 119,
+  "faqs": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "slime-run",
+  "title": "Slime Run",
+  "url": "https://html5.gamemonetize.co/xev0z6srg4q342zrorz0hhwoxn0evfyg/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "Color",
+    "Fun",
+    "Monster",
+    "run"
+  ],
+  "rating": 4.2,
+  "plays": 1477671,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-24",
+  "desc": "Sime Run is a fun action game where you control a Slime sliding quickly across the arena to color your territory. Competing directly with other Slimes, you need to move skillfully and occupy as much colored space as possible to win. Fast-paced, simple yet dramatic rules, Sime Run offers exciting and entertaining competitions.",
+  "howto": [
+    "Use arrow button to move"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "play and interact"
+    },
+    {
+      "key": "Click / tap",
+      "action": "select and act"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "slime-run.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 124,
+  "faqs": []
+}

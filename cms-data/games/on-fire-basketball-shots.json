@@ -1,0 +1,43 @@
+{
+  "slug": "on-fire-basketball-shots",
+  "title": "On Fire Basketball Shots",
+  "url": "https://html5.gamedistribution.com/0e8ab73503cb457a8ae6936f464f4344/",
+  "cats": [
+    "basketball",
+    "arcade"
+  ],
+  "tags": [
+    "Basketball",
+    "Aim",
+    "Endless"
+  ],
+  "rating": 4.3,
+  "plays": 1917434,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-12",
+  "desc": "The gym is packed, and the crowd is roaring! The scoreboard's ticking down, and your team is trailing. The only way to win is to sink blazing basketball shots from the court. You're the star player, but the pressure's on—every shot counts, and the hoop's rim is red-hot, making each attempt trickier!.",
+  "howto": [
+    "Click to shoot the basketball toward the hoop",
+    "Drag and drop to aim your shot through moving obstacles",
+    "Double-click to power up for a flaming long-range shot",
+    "Right-click to steal the ball from opponents for a bonus shot"
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Drag",
+      "action": "move items"
+    }
+  ],
+  "tips": [
+    "Pump fake first — most defenders bite on it.",
+    "Release at the top of the arc for the best accuracy."
+  ],
+  "thumbfile": "on-fire-basketball-shots.jpg",
+  "sort_order": 1,
+  "faqs": []
+}

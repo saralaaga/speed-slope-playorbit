@@ -1,0 +1,46 @@
+{
+  "slug": "car-stunt-racing-stylized",
+  "title": "Car Stunt Racing Stylized",
+  "url": "https://html5.gamemonetize.co/wc1jkzey2mu15um074zx1mgujcp2nc8l/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "1 Player",
+    "2026 games",
+    "Car",
+    "Race",
+    "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1519222,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-10",
+  "desc": "Stylized Car Racing Game is a fast-paced arcade racer with a unique visual flair &amp;mdash; think bold colors, cel-shaded graphics, and exaggerated speed effects. Zoom through winding tracks, drift around corners, and overtake rivals to reach the finish line first. The game features multiple cars to unlock, each with distinct handling. What makes it unique? The stylized art style combines cartoon aesthetics with smooth racing physics, creating a vibrant world that stands out from realistic racers. With responsive controls, boost pads, and tight cornering, every race feels exhilarating. Perfect for quick play sessions on desktop and mobile br",
+  "howto": [
+    "Beat rival cars to win races and unlock new tracks Your car accelerates automatically mdash focus on steering and drifting Desktop ndash Left right arrows to steer Spacebar for handbrake drift Down arrow to slow down Mobile ndash Tilt your devi"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-stunt-racing-stylized.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 89,
+  "faqs": []
+}

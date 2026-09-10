@@ -1,0 +1,38 @@
+{
+  "slug": "nibblix",
+  "title": "Nibblix",
+  "url": "https://html5.gamemonetize.co/dw617l3j3sdv9mb8kufduouj2df4mgpo/",
+  "cats": [
+    "arcade"
+  ],
+  "tags": [
+    "Arcade",
+    "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 2989416,
+  "hot": true,
+  "new": false,
+  "added": "2026-01-15",
+  "desc": "Nibblix is the game name where a young dino chases a mouse.Mouse can run away only when he eats enough cheese which is coming to him every now and then. As game progresses the running speed of mouse increases and obstacles come faster. Have fun!.",
+  "howto": [
+    "Click to jump button to jump when needed"
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    }
+  ],
+  "tips": [
+    "Short, controlled inputs beat button mashing.",
+    "Watch patterns once before going for the record."
+  ],
+  "thumbfile": "nibblix.jpg",
+  "sort_order": 32,
+  "faqs": []
+}

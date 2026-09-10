@@ -1,0 +1,53 @@
+{
+  "slug": "pro-golfer-game",
+  "title": "Pro Golfer Game",
+  "url": "https://html5.gamemonetize.co/lzjgq0b17ad2v91aaosalfcsntdvibxg/",
+  "cats": [
+    "golf",
+    "sports"
+  ],
+  "tags": [
+    "Golf",
+    "Sports",
+    "Precision",
+    "3D",
+    "Casual"
+  ],
+  "rating": 4.5,
+  "plays": 356814,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Pro Golfer Game is a relaxed sports golf game where each course tests aim, shot power, and timing. Line up the ball, adjust your strength, avoid tricky obstacles, and try to finish each hole with the fewest strokes.",
+  "howto": [
+    "Use the mouse to aim your golf shot.",
+    "Adjust power before releasing the ball.",
+    "Read slopes, walls, and obstacles before each swing.",
+    "Complete each course in as few strokes as possible."
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "aim and set power"
+    },
+    {
+      "key": "Click / release",
+      "action": "shoot"
+    },
+    {
+      "key": "Touch",
+      "action": "mobile aim and shoot"
+    }
+  ],
+  "tips": [
+    "Start with medium power until you learn the course speed.",
+    "Aim for safe angles instead of forcing every direct shot.",
+    "Use obstacles as banks when the hole is not open.",
+    "A controlled two-shot setup often beats one risky full-power swing."
+  ],
+  "thumbfile": "pro-golfer-game.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 7,
+  "faqs": []
+}

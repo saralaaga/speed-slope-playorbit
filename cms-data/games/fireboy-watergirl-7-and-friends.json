@@ -1,0 +1,37 @@
+{
+  "slug": "fireboy-watergirl-7-and-friends",
+  "title": "Fireboy & Watergirl 7: and Friends",
+  "url": "https://html5.gamedistribution.com/d4a3629101574bc39bd8f9d1888ca58e/",
+  "cats": [
+    "2-player",
+    "arcade"
+  ],
+  "tags": [
+    "Co-op",
+    "Platformer",
+    "2 Player"
+  ],
+  "rating": 4.4,
+  "plays": 539675,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-13",
+  "desc": "Fireboy and Watergirl need help to explore this new temple. This time with 3 new friends that will help them solve the puzzles, beat the times and collect all the diamonds! Play alone or with a friend to join Fireboy and Watergirl in this new adventure! Turn levers and push buttons to complete these 36 new levels of the official Fireboy and Watergirl series.",
+  "howto": [
+    "Use AWD to move Watergirl, use the Arrow keys to move Fireboy, use GYJ to move the Friends",
+    "Complete all levels fast enough and grabbing all the diamonds to get a perfect score"
+  ],
+  "controls": [
+    {
+      "key": "Arrow keys",
+      "action": "move / steer"
+    }
+  ],
+  "tips": [
+    "Agree on controls before the round starts.",
+    "Defense wins grudge matches — stay patient."
+  ],
+  "thumbfile": "fireboy-watergirl-7-and-friends.jpg",
+  "sort_order": 34,
+  "faqs": []
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "endless-golf",
+  "title": "Endless Golf",
+  "url": "https://html5.gamemonetize.co/bxbyf7u1sn08wedto751ju4elnngz9qf/",
+  "cats": [
+    "golf",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Golf",
+    "Physics",
+    "Aim",
+    "Endless",
+    "Skill"
+  ],
+  "rating": 4.3,
+  "plays": 329774,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Endless Golf is a physics golf challenge built around careful aim, power control, and changing wind. Pull back, line up the shot, and adapt as each terrain and biome changes how the ball travels.",
+  "howto": [
+    "Tap or click the golf ball to begin a shot.",
+    "Drag backward to set direction and power.",
+    "Watch the wind indicator before releasing.",
+    "Reach the hole in as few shots as possible."
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select the ball"
+    },
+    {
+      "key": "Drag",
+      "action": "aim and set power"
+    },
+    {
+      "key": "Release",
+      "action": "shoot"
+    }
+  ],
+  "tips": [
+    "Compensate for wind before adding power.",
+    "Use higher arcs when the terrain blocks a flat shot.",
+    "Do not chase perfect power until your angle is right.",
+    "Different biomes change how cautious you should be."
+  ],
+  "thumbfile": "endless-golf.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 10,
+  "faqs": []
+}

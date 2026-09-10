@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 APP = os.path.join(BASE, 'app')
-STATIC_DIRS = {'about', 'contact', 'dmca', 'hot-games', 'new-games', 'privacy', 'search', 'terms'}
+STATIC_DIRS = {'about', 'admin', 'contact', 'dmca', 'hot-games', 'new-games', 'privacy', 'search', 'terms'}
 
 
 def load_json(name):
@@ -19,9 +19,30 @@ def load_json(name):
         return json.load(f)
 
 
+def load_site_config():
+    cms_path = os.path.join(BASE, 'cms-data', 'sites', os.environ.get('SPEEDSLOPE_CMS_SITE', 'speedslope-net') + '.json')
+    if os.path.exists(cms_path):
+        with open(cms_path, encoding='utf-8') as f:
+            return json.load(f)
+    return load_json('site_config.json')
+
+
+def load_games_data():
+    cms_dir = os.path.join(BASE, 'cms-data', 'games')
+    if os.path.isdir(cms_dir):
+        games = []
+        for name in os.listdir(cms_dir):
+            if name.endswith('.json'):
+                with open(os.path.join(cms_dir, name), encoding='utf-8') as f:
+                    games.append(json.load(f))
+        return sorted(games, key=lambda g: (g.get('sort_order', 999999), g['slug']))
+    return load_json('games_data.json')
+
+
 def selected_games():
-    config = load_json('site_config.json')
-    games = load_json('games_data.json')
+    config = load_site_config()
+    removed = build_constant('REMOVED_GAME_SLUGS', set())
+    games = [g for g in load_games_data() if g['slug'] not in removed]
     mode = config.get('launch_mode', 'single')
     if mode == 'single':
         slug = config.get('launch_game_slug') or games[0]['slug']
@@ -35,7 +56,7 @@ def selected_games():
 
 
 def home_game_slug():
-    config = load_json('site_config.json')
+    config = load_site_config()
     games = selected_games()
     slug = config.get('home_game_slug') or config.get('launch_game_slug') or games[0]['slug']
     assert slug in {g['slug'] for g in games}, f'home_game_slug not selected for publishing: {slug}'
@@ -64,7 +85,7 @@ def assert_games_json(expected_slugs):
 def assert_sitemap(expected_slugs):
     # In single mode the home page is the play page and /slug/ only redirects
     # there (noindex), so game slugs are intentionally absent from the sitemap.
-    config = load_json('site_config.json')
+    config = load_site_config()
     if config.get('launch_mode', 'single') == 'single':
         expected_slugs = set()
     else:
@@ -146,7 +167,8 @@ def build_constant(name, default):
 
 def assert_featured_category_players():
     featured = build_constant('FEATURED_CATEGORY_GAMES', {})
-    game_urls = {g['slug']: g['url'] for g in load_json('games_data.json')}
+    removed = build_constant('REMOVED_GAME_SLUGS', set())
+    game_urls = {g['slug']: g['url'] for g in load_games_data()}
     missing = []
     for cat, slug in featured.items():
         rel = f'games/{cat}/index.html'
@@ -154,12 +176,11 @@ def assert_featured_category_players():
         path = os.path.join(APP, rel)
         if not os.path.exists(path):
             continue
-        if not iframe_src:
-            missing.append(rel)
-            continue
         with open(path, encoding='utf-8') as f:
             html = f.read()
-        if 'class="category-player"' not in html or f'<iframe src="{iframe_src}"' not in html:
+        if 'class="category-player"' not in html:
+            missing.append(rel)
+        elif slug not in removed and iframe_src and f'<iframe src="{iframe_src}"' not in html:
             missing.append(rel)
         if html.count('class="game-card"') >= 4 and html.count('class="category-alt-game"') < 3:
             missing.append(rel + ' alternatives')
@@ -175,7 +196,12 @@ def assert_removed_game_redirects():
     with open(os.path.join(APP, '_redirects'), encoding='utf-8') as f:
         redirects = set(line.strip() for line in f if line.strip() and not line.startswith('#'))
     missing = [f'/{slug}/ / 301' for slug in sorted(removed_slugs) if f'/{slug}/ / 301' not in redirects]
-    missing += [f'/games/{src}/ /games/{dst}/ 301' for src, dst in sorted(removed_categories.items()) if f'/games/{src}/ /games/{dst}/ 301' not in redirects]
+    missing += [
+        f'/games/{src}/ /games/{dst}/ 301'
+        for src, dst in sorted(removed_categories.items())
+        if not os.path.exists(os.path.join(APP, 'games', src, 'index.html'))
+        and f'/games/{src}/ /games/{dst}/ 301' not in redirects
+    ]
     assert not missing, f'Missing removed game/category redirects: {missing[:20]}'
 
 
@@ -193,6 +219,29 @@ def assert_sidebar_mini_games_are_images_only():
     assert not offenders, f'Sidebar mini games still render text labels: {offenders[:20]}'
 
 
+def assert_search_preview_signals():
+    offenders = []
+    for root, _, files in os.walk(APP):
+        for name in files:
+            if name != 'index.html':
+                continue
+            path = os.path.join(root, name)
+            rel = os.path.relpath(path, APP)
+            with open(path, encoding='utf-8') as f:
+                html = f.read()
+            if '<meta name="robots" content="noindex' in html:
+                continue
+            if '<meta name="robots" content="index,follow,max-image-preview:large">' not in html:
+                offenders.append(rel + ' robots')
+            if rel.startswith('games/'):
+                if '"@type": "ItemList"' not in html:
+                    offenders.append(rel + ' itemlist')
+            elif rel.split('/')[0] not in STATIC_DIRS and 'class="stage"' in html:
+                if 'class="stage-preview-img"' not in html:
+                    offenders.append(rel + ' preview image')
+    assert not offenders, f'Missing search preview signals: {offenders[:20]}'
+
+
 def main():
     expected_slugs = {g['slug'] for g in selected_games()}
     assert expected_slugs, 'No games selected for publishing'
@@ -207,6 +256,7 @@ def main():
     assert_featured_category_players()
     assert_removed_game_redirects()
     assert_sidebar_mini_games_are_images_only()
+    assert_search_preview_signals()
     print(f'OK - validated {len(expected_slugs)} published game(s)')
 
 

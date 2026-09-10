@@ -1,0 +1,47 @@
+{
+  "slug": "faster-car-race",
+  "title": "Faster Car Race",
+  "url": "https://html5.gamemonetize.co/9qpvw299afzmy7aok2xph76if4npkrg1/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "3D",
+    "Adventure",
+    "Best Games",
+    "Cars",
+    "Casual",
+    "Game"
+  ],
+  "rating": 4.6,
+  "plays": 1543087,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-14",
+  "desc": "Get ready for the ultimate adrenaline rush in Faster Car Race, a high-octane mobile racing experience designed to test your reflexes and driving skills to the absolute limit. Put the pedal to the metal as you pilot sleek, high-performance cars across breathtaking asphalt tracks surrounded by lush green pine forests, towering mountain peaks, and vibrant grandstands filled with cheering crowds. Feel the intense rush of speed as your nitro boost ignites, sending streaks of blue flame out of your exhaust while motion blur effects warp the world around you.",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "faster-car-race.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 62,
+  "faqs": []
+}

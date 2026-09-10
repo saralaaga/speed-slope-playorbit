@@ -1,0 +1,47 @@
+{
+  "slug": "real-car-bmw-m4-drift",
+  "title": "Real Car Bmw M4 Drift",
+  "url": "https://html5.gamemonetize.co/ef6sv06uq0ksnqhc9kq6v0u0soeksh0k/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "1 Player",
+    "2026 games",
+    "3D",
+    "Car",
+    "Cars",
+    "drift"
+  ],
+  "rating": 4.1,
+  "plays": 1545751,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Real Car BMW M4 Drift is a fast-paced driving game focused on BMW M4 drifting. Drive through different environments, perform long drifts, master sharp corners and test your driving skills. Enjoy smooth controls, high-speed driving and challenging drift action. Get behind the wheel, push the BMW M4 to its limits and become the ultimate drift driver.",
+  "howto": [
+    "WASD is used to drive the car and Space is used to brake Mobile touch controls are also available allowing the game to be played on both PC and mobile devices"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "real-car-bmw-m4-drift.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 51,
+  "faqs": []
+}

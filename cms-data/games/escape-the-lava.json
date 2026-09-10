@@ -1,0 +1,49 @@
+{
+  "slug": "escape-the-lava",
+  "title": "Escape the lava",
+  "url": "https://html5.gamemonetize.co/6xsuk99lx4wifzilgiosj5p6s2ottads/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "slope",
+    "arcade"
+  ],
+  "tags": [
+    "3D",
+    "Arcade",
+    "Ball",
+    "Highscore",
+    "Obstacle",
+    "Race"
+  ],
+  "rating": 4.4,
+  "plays": 1505791,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-21",
+  "desc": "Escape the Lava In this game you are a ball, and your goal is to collect points and dodge obstacles. You can buy skins, in the store. - Green - Red - Blue - Pink - Glowy - White - Black - Mat - Glass ball . . . and much more . . . Also you can use power-ups scatterd around the randomly generating map! - Faster movement - Double points - Magnet (Collects coins from further away) Made by . : Nitram1234 (M. Martin)",
+  "howto": [
+    "Move - W A S D Collect coins - On contact"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "escape-the-lava.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 104,
+  "faqs": []
+}

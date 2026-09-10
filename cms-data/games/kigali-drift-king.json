@@ -1,0 +1,47 @@
+{
+  "slug": "kigali-drift-king",
+  "title": "Kigali Drift King",
+  "url": "https://html5.gamemonetize.co/ezh2ais4qk74un2uy1wzg3elrm32877u/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "drift",
+    "drifting",
+    "endless",
+    "HTML5",
+    "Mobile",
+    "Racing"
+  ],
+  "rating": 4.4,
+  "plays": 1501647,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-14",
+  "desc": "Endless drift racer set in Kigalis hills. Hold left/right to steer, drift through curves for combo multipliers. Avoid road edges! Features: procedural neon cars, day/night cycle, particle effects, procedural audio. Controls: Arrow keys or tap left/right halves of screen. High-score chasing with smooth 60fps game play.",
+  "howto": [
+    "Arrow Keys Touch Left-Right"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "play and interact"
+    },
+    {
+      "key": "Click / tap",
+      "action": "select and act"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "kigali-drift-king.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 109,
+  "faqs": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "city-parking-master-3d",
+  "title": "City Parking Master 3D",
+  "url": "https://html5.gamemonetize.co/wlhii8os2iawrbgwwz0dpjr1ptghc3rj/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "3D",
+    "Car",
+    "carparking",
+    "city",
+    "Driving",
+    "Parking"
+  ],
+  "rating": 4.6,
+  "plays": 1544678,
+  "hot": true,
+  "new": false,
+  "added": "2026-08-21",
+  "desc": "Test your precision driving skills in challenging city parking missions. Navigate traffic cones, tight corners, and busy parking areas, then stop perfectly inside the marked space without crashing. Web Dev &lt;a href='https://www.crazygamesonline.com/'&gt;https://www.crazygamesonline.com/&lt;/a&gt;",
+  "howto": [
+    "Use WASD or the Arrow keys to drive and steer Press Space for the brake Follow the parking guides and place the entire vehicle inside the highlighted bay"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "city-parking-master-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 55,
+  "faqs": []
+}

@@ -3,7 +3,7 @@
   "title": "Speed Slope",
   "slug": "speed-slope",
   "url": "",
-  "thumb": "assets/thumbs/speed-slope.svg",
+  "thumb": "assets/thumbs/speed-slope.png",
   "categories": [
    "Slope Games",
    "Racing Games",
@@ -27,187 +27,198 @@
   "isNew": true
  },
  {
-  "title": "On Fire Basketball Shots",
-  "slug": "on-fire-basketball-shots",
-  "url": "on-fire-basketball-shots/",
-  "thumb": "assets/thumbs/on-fire-basketball-shots.jpg",
+  "title": "Neon Mini Golf",
+  "slug": "neon-mini-golf",
+  "url": "neon-mini-golf/",
+  "thumb": "assets/thumbs/neon-mini-golf.jpg",
   "categories": [
-   "Basketball Games",
-   "Arcade Games",
+   "Golf Games",
    "Sports Games",
-   "Shooting Games"
-  ],
-  "tags": [
-   "Basketball",
-   "Aim",
-   "Endless"
-  ],
-  "rating": 4.3,
-  "plays": 1917434,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Basketball Rush",
-  "slug": "basketball-rush",
-  "url": "basketball-rush/",
-  "thumb": "assets/thumbs/basketball-rush.jpg",
-  "categories": [
-   "Basketball Games",
-   "Arcade Games",
-   "Sports Games",
-   "Shooting Games",
-   "Runner Games",
-   "Platformer Games"
-  ],
-  "tags": [
-   "Basketball",
-   "Runner"
-  ],
-  "rating": 4.5,
-  "plays": 2675932,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Bounce Dunk Basketball",
-  "slug": "bounce-dunk-basketball",
-  "url": "bounce-dunk-basketball/",
-  "thumb": "assets/thumbs/bounce-dunk-basketball.jpg",
-  "categories": [
-   "Basketball Games",
-   "Sports Games",
-   "Shooting Games",
    "Arcade Games"
   ],
   "tags": [
-   "Basketball",
-   "Dunk",
-   "Physics"
+   "Golf",
+   "Mini Golf",
+   "Physics",
+   "Skill",
+   "Neon"
   ],
-  "rating": 4.4,
-  "plays": 3594691,
+  "rating": 4.6,
+  "plays": 383742,
   "isHot": true,
   "isNew": true
  },
  {
-  "title": "Football Heads 2026",
-  "slug": "football-heads-2026",
-  "url": "football-heads-2026/",
-  "thumb": "assets/thumbs/football-heads-2026.jpg",
-  "categories": [
-   "Sports Games",
-   "Football Games",
-   "Soccer Games",
-   "Shooting Games"
-  ],
-  "tags": [
-   "Soccer",
-   "Heads",
-   "Funny"
-  ],
-  "rating": 4.2,
-  "plays": 3142089,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Tiny Golf King",
-  "slug": "tiny-golf-king",
-  "url": "tiny-golf-king/",
-  "thumb": "assets/thumbs/tiny-golf-king.jpg",
+  "title": "Pro Golfer Game",
+  "slug": "pro-golfer-game",
+  "url": "pro-golfer-game/",
+  "thumb": "assets/thumbs/pro-golfer-game.jpg",
   "categories": [
    "Golf Games",
    "Sports Games"
   ],
   "tags": [
    "Golf",
-   "Precision"
-  ],
-  "rating": 4.2,
-  "plays": 3891577,
-  "isHot": true,
-  "isNew": false
- },
- {
-  "title": "World Cup 2026 Soccer Game",
-  "slug": "world-cup-2026-soccer-game",
-  "url": "world-cup-2026-soccer-game/",
-  "thumb": "assets/thumbs/world-cup-2026-soccer-game.jpg",
-  "categories": [
-   "Sports Games",
-   "Football Games",
-   "Soccer Games",
-   "Shooting Games"
-  ],
-  "tags": [
-   "Soccer",
-   "World Cup"
-  ],
-  "rating": 4.7,
-  "plays": 2039318,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Archery Master - Bow and Arrow",
-  "slug": "archery-master-bow-and-arrow",
-  "url": "archery-master-bow-and-arrow/",
-  "thumb": "assets/thumbs/archery-master-bow-and-arrow.jpg",
-  "categories": [
-   "Sports Games",
-   "Archery Games",
-   "Shooting Games"
-  ],
-  "tags": [
-   "Archery",
-   "Aiming"
-  ],
-  "rating": 4.1,
-  "plays": 2050840,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Pool Duel",
-  "slug": "pool-duel",
-  "url": "pool-duel/",
-  "thumb": "assets/thumbs/pool-duel.jpg",
-  "categories": [
-   "Sports Games",
-   "Classic Games",
-   "Pool Games",
-   "Strategy Games",
-   "2 Player Games"
-  ],
-  "tags": [
-   "Pool",
-   "Billiards",
-   "8 Ball"
-  ],
-  "rating": 4.1,
-  "plays": 3849768,
-  "isHot": true,
-  "isNew": false
- },
- {
-  "title": "Flick Shot Soccer",
-  "slug": "flick-shot-soccer",
-  "url": "flick-shot-soccer/",
-  "thumb": "assets/thumbs/flick-shot-soccer.jpg",
-  "categories": [
-   "Sports Games",
-   "Football Games",
-   "Soccer Games",
-   "Shooting Games"
-  ],
-  "tags": [
-   "Soccer",
-   "Flick",
+   "Sports",
+   "Precision",
+   "3D",
    "Casual"
   ],
+  "rating": 4.5,
+  "plays": 356814,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Birdie Bounce",
+  "slug": "birdie-bounce",
+  "url": "birdie-bounce/",
+  "thumb": "assets/thumbs/birdie-bounce.jpg",
+  "categories": [
+   "Golf Games",
+   "Sports Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Golf",
+   "Arcade",
+   "Physics",
+   "Aim",
+   "Skill"
+  ],
+  "rating": 4.4,
+  "plays": 342905,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Mini Golf 3D",
+  "slug": "mini-golf-3d",
+  "url": "mini-golf-3d/",
+  "thumb": "assets/thumbs/mini-golf-3d.jpg",
+  "categories": [
+   "Golf Games",
+   "Sports Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Golf",
+   "Mini Golf",
+   "3D",
+   "Physics",
+   "Skill"
+  ],
   "rating": 4.6,
-  "plays": 261909,
+  "plays": 371228,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Endless Golf",
+  "slug": "endless-golf",
+  "url": "endless-golf/",
+  "thumb": "assets/thumbs/endless-golf.jpg",
+  "categories": [
+   "Golf Games",
+   "Sports Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Golf",
+   "Physics",
+   "Aim",
+   "Endless",
+   "Skill"
+  ],
+  "rating": 4.3,
+  "plays": 329774,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Go Golf",
+  "slug": "go-golf",
+  "url": "go-golf/",
+  "thumb": "assets/thumbs/go-golf.jpg",
+  "categories": [
+   "Golf Games",
+   "Sports Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Golf",
+   "Puzzle",
+   "Aim",
+   "Physics",
+   "Casual"
+  ],
+  "rating": 4.2,
+  "plays": 301488,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Speeding Ball",
+  "slug": "speeding-ball",
+  "url": "speeding-ball/",
+  "thumb": "assets/thumbs/speeding-ball.jpg",
+  "categories": [
+   "Golf Games",
+   "Sports Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Golf",
+   "3D",
+   "Arcade",
+   "Aim",
+   "Precision"
+  ],
+  "rating": 4.1,
+  "plays": 286339,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Sport Sort Puzzle",
+  "slug": "sport-sort-puzzle",
+  "url": "sport-sort-puzzle/",
+  "thumb": "assets/thumbs/sport-sort-puzzle.jpg",
+  "categories": [
+   "Sports Games",
+   "Puzzle Games",
+   "Sorting Games"
+  ],
+  "tags": [
+   "Sports",
+   "Sorting",
+   "Puzzle",
+   "Balls",
+   "Casual"
+  ],
+  "rating": 4.4,
+  "plays": 318624,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Fall Ball Idle",
+  "slug": "fall-ball-idle",
+  "url": "fall-ball-idle/",
+  "thumb": "assets/thumbs/fall-ball-idle.jpg",
+  "categories": [
+   "Sports Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Sports",
+   "Ball",
+   "Physics",
+   "Idle",
+   "Clicker"
+  ],
+  "rating": 4.2,
+  "plays": 294116,
   "isHot": false,
   "isNew": true
  },
@@ -229,27 +240,6 @@
   ],
   "rating": 4.6,
   "plays": 1772717,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Formula Car Circuit Racing",
-  "slug": "formula-car-circuit-racing",
-  "url": "formula-car-circuit-racing/",
-  "thumb": "assets/thumbs/formula-car-circuit-racing.jpg",
-  "categories": [
-   "Slope Games",
-   "Racing Games",
-   "Driving Games",
-   "Car Racing Games"
-  ],
-  "tags": [
-   "Formula",
-   "Circuit",
-   "Speed"
-  ],
-  "rating": 4.4,
-  "plays": 1251339,
   "isHot": false,
   "isNew": false
  },
@@ -313,82 +303,6 @@
   "plays": 3317873,
   "isHot": true,
   "isNew": false
- },
- {
-  "title": "Marble Sort",
-  "slug": "marble-sort",
-  "url": "marble-sort/",
-  "thumb": "assets/thumbs/marble-sort.jpg",
-  "categories": [
-   "Puzzle Games",
-   "Sorting Games"
-  ],
-  "tags": [
-   "Sorting",
-   "Logic",
-   "Relaxing"
-  ],
-  "rating": 4.2,
-  "plays": 3750929,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "PrismRoll 3D",
-  "slug": "prismroll-3d",
-  "url": "prismroll-3d/",
-  "thumb": "assets/thumbs/prismroll-3d.jpg",
-  "categories": [
-   "Slope Games",
-   "Puzzle Games",
-   "Obstacle Course Games",
-   "Sorting Games",
-   "Platformer Games"
-  ],
-  "tags": [
-   "3D",
-   "Logic"
-  ],
-  "rating": 4.5,
-  "plays": 335660,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Word Search Universe Animals",
-  "slug": "word-search-universe-animals",
-  "url": "word-search-universe-animals/",
-  "thumb": "assets/thumbs/word-search-universe-animals.jpg",
-  "categories": [
-   "Puzzle Games",
-   "Word Games"
-  ],
-  "tags": [
-   "Word",
-   "Search"
-  ],
-  "rating": 4.3,
-  "plays": 2592370,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Triple Shelf Match",
-  "slug": "triple-shelf-match",
-  "url": "triple-shelf-match/",
-  "thumb": "assets/thumbs/triple-shelf-match.jpg",
-  "categories": [
-   "Puzzle Games",
-   "Sorting Games"
-  ],
-  "tags": [
-   "Match 3",
-   "Sorting"
-  ],
-  "rating": 4.6,
-  "plays": 3771997,
-  "isHot": true,
-  "isNew": true
  },
  {
   "title": "BlockBlast",
@@ -507,204 +421,6 @@
   "isNew": false
  },
  {
-  "title": "Fireboy & Watergirl 7: and Friends",
-  "slug": "fireboy-watergirl-7-and-friends",
-  "url": "fireboy-watergirl-7-and-friends/",
-  "thumb": "assets/thumbs/fireboy-watergirl-7-and-friends.jpg",
-  "categories": [
-   "2 Player Games",
-   "Arcade Games",
-   "Platformer Games",
-   "Obstacle Course Games",
-   "Puzzle Games"
-  ],
-  "tags": [
-   "Co-op",
-   "Platformer",
-   "2 Player"
-  ],
-  "rating": 4.4,
-  "plays": 539675,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "2 Player Moto Racing",
-  "slug": "2-player-moto-racing",
-  "url": "2-player-moto-racing/",
-  "thumb": "assets/thumbs/2-player-moto-racing.jpg",
-  "categories": [
-   "2 Player Games",
-   "Racing Games",
-   "Driving Games",
-   "Motorcycle Games",
-   "Stunt Games",
-   "Car Racing Games"
-  ],
-  "tags": [
-   "Moto",
-   "2 Player",
-   "Racing"
-  ],
-  "rating": 4.3,
-  "plays": 738994,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Tank Duel 3D",
-  "slug": "tank-duel-3d",
-  "url": "tank-duel-3d/",
-  "thumb": "assets/thumbs/tank-duel-3d.jpg",
-  "categories": [
-   "2 Player Games",
-   "Fighting Games",
-   "Shooting Games",
-   "Strategy Games"
-  ],
-  "tags": [
-   "Tanks",
-   "Duel",
-   "3D"
-  ],
-  "rating": 4.6,
-  "plays": 903485,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "Stickman Temple Duel",
-  "slug": "stickman-temple-duel",
-  "url": "stickman-temple-duel/",
-  "thumb": "assets/thumbs/stickman-temple-duel.jpg",
-  "categories": [
-   "2 Player Games",
-   "Fighting Games"
-  ],
-  "tags": [
-   "Stickman",
-   "Duel"
-  ],
-  "rating": 4.2,
-  "plays": 2163209,
-  "isHot": true,
-  "isNew": false
- },
- {
-  "title": "Martial Arts: Fighter Duel",
-  "slug": "martial-arts-fighter-duel",
-  "url": "martial-arts-fighter-duel/",
-  "thumb": "assets/thumbs/martial-arts-fighter-duel.jpg",
-  "categories": [
-   "2 Player Games",
-   "Fighting Games"
-  ],
-  "tags": [
-   "Fighting",
-   "Duel"
-  ],
-  "rating": 4.4,
-  "plays": 531291,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "2 Player Dark Racing",
-  "slug": "2-player-dark-racing",
-  "url": "2-player-dark-racing/",
-  "thumb": "assets/thumbs/2-player-dark-racing.jpg",
-  "categories": [
-   "2 Player Games",
-   "Racing Games",
-   "Driving Games"
-  ],
-  "tags": [
-   "2 Player",
-   "Racing"
-  ],
-  "rating": 4.4,
-  "plays": 2313171,
-  "isHot": true,
-  "isNew": false
- },
- {
-  "title": "2048 Snake.io",
-  "slug": "2048-snake-io",
-  "url": "2048-snake-io/",
-  "thumb": "assets/thumbs/2048-snake-io.jpg",
-  "categories": [
-   "IO Games",
-   "Classic Games",
-   "Strategy Games",
-   "Merge Games"
-  ],
-  "tags": [
-   "Snake",
-   "2048",
-   "IO"
-  ],
-  "rating": 4.7,
-  "plays": 3725502,
-  "isHot": true,
-  "isNew": false
- },
- {
-  "title": "SnakeLands.io",
-  "slug": "snakelands-io",
-  "url": "snakelands-io/",
-  "thumb": "assets/thumbs/snakelands-io.jpg",
-  "categories": [
-   "IO Games",
-   "Strategy Games"
-  ],
-  "tags": [
-   "Snake",
-   "IO",
-   "Multiplayer"
-  ],
-  "rating": 4.6,
-  "plays": 2559293,
-  "isHot": false,
-  "isNew": false
- },
- {
-  "title": "PaperWar.io",
-  "slug": "paperwar-io",
-  "url": "paperwar-io/",
-  "thumb": "assets/thumbs/paperwar-io.jpg",
-  "categories": [
-   "IO Games",
-   "Strategy Games"
-  ],
-  "tags": [
-   "Territory",
-   "IO"
-  ],
-  "rating": 4.7,
-  "plays": 1954374,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "ColorWars.io - Conquest Game",
-  "slug": "colorwars-io-conquest-game",
-  "url": "colorwars-io-conquest-game/",
-  "thumb": "assets/thumbs/colorwars-io-conquest-game.jpg",
-  "categories": [
-   "IO Games",
-   "Strategy Games"
-  ],
-  "tags": [
-   "Territory",
-   "IO",
-   "Conquest"
-  ],
-  "rating": 4.1,
-  "plays": 3143888,
-  "isHot": true,
-  "isNew": false
- },
- {
   "title": "Chess 3D",
   "slug": "chess-3d",
   "url": "chess-3d/",
@@ -724,23 +440,2026 @@
   "isNew": false
  },
  {
-  "title": "Archery Legends",
-  "slug": "archery-legends",
-  "url": "archery-legends/",
-  "thumb": "assets/thumbs/archery-legends.jpg",
+  "title": "Real Car Bmw M4 Drift",
+  "slug": "real-car-bmw-m4-drift",
+  "url": "real-car-bmw-m4-drift/",
+  "thumb": "assets/thumbs/real-car-bmw-m4-drift.jpg",
   "categories": [
-   "Archery Games",
-   "Sports Games",
-   "Shooting Games"
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
   ],
   "tags": [
-   "Archery",
-   "Precision",
-   "Targets"
+   "1 Player",
+   "2026 games",
+   "3D",
+   "Car",
+   "Cars",
+   "drift"
+  ],
+  "rating": 4.1,
+  "plays": 1545751,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Mob Runner Master",
+  "slug": "mob-runner-master",
+  "url": "mob-runner-master/",
+  "thumb": "assets/thumbs/mob-runner-master.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Best",
+   "Best Games",
+   "Fun",
+   "Puzzle",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1545566,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Extreme Car Parking 3D",
+  "slug": "extreme-car-parking-3d",
+  "url": "extreme-car-parking-3d/",
+  "thumb": "assets/thumbs/extreme-car-parking-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "3D",
+   "Car",
+   "carparking",
+   "Driving",
+   "Parking",
+   "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 1545307,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Mega Ramp Stunt Racing 3D",
+  "slug": "mega-ramp-stunt-racing-3d",
+  "url": "mega-ramp-stunt-racing-3d/",
+  "thumb": "assets/thumbs/mega-ramp-stunt-racing-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "2 Player Games"
+  ],
+  "tags": [
+   "2 Player",
+   "2 Player Games",
+   "2026 games",
+   "3D",
+   "3D Games",
+   "Car"
+  ],
+  "rating": 4.4,
+  "plays": 1545122,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "City Parking Master 3D",
+  "slug": "city-parking-master-3d",
+  "url": "city-parking-master-3d/",
+  "thumb": "assets/thumbs/city-parking-master-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "3D",
+   "Car",
+   "carparking",
+   "city",
+   "Driving",
+   "Parking"
+  ],
+  "rating": 4.6,
+  "plays": 1544678,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Upgrade the CARS",
+  "slug": "upgrade-the-cars",
+  "url": "upgrade-the-cars/",
+  "thumb": "assets/thumbs/upgrade-the-cars.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "2025 games",
+   "2026 games",
+   "3D",
+   "3D Games",
+   "Android"
+  ],
+  "rating": 4.7,
+  "plays": 1544234,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "US Truck Game",
+  "slug": "us-truck-game",
+  "url": "us-truck-game/",
+  "thumb": "assets/thumbs/us-truck-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Adventure",
+   "Best Games",
+   "city",
+   "Fun",
+   "Simulation",
+   "Truck"
+  ],
+  "rating": 4.1,
+  "plays": 1544197,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Car Stunt Master 3D",
+  "slug": "car-stunt-master-3d",
+  "url": "car-stunt-master-3d/",
+  "thumb": "assets/thumbs/car-stunt-master-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "3D",
+   "Arcade",
+   "Car",
+   "Driving",
+   "jump",
+   "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1544160,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Car Destruction King",
+  "slug": "car-destruction-king",
+  "url": "car-destruction-king/",
+  "thumb": "assets/thumbs/car-destruction-king.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Car",
+   "Cars",
+   "destruction",
+   "Driving",
+   "King",
+   "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 1543531,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Cargo Truck Game",
+  "slug": "cargo-truck-game",
+  "url": "cargo-truck-game/",
+  "thumb": "assets/thumbs/cargo-truck-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Adventure",
+   "Best",
+   "Forest",
+   "Fun",
+   "offroad",
+   "Sim"
+  ],
+  "rating": 4.4,
+  "plays": 1543161,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Vehice Rush Master",
+  "slug": "vehice-rush-master",
+  "url": "vehice-rush-master/",
+  "thumb": "assets/thumbs/vehice-rush-master.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Car",
+   "Cars",
+   "Casual",
+   "Hypercasual",
+   "Race",
+   "Racing"
   ],
   "rating": 4.5,
-  "plays": 194200,
+  "plays": 1543124,
   "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Faster Car Race",
+  "slug": "faster-car-race",
+  "url": "faster-car-race/",
+  "thumb": "assets/thumbs/faster-car-race.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "3D",
+   "Adventure",
+   "Best Games",
+   "Cars",
+   "Casual",
+   "Game"
+  ],
+  "rating": 4.6,
+  "plays": 1543087,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Bus Driving Master 3D",
+  "slug": "bus-driving-master-3d",
+  "url": "bus-driving-master-3d/",
+  "thumb": "assets/thumbs/bus-driving-master-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Action",
+   "Adventure",
+   "bus",
+   "Parking"
+  ],
+  "rating": 4.1,
+  "plays": 1542273,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Cycle Racing Game",
+  "slug": "cycle-racing-game",
+  "url": "cycle-racing-game/",
+  "thumb": "assets/thumbs/cycle-racing-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Best Games",
+   "Bicycle",
+   "Casual",
+   "city",
+   "Puzzle",
+   "Race"
+  ],
+  "rating": 4.2,
+  "plays": 1542125,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "City Car Driving Game",
+  "slug": "city-car-driving-game",
+  "url": "city-car-driving-game/",
+  "thumb": "assets/thumbs/city-car-driving-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Best Games",
+   "Cars",
+   "Race"
+  ],
+  "rating": 4.3,
+  "plays": 1542014,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Car Driving School Game",
+  "slug": "car-driving-school-game",
+  "url": "car-driving-school-game/",
+  "thumb": "assets/thumbs/car-driving-school-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Car",
+   "carparking",
+   "Cars",
+   "Driving",
+   "Game",
+   "Parking"
+  ],
+  "rating": 4.4,
+  "plays": 1541977,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Turbo Team Racing",
+  "slug": "turbo-team-racing",
+  "url": "turbo-team-racing/",
+  "thumb": "assets/thumbs/turbo-team-racing.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "drift",
+   "drifting",
+   "Driving",
+   "mapi games",
+   "Pixel",
+   "Race"
+  ],
+  "rating": 4.6,
+  "plays": 1541681,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Advance Car Game Parking",
+  "slug": "advance-car-game-parking",
+  "url": "advance-car-game-parking/",
+  "thumb": "assets/thumbs/advance-car-game-parking.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Action",
+   "Adventure",
+   "Car",
+   "carparking",
+   "Police"
+  ],
+  "rating": 4.7,
+  "plays": 1541496,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Formula Car Stunt Game",
+  "slug": "formula-car-stunt-game",
+  "url": "formula-car-stunt-game/",
+  "thumb": "assets/thumbs/formula-car-stunt-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Best Games",
+   "Car",
+   "Racing",
+   "Stunts"
+  ],
+  "rating": 4.1,
+  "plays": 1540867,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Endless Car Race Game",
+  "slug": "endless-car-race-game",
+  "url": "endless-car-race-game/",
+  "thumb": "assets/thumbs/endless-car-race-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Best Games",
+   "Cars",
+   "Highscore",
+   "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1540312,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Obby Cart Rush",
+  "slug": "obby-cart-rush",
+  "url": "obby-cart-rush/",
+  "thumb": "assets/thumbs/obby-cart-rush.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games",
+   "Obstacle Course Games"
+  ],
+  "tags": [
+   "3D",
+   "Adventure",
+   "Arcade",
+   "Car",
+   "Cartoon",
+   "Driving"
+  ],
+  "rating": 4.3,
+  "plays": 1539276,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Car Evolution Game",
+  "slug": "car-evolution-game",
+  "url": "car-evolution-game/",
+  "thumb": "assets/thumbs/car-evolution-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Action",
+   "Adventure",
+   "Best Games",
+   "Car",
+   "Hypercasual",
+   "Race"
+  ],
+  "rating": 4.4,
+  "plays": 1539054,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Car Stunt Master Game",
+  "slug": "car-stunt-master-game",
+  "url": "car-stunt-master-game/",
+  "thumb": "assets/thumbs/car-stunt-master-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "amazing",
+   "Best Games",
+   "Car",
+   "drifting"
+  ],
+  "rating": 4.6,
+  "plays": 1537500,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Police Car Parking 2026",
+  "slug": "police-car-parking-2026",
+  "url": "police-car-parking-2026/",
+  "thumb": "assets/thumbs/police-car-parking-2026.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "carparking",
+   "Driving",
+   "Police",
+   "Skill",
+   "Unity3D",
+   "WebGL"
+  ],
+  "rating": 4.7,
+  "plays": 1537352,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Drive and Dodge: Car Racing 3D",
+  "slug": "drive-and-dodge-car-racing-3d",
+  "url": "drive-and-dodge-car-racing-3d/",
+  "thumb": "assets/thumbs/drive-and-dodge-car-racing-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "3D",
+   "Android",
+   "Arcade",
+   "Car",
+   "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 1536131,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Car Parking Driving Game",
+  "slug": "car-parking-driving-game",
+  "url": "car-parking-driving-game/",
+  "thumb": "assets/thumbs/car-parking-driving-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Arcade",
+   "Car",
+   "carparking",
+   "Driving",
+   "Parking",
+   "Race"
+  ],
+  "rating": 4.3,
+  "plays": 1534096,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Formula Car Circuit Racing",
+  "slug": "formula-car-circuit-racing-2",
+  "url": "formula-car-circuit-racing-2/",
+  "thumb": "assets/thumbs/formula-car-circuit-racing-2.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "3D Games",
+   "Cars",
+   "drifting",
+   "Driving",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1532172,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Police Chase Run",
+  "slug": "police-chase-run",
+  "url": "police-chase-run/",
+  "thumb": "assets/thumbs/police-chase-run.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "2D",
+   "Android",
+   "Car",
+   "Cars"
+  ],
+  "rating": 4.7,
+  "plays": 1531728,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Car Evolution Pro : Math Gates",
+  "slug": "car-evolution-pro-math-gates",
+  "url": "car-evolution-pro-math-gates/",
+  "thumb": "assets/thumbs/car-evolution-pro-math-gates.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "3D",
+   "Brain",
+   "Car",
+   "car tuning",
+   "Cars"
+  ],
+  "rating": 4.3,
+  "plays": 1529360,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Mini Car Runner Meme Games",
+  "slug": "mini-car-runner-meme-games",
+  "url": "mini-car-runner-meme-games/",
+  "thumb": "assets/thumbs/mini-car-runner-meme-games.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "3D",
+   "Brainrot",
+   "Car",
+   "Cars",
+   "Driving",
+   "endless"
+  ],
+  "rating": 4.4,
+  "plays": 1529323,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Highway Rush",
+  "slug": "highway-rush",
+  "url": "highway-rush/",
+  "thumb": "assets/thumbs/highway-rush.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "2D",
+   "Adventure",
+   "amazing",
+   "Car",
+   "Cars"
+  ],
+  "rating": 4.5,
+  "plays": 1528657,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Extreme Car Racing",
+  "slug": "extreme-car-racing",
+  "url": "extreme-car-racing/",
+  "thumb": "assets/thumbs/extreme-car-racing.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Action",
+   "Adventure",
+   "Best Games",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1525401,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Rally Race Pro 3.0 Car Racing",
+  "slug": "rally-race-pro-3-0-car-racing",
+  "url": "rally-race-pro-3-0-car-racing/",
+  "thumb": "assets/thumbs/rally-race-pro-3-0-car-racing.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "3D",
+   "Car",
+   "Cars",
+   "drift",
+   "drifting"
+  ],
+  "rating": 4.7,
+  "plays": 1523477,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Draw a road",
+  "slug": "draw-a-road",
+  "url": "draw-a-road/",
+  "thumb": "assets/thumbs/draw-a-road.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "2025 games",
+   "Brain",
+   "Bridge",
+   "Car",
+   "Casual"
+  ],
+  "rating": 4.2,
+  "plays": 1522293,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Vehicle Masters",
+  "slug": "vehicle-masters",
+  "url": "vehicle-masters/",
+  "thumb": "assets/thumbs/vehicle-masters.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "carparking",
+   "Cars",
+   "Parking",
+   "Simulation",
+   "Truck"
+  ],
+  "rating": 4.3,
+  "plays": 1521590,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Crazy Moto",
+  "slug": "crazy-moto",
+  "url": "crazy-moto/",
+  "thumb": "assets/thumbs/crazy-moto.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Motorcycle Games",
+   "Stunt Games"
+  ],
+  "tags": [
+   "2025 games",
+   "2026 games",
+   "2D",
+   "Arcade",
+   "Balance",
+   "Bike"
+  ],
+  "rating": 4.4,
+  "plays": 1520776,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Monster Truck Offroad",
+  "slug": "monster-truck-offroad",
+  "url": "monster-truck-offroad/",
+  "thumb": "assets/thumbs/monster-truck-offroad.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "offroad",
+   "Race",
+   "Truck"
+  ],
+  "rating": 4.5,
+  "plays": 1519407,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Car Stunt Racing Stylized",
+  "slug": "car-stunt-racing-stylized",
+  "url": "car-stunt-racing-stylized/",
+  "thumb": "assets/thumbs/car-stunt-racing-stylized.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "Car",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1519222,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Go Kart Racing Game",
+  "slug": "go-kart-racing-game",
+  "url": "go-kart-racing-game/",
+  "thumb": "assets/thumbs/go-kart-racing-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Adventure",
+   "amazing",
+   "Car",
+   "drifting",
+   "Driving",
+   "Fun"
+  ],
+  "rating": 4.7,
+  "plays": 1518038,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Police Bus Simulation",
+  "slug": "police-bus-simulation",
+  "url": "police-bus-simulation/",
+  "thumb": "assets/thumbs/police-bus-simulation.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "bus",
+   "Police",
+   "Simulation"
+  ],
+  "rating": 4.1,
+  "plays": 1518001,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Max Speed",
+  "slug": "max-speed",
+  "url": "max-speed/",
+  "thumb": "assets/thumbs/max-speed.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "3D",
+   "Action",
+   "Car",
+   "Dinosaur",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1517076,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Dead Paradise",
+  "slug": "dead-paradise",
+  "url": "dead-paradise/",
+  "thumb": "assets/thumbs/dead-paradise.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Shooting Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "3D",
+   "3D Games",
+   "Action",
+   "Cars",
+   "Shoot 'Em Up",
+   "Shooting"
+  ],
+  "rating": 4.4,
+  "plays": 1515300,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Moto Adventure",
+  "slug": "moto-adventure",
+  "url": "moto-adventure/",
+  "thumb": "assets/thumbs/moto-adventure.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Motorcycle Games",
+   "Stunt Games"
+  ],
+  "tags": [
+   "1 Player",
+   "2D",
+   "Moto",
+   "Motorcycle",
+   "Race"
+  ],
+  "rating": 4.6,
+  "plays": 1511119,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Ultra Crash Car Simulator 2026",
+  "slug": "ultra-crash-car-simulator-2026",
+  "url": "ultra-crash-car-simulator-2026/",
+  "thumb": "assets/thumbs/ultra-crash-car-simulator-2026.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "3D",
+   "3D Games",
+   "Car",
+   "jeep"
+  ],
+  "rating": 4.2,
+  "plays": 1510490,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Astro Racing",
+  "slug": "astro-racing",
+  "url": "astro-racing/",
+  "thumb": "assets/thumbs/astro-racing.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Ai Games",
+   "mapi games",
+   "Race",
+   "Racing",
+   "Retro",
+   "Space"
+  ],
+  "rating": 4.3,
+  "plays": 1510157,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "HIll climb Racings 2",
+  "slug": "hill-climb-racings-2",
+  "url": "hill-climb-racings-2/",
+  "thumb": "assets/thumbs/hill-climb-racings-2.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Adventure",
+   "Funny",
+   "Kids",
+   "kiz10",
+   "Racing"
+  ],
+  "rating": 4.4,
+  "plays": 1509935,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Bike Rush Xtreme",
+  "slug": "bike-rush-xtreme",
+  "url": "bike-rush-xtreme/",
+  "thumb": "assets/thumbs/bike-rush-xtreme.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Motorcycle Games",
+   "Stunt Games"
+  ],
+  "tags": [
+   "Action",
+   "Bike",
+   "Racing",
+   "Stunts"
+  ],
+  "rating": 4.5,
+  "plays": 1509306,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Ultimate Bus Simulator Game",
+  "slug": "ultimate-bus-simulator-game",
+  "url": "ultimate-bus-simulator-game/",
+  "thumb": "assets/thumbs/ultimate-bus-simulator-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "bus",
+   "Driving",
+   "Fun",
+   "Parking",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1509121,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Cars vs Zombies",
+  "slug": "cars-vs-zombies",
+  "url": "cars-vs-zombies/",
+  "thumb": "assets/thumbs/cars-vs-zombies.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Shooting Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Car",
+   "car tuning",
+   "Cars",
+   "Casual",
+   "destroy",
+   "destroying"
+  ],
+  "rating": 4.7,
+  "plays": 1507678,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Sling Drift Racing Games",
+  "slug": "sling-drift-racing-games",
+  "url": "sling-drift-racing-games/",
+  "thumb": "assets/thumbs/sling-drift-racing-games.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "drift",
+   "drifting",
+   "Driving",
+   "Race"
+  ],
+  "rating": 4.1,
+  "plays": 1507308,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Ben Car Adventure",
+  "slug": "ben-car-adventure",
+  "url": "ben-car-adventure/",
+  "thumb": "assets/thumbs/ben-car-adventure.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Arcade",
+   "Balance",
+   "Ben 10",
+   "Car",
+   "Driving",
+   "Fun"
+  ],
+  "rating": 4.2,
+  "plays": 1506568,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Buggy Racing",
+  "slug": "buggy-racing",
+  "url": "buggy-racing/",
+  "thumb": "assets/thumbs/buggy-racing.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Adventure",
+   "Arcade",
+   "buggy",
+   "Race",
+   "WebGL"
+  ],
+  "rating": 4.3,
+  "plays": 1505939,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Escape the lava",
+  "slug": "escape-the-lava",
+  "url": "escape-the-lava/",
+  "thumb": "assets/thumbs/escape-the-lava.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Slope Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "3D",
+   "Arcade",
+   "Ball",
+   "Highscore",
+   "Obstacle",
+   "Race"
+  ],
+  "rating": 4.4,
+  "plays": 1505791,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "GT Truck Racer",
+  "slug": "gt-truck-racer",
+  "url": "gt-truck-racer/",
+  "thumb": "assets/thumbs/gt-truck-racer.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Car",
+   "Cars",
+   "Driving",
+   "Traffic",
+   "unity"
+  ],
+  "rating": 4.5,
+  "plays": 1505421,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Wrong Side Driving Car Game",
+  "slug": "wrong-side-driving-car-game",
+  "url": "wrong-side-driving-car-game/",
+  "thumb": "assets/thumbs/wrong-side-driving-car-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Car",
+   "Race",
+   "Racing",
+   "Supercars",
+   "survival"
+  ],
+  "rating": 4.6,
+  "plays": 1505088,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Skill Driver Game",
+  "slug": "skill-driver-game",
+  "url": "skill-driver-game/",
+  "thumb": "assets/thumbs/skill-driver-game.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "amazing",
+   "Car",
+   "Fun",
+   "Puzzle"
+  ],
+  "rating": 4.2,
+  "plays": 1503201,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Neon Dash: Survive the Dash",
+  "slug": "neon-dash-survive-the-dash",
+  "url": "neon-dash-survive-the-dash/",
+  "thumb": "assets/thumbs/neon-dash-survive-the-dash.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "2D",
+   "dash",
+   "running",
+   "survival"
+  ],
+  "rating": 4.3,
+  "plays": 1502609,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Kigali Drift King",
+  "slug": "kigali-drift-king",
+  "url": "kigali-drift-king/",
+  "thumb": "assets/thumbs/kigali-drift-king.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "drift",
+   "drifting",
+   "endless",
+   "HTML5",
+   "Mobile",
+   "Racing"
+  ],
+  "rating": 4.4,
+  "plays": 1501647,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Extreme Monster Truck",
+  "slug": "extreme-monster-truck",
+  "url": "extreme-monster-truck/",
+  "thumb": "assets/thumbs/extreme-monster-truck.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Car",
+   "Driving",
+   "Monster",
+   "monstertruck"
+  ],
+  "rating": 4.5,
+  "plays": 1500426,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Crazy Traffick Racing 2026",
+  "slug": "crazy-traffick-racing-2026",
+  "url": "crazy-traffick-racing-2026/",
+  "thumb": "assets/thumbs/crazy-traffick-racing-2026.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Car",
+   "Cars",
+   "Driving",
+   "Traffic",
+   "unity",
+   "WebGL"
+  ],
+  "rating": 4.7,
+  "plays": 1498724,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Morph Racers",
+  "slug": "morph-racers",
+  "url": "morph-racers/",
+  "thumb": "assets/thumbs/morph-racers.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "Ai Games",
+   "amazing",
+   "Best",
+   "Best Games"
+  ],
+  "rating": 4.1,
+  "plays": 1497725,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Tractor Drift 3D",
+  "slug": "tractor-drift-3d",
+  "url": "tractor-drift-3d/",
+  "thumb": "assets/thumbs/tractor-drift-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "3D",
+   "Racing",
+   "Simulator",
+   "tractor"
+  ],
+  "rating": 4.2,
+  "plays": 1495098,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Daily Street Racing 3D",
+  "slug": "daily-street-racing-3d",
+  "url": "daily-street-racing-3d/",
+  "thumb": "assets/thumbs/daily-street-racing-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "3D",
+   "Car",
+   "Cars",
+   "Casual",
+   "Hypercasual"
+  ],
+  "rating": 4.3,
+  "plays": 1488919,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Short Path Race",
+  "slug": "short-path-race",
+  "url": "short-path-race/",
+  "thumb": "assets/thumbs/short-path-race.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Adventure",
+   "amazing",
+   "Best Games",
+   "Brain",
+   "Crazy"
+  ],
+  "rating": 4.6,
+  "plays": 1485515,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Jetpack Race Arena",
+  "slug": "jetpack-race-arena",
+  "url": "jetpack-race-arena/",
+  "thumb": "assets/thumbs/jetpack-race-arena.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Action",
+   "Arcade",
+   "Arena",
+   "endless",
+   "fly"
+  ],
+  "rating": 4.7,
+  "plays": 1484849,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Drifty Race Challenge",
+  "slug": "drifty-race-challenge",
+  "url": "drifty-race-challenge/",
+  "thumb": "assets/thumbs/drifty-race-challenge.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Arcade",
+   "Best Games",
+   "Car",
+   "drift",
+   "drifting"
+  ],
+  "rating": 4.1,
+  "plays": 1484368,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Police Chase Car Simulator",
+  "slug": "police-chase-car-simulator",
+  "url": "police-chase-car-simulator/",
+  "thumb": "assets/thumbs/police-chase-car-simulator.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "2 Player Games"
+  ],
+  "tags": [
+   "2 Player",
+   "2026 games",
+   "3D Games",
+   "Best Games",
+   "Car",
+   "city"
+  ],
+  "rating": 4.2,
+  "plays": 1482814,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Offroad Truck Driving Simulator",
+  "slug": "offroad-truck-driving-simulator",
+  "url": "offroad-truck-driving-simulator/",
+  "thumb": "assets/thumbs/offroad-truck-driving-simulator.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "3D",
+   "3D Games",
+   "cargo",
+   "Driving",
+   "offroad"
+  ],
+  "rating": 4.3,
+  "plays": 1482296,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Car Eats Car: Underwater Adventure",
+  "slug": "car-eats-car-underwater-adventure",
+  "url": "car-eats-car-underwater-adventure/",
+  "thumb": "assets/thumbs/car-eats-car-underwater-adventure.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Action",
+   "Car",
+   "Cars",
+   "Cartoon",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.5,
+  "plays": 1481667,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Car Eats Car: Sea Adventure",
+  "slug": "car-eats-car-sea-adventure",
+  "url": "car-eats-car-sea-adventure/",
+  "thumb": "assets/thumbs/car-eats-car-sea-adventure.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Action",
+   "Car",
+   "Cars",
+   "Cartoon",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1481630,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Car Eats Car: Arctic Adventure",
+  "slug": "car-eats-car-arctic-adventure",
+  "url": "car-eats-car-arctic-adventure/",
+  "thumb": "assets/thumbs/car-eats-car-arctic-adventure.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Action",
+   "Car",
+   "Cars",
+   "Cartoon",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.7,
+  "plays": 1481593,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Stickman Stack Race",
+  "slug": "stickman-stack-race",
+  "url": "stickman-stack-race/",
+  "thumb": "assets/thumbs/stickman-stack-race.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "2026 games",
+   "endless",
+   "Game",
+   "Hypercasual",
+   "Kids",
+   "Obstacle"
+  ],
+  "rating": 4.1,
+  "plays": 1479632,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Slime Run",
+  "slug": "slime-run",
+  "url": "slime-run/",
+  "thumb": "assets/thumbs/slime-run.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Color",
+   "Fun",
+   "Monster",
+   "run"
+  ],
+  "rating": 4.2,
+  "plays": 1477671,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Online Taxi Simulator",
+  "slug": "online-taxi-simulator",
+  "url": "online-taxi-simulator/",
+  "thumb": "assets/thumbs/online-taxi-simulator.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "carparking",
+   "Simulation",
+   "Taxi"
+  ],
+  "rating": 4.3,
+  "plays": 1477079,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Car Eats Car: Volcanic Adventure",
+  "slug": "car-eats-car-volcanic-adventure",
+  "url": "car-eats-car-volcanic-adventure/",
+  "thumb": "assets/thumbs/car-eats-car-volcanic-adventure.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2D",
+   "Action",
+   "Car",
+   "Cars",
+   "Cartoon",
+   "Race"
+  ],
+  "rating": 4.5,
+  "plays": 1475377,
+  "isHot": true,
+  "isNew": false
+ },
+ {
+  "title": "Escape the Police",
+  "slug": "escape-the-police",
+  "url": "escape-the-police/",
+  "thumb": "assets/thumbs/escape-the-police.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Adventure",
+   "Police"
+  ],
+  "rating": 4.6,
+  "plays": 1474970,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Hill Climb Racing Adventure",
+  "slug": "hill-climb-racing-adventure",
+  "url": "hill-climb-racing-adventure/",
+  "thumb": "assets/thumbs/hill-climb-racing-adventure.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "Car",
+   "Driving",
+   "Racing"
+  ],
+  "rating": 4.7,
+  "plays": 1473860,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Tunnel Drift",
+  "slug": "tunnel-drift",
+  "url": "tunnel-drift/",
+  "thumb": "assets/thumbs/tunnel-drift.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "Action",
+   "Race",
+   "survival"
+  ],
+  "rating": 4.2,
+  "plays": 1472861,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Precision Car Parking 3D",
+  "slug": "precision-car-parking-3d",
+  "url": "precision-car-parking-3d/",
+  "thumb": "assets/thumbs/precision-car-parking-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "2026 games",
+   "3D",
+   "Car",
+   "Race",
+   "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 1472750,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Gear Shift Race",
+  "slug": "gear-shift-race",
+  "url": "gear-shift-race/",
+  "thumb": "assets/thumbs/gear-shift-race.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2026 games",
+   "3D",
+   "Arcade",
+   "Best Games",
+   "Car",
+   "Casual"
+  ],
+  "rating": 4.4,
+  "plays": 1472269,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Car Eats Car: Dungeon Adventure",
+  "slug": "car-eats-car-dungeon-adventure",
+  "url": "car-eats-car-dungeon-adventure/",
+  "thumb": "assets/thumbs/car-eats-car-dungeon-adventure.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "2D",
+   "Action",
+   "Car",
+   "Cars",
+   "Family",
+   "Race"
+  ],
+  "rating": 4.5,
+  "plays": 1472084,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Car Parkour Challenge",
+  "slug": "car-parkour-challenge",
+  "url": "car-parkour-challenge/",
+  "thumb": "assets/thumbs/car-parkour-challenge.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Arcade",
+   "2026 games",
+   "3D Games",
+   "Arcade",
+   "Best Games",
+   "Car"
+  ],
+  "rating": 4.6,
+  "plays": 1471640,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Monsters' Wheels Special",
+  "slug": "monsters-wheels-special",
+  "url": "monsters-wheels-special/",
+  "thumb": "assets/thumbs/monsters-wheels-special.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Runner Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "2D",
+   "Car",
+   "Cars",
+   "jump",
+   "Racing",
+   "Truck"
+  ],
+  "rating": 4.7,
+  "plays": 1470900,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Road Racer 2",
+  "slug": "road-racer-2",
+  "url": "road-racer-2/",
+  "thumb": "assets/thumbs/road-racer-2.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Car",
+   "Driving",
+   "endless",
+   "Racing",
+   "spin-wheel"
+  ],
+  "rating": 4.3,
+  "plays": 1470493,
+  "isHot": false,
+  "isNew": false
+ },
+ {
+  "title": "Retro x Racer",
+  "slug": "retro-x-racer",
+  "url": "retro-x-racer/",
+  "thumb": "assets/thumbs/retro-x-racer.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "1 Player",
+   "2025 games",
+   "3D",
+   "Racing",
+   "Space"
+  ],
+  "rating": 4.4,
+  "plays": 315662,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Dual Control Racing Stunt 3D",
+  "slug": "dual-control-racing-stunt-3d",
+  "url": "dual-control-racing-stunt-3d/",
+  "thumb": "assets/thumbs/dual-control-racing-stunt-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games",
+   "Stunt Games"
+  ],
+  "tags": [
+   "2025 games",
+   "3D Games",
+   "Car",
+   "Crazy",
+   "Driving",
+   "jump"
+  ],
+  "rating": 4.5,
+  "plays": 315646,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Car Climb Mountain",
+  "slug": "car-climb-mountain",
+  "url": "car-climb-mountain/",
+  "thumb": "assets/thumbs/car-climb-mountain.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Adventure",
+   "Cars",
+   "Cartoon",
+   "drift"
+  ],
+  "rating": 4.6000000000000005,
+  "plays": 315640,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Racing Master 3D",
+  "slug": "racing-master-3d",
+  "url": "racing-master-3d/",
+  "thumb": "assets/thumbs/racing-master-3d.jpg",
+  "categories": [
+   "Racing Games",
+   "Driving Games",
+   "Car Racing Games"
+  ],
+  "tags": [
+   "Car",
+   "Driving",
+   "realistic",
+   "Simulator"
+  ],
+  "rating": 4.5,
+  "plays": 515582,
+  "isHot": true,
   "isNew": true
  }
 ]

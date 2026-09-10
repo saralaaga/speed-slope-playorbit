@@ -296,6 +296,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.2; }
 .play-side {
   display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; align-content: start;
   position: sticky; top: calc(var(--header-h) + 12px);
+  max-height: var(--play-side-max, none); overflow: hidden;
 }
 .side-title { font-size: 10px; text-transform: uppercase; letter-spacing: .14em; color: var(--muted); font-weight: 800; }
 .mini-game { display: block; aspect-ratio: 1; min-width: 0; }
@@ -313,20 +314,23 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.2; }
   background: #000;
 }
 .stage iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.stage-preview-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .stage-cover {
   position: absolute; inset: 0; z-index: 3;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px;
   background-size: cover; background-position: center;
 }
-.stage-cover::before { content: ''; position: absolute; inset: 0; background: rgba(10, 13, 7, .72); backdrop-filter: blur(6px); }
-.stage-cover > * { position: relative; }
+.stage-cover::before { content: ''; position: absolute; inset: 0; z-index: 1; background: rgba(10, 13, 7, .72); backdrop-filter: blur(6px); }
+.stage-cover > :not(.stage-preview-img) { position: relative; z-index: 2; }
 .stage-cover h2 { font-size: 28px; font-weight: 900; text-shadow: 0 2px 12px rgba(0,0,0,.5); }
 .stage-loading {
   position: absolute; inset: 0; z-index: 2; display: none;
   align-items: center; justify-content: center; background: #0a0d07;
 }
 .stage-loading.show { display: flex; }
+.stage-loading .stage-preview-img { opacity: .42; }
 .stage-loading .spin {
+  position: relative; z-index: 1;
   width: 46px; height: 46px; border-radius: 50%;
   border: 4px solid var(--line-strong); border-top-color: var(--accent);
   animation: spin 1s linear infinite;
@@ -436,6 +440,31 @@ body.theater .stage { aspect-ratio: 16 / 8.2; }
 .load-more-wrap { text-align: center; margin: 30px 0 10px; }
 .seo-foot { color: var(--muted); font-size: 14px; margin: 40px 0 0; max-width: 75ch; }
 
+/* ---------- Comments ---------- */
+.comments-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+.comments-head p, .comment-note { color: var(--muted); font-size: 14px; }
+.comments-head span { color: var(--muted); font-size: 13px; font-weight: 800; white-space: nowrap; }
+.comments-list { display: grid; gap: 10px; }
+.comment-item { border: var(--border); background: var(--surface-2); border-radius: var(--radius-sm); padding: 14px 16px; }
+.comment-meta { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 8px; }
+.comment-name { font-weight: 900; font-family: var(--font-display); }
+.comment-date { color: var(--muted); font-size: 12px; }
+.comment-body { color: #c6cfba; white-space: pre-wrap; overflow-wrap: anywhere; }
+.comment-form { display: grid; gap: 12px; margin-top: 18px; padding-top: 18px; border-top: var(--border); }
+.comment-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.comment-form label { display: grid; gap: 6px; color: #c6cfba; font-size: 13px; font-weight: 800; }
+.comment-form input, .comment-form textarea {
+  width: 100%; border: var(--border); border-radius: var(--radius-sm); background: #0d1209;
+  color: var(--text); font: inherit; padding: 12px 14px; outline: none;
+}
+.comment-form textarea { min-height: 116px; resize: vertical; }
+.comment-form input:focus, .comment-form textarea:focus { border-color: var(--accent); }
+.comment-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.comment-actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.comment-actions .btn:disabled { opacity: .45; cursor: not-allowed; transform: none; box-shadow: none; }
+.admin-comment-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+.admin-comment-email { color: var(--muted); font-size: 12px; }
+
 /* Search page */
 .search-hero { margin: 34px 0 10px; }
 .search-hero form { display: flex; gap: 10px; max-width: 560px; }
@@ -506,6 +535,8 @@ body.theater .stage { aspect-ratio: 16 / 8.2; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .game-bar h1 { font-size: 17px; width: 100%; }
   .content-block { padding: 20px; }
+  .comment-fields { grid-template-columns: 1fr; }
+  .comments-head { display: grid; }
   .page-head h1 { font-size: 26px; }
   /* Related strip becomes horizontal on mobile */
   .related-strip { display: flex; overflow-x: auto; gap: 10px; padding-bottom: 6px; }

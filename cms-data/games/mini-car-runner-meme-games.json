@@ -1,0 +1,49 @@
+{
+  "slug": "mini-car-runner-meme-games",
+  "title": "Mini Car Runner Meme Games",
+  "url": "https://html5.gamemonetize.co/5sh8t4wul1u5743j9cd6jap365ow17b3/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "3D",
+    "Brainrot",
+    "Car",
+    "Cars",
+    "Driving",
+    "endless"
+  ],
+  "rating": 4.4,
+  "plays": 1529323,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-19",
+  "desc": "Mini Car Runner - Meme Games is a fast-paced 3D car running game packed with hilarious meme energy. Jump behind the wheel of your mini car and race down endless roads while dodging traffic, obstacles, and other vehicles that get in your way. The further you drive, the faster things get, so keep your reflexes sharp and your eyes on the road! Collect coins along the way, unlock fun new cars, and chase the highest score you can reach. With its bright cartoon visuals, silly meme-inspired style, and simple one-touch controls, this arcade racer is easy to pick up but tough to put down. Perfect for quick play sessions, Mini Car Runner challenges you",
+  "howto": [
+    "Use the Left and Right Arrow Keys or A D to steer your car and switch lanes On mobile tap or swipe left and right to move Avoid obstacles and oncoming traffic collect coins and drive as far as you can"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "mini-car-runner-meme-games.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 80,
+  "faqs": []
+}

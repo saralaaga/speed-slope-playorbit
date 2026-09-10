@@ -1,0 +1,39 @@
+{
+  "slug": "chess-3d",
+  "title": "Chess 3D",
+  "url": "https://html5.gamemonetize.co/kad9w33p7vtygydqcaeu5acmipv46aok/",
+  "cats": [
+    "classics"
+  ],
+  "tags": [
+    "Chess",
+    "Strategy",
+    "3D"
+  ],
+  "rating": 4.3,
+  "plays": 989274,
+  "hot": false,
+  "new": false,
+  "added": "2026-02-02",
+  "desc": "Challenge your mind with Chess 3D, a beautifully designed strategy board game that brings the timeless game of chess to life with stunning 3D graphics and smooth gameplay. Whether youre a beginner learning the basics or an experienced player sharpening your tactics, Chess 3D offers an engaging experience for every skill level.",
+  "howto": [
+    "To click any button use mouse"
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    }
+  ],
+  "tips": [
+    "Slow down — one rushed move ruins a good run.",
+    "Use hints sparingly; they cost more than they give."
+  ],
+  "thumbfile": "chess-3d.jpg",
+  "sort_order": 44,
+  "faqs": []
+}

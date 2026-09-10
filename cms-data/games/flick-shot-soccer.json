@@ -1,0 +1,52 @@
+{
+  "slug": "flick-shot-soccer",
+  "title": "Flick Shot Soccer",
+  "url": "https://html5.gamedistribution.com/fc1c68fa04af4e0785a0fd3a12a08783/",
+  "cats": [
+    "sports"
+  ],
+  "tags": [
+    "Soccer",
+    "Flick",
+    "Casual"
+  ],
+  "rating": 4.6,
+  "plays": 261909,
+  "hot": false,
+  "new": true,
+  "added": "2026-07-07",
+  "desc": "Flick Shot Soccer is a fun and addictive soccer shooting game where every goal is all about precision. Simply drag to aim and position your shot, then release to kick and send the ball flying into the net. Easy controls make it perfect for anyone to pick up and play, while smart angles and timing are needed to score consistently.",
+  "howto": [
+    "Desktop: Click & drag – Aim / adjust direction and power",
+    "Release mouse – Shoot / kick the ball",
+    "Click UI buttons – Start, restart, select skins",
+    "Mobile: Touch & drag – Aim / adjust direction and power",
+    "Release finger – Shoot / kick",
+    "Tap UI buttons – Start, restart, select skins"
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    },
+    {
+      "key": "Drag",
+      "action": "move items"
+    },
+    {
+      "key": "Touch / swipe",
+      "action": "mobile controls"
+    }
+  ],
+  "tips": [
+    "Timing beats power — wait for the perfect moment.",
+    "Learn one mode well before jumping into tournaments."
+  ],
+  "thumbfile": "flick-shot-soccer.jpg",
+  "sort_order": 18,
+  "faqs": []
+}

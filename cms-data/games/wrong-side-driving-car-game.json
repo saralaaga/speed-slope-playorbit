@@ -1,0 +1,46 @@
+{
+  "slug": "wrong-side-driving-car-game",
+  "title": "Wrong Side Driving Car Game",
+  "url": "https://html5.gamemonetize.co/61jfjtg8j15v0mxqya1uzhjc1iftdah4/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Car",
+    "Race",
+    "Racing",
+    "Supercars",
+    "survival"
+  ],
+  "rating": 4.6,
+  "plays": 1505088,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-19",
+  "desc": "Wrong Side Driving is a fast-paced endless driving game where you take the ultimate risk &amp;mdash; driving on the wrong side of the road! Dodge oncoming traffic, collect power-ups, and test your reflexes as the speed increases with every passing second. One mistake and it&amp;rsquo;s game over with a big crash explosion! Perfect for both casual players and thrill-seekers, this game guarantees endless fun and excitement.",
+  "howto": [
+    "Tap Let Right or Use Arrow Keys to control"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "wrong-side-driving-car-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 106,
+  "faqs": []
+}

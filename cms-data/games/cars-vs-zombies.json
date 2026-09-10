@@ -1,0 +1,49 @@
+{
+  "slug": "cars-vs-zombies",
+  "title": "Cars vs Zombies",
+  "url": "https://html5.gamemonetize.co/37xbo1bp2zlvfzd3bldtpksm3oon99n8/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "shooting",
+    "arcade"
+  ],
+  "tags": [
+    "Car",
+    "car tuning",
+    "Cars",
+    "Casual",
+    "destroy",
+    "destroying"
+  ],
+  "rating": 4.7,
+  "plays": 1507678,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-25",
+  "desc": "Cars vs Zombies is an arcade vehicular survival action game. Drive your car, annihilate waves of zombies, and destroy the interactive environment in the arenas. Earn resources to upgrade your vehicles in the garage: improve stats, install attachable armor, and equip boosters. Multiple maps and vehicle types are available.",
+  "howto": [
+    "Your goal is to drive the car collect points and crush zombies on the road Use the arrow keys or WASD to control your vehicle"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "cars-vs-zombies.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 100,
+  "faqs": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "jetpack-race-arena",
+  "title": "Jetpack Race Arena",
+  "url": "https://html5.gamemonetize.co/8w5era60ysasbih0fsjtusrw19rqfenx/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Action",
+    "Arcade",
+    "Arena",
+    "endless",
+    "fly"
+  ],
+  "rating": 4.7,
+  "plays": 1484849,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-04",
+  "desc": "Blast off with Jetpack Race ArenaRush! Fly bullet-powered jetpacks, ride crazy vehicles, and surf the wave-rider through thrilling arenas. Dodge lasers, zappers, and guided missiles while collecting coins and making millions of dollars. Complete daring missions to boost your rank, equip high-tech gadgets and power-ups, and storm arenas in giant mechs. Customise your look with stylish outfits, earn achievements, and battle friends in endless high-flying action. Test your reflexes with simple one-touch controls and enjoy new free game modes in special events!",
+  "howto": [
+    "Swipe to move along the rope Tap amp hold for speed boost"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "jetpack-race-arena.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 116,
+  "faqs": []
+}

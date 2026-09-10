@@ -1,0 +1,47 @@
+{
+  "slug": "turbo-team-racing",
+  "title": "Turbo Team Racing",
+  "url": "https://html5.gamemonetize.co/8b02mtykblur16cydn1hkg316mp0e0ir/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "drift",
+    "drifting",
+    "Driving",
+    "mapi games",
+    "Pixel",
+    "Race"
+  ],
+  "rating": 4.6,
+  "plays": 1541681,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-07",
+  "desc": "Turbo Team Racing is a fast-paced top-down arcade racing game inspired by classic retro racers. Master tight corners, avoid damage, collect power-ups and push your car to the limit across different tracks and weather conditions. Beat your best lap times, challenge your rivals and enjoy pure arcade speed with simple controls and addictive gameplay.",
+  "howto": [
+    "Desktop Arrow Keys A-D Steer Up Arrow W Accelerate Down Arrow S Brake Reverse N Nitro if available Mobile Tap left right controls to steer Use on-screen pedals to accelerate and brake Hint Drive smoothly through corners to keep your spe"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "turbo-team-racing.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 67,
+  "faqs": []
+}

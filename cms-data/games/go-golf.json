@@ -1,0 +1,50 @@
+{
+  "slug": "go-golf",
+  "title": "Go Golf",
+  "url": "https://html5.gamemonetize.co/vyoai08811vqppdfilocq5k1f7emjsxg/",
+  "cats": [
+    "golf",
+    "sports",
+    "puzzle"
+  ],
+  "tags": [
+    "Golf",
+    "Puzzle",
+    "Aim",
+    "Physics",
+    "Casual"
+  ],
+  "rating": 4.2,
+  "plays": 301488,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Go Golf is a compact sports puzzle game where every stroke matters. Observe the terrain, aim precisely, and send the golf ball into the hole before you run out of turns.",
+  "howto": [
+    "Use the mouse to line up each shot.",
+    "Choose enough power to reach the hole or a safe setup spot.",
+    "Avoid wasting strokes on rushed angles.",
+    "Clear each level within the stroke limit."
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "aim and shoot"
+    },
+    {
+      "key": "Touch",
+      "action": "mobile aim and shoot"
+    }
+  ],
+  "tips": [
+    "Study the terrain before the first stroke.",
+    "Leave yourself a simple second shot when the direct route is risky.",
+    "Soft shots are easier to correct than overhit ones.",
+    "Use walls only when they create a cleaner final angle."
+  ],
+  "thumbfile": "go-golf.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 11,
+  "faqs": []
+}

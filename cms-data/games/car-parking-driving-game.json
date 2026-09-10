@@ -1,0 +1,47 @@
+{
+  "slug": "car-parking-driving-game",
+  "title": "Car Parking Driving Game",
+  "url": "https://html5.gamemonetize.co/tw5q4hpa0iplg8vdpd1ztxohsofmdc63/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Arcade",
+    "Car",
+    "carparking",
+    "Driving",
+    "Parking",
+    "Race"
+  ],
+  "rating": 4.3,
+  "plays": 1534096,
+  "hot": true,
+  "new": false,
+  "added": "2026-07-27",
+  "desc": "Test your driving precision in Car Parking Driving Game, where every level challenges your parking and control skills. Drive a variety of realistic vehicles through detailed environments, avoid obstacles, and park perfectly before time runs out. From narrow city streets to challenging parking lots, each mission requires patience, accuracy, and smooth driving. Unlock new cars, complete increasingly difficult parking challenges, and improve your driving abilities as you progress. Whether youre a casual player or a parking master, the game offers a fun and rewarding experience with realistic physics and responsive controls.",
+  "howto": [
+    "W up arrow key accelerate A left arrow key turn left D right arrow key turn right S down arrow key brake B look back C change camera view Mouse Click To Interact"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-parking-driving-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 76,
+  "faqs": []
+}

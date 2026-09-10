@@ -1,0 +1,48 @@
+{
+  "slug": "police-chase-car-simulator",
+  "title": "Police Chase Car Simulator",
+  "url": "https://html5.gamemonetize.co/1hf3m6hqeubtwjyibxy2p5qvlr0rk955/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "2-player"
+  ],
+  "tags": [
+    "2 Player",
+    "2026 games",
+    "3D Games",
+    "Best Games",
+    "Car",
+    "city"
+  ],
+  "rating": 4.2,
+  "plays": 1482814,
+  "hot": true,
+  "new": false,
+  "added": "2026-06-02",
+  "desc": "Step into the role of a powerful cop car chase police simulator officer and experience an action-filled police simulator. This game offers many different missions that are easy to understand and fun to play. Enjoy fast speed car chase missions where you follow and stop criminals on busy roads. Take part in parking lane fine missions by checking vehicles and managing traffic rules. Perform border checking missions where you inspect cars and help maintain security. Feel the responsibility during President car escort missions by guiding the convoy safely through the city. Complete terrorist arrest missions and help restore peace.",
+  "howto": [
+    "WASD for move tap to play"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "police-chase-car-simulator.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 118,
+  "faqs": []
+}

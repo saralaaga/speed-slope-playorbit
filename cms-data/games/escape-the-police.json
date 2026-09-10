@@ -1,0 +1,43 @@
+{
+  "slug": "escape-the-police",
+  "title": "Escape the Police",
+  "url": "https://html5.gamemonetize.co/2lzr44fn0gin4uqxgjfqcbqt1ul43r6h/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Adventure",
+    "Police"
+  ],
+  "rating": 4.6,
+  "plays": 1474970,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-20",
+  "desc": "Youre a wanted man mr.X!!! Dont let the police near you and have fun!!! Escape the Police is a simple html game developed in 2025 by FLGames",
+  "howto": [
+    "WASD or arrows to move"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "play and interact"
+    },
+    {
+      "key": "Click / tap",
+      "action": "select and act"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "escape-the-police.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 127,
+  "faqs": []
+}

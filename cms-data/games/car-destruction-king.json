@@ -1,0 +1,47 @@
+{
+  "slug": "car-destruction-king",
+  "title": "Car Destruction King",
+  "url": "https://html5.gamemonetize.co/tg6ydm6ksp5s83vk3zxfe7g8bdkdgvxp/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Car",
+    "Cars",
+    "destruction",
+    "Driving",
+    "King",
+    "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 1543531,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-17",
+  "desc": "A adrenaline-fueled 3D vehicular combat and derby arena game where power, speed, and total destruction reign supreme! In Car Destruction King, take the wheel of heavily fortified vehicles, slam into rival cars, and tear through dynamic arenas packed with hazards and obstacles. Key Features: Intense Demolition Gameplay: Experience realistic physics, dynamic mesh deformation, and satisfying crash mechanics as parts fly and metals twist in real time. Diverse Vehicle Roster: Unlock and upgrade a wide variety of cars&amp;mdash;from high-speed muscle cars and rugged pickup trucks to massive armored monster trucks.",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-destruction-king.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 59,
+  "faqs": []
+}

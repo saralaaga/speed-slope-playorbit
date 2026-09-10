@@ -1,0 +1,47 @@
+{
+  "slug": "formula-car-stunt-game",
+  "title": "Formula Car Stunt Game",
+  "url": "https://html5.gamemonetize.co/veee08w4fcs1kodxfcmnycjgpmch0go6/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Adventure",
+    "Best Games",
+    "Car",
+    "Racing",
+    "Stunts"
+  ],
+  "rating": 4.1,
+  "plays": 1540867,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-05",
+  "desc": "Get ready for an adrenaline-pumping driving experience with Formula Car Stunt Game! Take control of a powerful Formula racing car and challenge yourself on exciting stunt tracks filled with ramps, sharp turns, huge jumps, and thrilling obstacles. Drive at high speed, perform spectacular jumps, maintain control of your formula car, and reach the finish line without falling off the track. Each stunt track is designed to test your driving skills, timing, balance, and precision.",
+  "howto": [
+    "To Play Game Use Mouse To Play Game Use Keyboard"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "formula-car-stunt-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 69,
+  "faqs": []
+}

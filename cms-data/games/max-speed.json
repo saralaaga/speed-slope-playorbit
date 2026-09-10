@@ -1,0 +1,47 @@
+{
+  "slug": "max-speed",
+  "title": "Max Speed",
+  "url": "https://html5.gamemonetize.co/ai9lo8rruqqnfxpsvk6fveoe6yzs9bfo/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "3D",
+    "Action",
+    "Car",
+    "Dinosaur",
+    "Race",
+    "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 1517076,
+  "hot": true,
+  "new": false,
+  "added": "2026-07-07",
+  "desc": "Race shiny sports cars on thrilling 3D tracks full of jumps, stunts, and intense battles. Explore exciting locations with unique challenges, perform daring tricks, upgrade and customize your cars, and test your skills in fast-paced arcade races. Enjoy high-speed action, stunning visuals, and nonstop adrenaline right in your browser.",
+  "howto": [
+    "Mouse click or tap to playArrow Up W - Front flip Arrow Down S - Back flip Shift Space - Nitro Arrow Left A - Turn left Barrel Flip Arrow Right D - Turn right Barrel flip"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "max-speed.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 92,
+  "faqs": []
+}

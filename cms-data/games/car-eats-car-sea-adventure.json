@@ -1,0 +1,47 @@
+{
+  "slug": "car-eats-car-sea-adventure",
+  "title": "Car Eats Car: Sea Adventure",
+  "url": "https://html5.gamemonetize.co/eio98g4rp8ec0nj0fpi2n78hhrbun3l1/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Action",
+    "Car",
+    "Cars",
+    "Cartoon",
+    "Race",
+    "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1481630,
+  "hot": false,
+  "new": false,
+  "added": "2026-05-29",
+  "desc": "Up for a fight against rivals in a dynamic race on the highway? Overtake enemies and create your own car in the incubator in Car Eats Car: Sea Adventure! Your friends are put to prison - do everything you can to free evil cars! Good driving skills and turbo speed come in handy in this crazy driving simulator and a police chase game. Become a car tycoon, upgrade cars, and play for monster cars against the cops! Fight the boss to survive in these ultimate crazy races!",
+  "howto": [
+    "Space - Bombs X - Turbo W - Gas S - Brake A D - Balancing Arrow keys - Gas Brake Balancing"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-eats-car-sea-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 121,
+  "faqs": []
+}

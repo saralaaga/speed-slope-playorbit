@@ -1,0 +1,47 @@
+{
+  "slug": "skill-driver-game",
+  "title": "Skill Driver Game",
+  "url": "https://html5.gamemonetize.co/zor0wgcoadh5ifc11fqb9faqtnvf0736/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Adventure",
+    "amazing",
+    "Car",
+    "Fun",
+    "Puzzle"
+  ],
+  "rating": 4.2,
+  "plays": 1503201,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-16",
+  "desc": "Get ready for an exciting and action-packed gaming experience! This game is designed to test your skills, reflexes, and strategy in a fun and engaging way. With smooth controls and immersive gameplay, players can enjoy endless challenges and thrilling moments.",
+  "howto": [
+    "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "skill-driver-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 107,
+  "faqs": []
+}

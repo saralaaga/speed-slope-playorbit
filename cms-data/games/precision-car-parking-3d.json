@@ -1,0 +1,47 @@
+{
+  "slug": "precision-car-parking-3d",
+  "title": "Precision Car Parking 3D",
+  "url": "https://html5.gamemonetize.co/7borf8z2jzentis77i6zz882h7lrvxwo/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "1 Player",
+    "2026 games",
+    "3D",
+    "Car",
+    "Race",
+    "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 1472750,
+  "hot": true,
+  "new": true,
+  "added": "2026-08-16",
+  "desc": "Test your driving skills in Precision Parking 3D, a realistic and challenging parking simulation game where accuracy matters more than speed! Navigate through tight spaces, avoid obstacles, and park your vehicle perfectly in a variety of carefully designed levels. Each stage pushes your control, patience, and precision to the limit.",
+  "howto": [
+    "W To Forward A D For Left Right S to Reverse amp Space To Brake"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "precision-car-parking-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 130,
+  "faqs": []
+}

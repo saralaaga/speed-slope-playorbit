@@ -1,0 +1,47 @@
+{
+  "slug": "police-car-parking-2026",
+  "title": "Police Car Parking 2026",
+  "url": "https://html5.gamemonetize.co/zo8ocq9uu0gjavl3iazgiessapj6ov6n/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "carparking",
+    "Driving",
+    "Police",
+    "Skill",
+    "Unity3D",
+    "WebGL"
+  ],
+  "rating": 4.7,
+  "plays": 1537352,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-30",
+  "desc": "Master the art of precision driving in Police Car Parking 2026! Navigate challenging city streets, tight alleys, and busy lots as you park your police cruiser with expert skill. Test your reflexes across multiple levels with increasing difficulty. Avoid obstacles, respect traffic rules, and prove you have what it takes to handle law enforcement vehicles. Web Dev &lt;a href='https://www.crazygames.com.es/'&gt;https://www.crazygames.com.es/&lt;/a&gt; With realistic controls and immersive Unity3D graphics, this WebGL game delivers thrilling parking action for players of all ages. Play now and become the ultimate parking officer!",
+  "howto": [
+    "Use WASD to drive the car"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "police-car-parking-2026.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 74,
+  "faqs": []
+}

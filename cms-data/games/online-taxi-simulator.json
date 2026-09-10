@@ -1,0 +1,44 @@
+{
+  "slug": "online-taxi-simulator",
+  "title": "Online Taxi Simulator",
+  "url": "https://html5.gamemonetize.co/dxx6hd8bgffy3onznooyb7ikugv5ilmy/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "carparking",
+    "Simulation",
+    "Taxi"
+  ],
+  "rating": 4.3,
+  "plays": 1477079,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-23",
+  "desc": "Experience the life of a taxi driver in our latest taxi simulator game. Complete different types of driving missions as a taxi or private taxi driver and pick your favorite car from a selection of over 30 amazing vehicles, with more new cars being added weekly. Navigate around huge cities like New York, Miami, Rome or Los Angeles and adjust your driving style to different types of clients - some are in a hurry and don&amp;rsquo;t care if you run a red light, while others are terrified of dangerous driving. We take taxi simulation games to a new level with VIP clients, undecided clients and various types of daily and lifetime milestones. Start",
+  "howto": [
+    "use arrows key for movement"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "online-taxi-simulator.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 125,
+  "faqs": []
+}

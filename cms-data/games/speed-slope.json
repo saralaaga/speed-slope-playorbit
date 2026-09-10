@@ -1,0 +1,83 @@
+{
+  "slug": "speed-slope",
+  "title": "Speed Slope",
+  "url": "https://gamea.azgame.io/speed-slope/",
+  "cats": [
+    "slope",
+    "racing",
+    "arcade"
+  ],
+  "tags": [
+    "Speed Slope",
+    "Slope",
+    "Endless Runner",
+    "Racing",
+    "Reflex"
+  ],
+  "rating": 4.3,
+  "plays": 284000,
+  "hot": true,
+  "new": true,
+  "added": "2026-07-23",
+  "seo_title": "Speed Slope Game - Play Online Free | SpeedSlope.net",
+  "meta_desc": "Play Speed Slope online for free. Guide a fast rolling ball down a neon slope, dodge obstacles, and try more slope games like Speed Slope.",
+  "desc": "Speed Slope is a fast 3D endless runner game where a rolling ball races down a steep neon track. Play Speed Slope online for free, stay on the platform, avoid blocks and gaps, and keep control as the speed keeps rising. It is easy to start, but every second demands sharper timing, calmer steering, and better anticipation.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Steer the ball left and right to keep it centered on the slope.",
+    "Avoid red blocks, sudden gaps, and sharp edges that can end the run instantly.",
+    "Use small steering corrections instead of long swerves when the speed rises.",
+    "Try to survive longer each run and build a rhythm for the track pattern."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Left / A",
+      "action": "steer left"
+    },
+    {
+      "key": "Arrow Right / D",
+      "action": "steer right"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use in-game buttons and menus"
+    }
+  ],
+  "tips": [
+    "Look several tiles ahead instead of staring directly at the ball.",
+    "Tap the steering keys lightly; overcorrecting is the fastest way to fall.",
+    "Return toward the center whenever the track gives you a safe straight section.",
+    "When obstacles appear in pairs, choose your lane early and commit to it.",
+    "Restart quickly after a crash so your timing stays warm."
+  ],
+  "faqs": [
+    {
+      "question": "What is Speed Slope?",
+      "answer": "Speed Slope is a browser-based 3D endless runner where you guide a rolling ball down a high-speed slope and avoid obstacles for as long as possible."
+    },
+    {
+      "question": "How do you control Speed Slope?",
+      "answer": "Use the left and right arrow keys or A and D to steer. The game is mostly about small, precise movements at high speed."
+    },
+    {
+      "question": "Can I play Speed Slope without downloading it?",
+      "answer": "Yes. Speed Slope runs directly in your browser, so there is no download or installation required."
+    },
+    {
+      "question": "Is Speed Slope unblocked?",
+      "answer": "SpeedSlope.net is built as a simple browser game page with no download required. Whether it works on a school, work, or public network depends on that network's own filtering rules."
+    },
+    {
+      "question": "What are the best games like Speed Slope?",
+      "answer": "Good games like Speed Slope usually focus on fast reflexes, 3D movement, narrow tracks, obstacles, and quick restarts. Try the Slope Games section for more rolling, racing, and runner-style games."
+    },
+    {
+      "question": "Why does Speed Slope get harder?",
+      "answer": "The track feels harder as your speed increases. Obstacles arrive faster, gaps become less forgiving, and small steering mistakes matter more."
+    }
+  ],
+  "embed_source": "1000Games / AZGames public embed",
+  "embed_source_url": "https://1000games.io/speed-slope",
+  "embed_permission_status": "Public embed link found on 1000Games and AZGames; confirm with the publisher before production launch.",
+  "sort_order": 0
+}

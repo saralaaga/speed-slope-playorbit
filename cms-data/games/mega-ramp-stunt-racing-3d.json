@@ -1,0 +1,48 @@
+{
+  "slug": "mega-ramp-stunt-racing-3d",
+  "title": "Mega Ramp Stunt Racing 3D",
+  "url": "https://html5.gamemonetize.co/w1vpt19ecav4gskdw7q7gilslwroj4kn/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "2-player"
+  ],
+  "tags": [
+    "2 Player",
+    "2 Player Games",
+    "2026 games",
+    "3D",
+    "3D Games",
+    "Car"
+  ],
+  "rating": 4.4,
+  "plays": 1545122,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-23",
+  "desc": "Mega Ramp Stunt Racing 3D is an exciting racing game where you can compete alone or challenge a friend in 2-player mode. Race through massive ramps, perform crazy stunts, overcome challenging obstacles and reach the finish line first. Master your driving skills, stay on the track and use the ramps to gain speed. Can you complete every stunt and become the ultimate racing champion?",
+  "howto": [
+    "WASD or the Arrow Keys can be used to control the vehicle Mobile touch controls are also available allowing the game to be played on both PC and mobile devices"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "mega-ramp-stunt-racing-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 54,
+  "faqs": []
+}

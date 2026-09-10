@@ -1,0 +1,47 @@
+{
+  "slug": "highway-rush",
+  "title": "Highway Rush",
+  "url": "https://html5.gamemonetize.co/3sl2g4pcon6uwny2h16xaqplmm675spv/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "2D",
+    "Adventure",
+    "amazing",
+    "Car",
+    "Cars"
+  ],
+  "rating": 4.5,
+  "plays": 1528657,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-18",
+  "desc": "Drive your car on a busy highway. Dodge oncoming traffic, collect coins, and survive as long as you can! Control your car using A/D keys, Arrow keys, or Mouse/Touch.",
+  "howto": [
+    "A Left Arrow to turn left D Right Arrow to turn right You can also use mouse or touch"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "highway-rush.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 81,
+  "faqs": []
+}

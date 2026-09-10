@@ -1,0 +1,41 @@
+{
+  "slug": "blockblast",
+  "title": "BlockBlast",
+  "url": "https://html5.gamemonetize.co/ivi5haeja8jhdmevybipqfn74c9hsmc3/",
+  "cats": [
+    "puzzle",
+    "arcade"
+  ],
+  "tags": [
+    "Blocks",
+    "Tetris-like"
+  ],
+  "rating": 4.8,
+  "plays": 593567,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-15",
+  "desc": "BlockBlast is a classic block game suitable for all ages. It is extremely easy to learn, but achieving high scores can be very challenging. Drag the generated blocks from each round into the grid.",
+  "howto": [
+    "BlockBlast is a classic block game suitable for all ages",
+    "It is extremely easy to learn, but achieving high scores can be very challenging",
+    "Drag the generated blocks from each round into the grid"
+  ],
+  "controls": [
+    {
+      "key": "Space",
+      "action": "jump / action"
+    },
+    {
+      "key": "Drag",
+      "action": "move items"
+    }
+  ],
+  "tips": [
+    "Work from the corners — they constrain the board the most.",
+    "Plan two moves ahead before committing."
+  ],
+  "thumbfile": "blockblast.jpg",
+  "sort_order": 28,
+  "faqs": []
+}

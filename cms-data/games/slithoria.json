@@ -1,0 +1,38 @@
+{
+  "slug": "slithoria",
+  "title": "Slithoria",
+  "url": "https://html5.gamedistribution.com/05b423bd34b74cca8d325705acb00f8a/",
+  "cats": [
+    "io",
+    "arcade",
+    "strategy"
+  ],
+  "tags": [
+    "Snake",
+    "IO",
+    "Arena",
+    "Survival"
+  ],
+  "rating": 4.5,
+  "plays": 272800,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Slithoria is a snake-style arena game where you collect energy, grow longer and avoid being trapped by rivals. Move carefully, cut clean paths and survive longer in each round.",
+  "howto": [
+    "Guide your snake through the arena, collect energy, avoid crashes and use smart turns to outlast rivals."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "steer and move"
+    }
+  ],
+  "tips": [
+    "Do not turn into crowded lanes too early.",
+    "Use wider loops when your snake becomes longer."
+  ],
+  "thumbfile": "slithoria.jpg",
+  "sort_order": 49,
+  "faqs": []
+}

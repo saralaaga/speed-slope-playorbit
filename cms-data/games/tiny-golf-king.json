@@ -1,0 +1,39 @@
+{
+  "slug": "tiny-golf-king",
+  "title": "Tiny Golf King",
+  "url": "https://html5.gamedistribution.com/4b94472f98f442339ca0eb5312950482/",
+  "cats": [
+    "golf",
+    "sports"
+  ],
+  "tags": [
+    "Golf",
+    "Precision"
+  ],
+  "rating": 4.2,
+  "plays": 3891577,
+  "hot": true,
+  "new": false,
+  "added": "2026-04-06",
+  "desc": "Simple, intuitive, fun and addicting. Make it to the top in Tiny Golf King! Complete more than 45 challenging levels and be the King of Tiny golf.",
+  "howto": [
+    "Use the mouse or touch to play"
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    },
+    {
+      "key": "Touch / swipe",
+      "action": "mobile controls"
+    }
+  ],
+  "tips": [
+    "Timing beats power — wait for the perfect moment.",
+    "Learn one mode well before jumping into tournaments."
+  ],
+  "thumbfile": "tiny-golf-king.jpg",
+  "sort_order": 5,
+  "faqs": []
+}

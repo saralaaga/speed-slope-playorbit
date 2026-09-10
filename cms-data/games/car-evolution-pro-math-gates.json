@@ -1,0 +1,47 @@
+{
+  "slug": "car-evolution-pro-math-gates",
+  "title": "Car Evolution Pro : Math Gates",
+  "url": "https://html5.gamemonetize.co/sqtuqupfoswoie8rutb8035178dem34x/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "1 Player",
+    "3D",
+    "Brain",
+    "Car",
+    "car tuning",
+    "Cars"
+  ],
+  "rating": 4.3,
+  "plays": 1529360,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-20",
+  "desc": "Car Evolution Pro : Math Gates turns math practice into a race! Drive down the road to the question gates. Each gate shows a math problem with two answer lanes &amp;mdash; steer through the correct one. Answer enough correctly to pass the level and unlock a brand-new part for your car. Watch it evolve from a bare frame into a fully built machine, level by level.",
+  "howto": [
+    "bull Swipe left right or use the arrow keys to steer bull A math question appears above each gate mdash drive through the lane with the correct answer bull Answer enough questions correctly to pass the level bull Every level you pass unlock"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-evolution-pro-math-gates.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 79,
+  "faqs": []
+}

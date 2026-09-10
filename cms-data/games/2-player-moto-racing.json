@@ -1,0 +1,37 @@
+{
+  "slug": "2-player-moto-racing",
+  "title": "2 Player Moto Racing",
+  "url": "https://html5.gamedistribution.com/59dfc35fbb794d02b18413ff129285db/",
+  "cats": [
+    "2-player",
+    "racing"
+  ],
+  "tags": [
+    "Moto",
+    "2 Player",
+    "Racing"
+  ],
+  "rating": 4.3,
+  "plays": 738994,
+  "hot": false,
+  "new": false,
+  "added": "2025-12-24",
+  "desc": "Play this 2 player split-screen game called 2 Player Moto Racing. In this moto hustling game, you'll race in space on probably the trickiest and wackiest tracks you've at any point seen. Good luck!.",
+  "howto": [
+    "Use your W, A, S, D, or Arrow Keys to drive the vehicles",
+    "Left SHIFT for Nitro and R Key to car reset"
+  ],
+  "controls": [
+    {
+      "key": "Space",
+      "action": "jump / action"
+    }
+  ],
+  "tips": [
+    "Agree on controls before the round starts.",
+    "Defense wins grudge matches — stay patient."
+  ],
+  "thumbfile": "2-player-moto-racing.jpg",
+  "sort_order": 35,
+  "faqs": []
+}

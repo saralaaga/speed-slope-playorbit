@@ -1,0 +1,47 @@
+{
+  "slug": "gt-truck-racer",
+  "title": "GT Truck Racer",
+  "url": "https://html5.gamemonetize.co/ypdftekz1flkogkne2r1ej9hn8oxl3ml/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Car",
+    "Cars",
+    "Driving",
+    "Traffic",
+    "unity"
+  ],
+  "rating": 4.5,
+  "plays": 1505421,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-20",
+  "desc": "GT Truck Racer is an exciting truck driving game where you experience realistic driving across different cities and weather conditions. Take control of powerful trucks, navigate challenging roads, and avoid obstacles to reach your destination safely. Enjoy smooth controls, immersive environments, and dynamic gameplay that keeps you engaged. Test your driving skills, complete missions, and become the ultimate truck racer on every road you conquer",
+  "howto": [
+    "Use intuitive on-screen controls to drive your vehicle smoothly Tap left and right buttons to steer switch camera views anytime for a better perspective and activate the booster button for an instant speed boost Enjoy responsive gameplay and dynamic d"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "gt-truck-racer.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 105,
+  "faqs": []
+}

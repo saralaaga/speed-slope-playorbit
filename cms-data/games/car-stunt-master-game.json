@@ -1,0 +1,47 @@
+{
+  "slug": "car-stunt-master-game",
+  "title": "Car Stunt Master Game",
+  "url": "https://html5.gamemonetize.co/gixytcyqjodb9t1bd6z6c2bhuc0n2zqi/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Adventure",
+    "amazing",
+    "Best Games",
+    "Car",
+    "drifting"
+  ],
+  "rating": 4.6,
+  "plays": 1537500,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-31",
+  "desc": "Get ready for an exciting driving adventure in Car Stunt Master Game! Drive powerful sports cars across impossible tracks filled with ramps, loops, sharp turns, and challenging obstacles. Perform amazing stunts, master tricky levels, and prove your driving skills in this thrilling car stunt simulator. Challenge yourself with a variety of unique levels designed to test your precision, speed, and control. Jump over huge gaps, balance on narrow tracks, avoid dangerous obstacles, and reach the finish line without crashing. Every level brings a new stunt challenge that keeps the gameplay exciting and rewarding.",
+  "howto": [
+    "W uarr Arrow ndash Accelerate S darr Arrow ndash Brake Reverse A larr Arrow ndash Turn Left D rarr Arrow ndash Turn Right"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-stunt-master-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 73,
+  "faqs": []
+}

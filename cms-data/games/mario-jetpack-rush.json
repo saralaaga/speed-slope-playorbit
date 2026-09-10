@@ -1,0 +1,38 @@
+{
+  "slug": "mario-jetpack-rush",
+  "title": "Mario Jetpack Rush",
+  "url": "https://html5.gamemonetize.co/cbera5vjbzafu8sjdf97gueg83el372a/",
+  "cats": [
+    "arcade"
+  ],
+  "tags": [
+    "Jetpack",
+    "Runner"
+  ],
+  "rating": 4.1,
+  "plays": 2366520,
+  "hot": true,
+  "new": false,
+  "added": "2025-12-30",
+  "desc": "Help Super Mario to reach the end of the journey using the ketpack avoiding all obstacles and collecting coins to get new upgrades.",
+  "howto": [
+    "Use the mouse or touch to play"
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    },
+    {
+      "key": "Touch / swipe",
+      "action": "mobile controls"
+    }
+  ],
+  "tips": [
+    "Short, controlled inputs beat button mashing.",
+    "Watch patterns once before going for the record."
+  ],
+  "thumbfile": "mario-jetpack-rush.jpg",
+  "sort_order": 31,
+  "faqs": []
+}

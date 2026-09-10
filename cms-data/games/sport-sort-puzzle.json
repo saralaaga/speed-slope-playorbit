@@ -1,0 +1,46 @@
+{
+  "slug": "sport-sort-puzzle",
+  "title": "Sport Sort Puzzle",
+  "url": "https://html5.gamemonetize.co/3krfv60cepeo48qbi5r5ngeavynpztlk/",
+  "cats": [
+    "sports",
+    "puzzle",
+    "sorting"
+  ],
+  "tags": [
+    "Sports",
+    "Sorting",
+    "Puzzle",
+    "Balls",
+    "Casual"
+  ],
+  "rating": 4.4,
+  "plays": 318624,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Sport Sort Puzzle is a sports-ball sorting game with football, basketball, tennis, golf, baseball, volleyball, and more. Move balls between bottles until every bottle contains one matching type.",
+  "howto": [
+    "Tap a bottle to pick up the top ball.",
+    "Tap another bottle to place it on a matching ball or empty space.",
+    "Sort each bottle so it contains one ball type.",
+    "Use hints and undo when the board gets crowded."
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select and move balls"
+    }
+  ],
+  "tips": [
+    "Keep at least one empty bottle available as a buffer.",
+    "Move rare ball types together early.",
+    "Do not bury a nearly complete bottle under the wrong ball.",
+    "Undo is most useful before a chain of forced moves."
+  ],
+  "thumbfile": "sport-sort-puzzle.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 13,
+  "faqs": []
+}

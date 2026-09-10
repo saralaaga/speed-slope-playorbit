@@ -1,0 +1,35 @@
+{
+  "slug": "tank-duel-3d",
+  "title": "Tank Duel 3D",
+  "url": "https://html5.gamedistribution.com/5a8a11c38eaa4381a59ff549e7b9acbb/",
+  "cats": [
+    "2-player"
+  ],
+  "tags": [
+    "Tanks",
+    "Duel",
+    "3D"
+  ],
+  "rating": 4.6,
+  "plays": 903485,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-13",
+  "desc": "Are you ready for the fight of the tanks? Fight and win against your friend or computer in Tank Duel 3D game! Take advantage of the bonuses that support you. Compete on maps with different designs and traps.",
+  "howto": [
+    "Player 1: \"W,A,S,D\" and \"Q\" Player 2: \"ARROW KEYS\" and \"SPACE\""
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "see the in-game tutorial"
+    }
+  ],
+  "tips": [
+    "Agree on controls before the round starts.",
+    "Defense wins grudge matches — stay patient."
+  ],
+  "thumbfile": "tank-duel-3d.jpg",
+  "sort_order": 36,
+  "faqs": []
+}

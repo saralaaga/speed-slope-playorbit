@@ -1,0 +1,37 @@
+{
+  "slug": "paperwar-io",
+  "title": "PaperWar.io",
+  "url": "https://html5.gamedistribution.com/cfa73398f23a40feaed85292ab9ae51d/",
+  "cats": [
+    "io"
+  ],
+  "tags": [
+    "Territory",
+    "IO"
+  ],
+  "rating": 4.7,
+  "plays": 1954374,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-22",
+  "desc": "There are so many unexplored areas! Conquering them is the key to mastering the game. Expand your territory, eliminate other players who threaten your progress and aim to conquer 100% of each new map. Choose from 9 special skins to express your style!.",
+  "howto": [
+    "Your task is to expand your territory until you conquer the entire map",
+    "But you won’t be alone, rivals are everywhere hoping for your downfall",
+    "Outsmart them, follow their moves and eliminate them from the game",
+    "Use the super speed booster to move faster and gain the advantage!"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "see the in-game tutorial"
+    }
+  ],
+  "tips": [
+    "Play safe early; grow before you pick fights.",
+    "Cut opponents off rather than chasing them."
+  ],
+  "thumbfile": "paperwar-io.jpg",
+  "sort_order": 42,
+  "faqs": []
+}

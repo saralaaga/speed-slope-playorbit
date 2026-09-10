@@ -1,0 +1,47 @@
+{
+  "slug": "car-eats-car-underwater-adventure",
+  "title": "Car Eats Car: Underwater Adventure",
+  "url": "https://html5.gamemonetize.co/bieldl49kbvg52gjrcruztap5nmvhynm/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Action",
+    "Car",
+    "Cars",
+    "Cartoon",
+    "Race",
+    "Racing"
+  ],
+  "rating": 4.5,
+  "plays": 1481667,
+  "hot": false,
+  "new": true,
+  "added": "2026-05-30",
+  "desc": "Up for a fight against rivals in a dynamic race on the highway? Overtake enemies and create your own car in the incubator in Car Eats Car: Underwater Adventure! Your friends are put to prison - do everything you can to free evil cars! Good driving skills and turbo speed come in handy in this crazy driving simulator and a police chase game. Become a car tycoon, upgrade cars, and play for monster cars against the cops! Fight the boss to survive in these ultimate crazy races!",
+  "howto": [
+    "Space - Bombs X - Turbo W - Gas S - Brake A D - Balancing Arrow keys - Gas Brake Balancing"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-eats-car-underwater-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 120,
+  "faqs": []
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "stickman-stack-race",
+  "title": "Stickman Stack Race",
+  "url": "https://html5.gamemonetize.co/vbwc7vu6fyrkmcy143eanyv618vh75q6/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "2026 games",
+    "endless",
+    "Game",
+    "Hypercasual",
+    "Kids",
+    "Obstacle"
+  ],
+  "rating": 4.1,
+  "plays": 1479632,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-25",
+  "desc": "Lead your stickman crowd, crush obstacles, and dominate the streets in Stickman Stack Race! Choose the right gates, gather warriors, and multiply your team to beat rival crowds. Collect coins, upgrade your stickmen, and race through crowded city streets toward the ultimate battle. Face the King-stickman in the final clash and claim the castle! With bright 3D graphics, simple controls, and addictive stacking action, Stickman Stack Race offers endless fun, strategy, and thrills. Become the ultimate crowd master and rule the race!",
+  "howto": [
+    "Swipe the mouse to play"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "stickman-stack-race.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 123,
+  "faqs": []
+}

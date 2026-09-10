@@ -1,0 +1,49 @@
+{
+  "slug": "crazy-moto",
+  "title": "Crazy Moto",
+  "url": "https://html5.gamemonetize.co/s74g69865ye0ps8z2bvoc4cyu7r5iock/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "motorcycle",
+    "stunt"
+  ],
+  "tags": [
+    "2025 games",
+    "2026 games",
+    "2D",
+    "Arcade",
+    "Balance",
+    "Bike"
+  ],
+  "rating": 4.4,
+  "plays": 1520776,
+  "hot": true,
+  "new": false,
+  "added": "2026-07-12",
+  "desc": "Crazy Moto is a fast-paced motorcycle stunt racing game where physics and balance decide everything. Twist the throttle, fly off ramps and blast through 22 hand-crafted levels packed with loops, explosive barrels, spikes, collapsing platforms and deadly drops. Beat the clock to earn up to 3 stars on every level and chain insane mid-air tricks &amp;mdash; Front Flip, Back Flip, Double Flip and Wheelie &amp;mdash; to rack up a higher score and a faster best time. Spend your stars to unlock and ride powerful new bikes, including the Desert Racer, the Martian and the Firehead, each with its own look and feel.",
+  "howto": [
+    "Desktop Arrow Up W accelerate Arrow Down S brake amp reverse Arrow Left-Right A-D lean and balance the rider in the air for flips Mobile On-screen gas and brake pedals tilt control with the brake gas buttons to balance and perform flip"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "crazy-moto.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 87,
+  "faqs": []
+}

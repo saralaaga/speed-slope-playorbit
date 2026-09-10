@@ -1,0 +1,47 @@
+{
+  "slug": "us-truck-game",
+  "title": "US Truck Game",
+  "url": "https://html5.gamemonetize.co/eptpq9j13u1ntvmd294yan19fg5y2w8u/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Adventure",
+    "Best Games",
+    "city",
+    "Fun",
+    "Simulation",
+    "Truck"
+  ],
+  "rating": 4.1,
+  "plays": 1544197,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-19",
+  "desc": "Hit the open road and experience long-haul logistics like never before in US Truck Game. Take control of a powerful, heavy-duty orange semi-truck hauling a massive Cargo EX trailer through detailed urban landscapes, highway interchanges, and complex intersections. Master the unique mechanics of steering an articulated rig as you navigate tricky turns, follow road signs, and manage tight corners under realistic traffic conditions. Featuring expansive environments, industrial zones, and precision driving challenges, this simulation puts your commercial trucking skills to the ultimate test.",
+  "howto": [
+    "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "us-truck-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 57,
+  "faqs": []
+}

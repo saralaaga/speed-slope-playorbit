@@ -13,9 +13,30 @@ python3 build_site.py
 python3 validate_site.py
 ```
 
-Before publishing new games, open them on `https://speedslope.net/<slug>/`, click `Play Now`, and remove any game whose iframe redirects to `blocked.html`, shows `not available here`, returns `unregistered=true`, or fails with 403. Do not keep externally blocked games in the catalog.
+### Required Game Availability Gate
 
-A successful build currently reports `37 games, 27 categories, 117 files total`.
+This is mandatory for every new or replaced game before deploy. Run the browser availability check against every changed game slug, including any game chosen as a featured category player. Do not rely on HTTP status checks; GameDistribution can return a working shell page and then redirect the runtime iframe to a blocked page.
+
+```sh
+node check_game_availability.js new-game-slug another-new-game
+```
+
+A game must not be published if the check detects any of these signals:
+
+- iframe redirects to `blocked.html`
+- iframe URL contains `unregistered=true`
+- game frame shows `not available here` or `Click here to Play`
+- iframe returns 403 or fails to load after clicking Play
+
+When a game fails, add its slug to `REMOVED_GAME_SLUGS`, rebuild, and confirm it no longer appears in category pages, `app/games.json`, or `app/sitemap.xml`. If a removed category page would otherwise remain on Cloudflare Pages from an older deploy, add it to `REMOVED_CATEGORY_REDIRECTS`.
+
+After deploy, rerun the same check against the production domain or the Pages preview URL before considering the release complete:
+
+```sh
+SITE_BASE_URL=https://speedslope.net node check_game_availability.js new-game-slug another-new-game
+```
+
+A successful build currently reports `109 games, 18 categories, 286 files total`.
 
 ## Production Hosting
 
@@ -27,44 +48,13 @@ The site is deployed on Cloudflare Pages.
 - Publish directory: `app/`
 - Site URL configured in `site_config.json`: `https://speedslope.net`
 
-## Cloudflare Credentials
+## Deployment
 
-Cloudflare credentials are stored in Bitwarden Secrets Manager and are accessed with `bws`.
+Cloudflare Pages handles production deployment from the `main` branch through its native Git integration.
 
-- bws environment file: `/Users/carlos/Coding/Taskstick/.env.local.md`
-- Required bws secrets:
-  - `CLOUDFLARE_API_TOKEN`
-  - `CLOUDFLARE_ACCOUNT_ID`
-
-Do not print secret values in logs. Load them into the shell environment only:
-
-```sh
-set -a
-. /Users/carlos/Coding/Taskstick/.env.local.md
-set +a
-
-export CLOUDFLARE_API_TOKEN="$(bws secret get "$(bws secret list | jq -r '.[] | select(.key == "CLOUDFLARE_API_TOKEN") | .id')" | jq -r '.value')"
-export CLOUDFLARE_ACCOUNT_ID="$(bws secret get "$(bws secret list | jq -r '.[] | select(.key == "CLOUDFLARE_ACCOUNT_ID") | .id')" | jq -r '.value')"
-```
-
-## Deploy
-
-Deploy the static output directly to Cloudflare Pages:
-
-```sh
-python3 build_site.py
-python3 validate_site.py
-
-npx wrangler pages deploy app \
-  --project-name=speedslope-net \
-  --commit-dirty=true \
-  --commit-message="Publish SpeedSlope portal refresh"
-```
-
-The deploy completed successfully in this session with Wrangler `4.126.0` and returned:
-
-```text
-https://a897ce3f.speedslope-net.pages.dev
-```
-
-The production domain was verified after deploy by fetching `https://speedslope.net/games/archery/` and confirming the new category player and newly added games were present.
+- Project: `speedslope-net`
+- Output directory: `app/`
+- Production domains: `https://speedslope.net`, `https://www.speedslope.net`
+- GitHub Actions, Deploy Hooks, and Wrangler are not production deployment paths.
+- Keep the game availability gate for changed iframe URLs before merging.
+- The D1 comments database is a separate runtime resource; do not change or migrate it as part of a normal static content deploy.

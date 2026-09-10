@@ -1,0 +1,40 @@
+{
+  "slug": "word-search-universe-animals",
+  "title": "Word Search Universe Animals",
+  "url": "https://html5.gamedistribution.com/bd685997d9824a07b1e79aa2753e2b48/",
+  "cats": [
+    "puzzle"
+  ],
+  "tags": [
+    "Word",
+    "Search"
+  ],
+  "rating": 4.3,
+  "plays": 2592370,
+  "hot": false,
+  "new": false,
+  "added": "2026-03-30",
+  "desc": "Play Word Search Universe Animals and explore 45 fun levels packed with hidden animal names. Find mammals, birds, reptiles, fish, insects, and more by searching the letter grid. Improve vocabulary, observation, pattern recognition, and word-search skills as you unlock new categories.",
+  "howto": [
+    "Find all hidden animal names in the letter grid",
+    "Click or drag across letters horizontally, vertically, or diagonally, in either forward or backward directions, to select words",
+    "Complete every word on the list to finish the level and unlock new animal categories"
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Drag",
+      "action": "move items"
+    }
+  ],
+  "tips": [
+    "Work from the corners — they constrain the board the most.",
+    "Plan two moves ahead before committing."
+  ],
+  "thumbfile": "word-search-universe-animals.jpg",
+  "sort_order": 26,
+  "faqs": []
+}

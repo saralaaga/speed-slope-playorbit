@@ -1,0 +1,49 @@
+{
+  "slug": "fall-ball-idle",
+  "title": "Fall Ball Idle",
+  "url": "https://html5.gamemonetize.co/bdd2sl8whgdpwuliwnspyxh2321wzb99/",
+  "cats": [
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Sports",
+    "Ball",
+    "Physics",
+    "Idle",
+    "Clicker"
+  ],
+  "rating": 4.2,
+  "plays": 294116,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Fall Ball Idle is a physics idle game where sports balls, including golf balls, drop through colorful obstacle paths. Nudge the balls, earn coins, buy upgrades, and keep the flow moving.",
+  "howto": [
+    "Click or tap near balls to nudge their path.",
+    "Guide balls through obstacles to earn coins.",
+    "Spend coins on upgrades and stronger traits.",
+    "Let idle income build while you improve the setup."
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "nudge balls"
+    },
+    {
+      "key": "Drag",
+      "action": "interact with upgrades"
+    }
+  ],
+  "tips": [
+    "Upgrade steady income before chasing expensive boosts.",
+    "Nudge only when a ball is about to miss a useful path.",
+    "Physics runs are uneven, so judge upgrades over several drops.",
+    "Keep reinvesting early coins to speed up later progress."
+  ],
+  "thumbfile": "fall-ball-idle.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 14,
+  "faqs": []
+}

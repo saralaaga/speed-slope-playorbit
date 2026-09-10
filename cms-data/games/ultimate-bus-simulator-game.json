@@ -1,0 +1,47 @@
+{
+  "slug": "ultimate-bus-simulator-game",
+  "title": "Ultimate Bus Simulator Game",
+  "url": "https://html5.gamemonetize.co/9de53pdsruhg1wy9wxq7byk6wmci9o9j/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "bus",
+    "Driving",
+    "Fun",
+    "Parking",
+    "Racing"
+  ],
+  "rating": 4.6,
+  "plays": 1509121,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-26",
+  "desc": "Welcome to the world of Ultimate Bus Simulator Game. Select your favorite bus and get behind the wheels of steering start the bus engine to show the exact precision of driving and parking in a realistic city environment. Bus driving games have three different modes like pick and drop, bus parking and free mode.",
+  "howto": [
+    "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "play and interact"
+    },
+    {
+      "key": "Click / tap",
+      "action": "select and act"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "ultimate-bus-simulator-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 99,
+  "faqs": []
+}

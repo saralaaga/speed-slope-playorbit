@@ -1,0 +1,48 @@
+{
+  "slug": "nullpulse-runner",
+  "title": "Nullpulse Runner",
+  "url": "https://html5.gamemonetize.co/v256qtqr6no5eo6ms5x6f0fgarbu7yl1/",
+  "cats": [
+    "slope",
+    "arcade"
+  ],
+  "tags": [
+    "Runner",
+    "Reflex",
+    "Neon"
+  ],
+  "rating": 4.4,
+  "plays": 272835,
+  "hot": false,
+  "new": false,
+  "added": "2026-03-15",
+  "desc": "NullPulse Runner is a hypercasual arcade game that is fast-paced in nature where you control a glowing energy orb through a futuristic neon world. Jump with perfect timing Dodge dangerous obstacles Survive as long as possible Beat your own high score With simple one touch controls, endless gameplay, smooth animations, mobile support and addictive reflex-based challenges, every run is a new test of skill.",
+  "howto": [
+    "Jump Start Restart",
+    "Left Mouse Button",
+    "Pause Resume",
+    "Mute Unmute Mobile",
+    "Tap the Screen"
+  ],
+  "controls": [
+    {
+      "key": "Space",
+      "action": "jump / action"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    },
+    {
+      "key": "Touch / swipe",
+      "action": "mobile controls"
+    }
+  ],
+  "tips": [
+    "Short, controlled inputs beat button mashing.",
+    "Watch patterns once before going for the record."
+  ],
+  "thumbfile": "nullpulse-runner.jpg",
+  "sort_order": 30,
+  "faqs": []
+}

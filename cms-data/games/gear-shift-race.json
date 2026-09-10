@@ -1,0 +1,47 @@
+{
+  "slug": "gear-shift-race",
+  "title": "Gear Shift Race",
+  "url": "https://html5.gamemonetize.co/bwxvpns0l9v0vxqcsj2v5uw6ummx54zr/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "3D",
+    "Arcade",
+    "Best Games",
+    "Car",
+    "Casual"
+  ],
+  "rating": 4.4,
+  "plays": 1472269,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-15",
+  "desc": "Gear Shift Race is an adrenaline-fueled drag racing game that puts you in control of fully manual cars with realistic gear shifting and clutch timing. Set in a sprawling city ruled by rival street gangs and their powerful leaders, every race is a fight for speed, skill, and reputation. Rise through the underground ranks by defeating gang kings in intense drag battles. Earn cash and reputation to upgrade engine power, tuning, paint, and skins. Master precise gear shifts and perfect clutch control to unleash maximum acceleration. In Gear Shift Race, split-second decisions decide victory or defeat.",
+  "howto": [
+    "Tap or mouse click on the gear"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "gear-shift-race.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 131,
+  "faqs": []
+}

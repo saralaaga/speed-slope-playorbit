@@ -1,0 +1,47 @@
+{
+  "slug": "car-evolution-game",
+  "title": "Car Evolution Game",
+  "url": "https://html5.gamemonetize.co/rrflwl9gzd8jw3wpk6mzgwfzi32pvnlp/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Action",
+    "Adventure",
+    "Best Games",
+    "Car",
+    "Hypercasual",
+    "Race"
+  ],
+  "rating": 4.4,
+  "plays": 1539054,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-02",
+  "desc": "Car Evolution is an exciting driving and upgrade adventure where every choice makes your car stronger and faster! Race through challenging tracks, collect power-ups, pass through upgrade gates, and evolve your vehicle into the ultimate supercar. Avoid obstacles, make smart decisions, and unlock powerful new models as you progress through increasingly difficult levels. Enjoy smooth controls, realistic driving mechanics, stunning 3D graphics, and satisfying car transformations. Test your reflexes, improve your strategy, and race toward victory. Whether youre a casual gamer or a car enthusiast, Car Evolution offers endless fun and thrilling gam",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-evolution-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 72,
+  "faqs": []
+}

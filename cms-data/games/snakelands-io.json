@@ -1,0 +1,37 @@
+{
+  "slug": "snakelands-io",
+  "title": "SnakeLands.io",
+  "url": "https://html5.gamedistribution.com/8ca616dfb6a048ecaa0134dca416405e/",
+  "cats": [
+    "io"
+  ],
+  "tags": [
+    "Snake",
+    "IO",
+    "Multiplayer"
+  ],
+  "rating": 4.6,
+  "plays": 2559293,
+  "hot": false,
+  "new": false,
+  "added": "2025-12-03",
+  "desc": "The wild is alive with motion and danger. Rival snakes close in, waiting for a single mistake. Grow faster, bite harder and outsmart them all. Evolve beyond limits and show that only those with courage and cunning can claim true power.",
+  "howto": [
+    "Begin your journey as a small but ravenous snake",
+    "Move with strategy, consume your enemies and grow bigger with each bite",
+    "Collect gold to boost speed, ferocity and stamina, earn trophies and unlock stages with even deadlier snakes"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "see the in-game tutorial"
+    }
+  ],
+  "tips": [
+    "Play safe early; grow before you pick fights.",
+    "Cut opponents off rather than chasing them."
+  ],
+  "thumbfile": "snakelands-io.jpg",
+  "sort_order": 41,
+  "faqs": []
+}

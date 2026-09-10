@@ -1,0 +1,37 @@
+{
+  "slug": "archery-legends",
+  "title": "Archery Legends",
+  "url": "https://html5.gamedistribution.com/edbbaebf77684e2487c978537a37e5f4/",
+  "cats": [
+    "archery",
+    "sports",
+    "shooting"
+  ],
+  "tags": [
+    "Archery",
+    "Precision",
+    "Targets"
+  ],
+  "rating": 4.5,
+  "plays": 194200,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-26",
+  "desc": "Archery Legends focuses on clean target shooting with simple controls and tight scoring. Draw the bow, adjust the angle and chase better accuracy across each round.",
+  "howto": [
+    "Archery Legends focuses on clean target shooting with simple controls and tight scoring."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "aim, hold and release"
+    }
+  ],
+  "tips": [
+    "Hold steady before releasing.",
+    "Watch the target pattern before taking the first shot."
+  ],
+  "thumbfile": "archery-legends.jpg",
+  "sort_order": 45,
+  "faqs": []
+}

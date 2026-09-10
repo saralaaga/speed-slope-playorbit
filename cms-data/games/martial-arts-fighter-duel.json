@@ -1,0 +1,34 @@
+{
+  "slug": "martial-arts-fighter-duel",
+  "title": "Martial Arts: Fighter Duel",
+  "url": "https://html5.gamedistribution.com/1595d769da7540f0af5f3f9884227599/",
+  "cats": [
+    "2-player"
+  ],
+  "tags": [
+    "Fighting",
+    "Duel"
+  ],
+  "rating": 4.4,
+  "plays": 531291,
+  "hot": false,
+  "new": false,
+  "added": "2025-12-01",
+  "desc": "Welcome to the duel tournament of martial arts! 17 martial arts masters from different countries and geographies meet in the arena. Show your unique fighting style and try to beat the opponents. You can join the tournament in \"Arcade\" mode or you can compete with your friend in \"2 Player\" mode. You can set the difficulty level of the game in the settings section. If you are ready for fights, you can start.",
+  "howto": [
+    "PLAYER 1 MOVE: \"W,A,S,D\" PUNCHES: \"F,G,H\" KICKS: \"C,V,B\" PLAYER 2 MOVE: \"ARROW KEYS\" PUNCHES: \"U,I,O\" KICKS: \"J,K,L\""
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "see the in-game tutorial"
+    }
+  ],
+  "tips": [
+    "Agree on controls before the round starts.",
+    "Defense wins grudge matches — stay patient."
+  ],
+  "thumbfile": "martial-arts-fighter-duel.jpg",
+  "sort_order": 38,
+  "faqs": []
+}

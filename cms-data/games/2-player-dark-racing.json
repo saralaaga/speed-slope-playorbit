@@ -1,0 +1,35 @@
+{
+  "slug": "2-player-dark-racing",
+  "title": "2 Player Dark Racing",
+  "url": "https://html5.gamedistribution.com/b16baebfbdf940bea578f31855d793c5/",
+  "cats": [
+    "2-player",
+    "racing"
+  ],
+  "tags": [
+    "2 Player",
+    "Racing"
+  ],
+  "rating": 4.4,
+  "plays": 2313171,
+  "hot": true,
+  "new": false,
+  "added": "2026-03-31",
+  "desc": "Get your vehicle and race it on the tracks against different drivers. In this 2 Player Dark Racing game, you can play against your friends in the 2-player split-screen or single-player mode.",
+  "howto": [
+    "Use Arrow Keys (Player 1) or WASD (Player 2) to Drive"
+  ],
+  "controls": [
+    {
+      "key": "WASD",
+      "action": "move"
+    }
+  ],
+  "tips": [
+    "Agree on controls before the round starts.",
+    "Defense wins grudge matches — stay patient."
+  ],
+  "thumbfile": "2-player-dark-racing.jpg",
+  "sort_order": 39,
+  "faqs": []
+}

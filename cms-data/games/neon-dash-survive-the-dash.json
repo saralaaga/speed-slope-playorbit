@@ -1,0 +1,47 @@
+{
+  "slug": "neon-dash-survive-the-dash",
+  "title": "Neon Dash: Survive the Dash",
+  "url": "https://html5.gamemonetize.co/e0xia9yrddigo8oa7mpf73frigo428zy/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "runner",
+    "platformer"
+  ],
+  "tags": [
+    "2D",
+    "dash",
+    "running",
+    "survival"
+  ],
+  "rating": 4.3,
+  "plays": 1502609,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-15",
+  "desc": "Neon Dash: Survive the Dash is a high-octane, rhythm-based platformer where precision is everything. Navigate a gritty, dark-pop world filled with lethal spikes, rotating sawblades, and shifting gravity. Use jump pads and mid-air orbs to defy death as the speed intensifies across multiple neon-drenched levels. Experience cinematic visuals with a pulse-pounding aesthetic designed for those with lightning-fast reflexes. Can you survive the dash?",
+  "howto": [
+    "Jump Tap the screen or press SPACE UP to leap over hazards Mid-Air Orbs Tap while near Cyan Yellow Rings to perform a second jump in mid-air Jump Pads Contact Yellow Pink Pads for an automatic high-velocity boost Portals Pass through Speed Gate"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "move"
+    },
+    {
+      "key": "Space",
+      "action": "jump"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "neon-dash-survive-the-dash.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 108,
+  "faqs": []
+}

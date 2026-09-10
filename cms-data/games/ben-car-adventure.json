@@ -1,0 +1,47 @@
+{
+  "slug": "ben-car-adventure",
+  "title": "Ben Car Adventure",
+  "url": "https://html5.gamemonetize.co/wcuyk2mgaf8haip2aeeyjftd4h3qjbt9/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Arcade",
+    "Balance",
+    "Ben 10",
+    "Car",
+    "Driving",
+    "Fun"
+  ],
+  "rating": 4.2,
+  "plays": 1506568,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-23",
+  "desc": "Ben Car Adventure is an exciting platform driving game where you join Ben on a fun and action-packed journey! Drive across challenging obstacles, jump over tricky terrain, and collect valuable items along the way. Test your skills as you balance speed and control to reach the finish line without crashing. Can you help Ben complete every level?",
+  "howto": [
+    "Mouse to play"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "ben-car-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 102,
+  "faqs": []
+}

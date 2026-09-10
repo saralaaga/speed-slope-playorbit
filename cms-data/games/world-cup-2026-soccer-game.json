@@ -1,0 +1,39 @@
+{
+  "slug": "world-cup-2026-soccer-game",
+  "title": "World Cup 2026 Soccer Game",
+  "url": "https://html5.gamedistribution.com/ad37a85f16e246fabdc818f375a5eb45/",
+  "cats": [
+    "sports"
+  ],
+  "tags": [
+    "Soccer",
+    "World Cup"
+  ],
+  "rating": 4.7,
+  "plays": 2039318,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-06",
+  "desc": "Choose your national team and enter the excitement of the World Cup! Play as your favorite heroes like Cristiano Ronald, Lionel Messi or Kylian Mbappe and jump into fast-paced 1v1 soccer battles to claim the cup! Defend your goal, watch for the perfect opening, and strike to score! Challenge the CPU or compete against friends, sharpen your skills, and climb your way to the top. Victory is just a goal away!.",
+  "howto": [
+    "User arrow keys to move and jump",
+    "Use X and Z buttons to shoot"
+  ],
+  "controls": [
+    {
+      "key": "Arrow keys",
+      "action": "move / steer"
+    },
+    {
+      "key": "Enter",
+      "action": "confirm"
+    }
+  ],
+  "tips": [
+    "Timing beats power — wait for the perfect moment.",
+    "Learn one mode well before jumping into tournaments."
+  ],
+  "thumbfile": "world-cup-2026-soccer-game.jpg",
+  "sort_order": 15,
+  "faqs": []
+}

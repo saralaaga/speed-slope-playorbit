@@ -1,0 +1,46 @@
+{
+  "slug": "bus-driving-master-3d",
+  "title": "Bus Driving Master 3D",
+  "url": "https://html5.gamemonetize.co/zlaendl789evsri1tisxazdrh41sf5fn/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Action",
+    "Adventure",
+    "bus",
+    "Parking"
+  ],
+  "rating": 4.1,
+  "plays": 1542273,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-12",
+  "desc": "Bus Driving Simulator is an exciting 3D driving game where you become a professional bus driver. Pick up passengers from busy city stops and safely transport them to their destinations. Drive through highways, city streets, and beautiful mountain routes while following traffic rules and avoiding obstacles. Complete passenger transport missions, earn rewards, and improve your driving skills as the routes become more challenging. With realistic bus controls, detailed 3D environments, and smooth gameplay, Bus Driving Simulator offers an enjoyable experience for fans of driving and simulation games.",
+  "howto": [
+    "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "bus-driving-master-3d.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 63,
+  "faqs": []
+}

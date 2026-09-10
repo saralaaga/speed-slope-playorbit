@@ -1,0 +1,47 @@
+{
+  "slug": "stickman-temple-duel",
+  "title": "Stickman Temple Duel",
+  "url": "https://html5.gamedistribution.com/94d3dbdda8004ad3870025eb3c087dad/",
+  "cats": [
+    "2-player"
+  ],
+  "tags": [
+    "Stickman",
+    "Duel"
+  ],
+  "rating": 4.2,
+  "plays": 2163209,
+  "hot": true,
+  "new": false,
+  "added": "2025-09-10",
+  "desc": "Hours of fun begin with the Stickman Temple Duel game. \"Story mode\", \"2Player\" and \"Etc.You can play the game that offers \"bot\" options, whether with friends or against artificial intelligence. Challenging tracks consisting of 40 chapters are waiting for you in story mode in the unblocked shooting game. You will be playing alone in this episode. 2Player and Etc.You will be engaged in a gunfight on the visuals, moving tracks that change in each section of the bot options. The one who grabs the gun first and can hit the opposite side wins. If you want to have an interesting experience where you can find different games in the same place, click here immediately. Have fun!.",
+  "howto": [
+    "Hours of fun begin with the Stickman Temple Duel game",
+    "\"Story mode\", \"2Player\" and \"Etc.You can play the game that offers \"bot\" options, whether with friends or against artificial intelligence",
+    "Challenging tracks consisting of 40 chapters are waiting for you in story mode in the unblocked shooting game",
+    "You will be playing alone in this episode",
+    "2Player and Etc.You will be engaged in a gunfight on the visuals, moving tracks that change in each section of the bot options",
+    "The one who grabs the gun first and can hit the opposite side wins"
+  ],
+  "controls": [
+    {
+      "key": "WASD",
+      "action": "move"
+    },
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    }
+  ],
+  "tips": [
+    "Agree on controls before the round starts.",
+    "Defense wins grudge matches — stay patient."
+  ],
+  "thumbfile": "stickman-temple-duel.jpg",
+  "sort_order": 37,
+  "faqs": []
+}

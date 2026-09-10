@@ -1,0 +1,38 @@
+{
+  "slug": "car-drive-simulator",
+  "title": "Car Drive Simulator",
+  "url": "https://html5.gamemonetize.co/txpmi4g4oucup824ppzs3r5165fcblhc/",
+  "cats": [
+    "racing"
+  ],
+  "tags": [
+    "Simulator",
+    "City Driving"
+  ],
+  "rating": 4.2,
+  "plays": 3317873,
+  "hot": true,
+  "new": false,
+  "added": "2025-12-23",
+  "desc": "Welcome to Car Park Simulator! Are you ready to put your driving skills to the ultimate test? Tackle 72 challenging levels packed with tight spaces, tricky obstacles, and realistic parking scenarios. Master precision, timing, and control as you navigate your way to parking perfection!.",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    }
+  ],
+  "tips": [
+    "Brake before the corner, accelerate out of it.",
+    "A clean lap beats a risky overtake."
+  ],
+  "thumbfile": "car-drive-simulator.jpg",
+  "sort_order": 23,
+  "faqs": []
+}

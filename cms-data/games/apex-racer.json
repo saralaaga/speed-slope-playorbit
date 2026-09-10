@@ -1,0 +1,39 @@
+{
+  "slug": "apex-racer",
+  "title": "Apex Racer",
+  "url": "https://html5.gamemonetize.co/ia64qw9tvs7mc0nb29d83462r7tzw2fr/",
+  "cats": [
+    "slope",
+    "racing"
+  ],
+  "tags": [
+    "Racing",
+    "3D"
+  ],
+  "rating": 4.3,
+  "plays": 3203602,
+  "hot": true,
+  "new": false,
+  "added": "2025-11-22",
+  "desc": "Drive a fast race car on a 3D circuit and chase the perfect lap. Track your lap and sector times, beat your best, and unlock faster cars as you go.",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "select & act"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim & interact"
+    }
+  ],
+  "tips": [
+    "Brake before the corner, accelerate out of it.",
+    "A clean lap beats a risky overtake."
+  ],
+  "thumbfile": "apex-racer.jpg",
+  "sort_order": 22,
+  "faqs": []
+}

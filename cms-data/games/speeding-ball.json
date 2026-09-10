@@ -1,0 +1,50 @@
+{
+  "slug": "speeding-ball",
+  "title": "Speeding Ball",
+  "url": "https://html5.gamemonetize.co/paag9a0xkq1j6sjber4mtmsisfh4vb0x/",
+  "cats": [
+    "golf",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Golf",
+    "3D",
+    "Arcade",
+    "Aim",
+    "Precision"
+  ],
+  "rating": 4.1,
+  "plays": 286339,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-27",
+  "desc": "Speeding Ball is a one-stroke arcade golf challenge. Each hole gives you a single chance to calculate direction and power, then roll the ball into the cup without a second attempt.",
+  "howto": [
+    "Click or tap to aim the ball.",
+    "Set the shot direction carefully.",
+    "Release when the power feels right.",
+    "Sink the ball in one stroke to clear the hole."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "aim and set power"
+    },
+    {
+      "key": "Release",
+      "action": "shoot"
+    }
+  ],
+  "tips": [
+    "Treat every shot as final; there is no recovery stroke.",
+    "Use less power when the cup is close to an edge.",
+    "Line up the direction before thinking about speed.",
+    "A clean straight shot is better than a flashy bank."
+  ],
+  "thumbfile": "speeding-ball.jpg",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 12,
+  "faqs": []
+}

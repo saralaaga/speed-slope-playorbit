@@ -1,0 +1,48 @@
+{
+  "slug": "moto-adventure",
+  "title": "Moto Adventure",
+  "url": "https://html5.gamemonetize.co/ifiockt551pv3vcfrsplz20ztctyk149/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing",
+    "motorcycle",
+    "stunt"
+  ],
+  "tags": [
+    "1 Player",
+    "2D",
+    "Moto",
+    "Motorcycle",
+    "Race"
+  ],
+  "rating": 4.6,
+  "plays": 1511119,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-03",
+  "desc": "This is a fun little racing game with various interesting gameplay elements. The simple gameplay and diverse levels designed for players will give you a unique gaming experience. All the graphics are very high-definition. Players can adventure in this game with many game modes and diverse levels. Complete various levels in your own way to experience adventure and racing in China. Players will be able to experience a unique gaming experience.",
+  "howto": [
+    "This is a simple and fun adventure game where players control a motorcycle to move forward and backward to reach the finish line"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "moto-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 94,
+  "faqs": []
+}

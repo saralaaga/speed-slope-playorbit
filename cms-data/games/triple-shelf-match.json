@@ -1,0 +1,38 @@
+{
+  "slug": "triple-shelf-match",
+  "title": "Triple Shelf Match",
+  "url": "https://html5.gamedistribution.com/7941fa7f0df84c53a5e1bf6f4833bc2e/",
+  "cats": [
+    "puzzle"
+  ],
+  "tags": [
+    "Match 3",
+    "Sorting"
+  ],
+  "rating": 4.6,
+  "plays": 3771997,
+  "hot": true,
+  "new": true,
+  "added": "2026-07-15",
+  "desc": "A relaxing D puzzle game about sorting goods on shelves. Find identical items, match them in groups of three, and clear space to complete each level. As you progress, the shelves become more challenging: more goods, less free space, and smarter moves are needed. Use boosters, plan ahead, and enjoy the satisfying feeling of organizing everything in the right place.",
+  "howto": [
+    "Tap goods and move them to available shelf spaces",
+    "Match three identical items to remove them from the board and free up space",
+    "Think ahead before every move",
+    "If the shelves run out of free space, the level becomes harder to complete",
+    "Use boosters when you need help in tricky situations"
+  ],
+  "controls": [
+    {
+      "key": "Space",
+      "action": "jump / action"
+    }
+  ],
+  "tips": [
+    "Work from the corners — they constrain the board the most.",
+    "Plan two moves ahead before committing."
+  ],
+  "thumbfile": "triple-shelf-match.jpg",
+  "sort_order": 27,
+  "faqs": []
+}

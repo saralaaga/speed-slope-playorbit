@@ -1,0 +1,47 @@
+{
+  "slug": "drifty-race-challenge",
+  "title": "Drifty Race Challenge",
+  "url": "https://html5.gamemonetize.co/wt2gtbv3n0gln7se0yl8dxu31ms1vrj4/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Arcade",
+    "Best Games",
+    "Car",
+    "drift",
+    "drifting"
+  ],
+  "rating": 4.1,
+  "plays": 1484368,
+  "hot": false,
+  "new": true,
+  "added": "2026-06-03",
+  "desc": "Drifty car Race Challenge drifting game provides an ultimate experience of real car driving and drifting. Drift and drive real fast cars in an open-world city and jump through the obstacles and ramps provided in a real car game, for you to test your car driving and drifting skills. Experience the thrill of victory as you complete the various extreme car drifting game challenges and complete different challenges of car driving and drifting. Its time to drift in the real car driving game, perform extreme car drifting, and choose a lot of supercars in the car driving and drifting game.",
+  "howto": [
+    "Mouse Click to drift the car"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "drifty-race-challenge.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 117,
+  "faqs": []
+}

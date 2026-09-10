@@ -1,0 +1,47 @@
+{
+  "slug": "rally-race-pro-3-0-car-racing",
+  "title": "Rally Race Pro 3.0 Car Racing",
+  "url": "https://html5.gamemonetize.co/ya4wsn7zuy2cct6n3l8pn122yq8mihy8/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "3D",
+    "Car",
+    "Cars",
+    "drift",
+    "drifting"
+  ],
+  "rating": 4.7,
+  "plays": 1523477,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-16",
+  "desc": "Experience intense rally racing action in this realistic car driving simulator. Race across rugged hill roads, sharp turns, and challenging terrains while mastering drifting, braking, and precision driving. Tune your suspension, improve lap times, and climb the leaderboard in immersive offline rally races. Enjoy dynamic weather, realistic physics, detailed cars, and exciting driving challenges designed for fans of rally racing and car simulation games.",
+  "howto": [
+    "Keyboard Controls bull W Up Arrow ndash Accelerate bull S Down Arrow ndash Brake Reverse bull A Left Arrow ndash Steer Left bull D Right Arrow ndash Steer Right bull Spacebar ndash Handbrake Drift bull C ndash Change Ca"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "rally-race-pro-3-0-car-racing.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 83,
+  "faqs": []
+}

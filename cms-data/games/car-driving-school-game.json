@@ -1,0 +1,47 @@
+{
+  "slug": "car-driving-school-game",
+  "title": "Car Driving School Game",
+  "url": "https://html5.gamemonetize.co/gzflbajv1u83ewinan6z4zi45b8pezix/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Car",
+    "carparking",
+    "Cars",
+    "Driving",
+    "Game",
+    "Parking"
+  ],
+  "rating": 4.4,
+  "plays": 1541977,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-09",
+  "desc": "Step behind the wheel and master the art of driving with Car Driving School Game, an immersive simulation experience designed to test your precision and road safety knowledge. Navigate through bustling city streets, follow intricate traffic rules, obey road signs, and learn to handle everything from classic cars to heavy vehicles. Featuring realistic physics, intelligent AI traffic, detailed vehicle interiors, and challenging parking missions, this game provides an authentic academy test environment to sharpen your skills. Whether you are practicing smooth steering or working toward earning your virtual drivers license, it delivers ultimate",
+  "howto": [
+    "W A S D or Arrow Keys ndash Drive and steer"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "car-driving-school-game.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 66,
+  "faqs": []
+}

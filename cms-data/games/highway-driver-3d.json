@@ -1,0 +1,38 @@
+{
+  "slug": "highway-driver-3d",
+  "title": "Highway Driver 3D",
+  "url": "https://html5.gamemonetize.co/ls2lbiuisil34tcze5z5xiubne01axtv/",
+  "cats": [
+    "slope",
+    "racing"
+  ],
+  "tags": [
+    "Driving",
+    "Highway",
+    "3D"
+  ],
+  "rating": 4.6,
+  "plays": 1772717,
+  "hot": false,
+  "new": false,
+  "added": "2026-04-26",
+  "desc": "Get ready for high-octane, endless action in your ultimate 3D driving adventure! Choose an autorickshaw, vintage car, or ambulance and race through endless levels that become more challenging over time. Dodge traffic, squeeze through tight gaps, and test your reflexes. Crash into another vehicle, and the police will chase you! Escape the pursuit, master each vehicles handling, and see how long you can survive in this thrilling, endless driving adventure.",
+  "howto": [
+    "Move Left",
+    "Left Arrow or Tap left on screen Move Right",
+    "Right Arrow or Tap right on screen Horn"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "see the in-game tutorial"
+    }
+  ],
+  "tips": [
+    "Brake before the corner, accelerate out of it.",
+    "A clean lap beats a risky overtake."
+  ],
+  "thumbfile": "highway-driver-3d.jpg",
+  "sort_order": 19,
+  "faqs": []
+}

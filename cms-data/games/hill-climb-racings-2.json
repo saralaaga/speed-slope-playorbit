@@ -1,0 +1,46 @@
+{
+  "slug": "hill-climb-racings-2",
+  "title": "HIll climb Racings 2",
+  "url": "https://html5.gamemonetize.co/1vxk8rfmkpin0l0ex7atiuftp6l3mu6p/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "Adventure",
+    "Funny",
+    "Kids",
+    "kiz10",
+    "Racing"
+  ],
+  "rating": 4.4,
+  "plays": 1509935,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-28",
+  "desc": "Hill Climb Racings 2 is back, bigger, better and Its even more fun! Join millions of players from around the world in this action packed car racing game with realistic physics",
+  "howto": [
+    "Mouse click or tap to play"
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "play and interact"
+    },
+    {
+      "key": "Click / tap",
+      "action": "select and act"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "hill-climb-racings-2.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 97,
+  "faqs": []
+}

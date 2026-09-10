@@ -1,0 +1,47 @@
+{
+  "slug": "morph-racers",
+  "title": "Morph Racers",
+  "url": "https://html5.gamemonetize.co/831mmgpd6esv8e8q9cr5ul5kp2nx0pd6/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Adventure",
+    "Ai Games",
+    "amazing",
+    "Best",
+    "Best Games"
+  ],
+  "rating": 4.1,
+  "plays": 1497725,
+  "hot": false,
+  "new": false,
+  "added": "2026-06-10",
+  "desc": "Morph Racers is a fast-paced racing game where speed alone isn&amp;rsquo;t enough adaptation is key. Race against others across dynamic tracks that shift between roads, water, climbs, and obstacles. Instantly switch between forms like car, runner, boat, and helicopter to overcome each challenge. Choose the right form at the right time to stay ahead and claim victory.",
+  "howto": [
+    "Race against other players on parallel tracks Switch forms based on terrain car road runner climb boat water helicopter special obstacles Time your transformations to maintain speed Reach the finish line first to win"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "morph-racers.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 112,
+  "faqs": []
+}

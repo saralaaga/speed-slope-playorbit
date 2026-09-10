@@ -1,0 +1,45 @@
+{
+  "slug": "hill-climb-racing-adventure",
+  "title": "Hill Climb Racing Adventure",
+  "url": "https://html5.gamemonetize.co/4gytlbqiojhlxt2r5vc4sbma091103b5/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Car",
+    "Driving",
+    "Racing"
+  ],
+  "rating": 4.7,
+  "plays": 1473860,
+  "hot": false,
+  "new": false,
+  "added": "2026-08-19",
+  "desc": "Play the original classic Hill Climb Racing! Race your way uphill in this physics based driving game, playable offline! Meet Bill, the young aspiring uphill racer. He is about to embark on a journey through Climb Canyon that takes him to where no ride has ever been before. With little respect to the laws of physics, Bill will not rest until he has conquered the highest hills up on the moon!",
+  "howto": [
+    "use forward and backward arrow keys"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "hill-climb-racing-adventure.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 128,
+  "faqs": []
+}

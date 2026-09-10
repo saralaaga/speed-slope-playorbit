@@ -1,0 +1,47 @@
+{
+  "slug": "drift-car-driving",
+  "title": "Drift Car Driving",
+  "url": "https://html5.gamemonetize.co/psaxcnaaudnghwtus0rvv9lsb3gczzxv/",
+  "cats": [
+    "racing",
+    "driving",
+    "car-racing"
+  ],
+  "tags": [
+    "2026 games",
+    "Adventure",
+    "Car",
+    "drifting",
+    "Driving",
+    "Racing"
+  ],
+  "rating": 4.1,
+  "plays": 1522774,
+  "hot": false,
+  "new": false,
+  "added": "2026-07-15",
+  "desc": "Highway Drift Car Racing Game is an action-packed car racing game designed for players who love high-speed driving, realistic car simulation, and extreme drifting challenges. This car racing game delivers an immersive experience with smooth controls, stunning 3D graphics, and thrilling gameplay that keeps you engaged for hours. If you are a fan of car games, racing games, drifting games, or driving simulator games, then this highway racing game is perfect for you. In this exciting car driving simulator, you will take control of powerful sports cars and race across busy highways filled with traffic.",
+  "howto": [
+    "W Arrow Up rarr Move Front S Arrow Down rarr Move Back A Arrow Left rarr Move Left D Arrow Right rarr Move Right - To click any button use mouse"
+  ],
+  "controls": [
+    {
+      "key": "WASD / arrow keys",
+      "action": "drive and steer"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use menus and buttons"
+    }
+  ],
+  "tips": [
+    "Read the next obstacle early before making a move.",
+    "Use small, steady inputs instead of overcorrecting.",
+    "Restart quickly and learn the pattern one attempt at a time."
+  ],
+  "thumbfile": "drift-car-driving.jpg",
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "sort_order": 84,
+  "faqs": []
+}
