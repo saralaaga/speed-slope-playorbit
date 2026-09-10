@@ -1,0 +1,65 @@
+{
+  "slug": "snowboard-game",
+  "title": "Snowboard Game",
+  "url": "https://html5.gamemonetize.co/4jlpcom1sy0z4thlimget2ew3z6ow05d/",
+  "cats": [
+    "slope",
+    "racing",
+    "arcade"
+  ],
+  "tags": [
+    "Snowboard",
+    "Slopes",
+    "Obstacles",
+    "Sports"
+  ],
+  "rating": 4.2,
+  "plays": 507144,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-31",
+  "desc": "Snowboard Game takes you down icy slopes that get tighter the further you ride, with barriers and obstacles waiting on every clean line. Play Snowboard Game online for free and stay upright long enough to reach the finish and land your moves. It is a straightforward downhill reflex run: read the slope early, steer gently, and let your speed work for you.",
+  "howto": [
+    "Start the run and let the board settle before you commit to a line.",
+    "Steer left and right to follow the slope down.",
+    "Avoid the barriers and obstacles placed along the track.",
+    "Pull off tricks where the slope opens up, but land cleanly.",
+    "Reach the finish line to complete the run."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "steer the snowboard"
+    },
+    {
+      "key": "Arrow Left / Arrow Right",
+      "action": "steer the snowboard"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game menus"
+    }
+  ],
+  "tips": [
+    "Hold a steady line instead of carving back and forth.",
+    "Start a trick only where you can see the landing.",
+    "Aim between obstacles rather than at them.",
+    "Keep your speed up on the flats — the slope is easier to read quickly."
+  ],
+  "faqs": [
+    {
+      "question": "What is Snowboard Game?",
+      "answer": "It is a downhill snowboarding game where you steer through icy tracks, dodge barriers and try to finish a clean run."
+    },
+    {
+      "question": "How do you control Snowboard Game?",
+      "answer": "Steer left and right to stay on the slope, avoid obstacles and keep your board upright."
+    },
+    {
+      "question": "Is Snowboard Game a slope game?",
+      "answer": "Yes — it is a downhill slope run with obstacles, which puts it in the same family as the ball-rolling slope games."
+    }
+  ],
+  "thumbfile": "snowboard-game.jpg",
+  "sort_order": 154
+}

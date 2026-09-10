@@ -1,0 +1,66 @@
+{
+  "slug": "endless-tunnel-run",
+  "title": "Endless Tunnel Run",
+  "url": "https://html5.gamemonetize.co/zvyd5t1t4ap5xiidv1d7q2cw7frrpuqk/",
+  "cats": [
+    "slope",
+    "runner",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Tunnel",
+    "Endless",
+    "Reflex",
+    "Runner"
+  ],
+  "rating": 4.5,
+  "plays": 377987,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-01",
+  "desc": "Endless Tunnel Run closes the walls in around you and keeps accelerating, so the only thing standing between a clean run and a crash is how fast you read the next gap. Play Endless Tunnel Run online for free and test how long your concentration really lasts. The tunnel gets faster the longer you survive, which means the game is quietly raising its own difficulty the whole time you play.",
+  "howto": [
+    "Move left and right to keep your runner inside the tunnel.",
+    "Steer around the obstacles the tunnel throws at you rather than through them.",
+    "Expect the speed to increase the longer your run lasts.",
+    "Use small corrections and hold your line when the tunnel straightens out.",
+    "Restart straight after a crash to keep your reaction timing warm."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Left / Arrow Right",
+      "action": "move through the tunnel"
+    },
+    {
+      "key": "A / D",
+      "action": "move through the tunnel"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game buttons and menus"
+    }
+  ],
+  "tips": [
+    "Look several obstacles ahead — reacting to the nearest one is always too late.",
+    "Stay near the middle when you can, so both sides stay open as escape routes.",
+    "When two gaps appear, pick one early instead of drifting between them.",
+    "Take a short break between long sessions; this game punishes tired eyes."
+  ],
+  "faqs": [
+    {
+      "question": "What is Endless Tunnel Run?",
+      "answer": "It is a fast endless runner set inside a colourful tunnel. You steer left and right, dodge obstacles and survive as the tunnel speeds up."
+    },
+    {
+      "question": "How do you play Endless Tunnel Run?",
+      "answer": "Move left and right with the arrow keys or A and D. The tunnel scrolls forward on its own, so all of your focus goes into reading gaps."
+    },
+    {
+      "question": "Is Endless Tunnel Run like Speed Slope?",
+      "answer": "It shares the same core loop: a fast track, instant failure and a score you want to beat. The tunnel adds a tighter, more claustrophobic version of the same reflex test."
+    }
+  ],
+  "thumbfile": "endless-tunnel-run.jpg",
+  "sort_order": 143
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "crazy-neon-square-rush",
+  "title": "Crazy Neon Square Rush",
+  "url": "https://html5.gamemonetize.co/81ln1c58lucnu0co9yqimrz4h7mrimce/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Neon",
+    "Endless",
+    "Obstacles",
+    "High Score"
+  ],
+  "rating": 4.4,
+  "plays": 488716,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-03",
+  "desc": "Crazy Neon Square Rush scrolls you upward through an endless stream of glowing blocks, and the only thing you control is which side you slide to. Play Crazy Neon Square Rush online for free and see how long you last before the neon gets crowded. The scoring does itself while you survive, which makes every run purely about reading the next gap.",
+  "howto": [
+    "The square moves upward on its own — you only steer left and right.",
+    "Dodge the incoming neon blocks instead of trying to squeeze past them.",
+    "Score climbs automatically for as long as you stay alive.",
+    "Expect the speed and the obstacle density to rise over time.",
+    "Beat your best score, then restart straight away and try again."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Left / Arrow Right",
+      "action": "slide the square left or right"
+    },
+    {
+      "key": "Touch",
+      "action": "move the square on mobile"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game buttons and menus"
+    }
+  ],
+  "tips": [
+    "Pick a side early — the gap you commit to is usually the one you get.",
+    "Small movements hold your line; big slides overshoot the gap.",
+    "The pattern repeats loosely, so learn the rhythm instead of memorising it.",
+    "Keep your eyes high on the screen so you see obstacles before they arrive."
+  ],
+  "faqs": [
+    {
+      "question": "What is Crazy Neon Square Rush?",
+      "answer": "It is an endless neon reflex game where a glowing square moves upward and you steer left and right to dodge incoming blocks."
+    },
+    {
+      "question": "How do you play Crazy Neon Square Rush?",
+      "answer": "Use the left and right arrows, or tap either side on mobile. The square moves up automatically and your score grows for as long as you survive."
+    },
+    {
+      "question": "Is Crazy Neon Square Rush like Speed Slope?",
+      "answer": "Yes. Both are neon endless dodging games built around quick lane decisions and instant restarts — this one is the flat, top-down version of that idea."
+    }
+  ],
+  "thumbfile": "crazy-neon-square-rush.jpg",
+  "sort_order": 157
+}

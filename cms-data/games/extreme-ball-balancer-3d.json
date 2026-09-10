@@ -1,0 +1,65 @@
+{
+  "slug": "extreme-ball-balancer-3d",
+  "title": "Extreme Ball Balancer 3D",
+  "url": "https://html5.gamemonetize.co/8b9vp8opunp1ainfejmtmlpaha2yuzy7/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Balance",
+    "Rolling Ball",
+    "3D",
+    "Physics"
+  ],
+  "rating": 4.2,
+  "plays": 415730,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-29",
+  "desc": "Extreme Ball Balancer 3D puts a rolling ball on narrow wooden rails and shifting traps with nothing but deep blue water underneath. Play Extreme Ball Balancer 3D online for free, steer with WASD, and keep your balance as the beams tilt and the gaps get meaner. It looks calm for the first ten seconds and then punishes every rushed correction.",
+  "howto": [
+    "The level loads straight in, so give the scene a moment to appear.",
+    "Use WASD to roll the ball forward, back and sideways.",
+    "Move the mouse to swing the camera left and right so you can read the next beam.",
+    "Keep your speed low on narrow rails — momentum is what tips you into the water.",
+    "Line the ball up before committing to a gap; stopping is safer than overcorrecting."
+  ],
+  "controls": [
+    {
+      "key": "WASD",
+      "action": "roll the ball in any direction"
+    },
+    {
+      "key": "Mouse",
+      "action": "swing the camera left and right"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game buttons and menus"
+    }
+  ],
+  "tips": [
+    "Small taps beat long holds — the ball keeps rolling after you release the key.",
+    "Watch the far end of the beam instead of the ball to keep your line straight.",
+    "Cross one beam at a time; sprinting through two gaps is how most runs end.",
+    "If you start to wobble, stop steering first and let the ball settle before you move again."
+  ],
+  "faqs": [
+    {
+      "question": "What is Extreme Ball Balancer 3D?",
+      "answer": "It is a 3D physics balance game where you roll a ball across narrow bridges, rails and traps. One wrong move drops you into the water below."
+    },
+    {
+      "question": "How do you control Extreme Ball Balancer 3D?",
+      "answer": "Use WASD to roll the ball and the mouse to swing the camera. Keeping the camera level makes the narrow beams much easier to read."
+    },
+    {
+      "question": "Is Extreme Ball Balancer 3D the same style as Speed Slope?",
+      "answer": "It shares the rolling-ball idea, but where Speed Slope is about raw downhill speed, this one slows everything down and turns precision into the challenge."
+    }
+  ],
+  "thumbfile": "extreme-ball-balancer-3d.jpg",
+  "sort_order": 140
+}

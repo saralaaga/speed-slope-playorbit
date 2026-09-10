@@ -1,0 +1,65 @@
+{
+  "slug": "snow-ball-race",
+  "title": "Snow Ball Race",
+  "url": "https://html5.gamemonetize.co/khagch0yitrupktqtyaihvmktr4mnn4v/",
+  "cats": [
+    "slope",
+    "racing",
+    "arcade"
+  ],
+  "tags": [
+    "Snowball",
+    "Track",
+    "Race",
+    "Winter"
+  ],
+  "rating": 4.3,
+  "plays": 279495,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-09",
+  "desc": "Snow Ball Race starts you as a small snowball and asks you to roll it down the track collecting snow, growing bigger, and threading through obstacles toward the finish. Play Snow Ball Race online for free and balance the one thing every snowball game makes you choose: the bigger you get, the harder you are to steer. It is a light, bright take on downhill rolling.",
+  "howto": [
+    "The race begins as soon as the level loads.",
+    "Steer left and right down the track to pick up fresh snow.",
+    "Avoid obstacles — the bigger your snowball, the wider your hitbox.",
+    "Choose the wider line when you need snow and the tight line when you need speed.",
+    "Reach the finish line with the largest snowball you can manage."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "steer the snowball down the track"
+    },
+    {
+      "key": "Arrow Left / Arrow Right",
+      "action": "steer the snowball"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game menus"
+    }
+  ],
+  "tips": [
+    "Grow early, when the track is still wide, and play safe once you get huge.",
+    "Clipping one obstacle costs more than missing one snow patch.",
+    "Pick your line before the obstacle, not as you reach it.",
+    "Reaching the finish small beats not reaching it at all."
+  ],
+  "faqs": [
+    {
+      "question": "What is Snow Ball Race?",
+      "answer": "It is a downhill snowball racer where you collect snow to grow and dodge obstacles on the way to the finish line."
+    },
+    {
+      "question": "How do you control Snow Ball Race?",
+      "answer": "Steer left and right to roll down the track, collecting snow and avoiding hazards."
+    },
+    {
+      "question": "Is Snow Ball Race a slope game?",
+      "answer": "Yes. Roll a growing ball down a narrowing track is the classic slope setup, just with snow instead of neon."
+    }
+  ],
+  "thumbfile": "snow-ball-race.jpg",
+  "sort_order": 151
+}

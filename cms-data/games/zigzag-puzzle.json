@@ -1,0 +1,61 @@
+{
+  "slug": "zigzag-puzzle",
+  "title": "ZigZag Puzzle",
+  "url": "https://html5.gamemonetize.co/ey8mnhy7slwe8ce1wp5manoq1r8qnkxx/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Zigzag",
+    "Ball",
+    "One Tap",
+    "High Score"
+  ],
+  "rating": 4.7,
+  "plays": 98111,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-06",
+  "desc": "ZigZag Puzzle gives you one ball, one narrow wall and one tap that reverses your direction — the whole game is deciding when to use it. Play ZigZag Puzzle online for free and see how many zigs you can chain before the ball runs off the edge. There is nothing else to learn and almost nothing to master, which is exactly why it is hard to put down.",
+  "howto": [
+    "Tap or click anywhere on the screen to switch the ball’s direction.",
+    "Keep the ball on the wall by turning before it reaches the edge.",
+    "Chain as many direction changes as you can to build your score.",
+    "Expect the wall to get narrower as your run continues.",
+    "Restart instantly after a fall and try to beat your own count."
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "reverse the ball’s direction"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game menus"
+    }
+  ],
+  "tips": [
+    "Tap early rather than late — the ball keeps drifting during your reaction time.",
+    "Find a steady rhythm instead of tapping as fast as possible.",
+    "Watch the wall edges, not the ball, to judge when to turn.",
+    "Take a breath between runs; this one punishes panicky tapping."
+  ],
+  "faqs": [
+    {
+      "question": "What is ZigZag Puzzle?",
+      "answer": "It is a one-tap reflex game where a ball zigzags along a narrow wall. Tap to reverse direction and stay on the wall for as long as you can."
+    },
+    {
+      "question": "How do you play ZigZag Puzzle?",
+      "answer": "Click or tap the screen to change the ball’s direction. There are no other controls, so the challenge is purely timing."
+    },
+    {
+      "question": "Is ZigZag Puzzle endless?",
+      "answer": "Yes. The wall continues and narrows as your score climbs, and the run ends when the ball falls off the edge."
+    }
+  ],
+  "thumbfile": "zigzag-puzzle.jpg",
+  "sort_order": 148
+}

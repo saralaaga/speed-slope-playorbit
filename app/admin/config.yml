@@ -76,6 +76,7 @@ collections:
           - { label: "Pool Games", value: "pool" }
           - { label: "Puzzle Games", value: "puzzle" }
           - { label: "Racing Games", value: "racing" }
+          - { label: "Reflex Games", value: "reflex" }
           - { label: "Runner Games", value: "runner" }
           - { label: "Shooting Games", value: "shooting" }
           - { label: "Slope Games", value: "slope" }

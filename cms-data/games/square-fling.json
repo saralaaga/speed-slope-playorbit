@@ -1,0 +1,65 @@
+{
+  "slug": "square-fling",
+  "title": "Square Fling",
+  "url": "https://html5.gamemonetize.co/lslo22hs4fnhiks9hhpf4l2djlgasqke/",
+  "cats": [
+    "reflex",
+    "arcade",
+    "puzzle"
+  ],
+  "tags": [
+    "Physics",
+    "Gates",
+    "Endless",
+    "Skill"
+  ],
+  "rating": 4.6,
+  "plays": 105490,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-02",
+  "desc": "Square Fling is a physics game built on one idea: fling your square through the gaps and hope your aim is as good as you think it is. Play Square Fling online for free and survive the endless mode as gates close in from every direction, or take on hand-built levels with fixed challenges. Drag backwards, release, and watch momentum do the rest.",
+  "howto": [
+    "Click or touch and drag in the opposite direction to where you want to go.",
+    "Release to fling the square across the screen.",
+    "Pass through the openings in the gates and avoid clipping the edges.",
+    "In endless mode, keep surviving as the pressure steadily rises.",
+    "In level mode, work through fixed challenges and new gate types."
+  ],
+  "controls": [
+    {
+      "key": "Mouse drag",
+      "action": "pull back and release to fling the square"
+    },
+    {
+      "key": "Touch / swipe",
+      "action": "pull back and release to fling"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game menus and shop"
+    }
+  ],
+  "tips": [
+    "Small controlled flings beat huge launches — momentum is hard to undo.",
+    "Aim for the centre of a gap instead of the nearest edge.",
+    "In endless mode, stay near the middle so you keep options on every side.",
+    "Collect coins during runs; they unlock useful extras later."
+  ],
+  "faqs": [
+    {
+      "question": "What is Square Fling?",
+      "answer": "It is a physics skill game where you fling a square through moving gates. Endless mode keeps adding pressure, and level mode adds fixed challenges."
+    },
+    {
+      "question": "How do you control Square Fling?",
+      "answer": "Drag backwards from where you want to go and release. The distance and angle of your drag set the strength and direction of the fling."
+    },
+    {
+      "question": "Does Square Fling have both endless and level modes?",
+      "answer": "Yes. Endless mode ramps pressure over time, while the level mode gives you fixed, repeatable puzzle-style challenges."
+    }
+  ],
+  "thumbfile": "square-fling.jpg",
+  "sort_order": 156
+}

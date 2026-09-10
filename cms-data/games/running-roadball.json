@@ -1,0 +1,62 @@
+{
+  "slug": "running-roadball",
+  "title": "Running Roadball",
+  "url": "https://html5.gamemonetize.co/d6ok6v41lcnaram5umu5fh7yn6gvnuik/",
+  "cats": [
+    "slope",
+    "reflex",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Neon",
+    "Ball",
+    "Rhythm",
+    "Endless"
+  ],
+  "rating": 4.6,
+  "plays": 472640,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-31",
+  "desc": "Running Roadball sends a glowing ball down neon tracks that are synced to the music, so every jump lands on the beat. Play Running Roadball online for free, tap to jump and change direction, and collect gems while the tracks turn and the tempo climbs. It is the closest thing here to a rhythm-driven slope run, and missing the beat usually means missing the track.",
+  "howto": [
+    "Tap or click to jump and to change direction.",
+    "Time each tap with the music — the track layouts follow the beat.",
+    "Collect the gems along the route to build your score.",
+    "Switch lines early when a turn is coming up instead of at the edge.",
+    "Finish the level to unlock more songs and more balls."
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "jump and change direction"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game song and ball menus"
+    }
+  ],
+  "tips": [
+    "Listen to the beat first — the visual cues lag behind the music slightly.",
+    "Tap light rather than long; mashing throws your timing off for the next bar.",
+    "Learn one song before hopping between tracks, since the layouts repeat.",
+    "Keep your eyes two beats ahead of the ball instead of on it."
+  ],
+  "faqs": [
+    {
+      "question": "What is Running Roadball?",
+      "answer": "It is a neon rhythm runner where a glowing ball follows music-synced tracks. Tapping in time with the beat is how you stay on the road."
+    },
+    {
+      "question": "How do you control Running Roadball?",
+      "answer": "A single tap or click jumps and changes direction. The game is designed for one-touch play on both desktop and mobile."
+    },
+    {
+      "question": "Is Running Roadball hard?",
+      "answer": "The early songs are forgiving, but the tracks tighten as the tempo rises, so clean timing matters more the further you get."
+    }
+  ],
+  "thumbfile": "running-roadball.jpg",
+  "sort_order": 142
+}

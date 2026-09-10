@@ -1,0 +1,65 @@
+{
+  "slug": "gliding-over-dunes",
+  "title": "Gliding over Dunes",
+  "url": "https://html5.gamemonetize.co/8a5s94i50250nks9653hbcp8zayylkey/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Glide",
+    "One Touch",
+    "Endless",
+    "Distance"
+  ],
+  "rating": 4.7,
+  "plays": 374729,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-30",
+  "desc": "Gliding over Dunes asks you to do one thing well — hold to build speed, release to lift off, and hold again to dive back down without burying the ball in the sand. Play Gliding over Dunes online for free and set a distance record across maps you unlock as you improve. One finger, a long runway and a surprisingly precise sense of timing.",
+  "howto": [
+    "Tap and hold the screen to accelerate along the dune.",
+    "Release to lift off and glide through the air.",
+    "Hold again while airborne to dive back down toward the sand.",
+    "Chain small hops together instead of one enormous jump.",
+    "Push your distance to unlock new maps and images."
+  ],
+  "controls": [
+    {
+      "key": "Click / hold",
+      "action": "accelerate on the dune"
+    },
+    {
+      "key": "Release",
+      "action": "take off into the glide"
+    },
+    {
+      "key": "Hold in flight",
+      "action": "dive back down"
+    }
+  ],
+  "tips": [
+    "Build speed on the flat, then release just before the slope kinks upward.",
+    "Diving too early kills your glide; dive too late and you land nose-first.",
+    "Short hops hold momentum better than one huge launch.",
+    "Watch the horizon, not the ball, to judge your angle."
+  ],
+  "faqs": [
+    {
+      "question": "What is Gliding over Dunes?",
+      "answer": "It is a one-touch distance game where you build speed along a dune and glide the ball as far as you can."
+    },
+    {
+      "question": "How do you play Gliding over Dunes?",
+      "answer": "Hold to accelerate, release to take off, and hold again in the air to dive. That single control drives the whole game."
+    },
+    {
+      "question": "Does Gliding over Dunes have unlocks?",
+      "answer": "Yes. New maps and images open up as you push your distance further."
+    }
+  ],
+  "thumbfile": "gliding-over-dunes.jpg",
+  "sort_order": 153
+}

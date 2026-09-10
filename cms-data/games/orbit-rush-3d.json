@@ -1,0 +1,61 @@
+{
+  "slug": "orbit-rush-3d",
+  "title": "Orbit Rush 3D",
+  "url": "https://html5.gamemonetize.co/1ti4ndc0ahrycs3dmvve6r5858cktiyi/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Tunnel",
+    "Ball",
+    "Power-ups",
+    "3D"
+  ],
+  "rating": 4.3,
+  "plays": 563557,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-07",
+  "desc": "Orbit Rush 3D puts you inside the ball while the tunnel rotates around you and obstacle rings rush out of the dark. Play Orbit Rush 3D online for free, pass through the gaps, and survive as the speed keeps climbing. The power-ups change the run rather than just the score — invincibility, slow motion and score multipliers all alter how you should play the next stretch.",
+  "howto": [
+    "Click or tap to start the run.",
+    "Guide the ball so it passes through the gap in each incoming ring.",
+    "Collect the gems scattered through the tunnel as you go.",
+    "Pick up the power-ups: double score, invincibility and slow motion.",
+    "Survive as long as possible — the tunnel accelerates the further you get."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "steer the ball through the ring gaps"
+    },
+    {
+      "key": "Click / tap",
+      "action": "start and restart runs"
+    }
+  ],
+  "tips": [
+    "Line up with a gap as soon as the ring appears, then fine-tune.",
+    "Save invincibility for a dense run of rings rather than the first one.",
+    "Slow motion is best used to read an unfamiliar pattern, not to gain score.",
+    "Unlocking skins is cosmetic — the real progress is learning the ring rhythm."
+  ],
+  "faqs": [
+    {
+      "question": "What is Orbit Rush 3D?",
+      "answer": "It is a 3D tunnel runner where you steer a ball through rotating obstacle rings that rush toward you out of the dark."
+    },
+    {
+      "question": "How do you play Orbit Rush 3D?",
+      "answer": "Steer the ball to line up with the gap in each ring. Gems and power-ups are collected on the way through."
+    },
+    {
+      "question": "Does Orbit Rush 3D have power-ups?",
+      "answer": "Yes. Score multipliers, invincibility and slow motion all change how you play the next stretch of the tunnel."
+    }
+  ],
+  "thumbfile": "orbit-rush-3d.jpg",
+  "sort_order": 161
+}

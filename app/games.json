@@ -228,7 +228,6 @@
   "url": "highway-driver-3d/",
   "thumb": "assets/thumbs/highway-driver-3d.jpg",
   "categories": [
-   "Slope Games",
    "Racing Games",
    "Driving Games",
    "Car Racing Games"
@@ -249,7 +248,6 @@
   "url": "bike-racing-adventure/",
   "thumb": "assets/thumbs/bike-racing-adventure.jpg",
   "categories": [
-   "Slope Games",
    "Racing Games",
    "Motorcycle Games",
    "Stunt Games",
@@ -271,7 +269,6 @@
   "url": "apex-racer/",
   "thumb": "assets/thumbs/apex-racer.jpg",
   "categories": [
-   "Slope Games",
    "Racing Games",
    "Driving Games",
    "Car Racing Games"
@@ -1649,7 +1646,6 @@
    "Racing Games",
    "Driving Games",
    "Car Racing Games",
-   "Slope Games",
    "Arcade Games"
   ],
   "tags": [
@@ -2460,6 +2456,478 @@
   "rating": 4.5,
   "plays": 515582,
   "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Extreme Ball Balancer 3D",
+  "slug": "extreme-ball-balancer-3d",
+  "url": "extreme-ball-balancer-3d/",
+  "thumb": "assets/thumbs/extreme-ball-balancer-3d.jpg",
+  "categories": [
+   "Slope Games",
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Balance",
+   "Rolling Ball",
+   "3D",
+   "Physics"
+  ],
+  "rating": 4.2,
+  "plays": 415730,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Stack Ball Run 3D",
+  "slug": "stack-ball-run-3d",
+  "url": "stack-ball-run-3d/",
+  "thumb": "assets/thumbs/stack-ball-run-3d.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Ball Run",
+   "Endless",
+   "Stack",
+   "3D"
+  ],
+  "rating": 4.5,
+  "plays": 515533,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Running Roadball",
+  "slug": "running-roadball",
+  "url": "running-roadball/",
+  "thumb": "assets/thumbs/running-roadball.jpg",
+  "categories": [
+   "Slope Games",
+   "Reflex Games",
+   "Runner Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Neon",
+   "Ball",
+   "Rhythm",
+   "Endless"
+  ],
+  "rating": 4.6,
+  "plays": 472640,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Endless Tunnel Run",
+  "slug": "endless-tunnel-run",
+  "url": "endless-tunnel-run/",
+  "thumb": "assets/thumbs/endless-tunnel-run.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Reflex Games",
+   "Arcade Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Tunnel",
+   "Endless",
+   "Reflex",
+   "Runner"
+  ],
+  "rating": 4.5,
+  "plays": 377987,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Rainbow Color Ball Runner",
+  "slug": "rainbow-color-ball-runner",
+  "url": "rainbow-color-ball-runner/",
+  "thumb": "assets/thumbs/rainbow-color-ball-runner.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Reflex Games",
+   "Arcade Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Colour",
+   "Ball",
+   "3D Runner",
+   "Levels"
+  ],
+  "rating": 4.3,
+  "plays": 187455,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Big Rolling Ball",
+  "slug": "big-rolling-ball",
+  "url": "big-rolling-ball/",
+  "thumb": "assets/thumbs/big-rolling-ball.jpg",
+  "categories": [
+   "Slope Games",
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Rolling Ball",
+   "Obstacles",
+   "Arcade",
+   "Endless"
+  ],
+  "rating": 4.7,
+  "plays": 449655,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Momentum",
+  "slug": "momentum",
+  "url": "momentum/",
+  "thumb": "assets/thumbs/momentum.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Reflex Games",
+   "Arcade Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Endless Runner",
+   "Reflex",
+   "Lanes",
+   "Leaderboard"
+  ],
+  "rating": 4.6,
+  "plays": 251550,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Spherix",
+  "slug": "spherix",
+  "url": "spherix/",
+  "thumb": "assets/thumbs/spherix.jpg",
+  "categories": [
+   "Slope Games",
+   "Puzzle Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Rolling Ball",
+   "Maze",
+   "3D",
+   "Levels"
+  ],
+  "rating": 4.3,
+  "plays": 177501,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "ZigZag Puzzle",
+  "slug": "zigzag-puzzle",
+  "url": "zigzag-puzzle/",
+  "thumb": "assets/thumbs/zigzag-puzzle.jpg",
+  "categories": [
+   "Slope Games",
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Zigzag",
+   "Ball",
+   "One Tap",
+   "High Score"
+  ],
+  "rating": 4.7,
+  "plays": 98111,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Twist and Roll",
+  "slug": "twist-and-roll",
+  "url": "twist-and-roll/",
+  "thumb": "assets/thumbs/twist-and-roll.jpg",
+  "categories": [
+   "Slope Games",
+   "Puzzle Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Rolling Ball",
+   "Physics",
+   "Skill",
+   "Levels"
+  ],
+  "rating": 4.5,
+  "plays": 454623,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Gate Rusher 2",
+  "slug": "gate-rusher-2",
+  "url": "gate-rusher-2/",
+  "thumb": "assets/thumbs/gate-rusher-2.jpg",
+  "categories": [
+   "Reflex Games",
+   "Runner Games",
+   "Arcade Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Gates",
+   "Runner",
+   "Decisions",
+   "Speed"
+  ],
+  "rating": 4.7,
+  "plays": 372007,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Snow Ball Race",
+  "slug": "snow-ball-race",
+  "url": "snow-ball-race/",
+  "thumb": "assets/thumbs/snow-ball-race.jpg",
+  "categories": [
+   "Slope Games",
+   "Racing Games",
+   "Arcade Games",
+   "Driving Games"
+  ],
+  "tags": [
+   "Snowball",
+   "Track",
+   "Race",
+   "Winter"
+  ],
+  "rating": 4.3,
+  "plays": 279495,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Snow Slider 3D",
+  "slug": "snow-slider-3d",
+  "url": "snow-slider-3d/",
+  "thumb": "assets/thumbs/snow-slider-3d.jpg",
+  "categories": [
+   "Slope Games",
+   "Racing Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Downhill",
+   "Steering",
+   "Obstacles",
+   "Sled"
+  ],
+  "rating": 4.4,
+  "plays": 483466,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Gliding over Dunes",
+  "slug": "gliding-over-dunes",
+  "url": "gliding-over-dunes/",
+  "thumb": "assets/thumbs/gliding-over-dunes.jpg",
+  "categories": [
+   "Slope Games",
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Glide",
+   "One Touch",
+   "Endless",
+   "Distance"
+  ],
+  "rating": 4.7,
+  "plays": 374729,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Snowboard Game",
+  "slug": "snowboard-game",
+  "url": "snowboard-game/",
+  "thumb": "assets/thumbs/snowboard-game.jpg",
+  "categories": [
+   "Slope Games",
+   "Racing Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Snowboard",
+   "Slopes",
+   "Obstacles",
+   "Sports"
+  ],
+  "rating": 4.2,
+  "plays": 507144,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Dummy Speed Bridger",
+  "slug": "dummy-speed-bridger",
+  "url": "dummy-speed-bridger/",
+  "thumb": "assets/thumbs/dummy-speed-bridger.jpg",
+  "categories": [
+   "Reflex Games",
+   "Runner Games",
+   "Platformer Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Reflex",
+   "Bridges",
+   "Timing",
+   "Runner"
+  ],
+  "rating": 4.7,
+  "plays": 383027,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Square Fling",
+  "slug": "square-fling",
+  "url": "square-fling/",
+  "thumb": "assets/thumbs/square-fling.jpg",
+  "categories": [
+   "Reflex Games",
+   "Arcade Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Physics",
+   "Gates",
+   "Endless",
+   "Skill"
+  ],
+  "rating": 4.6,
+  "plays": 105490,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Crazy Neon Square Rush",
+  "slug": "crazy-neon-square-rush",
+  "url": "crazy-neon-square-rush/",
+  "thumb": "assets/thumbs/crazy-neon-square-rush.jpg",
+  "categories": [
+   "Slope Games",
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Neon",
+   "Endless",
+   "Obstacles",
+   "High Score"
+  ],
+  "rating": 4.4,
+  "plays": 488716,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Stellar Dash",
+  "slug": "stellar-dash",
+  "url": "stellar-dash/",
+  "thumb": "assets/thumbs/stellar-dash.jpg",
+  "categories": [
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "One Tap",
+   "Space",
+   "Reflex",
+   "High Score"
+  ],
+  "rating": 4.4,
+  "plays": 351788,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Velocity Breaker",
+  "slug": "velocity-breaker",
+  "url": "velocity-breaker/",
+  "thumb": "assets/thumbs/velocity-breaker.jpg",
+  "categories": [
+   "Slope Games",
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Neon Tunnel",
+   "Dash",
+   "Hardcore",
+   "Modes"
+  ],
+  "rating": 4.3,
+  "plays": 499249,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Neon Velocity",
+  "slug": "neon-velocity",
+  "url": "neon-velocity/",
+  "thumb": "assets/thumbs/neon-velocity.jpg",
+  "categories": [
+   "Reflex Games",
+   "Platformer Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Precision",
+   "Dash",
+   "Cyberpunk",
+   "Levels"
+  ],
+  "rating": 4.4,
+  "plays": 484236,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Orbit Rush 3D",
+  "slug": "orbit-rush-3d",
+  "url": "orbit-rush-3d/",
+  "thumb": "assets/thumbs/orbit-rush-3d.jpg",
+  "categories": [
+   "Slope Games",
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Tunnel",
+   "Ball",
+   "Power-ups",
+   "3D"
+  ],
+  "rating": 4.3,
+  "plays": 563557,
+  "isHot": false,
   "isNew": true
  }
 ]

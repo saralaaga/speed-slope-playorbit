@@ -56,6 +56,7 @@ TODAY = datetime.date.today().isoformat()
 
 ALL_CATS = {
     'slope':      ('Slope Games', 'Play slope games online, including fast 3D reflex games like Speed Slope. Roll, dodge, drift and survive through neon tracks, tunnels and obstacle courses.'),
+    'reflex':     ('Reflex Games', 'Fast reflex games built around quick reactions, one-tap timing and instant restarts. Dodge, dash and react before the screen catches up with you.'),
     'basketball': ('Basketball Games', 'Dunk, shoot and score in free basketball games, from clean shot practice to chaotic arcade hoops.'),
     'sports':     ('Sports Games', 'Soccer, golf, archery, pool and more — free sports games that play instantly in the browser.'),
     'racing':     ('Racing Games', 'Drift, drive and battle your way to the finish line in free racing and driving games.'),
@@ -89,6 +90,7 @@ ALL_CATS = {
 
 CAT_DOT = {
     'slope': '#b9f226',
+    'reflex': '#ff7a45',
     'basketball': '#ff9f43', 'sports': '#3ddc84', 'racing': '#ff5d5d', 'puzzle': '#b98cff',
     'arcade': '#4dc3ff', '2-player': '#ffd93d', 'io': '#ff6ec7', 'classics': '#9aa78b',
 }
@@ -285,6 +287,7 @@ BY_SLUG = {g['slug']: g for g in G}
 
 FEATURED_CATEGORY_GAMES = {
     'slope': 'speed-slope',
+    'reflex': 'crazy-neon-square-rush',
     'basketball': 'bounce-dunk-basketball',
     'sports': 'neon-mini-golf',
     'racing': 'speed-slope',
@@ -333,12 +336,24 @@ REMOVED_CATEGORY_REDIRECTS = {
 
 SLOPE_GAME_ANGLES = {
     'nullpulse-runner': 'Nullpulse Runner is one of the closest games like Speed Slope in this collection: it keeps the neon look, quick restarts, and reflex-first rhythm, but changes the challenge from steering a rolling ball to timing jumps through a glowing runner course.',
-    'highway-driver-3d': 'Highway Driver 3D is a good pick for players who like the speed pressure in Speed Slope. Instead of staying on a narrow slope, you read traffic patterns, dodge hazards, and survive longer as the road gets more crowded.',
     'obby-three-challenges': 'Obby: Three Challenges fits Speed Slope players who enjoy obstacle timing and instant failure loops. The movement is more platformer-like, but the appeal is similar: learn the pattern, stay calm, and try one cleaner run.',
-    'apex-racer': 'Apex Racer is less about rolling downhill and more about high-speed track control, making it a useful related game for players who come to Speed Slope for speed, steering, and clean reaction timing.',
-    'formula-car-circuit-racing': 'Formula Car Circuit Racing gives Speed Slope fans a more traditional racing angle. The shared hook is precision at speed: read the track early, make small corrections, and avoid losing control when the pace rises.',
-    'bike-racing-adventure': 'Bike Racing Adventure is a related speed-and-balance game for players who like the tense control of Speed Slope. It swaps the neon slope for motorcycle challenges, traffic, checkpoints, and stunt timing.',
-    'prismroll-3d': 'PrismRoll 3D is the slower, puzzle-focused cousin of Speed Slope. It still uses rolling 3D movement, but the challenge is planning each move across tiles instead of reacting instantly to a fast slope.',
+    'extreme-ball-balancer-3d': 'Extreme Ball Balancer 3D slows the rolling-ball idea down and turns precision into the challenge. There is no downhill rush here — just narrow rails, shifting traps and a ball that punishes any correction you rush.',
+    'stack-ball-run-3d': 'Stack Ball Run 3D is the greediest game in this collection. You are still running a ball down a track, but every ball you collect makes you bigger and harder to steer, so the run becomes a negotiation between score and survival.',
+    'running-roadball': 'Running Roadball is the closest thing here to a rhythm game. The neon tracks follow the music, so clean runs come from tapping on the beat rather than reacting to obstacles that have already arrived.',
+    'endless-tunnel-run': 'Endless Tunnel Run strips the slope down to a tunnel and keeps accelerating. If you like Speed Slope for the way the speed quietly climbs while you are concentrating, this delivers the same pressure with walls instead of open edges.',
+    'rainbow-color-ball-runner': 'Rainbow Color Ball Runner keeps the rolling ball and adds a colour rule on top. The steering feels familiar, but now the balls you collect have to match, which turns every straight into a small decision.',
+    'big-rolling-ball': 'Big Rolling Ball is the simplest rolling-ball game on the site — one path, one ball, obstacles arriving faster than you would like. It makes a good warm-up before a Speed Slope session.',
+    'momentum': 'Momentum borrows the three-lane running of an endless runner and adds worlds that change as you speed up. The lane discipline you learn here translates directly back to staying centred on a fast slope.',
+    'spherix': "Spherix is the thinking player's rolling-ball game. Instead of reacting to what is coming, you plan a route through 25 mazes — the same ball control, a completely different kind of pressure.",
+    'zigzag-puzzle': 'ZigZag Puzzle is the smallest idea in the collection: one ball, one wall, one tap that reverses direction. It is the purest test of the same tap-timing that keeps you on a slope.',
+    'twist-and-roll': 'Twist and Roll turns ball control into a physics puzzle by letting you rotate the level itself. If you like the weight and momentum of the Speed Slope ball, this is that feeling slowed down and made deliberate.',
+    'snow-ball-race': 'Snow Ball Race swaps the neon slope for a snowy track but keeps the growing-ball problem: collect snow and you get bigger, and bigger means harder to steer through the obstacles ahead.',
+    'snow-slider-3d': 'Snow Slider 3D is the downhill counterpart in this collection. Trees, rocks and snowmen take the place of blocks and gaps, and the speed climbs the further down the mountain you get.',
+    'gliding-over-dunes': 'Gliding over Dunes is a one-touch distance game rather than a dodging game, but the timing instinct is the same. Build speed, release at the right moment and read the landing before you commit.',
+    'snowboard-game': 'Snowboard Game is the most traditional downhill run here: icy slopes, barriers and obstacles, and a clean line to find. It is a good pick if you want the slope feel with a board instead of a ball.',
+    'crazy-neon-square-rush': 'Crazy Neon Square Rush is the flat, top-down version of the Speed Slope idea. The square scrolls upward on its own, your score climbs while you survive, and the only control is which side you slide to.',
+    'velocity-breaker': 'Velocity Breaker adds a dash to the neon tunnel formula. It is the most aggressive game in this collection, and the dash works exactly like a slope correction that you have to make a fraction of a second early.',
+    'orbit-rush-3d': 'Orbit Rush 3D puts you inside the ball while the tunnel rotates around you. The ring gaps demand the same early line-up as a slope lane change, and the power-ups change how the next stretch should be played.',
 }
 
 def home_game():

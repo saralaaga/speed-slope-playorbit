@@ -1,0 +1,66 @@
+{
+  "slug": "rainbow-color-ball-runner",
+  "title": "Rainbow Color Ball Runner",
+  "url": "https://html5.gamemonetize.co/7u37tao4fl8qfwzga505n433uujunux2/",
+  "cats": [
+    "slope",
+    "runner",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Colour",
+    "Ball",
+    "3D Runner",
+    "Levels"
+  ],
+  "rating": 4.3,
+  "plays": 187455,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-02",
+  "desc": "Rainbow Color Ball Runner rolls a bright 3D ball down obstacle-filled tracks where the colour you are carrying decides whether you get through. Play Rainbow Color Ball Runner online for free and work through level after level of hazards, gates and matching pickups. Simple steering, but the colour rules turn every straight into a small decision.",
+  "howto": [
+    "Move the mouse on desktop, or touch and drag on mobile, to steer the ball left and right.",
+    "Collect the balls that match your colour and let the others pass.",
+    "Dodge hazards and gaps along the track instead of trying to power through them.",
+    "Reach the finish line of each stage to unlock the next one.",
+    "Expect each new level to add a fresh twist on the colour rule."
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "steer the ball left and right"
+    },
+    {
+      "key": "Touch / drag",
+      "action": "steer the ball on mobile"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game menus"
+    }
+  ],
+  "tips": [
+    "Steer early — the ball carries weight through turns.",
+    "Read the colour of the next pickups before you commit to a lane.",
+    "Stay central on wide sections so you keep both escape routes open.",
+    "Learn the pattern of a level before trying to take it at full speed."
+  ],
+  "faqs": [
+    {
+      "question": "What is Rainbow Color Ball Runner?",
+      "answer": "It is a 3D ball runner where you steer a rolling ball through obstacle levels, collect matching colours and reach the finish line."
+    },
+    {
+      "question": "How do you control Rainbow Color Ball Runner?",
+      "answer": "Use the mouse on desktop, or touch and drag on mobile, to move the ball left and right along the track."
+    },
+    {
+      "question": "Does Rainbow Color Ball Runner have levels?",
+      "answer": "Yes. It is level-based rather than endless, and each stage introduces new obstacles and colour challenges."
+    }
+  ],
+  "thumbfile": "rainbow-color-ball-runner.jpg",
+  "sort_order": 144
+}

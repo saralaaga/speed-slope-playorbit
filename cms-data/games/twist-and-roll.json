@@ -1,0 +1,61 @@
+{
+  "slug": "twist-and-roll",
+  "title": "Twist and Roll",
+  "url": "https://html5.gamemonetize.co/uw4ts1lbcdc4e41ln2jrqql183v7feev/",
+  "cats": [
+    "slope",
+    "puzzle",
+    "arcade"
+  ],
+  "tags": [
+    "Rolling Ball",
+    "Physics",
+    "Skill",
+    "Levels"
+  ],
+  "rating": 4.5,
+  "plays": 454623,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-07",
+  "desc": "Twist and Roll makes you rotate the level itself and let gravity do the rest, guiding balls to the right destination without dropping them somewhere useless. Play Twist and Roll online for free and work through levels where the timing of each rotation matters as much as the direction. It is a rolling-ball game that slows down and turns into a control puzzle.",
+  "howto": [
+    "Use the mouse to rotate the terrain and tip the balls along.",
+    "Pick your rotation direction carefully — the balls commit once they start moving.",
+    "Time each turn so the ball lands on the goal rather than rolling past it.",
+    "Line up multi-ball sections before you rotate anything.",
+    "Clear each level to unlock increasingly awkward layouts."
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "rotate the terrain and steer the balls"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game menus and level select"
+    }
+  ],
+  "tips": [
+    "Rotate in small increments — big swings send balls flying off the level.",
+    "Plan the whole route before the first ball starts rolling.",
+    "Use the terrain edges as brakes when a ball is moving too fast.",
+    "If a level looks impossible, you are probably rotating in the wrong direction."
+  ],
+  "faqs": [
+    {
+      "question": "What is Twist and Roll?",
+      "answer": "It is a physics puzzle game where you rotate the terrain to roll balls into the correct destinations across a series of levels."
+    },
+    {
+      "question": "How do you control Twist and Roll?",
+      "answer": "The mouse rotates the terrain. Careful timing and small rotations matter more than fast movement."
+    },
+    {
+      "question": "Is Twist and Roll a reflex game?",
+      "answer": "Partly. It is slower than a slope run, but the later levels still ask you to react quickly before a ball rolls past the goal."
+    }
+  ],
+  "thumbfile": "twist-and-roll.jpg",
+  "sort_order": 149
+}

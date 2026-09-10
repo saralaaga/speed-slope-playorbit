@@ -871,7 +871,6 @@
   "title": "Highway Driver 3D",
   "url": "https://html5.gamemonetize.co/ls2lbiuisil34tcze5z5xiubne01axtv/",
   "cats": [
-   "slope",
    "racing"
   ],
   "tags": [
@@ -949,7 +948,6 @@
   "title": "Bike Racing Adventure",
   "url": "https://html5.gamemonetize.co/qkdo71duy6rahyawrcqien6297jjij7y/",
   "cats": [
-   "slope",
    "racing"
   ],
   "tags": [
@@ -987,7 +985,6 @@
   "title": "Apex Racer",
   "url": "https://html5.gamemonetize.co/ia64qw9tvs7mc0nb29d83462r7tzw2fr/",
   "cats": [
-   "slope",
    "racing"
   ],
   "tags": [
@@ -4488,7 +4485,6 @@
    "racing",
    "driving",
    "car-racing",
-   "slope",
    "arcade"
   ],
   "tags": [
@@ -6090,5 +6086,1390 @@
   "thumbfile": "racing-master-3d.jpg",
   "embed_source": "GameMonetize public feed",
   "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json"
+ },
+ {
+  "slug": "extreme-ball-balancer-3d",
+  "title": "Extreme Ball Balancer 3D",
+  "url": "https://html5.gamemonetize.co/8b9vp8opunp1ainfejmtmlpaha2yuzy7/",
+  "cats": [
+   "slope",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Balance",
+   "Rolling Ball",
+   "3D",
+   "Physics"
+  ],
+  "rating": 4.2,
+  "plays": 415730,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-29",
+  "desc": "Extreme Ball Balancer 3D puts a rolling ball on narrow wooden rails and shifting traps with nothing but deep blue water underneath. Play Extreme Ball Balancer 3D online for free, steer with WASD, and keep your balance as the beams tilt and the gaps get meaner. It looks calm for the first ten seconds and then punishes every rushed correction.",
+  "howto": [
+   "The level loads straight in, so give the scene a moment to appear.",
+   "Use WASD to roll the ball forward, back and sideways.",
+   "Move the mouse to swing the camera left and right so you can read the next beam.",
+   "Keep your speed low on narrow rails — momentum is what tips you into the water.",
+   "Line the ball up before committing to a gap; stopping is safer than overcorrecting."
+  ],
+  "controls": [
+   [
+    "WASD",
+    "roll the ball in any direction"
+   ],
+   [
+    "Mouse",
+    "swing the camera left and right"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game buttons and menus"
+   ]
+  ],
+  "tips": [
+   "Small taps beat long holds — the ball keeps rolling after you release the key.",
+   "Watch the far end of the beam instead of the ball to keep your line straight.",
+   "Cross one beam at a time; sprinting through two gaps is how most runs end.",
+   "If you start to wobble, stop steering first and let the ball settle before you move again."
+  ],
+  "faqs": [
+   [
+    "What is Extreme Ball Balancer 3D?",
+    "It is a 3D physics balance game where you roll a ball across narrow bridges, rails and traps. One wrong move drops you into the water below."
+   ],
+   [
+    "How do you control Extreme Ball Balancer 3D?",
+    "Use WASD to roll the ball and the mouse to swing the camera. Keeping the camera level makes the narrow beams much easier to read."
+   ],
+   [
+    "Is Extreme Ball Balancer 3D the same style as Speed Slope?",
+    "It shares the rolling-ball idea, but where Speed Slope is about raw downhill speed, this one slows everything down and turns precision into the challenge."
+   ]
+  ],
+  "thumbfile": "extreme-ball-balancer-3d.jpg"
+ },
+ {
+  "slug": "stack-ball-run-3d",
+  "title": "Stack Ball Run 3D",
+  "url": "https://html5.gamemonetize.co/lf58ps52phzp9ve677ywyq229jjg63gb/",
+  "cats": [
+   "slope",
+   "runner",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Ball Run",
+   "Endless",
+   "Stack",
+   "3D"
+  ],
+  "rating": 4.5,
+  "plays": 515533,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-30",
+  "desc": "Stack Ball Run 3D is a fast endless ball runner where you drag left and right to collect balls, build the tallest stack you can and dodge whatever the track throws next. Play Stack Ball Run 3D online for free and chase a higher score every run. Your stack is both your size and your weakness — the greedier you get, the more obstacles you clip.",
+  "howto": [
+   "Drag with the mouse or finger to slide the ball left and right.",
+   "Roll over smaller balls to add them to your stack and grow taller.",
+   "Steer around blocks, saws and other obstacles instead of through them.",
+   "Use the arrow keys or A and D if you prefer keyboard control.",
+   "Survive as long as possible — the run ends the moment your stack breaks."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "drag left and right to move"
+   ],
+   [
+    "Arrow Left / Arrow Right",
+    "steer the ball run"
+   ],
+   [
+    "A / D",
+    "steer the ball run"
+   ]
+  ],
+  "tips": [
+   "Weave through ball trails early, while the gaps are still wide.",
+   "A taller stack looks great but a slimmer one squeezes through tighter spaces.",
+   "Read two obstacles ahead instead of reacting to the one in front of you.",
+   "Small drags are enough at speed — big swerves are what clip the next barrier."
+  ],
+  "faqs": [
+   [
+    "What is Stack Ball Run 3D?",
+    "It is an endless 3D ball runner where you collect balls into a growing stack while dodging obstacles for as long as your run survives."
+   ],
+   [
+    "How do you play Stack Ball Run 3D?",
+    "Drag left and right with the mouse, finger, arrow keys or A and D. Collect balls to build your stack and steer around hazards."
+   ],
+   [
+    "Does Stack Ball Run 3D have an ending?",
+    "No. It is an endless runner built around high scores, so you keep going until you crash."
+   ]
+  ],
+  "thumbfile": "stack-ball-run-3d.jpg"
+ },
+ {
+  "slug": "running-roadball",
+  "title": "Running Roadball",
+  "url": "https://html5.gamemonetize.co/d6ok6v41lcnaram5umu5fh7yn6gvnuik/",
+  "cats": [
+   "slope",
+   "reflex",
+   "runner",
+   "arcade"
+  ],
+  "tags": [
+   "Neon",
+   "Ball",
+   "Rhythm",
+   "Endless"
+  ],
+  "rating": 4.6,
+  "plays": 472640,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-31",
+  "desc": "Running Roadball sends a glowing ball down neon tracks that are synced to the music, so every jump lands on the beat. Play Running Roadball online for free, tap to jump and change direction, and collect gems while the tracks turn and the tempo climbs. It is the closest thing here to a rhythm-driven slope run, and missing the beat usually means missing the track.",
+  "howto": [
+   "Tap or click to jump and to change direction.",
+   "Time each tap with the music — the track layouts follow the beat.",
+   "Collect the gems along the route to build your score.",
+   "Switch lines early when a turn is coming up instead of at the edge.",
+   "Finish the level to unlock more songs and more balls."
+  ],
+  "controls": [
+   [
+    "Click / tap",
+    "jump and change direction"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game song and ball menus"
+   ]
+  ],
+  "tips": [
+   "Listen to the beat first — the visual cues lag behind the music slightly.",
+   "Tap light rather than long; mashing throws your timing off for the next bar.",
+   "Learn one song before hopping between tracks, since the layouts repeat.",
+   "Keep your eyes two beats ahead of the ball instead of on it."
+  ],
+  "faqs": [
+   [
+    "What is Running Roadball?",
+    "It is a neon rhythm runner where a glowing ball follows music-synced tracks. Tapping in time with the beat is how you stay on the road."
+   ],
+   [
+    "How do you control Running Roadball?",
+    "A single tap or click jumps and changes direction. The game is designed for one-touch play on both desktop and mobile."
+   ],
+   [
+    "Is Running Roadball hard?",
+    "The early songs are forgiving, but the tracks tighten as the tempo rises, so clean timing matters more the further you get."
+   ]
+  ],
+  "thumbfile": "running-roadball.jpg"
+ },
+ {
+  "slug": "endless-tunnel-run",
+  "title": "Endless Tunnel Run",
+  "url": "https://html5.gamemonetize.co/zvyd5t1t4ap5xiidv1d7q2cw7frrpuqk/",
+  "cats": [
+   "slope",
+   "runner",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Tunnel",
+   "Endless",
+   "Reflex",
+   "Runner"
+  ],
+  "rating": 4.5,
+  "plays": 377987,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-01",
+  "desc": "Endless Tunnel Run closes the walls in around you and keeps accelerating, so the only thing standing between a clean run and a crash is how fast you read the next gap. Play Endless Tunnel Run online for free and test how long your concentration really lasts. The tunnel gets faster the longer you survive, which means the game is quietly raising its own difficulty the whole time you play.",
+  "howto": [
+   "Move left and right to keep your runner inside the tunnel.",
+   "Steer around the obstacles the tunnel throws at you rather than through them.",
+   "Expect the speed to increase the longer your run lasts.",
+   "Use small corrections and hold your line when the tunnel straightens out.",
+   "Restart straight after a crash to keep your reaction timing warm."
+  ],
+  "controls": [
+   [
+    "Arrow Left / Arrow Right",
+    "move through the tunnel"
+   ],
+   [
+    "A / D",
+    "move through the tunnel"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game buttons and menus"
+   ]
+  ],
+  "tips": [
+   "Look several obstacles ahead — reacting to the nearest one is always too late.",
+   "Stay near the middle when you can, so both sides stay open as escape routes.",
+   "When two gaps appear, pick one early instead of drifting between them.",
+   "Take a short break between long sessions; this game punishes tired eyes."
+  ],
+  "faqs": [
+   [
+    "What is Endless Tunnel Run?",
+    "It is a fast endless runner set inside a colourful tunnel. You steer left and right, dodge obstacles and survive as the tunnel speeds up."
+   ],
+   [
+    "How do you play Endless Tunnel Run?",
+    "Move left and right with the arrow keys or A and D. The tunnel scrolls forward on its own, so all of your focus goes into reading gaps."
+   ],
+   [
+    "Is Endless Tunnel Run like Speed Slope?",
+    "It shares the same core loop: a fast track, instant failure and a score you want to beat. The tunnel adds a tighter, more claustrophobic version of the same reflex test."
+   ]
+  ],
+  "thumbfile": "endless-tunnel-run.jpg"
+ },
+ {
+  "slug": "rainbow-color-ball-runner",
+  "title": "Rainbow Color Ball Runner",
+  "url": "https://html5.gamemonetize.co/7u37tao4fl8qfwzga505n433uujunux2/",
+  "cats": [
+   "slope",
+   "runner",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Colour",
+   "Ball",
+   "3D Runner",
+   "Levels"
+  ],
+  "rating": 4.3,
+  "plays": 187455,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-02",
+  "desc": "Rainbow Color Ball Runner rolls a bright 3D ball down obstacle-filled tracks where the colour you are carrying decides whether you get through. Play Rainbow Color Ball Runner online for free and work through level after level of hazards, gates and matching pickups. Simple steering, but the colour rules turn every straight into a small decision.",
+  "howto": [
+   "Move the mouse on desktop, or touch and drag on mobile, to steer the ball left and right.",
+   "Collect the balls that match your colour and let the others pass.",
+   "Dodge hazards and gaps along the track instead of trying to power through them.",
+   "Reach the finish line of each stage to unlock the next one.",
+   "Expect each new level to add a fresh twist on the colour rule."
+  ],
+  "controls": [
+   [
+    "Mouse",
+    "steer the ball left and right"
+   ],
+   [
+    "Touch / drag",
+    "steer the ball on mobile"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game menus"
+   ]
+  ],
+  "tips": [
+   "Steer early — the ball carries weight through turns.",
+   "Read the colour of the next pickups before you commit to a lane.",
+   "Stay central on wide sections so you keep both escape routes open.",
+   "Learn the pattern of a level before trying to take it at full speed."
+  ],
+  "faqs": [
+   [
+    "What is Rainbow Color Ball Runner?",
+    "It is a 3D ball runner where you steer a rolling ball through obstacle levels, collect matching colours and reach the finish line."
+   ],
+   [
+    "How do you control Rainbow Color Ball Runner?",
+    "Use the mouse on desktop, or touch and drag on mobile, to move the ball left and right along the track."
+   ],
+   [
+    "Does Rainbow Color Ball Runner have levels?",
+    "Yes. It is level-based rather than endless, and each stage introduces new obstacles and colour challenges."
+   ]
+  ],
+  "thumbfile": "rainbow-color-ball-runner.jpg"
+ },
+ {
+  "slug": "big-rolling-ball",
+  "title": "Big Rolling Ball",
+  "url": "https://html5.gamemonetize.co/gpahz5repchd5e6ahizvuir7x9vhkdre/",
+  "cats": [
+   "slope",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Rolling Ball",
+   "Obstacles",
+   "Arcade",
+   "Endless"
+  ],
+  "rating": 4.7,
+  "plays": 449655,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-03",
+  "desc": "Big Rolling Ball keeps things honest: one fast ball, one narrow path, and obstacles arriving faster than you would like. Play Big Rolling Ball online for free and see how long you can stay on the track without losing the line. It is one of the purest rolling-ball reflex games on the site and a natural next step for anyone who likes downhill speed with simple controls.",
+  "howto": [
+   "Start the run and get used to how quickly the ball picks up speed.",
+   "Steer left and right to stay on the path as it winds forward.",
+   "Dodge the obstacles instead of trying to bounce past them.",
+   "Keep your line steady through the straights so you have room to react later.",
+   "Roll as long as you can before the first crash ends the run."
+  ],
+  "controls": [
+   [
+    "Arrow Left / Arrow Right",
+    "steer the rolling ball"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game buttons and menus"
+   ]
+  ],
+  "tips": [
+   "Aim for the middle of the path and let small corrections do the work.",
+   "The ball keeps momentum after you release — steer slightly before the turn.",
+   "Watch the path behind the obstacle, not the obstacle itself.",
+   "Restart quickly after a crash to keep your timing consistent."
+  ],
+  "faqs": [
+   [
+    "What is Big Rolling Ball?",
+    "It is a simple arcade game where you keep a fast rolling ball on a narrow path for as long as possible while dodging obstacles."
+   ],
+   [
+    "How do you play Big Rolling Ball?",
+    "Steer the ball left and right to stay on the track. The route scrolls forward on its own and the obstacles keep coming."
+   ],
+   [
+    "Is Big Rolling Ball good for Speed Slope fans?",
+    "Yes — it is the same rolling-ball reflex loop with a gentler learning curve, which makes it a good warm-up before a Speed Slope session."
+   ]
+  ],
+  "thumbfile": "big-rolling-ball.jpg"
+ },
+ {
+  "slug": "momentum",
+  "title": "Momentum",
+  "url": "https://html5.gamemonetize.co/71kap8r3c2kj9n5rl4xt89khiwf2kowt/",
+  "cats": [
+   "slope",
+   "runner",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Endless Runner",
+   "Reflex",
+   "Lanes",
+   "Leaderboard"
+  ],
+  "rating": 4.6,
+  "plays": 251550,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-04",
+  "desc": "Momentum is a high-speed endless runner with three lanes, a doodle art style and a world that changes as your speed climbs. Play Momentum online for free and dash through the Animal Kingdom, the human world and futuristic alien realms in a single run. There is a global leaderboard too, so a clean run is worth more than a lucky one.",
+  "howto": [
+   "Move between lanes with the left and right arrows or A and D.",
+   "Jump with the up arrow or space bar when an obstacle needs clearing.",
+   "Press the down arrow to slide under anything low.",
+   "On mobile, use the on-screen buttons or swipe to change lanes.",
+   "Keep surviving to unlock the next world and push your leaderboard rank."
+  ],
+  "controls": [
+   [
+    "Left / Right Arrow or A / D",
+    "switch lanes"
+   ],
+   [
+    "Up Arrow or Space",
+    "jump"
+   ],
+   [
+    "Down Arrow",
+    "slide"
+   ],
+   [
+    "Touch / swipe",
+    "mobile lane changes"
+   ]
+  ],
+  "tips": [
+   "Pick a lane early — drifting between two lanes costs you the run.",
+   "Jump late and small; early jumps leave you landing into the next obstacle.",
+   "Learn one world’s obstacle pattern before chasing distance.",
+   "Build a steady rhythm instead of sprinting through the easy sections."
+  ],
+  "faqs": [
+   [
+    "What is Momentum?",
+    "It is a high-speed endless runner where you switch lanes, jump and slide through worlds that change as your speed increases."
+   ],
+   [
+    "How do you control Momentum?",
+    "Use the arrow keys or A and D on desktop, and the on-screen buttons or swipes on mobile. Space bar and the up arrow both jump."
+   ],
+   [
+    "Does Momentum have a leaderboard?",
+    "Yes. It includes a global leaderboard with titles to unlock as your best runs improve."
+   ]
+  ],
+  "thumbfile": "momentum.jpg"
+ },
+ {
+  "slug": "spherix",
+  "title": "Spherix",
+  "url": "https://html5.gamemonetize.co/nub98t45rz31qr4gi4y78zegzxp5vxkf/",
+  "cats": [
+   "slope",
+   "puzzle",
+   "arcade"
+  ],
+  "tags": [
+   "Rolling Ball",
+   "Maze",
+   "3D",
+   "Levels"
+  ],
+  "rating": 4.3,
+  "plays": 177501,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-05",
+  "desc": "Spherix rolls a golden ball through 25 themed 3D mazes filled with enemies, coins and a green exit you have to find. Play Spherix online for free and work your way through labyrinth after labyrinth as the layouts get bigger and the enemies get pushier. It is the slower, more thoughtful end of the rolling-ball family: less reflex, more route planning.",
+  "howto": [
+   "Move the ball with the arrow keys or WASD.",
+   "Press space to jump over enemies instead of trying to roll around them.",
+   "Collect gold coins for bonus points as you explore the maze.",
+   "Find the green exit to clear the level and move on.",
+   "Press I at any point to bring the instructions back up."
+  ],
+  "controls": [
+   [
+    "Arrow Keys / WASD",
+    "roll the ball"
+   ],
+   [
+    "Space",
+    "jump over enemies"
+   ],
+   [
+    "I",
+    "show the instructions"
+   ]
+  ],
+  "tips": [
+   "Collect coins on the way to the exit rather than doubling back for them.",
+   "Jump is your only defence — keep a little space in front of enemies.",
+   "Learn the shape of a maze on your first pass instead of racing it.",
+   "The green exit is often behind the route that looks like a dead end."
+  ],
+  "faqs": [
+   [
+    "What is Spherix?",
+    "It is a 3D maze game where you roll a golden ball through 25 themed worlds, collect coins and reach the green exit while avoiding enemies."
+   ],
+   [
+    "How do you play Spherix?",
+    "Use the arrow keys or WASD to move the ball, space to jump over enemies and I to reopen the instructions."
+   ],
+   [
+    "Does Spherix play like Speed Slope?",
+    "Only loosely. Both games put you behind a rolling ball, but Spherix trades the endless speed run for hand-built mazes you have to solve."
+   ]
+  ],
+  "thumbfile": "spherix.jpg"
+ },
+ {
+  "slug": "zigzag-puzzle",
+  "title": "ZigZag Puzzle",
+  "url": "https://html5.gamemonetize.co/ey8mnhy7slwe8ce1wp5manoq1r8qnkxx/",
+  "cats": [
+   "slope",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Zigzag",
+   "Ball",
+   "One Tap",
+   "High Score"
+  ],
+  "rating": 4.7,
+  "plays": 98111,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-06",
+  "desc": "ZigZag Puzzle gives you one ball, one narrow wall and one tap that reverses your direction — the whole game is deciding when to use it. Play ZigZag Puzzle online for free and see how many zigs you can chain before the ball runs off the edge. There is nothing else to learn and almost nothing to master, which is exactly why it is hard to put down.",
+  "howto": [
+   "Tap or click anywhere on the screen to switch the ball’s direction.",
+   "Keep the ball on the wall by turning before it reaches the edge.",
+   "Chain as many direction changes as you can to build your score.",
+   "Expect the wall to get narrower as your run continues.",
+   "Restart instantly after a fall and try to beat your own count."
+  ],
+  "controls": [
+   [
+    "Click / tap",
+    "reverse the ball’s direction"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game menus"
+   ]
+  ],
+  "tips": [
+   "Tap early rather than late — the ball keeps drifting during your reaction time.",
+   "Find a steady rhythm instead of tapping as fast as possible.",
+   "Watch the wall edges, not the ball, to judge when to turn.",
+   "Take a breath between runs; this one punishes panicky tapping."
+  ],
+  "faqs": [
+   [
+    "What is ZigZag Puzzle?",
+    "It is a one-tap reflex game where a ball zigzags along a narrow wall. Tap to reverse direction and stay on the wall for as long as you can."
+   ],
+   [
+    "How do you play ZigZag Puzzle?",
+    "Click or tap the screen to change the ball’s direction. There are no other controls, so the challenge is purely timing."
+   ],
+   [
+    "Is ZigZag Puzzle endless?",
+    "Yes. The wall continues and narrows as your score climbs, and the run ends when the ball falls off the edge."
+   ]
+  ],
+  "thumbfile": "zigzag-puzzle.jpg"
+ },
+ {
+  "slug": "twist-and-roll",
+  "title": "Twist and Roll",
+  "url": "https://html5.gamemonetize.co/uw4ts1lbcdc4e41ln2jrqql183v7feev/",
+  "cats": [
+   "slope",
+   "puzzle",
+   "arcade"
+  ],
+  "tags": [
+   "Rolling Ball",
+   "Physics",
+   "Skill",
+   "Levels"
+  ],
+  "rating": 4.5,
+  "plays": 454623,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-07",
+  "desc": "Twist and Roll makes you rotate the level itself and let gravity do the rest, guiding balls to the right destination without dropping them somewhere useless. Play Twist and Roll online for free and work through levels where the timing of each rotation matters as much as the direction. It is a rolling-ball game that slows down and turns into a control puzzle.",
+  "howto": [
+   "Use the mouse to rotate the terrain and tip the balls along.",
+   "Pick your rotation direction carefully — the balls commit once they start moving.",
+   "Time each turn so the ball lands on the goal rather than rolling past it.",
+   "Line up multi-ball sections before you rotate anything.",
+   "Clear each level to unlock increasingly awkward layouts."
+  ],
+  "controls": [
+   [
+    "Mouse",
+    "rotate the terrain and steer the balls"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game menus and level select"
+   ]
+  ],
+  "tips": [
+   "Rotate in small increments — big swings send balls flying off the level.",
+   "Plan the whole route before the first ball starts rolling.",
+   "Use the terrain edges as brakes when a ball is moving too fast.",
+   "If a level looks impossible, you are probably rotating in the wrong direction."
+  ],
+  "faqs": [
+   [
+    "What is Twist and Roll?",
+    "It is a physics puzzle game where you rotate the terrain to roll balls into the correct destinations across a series of levels."
+   ],
+   [
+    "How do you control Twist and Roll?",
+    "The mouse rotates the terrain. Careful timing and small rotations matter more than fast movement."
+   ],
+   [
+    "Is Twist and Roll a reflex game?",
+    "Partly. It is slower than a slope run, but the later levels still ask you to react quickly before a ball rolls past the goal."
+   ]
+  ],
+  "thumbfile": "twist-and-roll.jpg"
+ },
+ {
+  "slug": "gate-rusher-2",
+  "title": "Gate Rusher 2",
+  "url": "https://html5.gamemonetize.co/6svrnf8a20mkj7aaxznr803fpc96jabl/",
+  "cats": [
+   "reflex",
+   "runner",
+   "arcade"
+  ],
+  "tags": [
+   "Gates",
+   "Runner",
+   "Decisions",
+   "Speed"
+  ],
+  "rating": 4.7,
+  "plays": 372007,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-08",
+  "desc": "Gate Rusher 2 turns every second into a small decision: the track keeps coming, and the gates in front of you want a number that goes up or a number that goes down. Play Gate Rusher 2 online for free and pick the right opening before the runway disappears. Reading the gate fast is the whole skill, and it is the same muscle you use on a fast slope run.",
+  "howto": [
+   "The run starts immediately, so be ready to steer straight away.",
+   "Move left and right to line up with the gate you want to pass through.",
+   "Read the numbers on each gate and choose the one that helps you most.",
+   "Keep the run alive — clipping a gate ends the attempt.",
+   "Try to reach the finish and then beat your own route through it."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "steer toward the gate you want"
+   ],
+   [
+    "Arrow Left / Arrow Right",
+    "steer toward the gate you want"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game menus"
+   ]
+  ],
+  "tips": [
+   "Commit to a gate as soon as you can read it — hesitating splits the difference.",
+   "Scan the next set of gates while you are still passing the current one.",
+   "Stay near the middle as a default so both gates stay reachable.",
+   "On crowded rows, take the safe gate first and optimise later."
+  ],
+  "faqs": [
+   [
+    "What is Gate Rusher 2?",
+    "It is a fast endless runner where you steer through gates that change your score or your size, and correct decisions beat raw speed."
+   ],
+   [
+    "How do you play Gate Rusher 2?",
+    "Steer left and right to line up with the gate you want, then read the numbers before you pass through."
+   ],
+   [
+    "Is Gate Rusher 2 endless?",
+    "It plays like an endless runner with a finish line to chase, so runs are short and repeatable rather than endless."
+   ]
+  ],
+  "thumbfile": "gate-rusher-2.jpg"
+ },
+ {
+  "slug": "snow-ball-race",
+  "title": "Snow Ball Race",
+  "url": "https://html5.gamemonetize.co/khagch0yitrupktqtyaihvmktr4mnn4v/",
+  "cats": [
+   "slope",
+   "racing",
+   "arcade"
+  ],
+  "tags": [
+   "Snowball",
+   "Track",
+   "Race",
+   "Winter"
+  ],
+  "rating": 4.3,
+  "plays": 279495,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-09",
+  "desc": "Snow Ball Race starts you as a small snowball and asks you to roll it down the track collecting snow, growing bigger, and threading through obstacles toward the finish. Play Snow Ball Race online for free and balance the one thing every snowball game makes you choose: the bigger you get, the harder you are to steer. It is a light, bright take on downhill rolling.",
+  "howto": [
+   "The race begins as soon as the level loads.",
+   "Steer left and right down the track to pick up fresh snow.",
+   "Avoid obstacles — the bigger your snowball, the wider your hitbox.",
+   "Choose the wider line when you need snow and the tight line when you need speed.",
+   "Reach the finish line with the largest snowball you can manage."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "steer the snowball down the track"
+   ],
+   [
+    "Arrow Left / Arrow Right",
+    "steer the snowball"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game menus"
+   ]
+  ],
+  "tips": [
+   "Grow early, when the track is still wide, and play safe once you get huge.",
+   "Clipping one obstacle costs more than missing one snow patch.",
+   "Pick your line before the obstacle, not as you reach it.",
+   "Reaching the finish small beats not reaching it at all."
+  ],
+  "faqs": [
+   [
+    "What is Snow Ball Race?",
+    "It is a downhill snowball racer where you collect snow to grow and dodge obstacles on the way to the finish line."
+   ],
+   [
+    "How do you control Snow Ball Race?",
+    "Steer left and right to roll down the track, collecting snow and avoiding hazards."
+   ],
+   [
+    "Is Snow Ball Race a slope game?",
+    "Yes. Roll a growing ball down a narrowing track is the classic slope setup, just with snow instead of neon."
+   ]
+  ],
+  "thumbfile": "snow-ball-race.jpg"
+ },
+ {
+  "slug": "snow-slider-3d",
+  "title": "Snow Slider 3D",
+  "url": "https://html5.gamemonetize.co/nprefcbbxxogk6wkh85squgc1fdhtxiu/",
+  "cats": [
+   "slope",
+   "racing",
+   "arcade"
+  ],
+  "tags": [
+   "Downhill",
+   "Steering",
+   "Obstacles",
+   "Sled"
+  ],
+  "rating": 4.4,
+  "plays": 483466,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-29",
+  "desc": "Snow Slider 3D sends a sled down a mountain that gets faster the further you go, with trees, rocks and snowmen closing off the clean lines. Play Snow Slider 3D online for free and steer left and right to stay upright long enough to collect gifts and unlock new sleds. Every run lays out its obstacles differently, so there is no memorising your way down.",
+  "howto": [
+   "Steer with the left and right arrow keys to guide the sled downhill.",
+   "Avoid trees, rocks, snowmen and other hazards as they appear.",
+   "Expect the speed to climb steadily the longer your run lasts.",
+   "Collect gifts on the way down to unlock new sleds.",
+   "Aim for distance — the mountain does not run out of slope."
+  ],
+  "controls": [
+   [
+    "Arrow Left / Arrow Right",
+    "steer the sled downhill"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game buttons and menus"
+   ]
+  ],
+  "tips": [
+   "Aim for the gaps between trees instead of threading one tree at a time.",
+   "Small steering inputs hold your line better at high speed.",
+   "Gifts are usually worth a tiny detour, but never a head-on collision.",
+   "Look far down the mountain — the sled reacts slower than your eyes."
+  ],
+  "faqs": [
+   [
+    "What is Snow Slider 3D?",
+    "It is an endless downhill sledding game where you dodge mountain obstacles, collect gifts and keep going as the speed increases."
+   ],
+   [
+    "How do you play Snow Slider 3D?",
+    "Steer left and right with the arrow keys to keep the sled on a clean line down the mountain."
+   ],
+   [
+    "Does Snow Slider 3D have unlockables?",
+    "Yes. Gifts collected during runs unlock additional sleds to use on later attempts."
+   ]
+  ],
+  "thumbfile": "snow-slider-3d.jpg"
+ },
+ {
+  "slug": "gliding-over-dunes",
+  "title": "Gliding over Dunes",
+  "url": "https://html5.gamemonetize.co/8a5s94i50250nks9653hbcp8zayylkey/",
+  "cats": [
+   "slope",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Glide",
+   "One Touch",
+   "Endless",
+   "Distance"
+  ],
+  "rating": 4.7,
+  "plays": 374729,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-30",
+  "desc": "Gliding over Dunes asks you to do one thing well — hold to build speed, release to lift off, and hold again to dive back down without burying the ball in the sand. Play Gliding over Dunes online for free and set a distance record across maps you unlock as you improve. One finger, a long runway and a surprisingly precise sense of timing.",
+  "howto": [
+   "Tap and hold the screen to accelerate along the dune.",
+   "Release to lift off and glide through the air.",
+   "Hold again while airborne to dive back down toward the sand.",
+   "Chain small hops together instead of one enormous jump.",
+   "Push your distance to unlock new maps and images."
+  ],
+  "controls": [
+   [
+    "Click / hold",
+    "accelerate on the dune"
+   ],
+   [
+    "Release",
+    "take off into the glide"
+   ],
+   [
+    "Hold in flight",
+    "dive back down"
+   ]
+  ],
+  "tips": [
+   "Build speed on the flat, then release just before the slope kinks upward.",
+   "Diving too early kills your glide; dive too late and you land nose-first.",
+   "Short hops hold momentum better than one huge launch.",
+   "Watch the horizon, not the ball, to judge your angle."
+  ],
+  "faqs": [
+   [
+    "What is Gliding over Dunes?",
+    "It is a one-touch distance game where you build speed along a dune and glide the ball as far as you can."
+   ],
+   [
+    "How do you play Gliding over Dunes?",
+    "Hold to accelerate, release to take off, and hold again in the air to dive. That single control drives the whole game."
+   ],
+   [
+    "Does Gliding over Dunes have unlocks?",
+    "Yes. New maps and images open up as you push your distance further."
+   ]
+  ],
+  "thumbfile": "gliding-over-dunes.jpg"
+ },
+ {
+  "slug": "snowboard-game",
+  "title": "Snowboard Game",
+  "url": "https://html5.gamemonetize.co/4jlpcom1sy0z4thlimget2ew3z6ow05d/",
+  "cats": [
+   "slope",
+   "racing",
+   "arcade"
+  ],
+  "tags": [
+   "Snowboard",
+   "Slopes",
+   "Obstacles",
+   "Sports"
+  ],
+  "rating": 4.2,
+  "plays": 507144,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-31",
+  "desc": "Snowboard Game takes you down icy slopes that get tighter the further you ride, with barriers and obstacles waiting on every clean line. Play Snowboard Game online for free and stay upright long enough to reach the finish and land your moves. It is a straightforward downhill reflex run: read the slope early, steer gently, and let your speed work for you.",
+  "howto": [
+   "Start the run and let the board settle before you commit to a line.",
+   "Steer left and right to follow the slope down.",
+   "Avoid the barriers and obstacles placed along the track.",
+   "Pull off tricks where the slope opens up, but land cleanly.",
+   "Reach the finish line to complete the run."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "steer the snowboard"
+   ],
+   [
+    "Arrow Left / Arrow Right",
+    "steer the snowboard"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game menus"
+   ]
+  ],
+  "tips": [
+   "Hold a steady line instead of carving back and forth.",
+   "Start a trick only where you can see the landing.",
+   "Aim between obstacles rather than at them.",
+   "Keep your speed up on the flats — the slope is easier to read quickly."
+  ],
+  "faqs": [
+   [
+    "What is Snowboard Game?",
+    "It is a downhill snowboarding game where you steer through icy tracks, dodge barriers and try to finish a clean run."
+   ],
+   [
+    "How do you control Snowboard Game?",
+    "Steer left and right to stay on the slope, avoid obstacles and keep your board upright."
+   ],
+   [
+    "Is Snowboard Game a slope game?",
+    "Yes — it is a downhill slope run with obstacles, which puts it in the same family as the ball-rolling slope games."
+   ]
+  ],
+  "thumbfile": "snowboard-game.jpg"
+ },
+ {
+  "slug": "dummy-speed-bridger",
+  "title": "Dummy Speed Bridger",
+  "url": "https://html5.gamemonetize.co/w7zjm9hffe0ylqkc4jj7w896mj8u66sf/",
+  "cats": [
+   "reflex",
+   "runner",
+   "platformer",
+   "arcade"
+  ],
+  "tags": [
+   "Reflex",
+   "Bridges",
+   "Timing",
+   "Runner"
+  ],
+  "rating": 4.7,
+  "plays": 383027,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-01",
+  "desc": "Dummy Speed Bridger builds the floor as you sprint and pulls it apart behind you, so the only way forward is to keep moving at exactly the right moment. Play Dummy Speed Bridger online for free and test your reaction speed, memory and nerve as the pace ramps up level by level. It is timing pressure in its purest form.",
+  "howto": [
+   "Dash forward and let the bridges snap into place under your feet.",
+   "Keep moving — planks vanish again almost immediately after you cross.",
+   "Time each step so your foot lands on solid ground, not a gap.",
+   "Expect the pace to increase with every level you clear.",
+   "Learn the sequence rather than guessing, because the bridges do not wait."
+  ],
+  "controls": [
+   [
+    "Click / tap",
+    "dash forward across the bridges"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game buttons and menus"
+   ]
+  ],
+  "tips": [
+   "Move on rhythm instead of waiting for the plank you can see.",
+   "Look one bridge ahead; staring at your feet makes you late.",
+   "A missed step is unrecoverable, so restart without hesitating.",
+   "Later levels repeat earlier patterns at speed — memory is half the game."
+  ],
+  "faqs": [
+   [
+    "What is Dummy Speed Bridger?",
+    "It is a reflex game where bridges appear under your feet as you run and disappear behind you. Timing every step is the whole challenge."
+   ],
+   [
+    "How do you play Dummy Speed Bridger?",
+    "Click or tap to dash forward. You need to time each step so you land on a bridge before it collapses."
+   ],
+   [
+    "Does Dummy Speed Bridger get harder?",
+    "Yes. The pace increases with every level, and the bridge patterns get tighter as you go."
+   ]
+  ],
+  "thumbfile": "dummy-speed-bridger.jpg"
+ },
+ {
+  "slug": "square-fling",
+  "title": "Square Fling",
+  "url": "https://html5.gamemonetize.co/lslo22hs4fnhiks9hhpf4l2djlgasqke/",
+  "cats": [
+   "reflex",
+   "arcade",
+   "puzzle"
+  ],
+  "tags": [
+   "Physics",
+   "Gates",
+   "Endless",
+   "Skill"
+  ],
+  "rating": 4.6,
+  "plays": 105490,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-02",
+  "desc": "Square Fling is a physics game built on one idea: fling your square through the gaps and hope your aim is as good as you think it is. Play Square Fling online for free and survive the endless mode as gates close in from every direction, or take on hand-built levels with fixed challenges. Drag backwards, release, and watch momentum do the rest.",
+  "howto": [
+   "Click or touch and drag in the opposite direction to where you want to go.",
+   "Release to fling the square across the screen.",
+   "Pass through the openings in the gates and avoid clipping the edges.",
+   "In endless mode, keep surviving as the pressure steadily rises.",
+   "In level mode, work through fixed challenges and new gate types."
+  ],
+  "controls": [
+   [
+    "Mouse drag",
+    "pull back and release to fling the square"
+   ],
+   [
+    "Touch / swipe",
+    "pull back and release to fling"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game menus and shop"
+   ]
+  ],
+  "tips": [
+   "Small controlled flings beat huge launches — momentum is hard to undo.",
+   "Aim for the centre of a gap instead of the nearest edge.",
+   "In endless mode, stay near the middle so you keep options on every side.",
+   "Collect coins during runs; they unlock useful extras later."
+  ],
+  "faqs": [
+   [
+    "What is Square Fling?",
+    "It is a physics skill game where you fling a square through moving gates. Endless mode keeps adding pressure, and level mode adds fixed challenges."
+   ],
+   [
+    "How do you control Square Fling?",
+    "Drag backwards from where you want to go and release. The distance and angle of your drag set the strength and direction of the fling."
+   ],
+   [
+    "Does Square Fling have both endless and level modes?",
+    "Yes. Endless mode ramps pressure over time, while the level mode gives you fixed, repeatable puzzle-style challenges."
+   ]
+  ],
+  "thumbfile": "square-fling.jpg"
+ },
+ {
+  "slug": "crazy-neon-square-rush",
+  "title": "Crazy Neon Square Rush",
+  "url": "https://html5.gamemonetize.co/81ln1c58lucnu0co9yqimrz4h7mrimce/",
+  "cats": [
+   "slope",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Neon",
+   "Endless",
+   "Obstacles",
+   "High Score"
+  ],
+  "rating": 4.4,
+  "plays": 488716,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-03",
+  "desc": "Crazy Neon Square Rush scrolls you upward through an endless stream of glowing blocks, and the only thing you control is which side you slide to. Play Crazy Neon Square Rush online for free and see how long you last before the neon gets crowded. The scoring does itself while you survive, which makes every run purely about reading the next gap.",
+  "howto": [
+   "The square moves upward on its own — you only steer left and right.",
+   "Dodge the incoming neon blocks instead of trying to squeeze past them.",
+   "Score climbs automatically for as long as you stay alive.",
+   "Expect the speed and the obstacle density to rise over time.",
+   "Beat your best score, then restart straight away and try again."
+  ],
+  "controls": [
+   [
+    "Arrow Left / Arrow Right",
+    "slide the square left or right"
+   ],
+   [
+    "Touch",
+    "move the square on mobile"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game buttons and menus"
+   ]
+  ],
+  "tips": [
+   "Pick a side early — the gap you commit to is usually the one you get.",
+   "Small movements hold your line; big slides overshoot the gap.",
+   "The pattern repeats loosely, so learn the rhythm instead of memorising it.",
+   "Keep your eyes high on the screen so you see obstacles before they arrive."
+  ],
+  "faqs": [
+   [
+    "What is Crazy Neon Square Rush?",
+    "It is an endless neon reflex game where a glowing square moves upward and you steer left and right to dodge incoming blocks."
+   ],
+   [
+    "How do you play Crazy Neon Square Rush?",
+    "Use the left and right arrows, or tap either side on mobile. The square moves up automatically and your score grows for as long as you survive."
+   ],
+   [
+    "Is Crazy Neon Square Rush like Speed Slope?",
+    "Yes. Both are neon endless dodging games built around quick lane decisions and instant restarts — this one is the flat, top-down version of that idea."
+   ]
+  ],
+  "thumbfile": "crazy-neon-square-rush.jpg"
+ },
+ {
+  "slug": "stellar-dash",
+  "title": "Stellar Dash",
+  "url": "https://html5.gamemonetize.co/1kfyksfch519ruwmky6frsyc7sx6d6rl/",
+  "cats": [
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "One Tap",
+   "Space",
+   "Reflex",
+   "High Score"
+  ],
+  "rating": 4.4,
+  "plays": 351788,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-04",
+  "desc": "Stellar Dash gives you one input — tap to boost — and a neon obstacle field that gets meaner every time your score climbs. Play Stellar Dash online for free and thread your ship through narrowing gaps while the game quietly speeds up around you. Simple to start, genuinely difficult once the gaps start arriving in pairs.",
+  "howto": [
+   "Tap or click to boost the ship upward.",
+   "Release to let it drift back down and line up with the next gap.",
+   "Fly through the narrow openings instead of clipping the neon walls.",
+   "Expect the obstacles to tighten as your score increases.",
+   "Start again immediately after a crash to keep your timing warm."
+  ],
+  "controls": [
+   [
+    "Click / tap",
+    "boost the ship"
+   ],
+   [
+    "Mouse / touch",
+    "use the in-game menus"
+   ]
+  ],
+  "tips": [
+   "Short taps are enough — long holds overshoot the gap.",
+   "Look at the gap you are aiming for, not the ship itself.",
+   "Get into a steady tap rhythm instead of reacting at the last moment.",
+   "Play in landscape on mobile; the wider view makes the gaps easier to read."
+  ],
+  "faqs": [
+   [
+    "What is Stellar Dash?",
+    "It is a one-tap arcade game where you boost a spaceship through neon obstacles and survive as the difficulty climbs."
+   ],
+   [
+    "How do you play Stellar Dash?",
+    "Tap or click to boost. Releasing lets the ship drift down, so the skill is in short, well-timed taps."
+   ],
+   [
+    "Does Stellar Dash get harder?",
+    "Yes. Obstacle spacing tightens as your score increases, so the same tap rhythm stops working later on."
+   ]
+  ],
+  "thumbfile": "stellar-dash.jpg"
+ },
+ {
+  "slug": "velocity-breaker",
+  "title": "Velocity Breaker",
+  "url": "https://html5.gamemonetize.co/qg0hdiska40ne7qbe1lv67mb9ycq6jfm/",
+  "cats": [
+   "slope",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Neon Tunnel",
+   "Dash",
+   "Hardcore",
+   "Modes"
+  ],
+  "rating": 4.3,
+  "plays": 499249,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-05",
+  "desc": "Velocity Breaker is a speed-focused reflex game set inside a neon tunnel that scrolls forward no matter what you want. Play Velocity Breaker online for free and dodge, dash and react in milliseconds as the walls start throwing everything at you. The dash mechanic is the interesting part: it gets you out of trouble and straight back into it.",
+  "howto": [
+   "Move left and right to dodge the obstacles rushing toward you.",
+   "Use the dash to escape when a gap closes faster than you can steer.",
+   "The tunnel moves you forward automatically, so steering is your only control.",
+   "Pick Easy, Medium or Hard to set how quickly the speed ramps up.",
+   "Survive longer to push your score higher."
+  ],
+  "controls": [
+   [
+    "Arrow Left / Arrow Right or A / D",
+    "dodge left and right"
+   ],
+   [
+    "Space or Shift",
+    "dash"
+   ],
+   [
+    "Mouse / touch",
+    "choose a difficulty and restart"
+   ]
+  ],
+  "tips": [
+   "Dash out of trouble, not into it — the recovery window is short.",
+   "Stay slightly off-centre so you always have an escape on one side.",
+   "Start on Easy to learn the obstacle vocabulary before raising the speed.",
+   "Read the tunnel a few rows ahead; reacting to the nearest wall is always late."
+  ],
+  "faqs": [
+   [
+    "What is Velocity Breaker?",
+    "It is a high-speed reflex game where you steer through a neon tunnel, dodge obstacles and use a dash to escape closing gaps."
+   ],
+   [
+    "How do you control Velocity Breaker?",
+    "Move left and right with the arrow keys or A and D, and use space or shift to dash."
+   ],
+   [
+    "Does Velocity Breaker have difficulty settings?",
+    "Yes. Easy, Medium and Hard change how fast the tunnel and the obstacles ramp up."
+   ]
+  ],
+  "thumbfile": "velocity-breaker.jpg"
+ },
+ {
+  "slug": "neon-velocity",
+  "title": "Neon Velocity",
+  "url": "https://html5.gamemonetize.co/2n7d2035nvye9198r3ua7gzs00gfcgqf/",
+  "cats": [
+   "reflex",
+   "platformer",
+   "arcade"
+  ],
+  "tags": [
+   "Precision",
+   "Dash",
+   "Cyberpunk",
+   "Levels"
+  ],
+  "rating": 4.4,
+  "plays": 484236,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-06",
+  "desc": "Neon Velocity is a hardcore precision platformer built on momentum: you run, wall-jump and dash through 50 handcrafted cyberpunk levels where crumbling platforms and laser grids punish anything sloppy. Play Neon Velocity online for free and chase the flow state the game is clearly designed around. Instant respawns mean the only real cost of a mistake is your own patience.",
+  "howto": [
+   "Move with A and D or the left and right arrow keys.",
+   "Jump with W or the up arrow.",
+   "Dash by double-tapping A, D or either arrow key.",
+   "Dash into enemy drones to destroy them rather than jumping around them.",
+   "Work through the 50 levels, keeping momentum alive between platforms."
+  ],
+  "controls": [
+   [
+    "A / D or Left / Right Arrow",
+    "run"
+   ],
+   [
+    "W or Up Arrow",
+    "jump and wall-jump"
+   ],
+   [
+    "Double-tap A / D or Left / Right",
+    "dash"
+   ]
+  ],
+  "tips": [
+   "Dash is a movement tool first and a weapon second.",
+   "Chain wall-jumps instead of landing flat — momentum is the whole game.",
+   "Learn where a level’s crumbling platforms give way before you sprint.",
+   "Respawning is instant, so treat every death as a free read on the layout."
+  ],
+  "faqs": [
+   [
+    "What is Neon Velocity?",
+    "It is a precision platformer set in a cyberpunk world, with wall-jumps, dashes and 50 handcrafted levels built around keeping momentum."
+   ],
+   [
+    "How do you control Neon Velocity?",
+    "Move with A and D or the arrow keys, jump with W or the up arrow, and dash by double-tapping left or right."
+   ],
+   [
+    "Is Neon Velocity difficult?",
+    "Yes. It is designed as a hardcore precision platformer, but instant respawns keep the loop quick rather than frustrating."
+   ]
+  ],
+  "thumbfile": "neon-velocity.jpg"
+ },
+ {
+  "slug": "orbit-rush-3d",
+  "title": "Orbit Rush 3D",
+  "url": "https://html5.gamemonetize.co/1ti4ndc0ahrycs3dmvve6r5858cktiyi/",
+  "cats": [
+   "slope",
+   "reflex",
+   "arcade"
+  ],
+  "tags": [
+   "Tunnel",
+   "Ball",
+   "Power-ups",
+   "3D"
+  ],
+  "rating": 4.3,
+  "plays": 563557,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-07",
+  "desc": "Orbit Rush 3D puts you inside the ball while the tunnel rotates around you and obstacle rings rush out of the dark. Play Orbit Rush 3D online for free, pass through the gaps, and survive as the speed keeps climbing. The power-ups change the run rather than just the score — invincibility, slow motion and score multipliers all alter how you should play the next stretch.",
+  "howto": [
+   "Click or tap to start the run.",
+   "Guide the ball so it passes through the gap in each incoming ring.",
+   "Collect the gems scattered through the tunnel as you go.",
+   "Pick up the power-ups: double score, invincibility and slow motion.",
+   "Survive as long as possible — the tunnel accelerates the further you get."
+  ],
+  "controls": [
+   [
+    "Mouse / touch",
+    "steer the ball through the ring gaps"
+   ],
+   [
+    "Click / tap",
+    "start and restart runs"
+   ]
+  ],
+  "tips": [
+   "Line up with a gap as soon as the ring appears, then fine-tune.",
+   "Save invincibility for a dense run of rings rather than the first one.",
+   "Slow motion is best used to read an unfamiliar pattern, not to gain score.",
+   "Unlocking skins is cosmetic — the real progress is learning the ring rhythm."
+  ],
+  "faqs": [
+   [
+    "What is Orbit Rush 3D?",
+    "It is a 3D tunnel runner where you steer a ball through rotating obstacle rings that rush toward you out of the dark."
+   ],
+   [
+    "How do you play Orbit Rush 3D?",
+    "Steer the ball to line up with the gap in each ring. Gems and power-ups are collected on the way through."
+   ],
+   [
+    "Does Orbit Rush 3D have power-ups?",
+    "Yes. Score multipliers, invincibility and slow motion all change how you play the next stretch of the tunnel."
+   ]
+  ],
+  "thumbfile": "orbit-rush-3d.jpg"
  }
 ]

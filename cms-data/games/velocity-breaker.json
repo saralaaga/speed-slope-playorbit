@@ -1,0 +1,65 @@
+{
+  "slug": "velocity-breaker",
+  "title": "Velocity Breaker",
+  "url": "https://html5.gamemonetize.co/qg0hdiska40ne7qbe1lv67mb9ycq6jfm/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Neon Tunnel",
+    "Dash",
+    "Hardcore",
+    "Modes"
+  ],
+  "rating": 4.3,
+  "plays": 499249,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-05",
+  "desc": "Velocity Breaker is a speed-focused reflex game set inside a neon tunnel that scrolls forward no matter what you want. Play Velocity Breaker online for free and dodge, dash and react in milliseconds as the walls start throwing everything at you. The dash mechanic is the interesting part: it gets you out of trouble and straight back into it.",
+  "howto": [
+    "Move left and right to dodge the obstacles rushing toward you.",
+    "Use the dash to escape when a gap closes faster than you can steer.",
+    "The tunnel moves you forward automatically, so steering is your only control.",
+    "Pick Easy, Medium or Hard to set how quickly the speed ramps up.",
+    "Survive longer to push your score higher."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Left / Arrow Right or A / D",
+      "action": "dodge left and right"
+    },
+    {
+      "key": "Space or Shift",
+      "action": "dash"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "choose a difficulty and restart"
+    }
+  ],
+  "tips": [
+    "Dash out of trouble, not into it — the recovery window is short.",
+    "Stay slightly off-centre so you always have an escape on one side.",
+    "Start on Easy to learn the obstacle vocabulary before raising the speed.",
+    "Read the tunnel a few rows ahead; reacting to the nearest wall is always late."
+  ],
+  "faqs": [
+    {
+      "question": "What is Velocity Breaker?",
+      "answer": "It is a high-speed reflex game where you steer through a neon tunnel, dodge obstacles and use a dash to escape closing gaps."
+    },
+    {
+      "question": "How do you control Velocity Breaker?",
+      "answer": "Move left and right with the arrow keys or A and D, and use space or shift to dash."
+    },
+    {
+      "question": "Does Velocity Breaker have difficulty settings?",
+      "answer": "Yes. Easy, Medium and Hard change how fast the tunnel and the obstacles ramp up."
+    }
+  ],
+  "thumbfile": "velocity-breaker.jpg",
+  "sort_order": 159
+}

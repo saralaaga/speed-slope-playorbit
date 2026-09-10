@@ -1,0 +1,65 @@
+{
+  "slug": "spherix",
+  "title": "Spherix",
+  "url": "https://html5.gamemonetize.co/nub98t45rz31qr4gi4y78zegzxp5vxkf/",
+  "cats": [
+    "slope",
+    "puzzle",
+    "arcade"
+  ],
+  "tags": [
+    "Rolling Ball",
+    "Maze",
+    "3D",
+    "Levels"
+  ],
+  "rating": 4.3,
+  "plays": 177501,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-05",
+  "desc": "Spherix rolls a golden ball through 25 themed 3D mazes filled with enemies, coins and a green exit you have to find. Play Spherix online for free and work your way through labyrinth after labyrinth as the layouts get bigger and the enemies get pushier. It is the slower, more thoughtful end of the rolling-ball family: less reflex, more route planning.",
+  "howto": [
+    "Move the ball with the arrow keys or WASD.",
+    "Press space to jump over enemies instead of trying to roll around them.",
+    "Collect gold coins for bonus points as you explore the maze.",
+    "Find the green exit to clear the level and move on.",
+    "Press I at any point to bring the instructions back up."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Keys / WASD",
+      "action": "roll the ball"
+    },
+    {
+      "key": "Space",
+      "action": "jump over enemies"
+    },
+    {
+      "key": "I",
+      "action": "show the instructions"
+    }
+  ],
+  "tips": [
+    "Collect coins on the way to the exit rather than doubling back for them.",
+    "Jump is your only defence — keep a little space in front of enemies.",
+    "Learn the shape of a maze on your first pass instead of racing it.",
+    "The green exit is often behind the route that looks like a dead end."
+  ],
+  "faqs": [
+    {
+      "question": "What is Spherix?",
+      "answer": "It is a 3D maze game where you roll a golden ball through 25 themed worlds, collect coins and reach the green exit while avoiding enemies."
+    },
+    {
+      "question": "How do you play Spherix?",
+      "answer": "Use the arrow keys or WASD to move the ball, space to jump over enemies and I to reopen the instructions."
+    },
+    {
+      "question": "Does Spherix play like Speed Slope?",
+      "answer": "Only loosely. Both games put you behind a rolling ball, but Spherix trades the endless speed run for hand-built mazes you have to solve."
+    }
+  ],
+  "thumbfile": "spherix.jpg",
+  "sort_order": 147
+}

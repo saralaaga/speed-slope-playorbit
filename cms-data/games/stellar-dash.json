@@ -1,0 +1,60 @@
+{
+  "slug": "stellar-dash",
+  "title": "Stellar Dash",
+  "url": "https://html5.gamemonetize.co/1kfyksfch519ruwmky6frsyc7sx6d6rl/",
+  "cats": [
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "One Tap",
+    "Space",
+    "Reflex",
+    "High Score"
+  ],
+  "rating": 4.4,
+  "plays": 351788,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-04",
+  "desc": "Stellar Dash gives you one input — tap to boost — and a neon obstacle field that gets meaner every time your score climbs. Play Stellar Dash online for free and thread your ship through narrowing gaps while the game quietly speeds up around you. Simple to start, genuinely difficult once the gaps start arriving in pairs.",
+  "howto": [
+    "Tap or click to boost the ship upward.",
+    "Release to let it drift back down and line up with the next gap.",
+    "Fly through the narrow openings instead of clipping the neon walls.",
+    "Expect the obstacles to tighten as your score increases.",
+    "Start again immediately after a crash to keep your timing warm."
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "boost the ship"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game menus"
+    }
+  ],
+  "tips": [
+    "Short taps are enough — long holds overshoot the gap.",
+    "Look at the gap you are aiming for, not the ship itself.",
+    "Get into a steady tap rhythm instead of reacting at the last moment.",
+    "Play in landscape on mobile; the wider view makes the gaps easier to read."
+  ],
+  "faqs": [
+    {
+      "question": "What is Stellar Dash?",
+      "answer": "It is a one-tap arcade game where you boost a spaceship through neon obstacles and survive as the difficulty climbs."
+    },
+    {
+      "question": "How do you play Stellar Dash?",
+      "answer": "Tap or click to boost. Releasing lets the ship drift down, so the skill is in short, well-timed taps."
+    },
+    {
+      "question": "Does Stellar Dash get harder?",
+      "answer": "Yes. Obstacle spacing tightens as your score increases, so the same tap rhythm stops working later on."
+    }
+  ],
+  "thumbfile": "stellar-dash.jpg",
+  "sort_order": 158
+}

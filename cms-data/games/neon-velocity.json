@@ -1,0 +1,65 @@
+{
+  "slug": "neon-velocity",
+  "title": "Neon Velocity",
+  "url": "https://html5.gamemonetize.co/2n7d2035nvye9198r3ua7gzs00gfcgqf/",
+  "cats": [
+    "reflex",
+    "platformer",
+    "arcade"
+  ],
+  "tags": [
+    "Precision",
+    "Dash",
+    "Cyberpunk",
+    "Levels"
+  ],
+  "rating": 4.4,
+  "plays": 484236,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-06",
+  "desc": "Neon Velocity is a hardcore precision platformer built on momentum: you run, wall-jump and dash through 50 handcrafted cyberpunk levels where crumbling platforms and laser grids punish anything sloppy. Play Neon Velocity online for free and chase the flow state the game is clearly designed around. Instant respawns mean the only real cost of a mistake is your own patience.",
+  "howto": [
+    "Move with A and D or the left and right arrow keys.",
+    "Jump with W or the up arrow.",
+    "Dash by double-tapping A, D or either arrow key.",
+    "Dash into enemy drones to destroy them rather than jumping around them.",
+    "Work through the 50 levels, keeping momentum alive between platforms."
+  ],
+  "controls": [
+    {
+      "key": "A / D or Left / Right Arrow",
+      "action": "run"
+    },
+    {
+      "key": "W or Up Arrow",
+      "action": "jump and wall-jump"
+    },
+    {
+      "key": "Double-tap A / D or Left / Right",
+      "action": "dash"
+    }
+  ],
+  "tips": [
+    "Dash is a movement tool first and a weapon second.",
+    "Chain wall-jumps instead of landing flat — momentum is the whole game.",
+    "Learn where a level’s crumbling platforms give way before you sprint.",
+    "Respawning is instant, so treat every death as a free read on the layout."
+  ],
+  "faqs": [
+    {
+      "question": "What is Neon Velocity?",
+      "answer": "It is a precision platformer set in a cyberpunk world, with wall-jumps, dashes and 50 handcrafted levels built around keeping momentum."
+    },
+    {
+      "question": "How do you control Neon Velocity?",
+      "answer": "Move with A and D or the arrow keys, jump with W or the up arrow, and dash by double-tapping left or right."
+    },
+    {
+      "question": "Is Neon Velocity difficult?",
+      "answer": "Yes. It is designed as a hardcore precision platformer, but instant respawns keep the loop quick rather than frustrating."
+    }
+  ],
+  "thumbfile": "neon-velocity.jpg",
+  "sort_order": 160
+}

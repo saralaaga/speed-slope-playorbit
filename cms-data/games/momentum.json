@@ -1,0 +1,70 @@
+{
+  "slug": "momentum",
+  "title": "Momentum",
+  "url": "https://html5.gamemonetize.co/71kap8r3c2kj9n5rl4xt89khiwf2kowt/",
+  "cats": [
+    "slope",
+    "runner",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Endless Runner",
+    "Reflex",
+    "Lanes",
+    "Leaderboard"
+  ],
+  "rating": 4.6,
+  "plays": 251550,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-04",
+  "desc": "Momentum is a high-speed endless runner with three lanes, a doodle art style and a world that changes as your speed climbs. Play Momentum online for free and dash through the Animal Kingdom, the human world and futuristic alien realms in a single run. There is a global leaderboard too, so a clean run is worth more than a lucky one.",
+  "howto": [
+    "Move between lanes with the left and right arrows or A and D.",
+    "Jump with the up arrow or space bar when an obstacle needs clearing.",
+    "Press the down arrow to slide under anything low.",
+    "On mobile, use the on-screen buttons or swipe to change lanes.",
+    "Keep surviving to unlock the next world and push your leaderboard rank."
+  ],
+  "controls": [
+    {
+      "key": "Left / Right Arrow or A / D",
+      "action": "switch lanes"
+    },
+    {
+      "key": "Up Arrow or Space",
+      "action": "jump"
+    },
+    {
+      "key": "Down Arrow",
+      "action": "slide"
+    },
+    {
+      "key": "Touch / swipe",
+      "action": "mobile lane changes"
+    }
+  ],
+  "tips": [
+    "Pick a lane early — drifting between two lanes costs you the run.",
+    "Jump late and small; early jumps leave you landing into the next obstacle.",
+    "Learn one world’s obstacle pattern before chasing distance.",
+    "Build a steady rhythm instead of sprinting through the easy sections."
+  ],
+  "faqs": [
+    {
+      "question": "What is Momentum?",
+      "answer": "It is a high-speed endless runner where you switch lanes, jump and slide through worlds that change as your speed increases."
+    },
+    {
+      "question": "How do you control Momentum?",
+      "answer": "Use the arrow keys or A and D on desktop, and the on-screen buttons or swipes on mobile. Space bar and the up arrow both jump."
+    },
+    {
+      "question": "Does Momentum have a leaderboard?",
+      "answer": "Yes. It includes a global leaderboard with titles to unlock as your best runs improve."
+    }
+  ],
+  "thumbfile": "momentum.jpg",
+  "sort_order": 146
+}

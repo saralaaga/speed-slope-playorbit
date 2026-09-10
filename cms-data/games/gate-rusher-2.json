@@ -1,0 +1,65 @@
+{
+  "slug": "gate-rusher-2",
+  "title": "Gate Rusher 2",
+  "url": "https://html5.gamemonetize.co/6svrnf8a20mkj7aaxznr803fpc96jabl/",
+  "cats": [
+    "reflex",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Gates",
+    "Runner",
+    "Decisions",
+    "Speed"
+  ],
+  "rating": 4.7,
+  "plays": 372007,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-08",
+  "desc": "Gate Rusher 2 turns every second into a small decision: the track keeps coming, and the gates in front of you want a number that goes up or a number that goes down. Play Gate Rusher 2 online for free and pick the right opening before the runway disappears. Reading the gate fast is the whole skill, and it is the same muscle you use on a fast slope run.",
+  "howto": [
+    "The run starts immediately, so be ready to steer straight away.",
+    "Move left and right to line up with the gate you want to pass through.",
+    "Read the numbers on each gate and choose the one that helps you most.",
+    "Keep the run alive — clipping a gate ends the attempt.",
+    "Try to reach the finish and then beat your own route through it."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "steer toward the gate you want"
+    },
+    {
+      "key": "Arrow Left / Arrow Right",
+      "action": "steer toward the gate you want"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game menus"
+    }
+  ],
+  "tips": [
+    "Commit to a gate as soon as you can read it — hesitating splits the difference.",
+    "Scan the next set of gates while you are still passing the current one.",
+    "Stay near the middle as a default so both gates stay reachable.",
+    "On crowded rows, take the safe gate first and optimise later."
+  ],
+  "faqs": [
+    {
+      "question": "What is Gate Rusher 2?",
+      "answer": "It is a fast endless runner where you steer through gates that change your score or your size, and correct decisions beat raw speed."
+    },
+    {
+      "question": "How do you play Gate Rusher 2?",
+      "answer": "Steer left and right to line up with the gate you want, then read the numbers before you pass through."
+    },
+    {
+      "question": "Is Gate Rusher 2 endless?",
+      "answer": "It plays like an endless runner with a finish line to chase, so runs are short and repeatable rather than endless."
+    }
+  ],
+  "thumbfile": "gate-rusher-2.jpg",
+  "sort_order": 150
+}

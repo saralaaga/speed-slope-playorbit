@@ -1,0 +1,62 @@
+{
+  "slug": "dummy-speed-bridger",
+  "title": "Dummy Speed Bridger",
+  "url": "https://html5.gamemonetize.co/w7zjm9hffe0ylqkc4jj7w896mj8u66sf/",
+  "cats": [
+    "reflex",
+    "runner",
+    "platformer",
+    "arcade"
+  ],
+  "tags": [
+    "Reflex",
+    "Bridges",
+    "Timing",
+    "Runner"
+  ],
+  "rating": 4.7,
+  "plays": 383027,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-01",
+  "desc": "Dummy Speed Bridger builds the floor as you sprint and pulls it apart behind you, so the only way forward is to keep moving at exactly the right moment. Play Dummy Speed Bridger online for free and test your reaction speed, memory and nerve as the pace ramps up level by level. It is timing pressure in its purest form.",
+  "howto": [
+    "Dash forward and let the bridges snap into place under your feet.",
+    "Keep moving — planks vanish again almost immediately after you cross.",
+    "Time each step so your foot lands on solid ground, not a gap.",
+    "Expect the pace to increase with every level you clear.",
+    "Learn the sequence rather than guessing, because the bridges do not wait."
+  ],
+  "controls": [
+    {
+      "key": "Click / tap",
+      "action": "dash forward across the bridges"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game buttons and menus"
+    }
+  ],
+  "tips": [
+    "Move on rhythm instead of waiting for the plank you can see.",
+    "Look one bridge ahead; staring at your feet makes you late.",
+    "A missed step is unrecoverable, so restart without hesitating.",
+    "Later levels repeat earlier patterns at speed — memory is half the game."
+  ],
+  "faqs": [
+    {
+      "question": "What is Dummy Speed Bridger?",
+      "answer": "It is a reflex game where bridges appear under your feet as you run and disappear behind you. Timing every step is the whole challenge."
+    },
+    {
+      "question": "How do you play Dummy Speed Bridger?",
+      "answer": "Click or tap to dash forward. You need to time each step so you land on a bridge before it collapses."
+    },
+    {
+      "question": "Does Dummy Speed Bridger get harder?",
+      "answer": "Yes. The pace increases with every level, and the bridge patterns get tighter as you go."
+    }
+  ],
+  "thumbfile": "dummy-speed-bridger.jpg",
+  "sort_order": 155
+}

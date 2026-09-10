@@ -1,0 +1,61 @@
+{
+  "slug": "big-rolling-ball",
+  "title": "Big Rolling Ball",
+  "url": "https://html5.gamemonetize.co/gpahz5repchd5e6ahizvuir7x9vhkdre/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Rolling Ball",
+    "Obstacles",
+    "Arcade",
+    "Endless"
+  ],
+  "rating": 4.7,
+  "plays": 449655,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-03",
+  "desc": "Big Rolling Ball keeps things honest: one fast ball, one narrow path, and obstacles arriving faster than you would like. Play Big Rolling Ball online for free and see how long you can stay on the track without losing the line. It is one of the purest rolling-ball reflex games on the site and a natural next step for anyone who likes downhill speed with simple controls.",
+  "howto": [
+    "Start the run and get used to how quickly the ball picks up speed.",
+    "Steer left and right to stay on the path as it winds forward.",
+    "Dodge the obstacles instead of trying to bounce past them.",
+    "Keep your line steady through the straights so you have room to react later.",
+    "Roll as long as you can before the first crash ends the run."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Left / Arrow Right",
+      "action": "steer the rolling ball"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game buttons and menus"
+    }
+  ],
+  "tips": [
+    "Aim for the middle of the path and let small corrections do the work.",
+    "The ball keeps momentum after you release — steer slightly before the turn.",
+    "Watch the path behind the obstacle, not the obstacle itself.",
+    "Restart quickly after a crash to keep your timing consistent."
+  ],
+  "faqs": [
+    {
+      "question": "What is Big Rolling Ball?",
+      "answer": "It is a simple arcade game where you keep a fast rolling ball on a narrow path for as long as possible while dodging obstacles."
+    },
+    {
+      "question": "How do you play Big Rolling Ball?",
+      "answer": "Steer the ball left and right to stay on the track. The route scrolls forward on its own and the obstacles keep coming."
+    },
+    {
+      "question": "Is Big Rolling Ball good for Speed Slope fans?",
+      "answer": "Yes — it is the same rolling-ball reflex loop with a gentler learning curve, which makes it a good warm-up before a Speed Slope session."
+    }
+  ],
+  "thumbfile": "big-rolling-ball.jpg",
+  "sort_order": 145
+}

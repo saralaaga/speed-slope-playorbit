@@ -1,0 +1,66 @@
+{
+  "slug": "stack-ball-run-3d",
+  "title": "Stack Ball Run 3D",
+  "url": "https://html5.gamemonetize.co/lf58ps52phzp9ve677ywyq229jjg63gb/",
+  "cats": [
+    "slope",
+    "runner",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Ball Run",
+    "Endless",
+    "Stack",
+    "3D"
+  ],
+  "rating": 4.5,
+  "plays": 515533,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-30",
+  "desc": "Stack Ball Run 3D is a fast endless ball runner where you drag left and right to collect balls, build the tallest stack you can and dodge whatever the track throws next. Play Stack Ball Run 3D online for free and chase a higher score every run. Your stack is both your size and your weakness — the greedier you get, the more obstacles you clip.",
+  "howto": [
+    "Drag with the mouse or finger to slide the ball left and right.",
+    "Roll over smaller balls to add them to your stack and grow taller.",
+    "Steer around blocks, saws and other obstacles instead of through them.",
+    "Use the arrow keys or A and D if you prefer keyboard control.",
+    "Survive as long as possible — the run ends the moment your stack breaks."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "drag left and right to move"
+    },
+    {
+      "key": "Arrow Left / Arrow Right",
+      "action": "steer the ball run"
+    },
+    {
+      "key": "A / D",
+      "action": "steer the ball run"
+    }
+  ],
+  "tips": [
+    "Weave through ball trails early, while the gaps are still wide.",
+    "A taller stack looks great but a slimmer one squeezes through tighter spaces.",
+    "Read two obstacles ahead instead of reacting to the one in front of you.",
+    "Small drags are enough at speed — big swerves are what clip the next barrier."
+  ],
+  "faqs": [
+    {
+      "question": "What is Stack Ball Run 3D?",
+      "answer": "It is an endless 3D ball runner where you collect balls into a growing stack while dodging obstacles for as long as your run survives."
+    },
+    {
+      "question": "How do you play Stack Ball Run 3D?",
+      "answer": "Drag left and right with the mouse, finger, arrow keys or A and D. Collect balls to build your stack and steer around hazards."
+    },
+    {
+      "question": "Does Stack Ball Run 3D have an ending?",
+      "answer": "No. It is an endless runner built around high scores, so you keep going until you crash."
+    }
+  ],
+  "thumbfile": "stack-ball-run-3d.jpg",
+  "sort_order": 141
+}

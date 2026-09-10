@@ -36,7 +36,7 @@ After deploy, rerun the same check against the production domain or the Pages pr
 SITE_BASE_URL=https://speedslope.net node check_game_availability.js new-game-slug another-new-game
 ```
 
-A successful build currently reports `109 games, 18 categories, 286 files total`.
+A successful build currently reports `131 games, 19 categories, 331 files total`.
 
 ## Production Hosting
 

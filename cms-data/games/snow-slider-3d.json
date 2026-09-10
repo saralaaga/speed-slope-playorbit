@@ -1,0 +1,61 @@
+{
+  "slug": "snow-slider-3d",
+  "title": "Snow Slider 3D",
+  "url": "https://html5.gamemonetize.co/nprefcbbxxogk6wkh85squgc1fdhtxiu/",
+  "cats": [
+    "slope",
+    "racing",
+    "arcade"
+  ],
+  "tags": [
+    "Downhill",
+    "Steering",
+    "Obstacles",
+    "Sled"
+  ],
+  "rating": 4.4,
+  "plays": 483466,
+  "hot": false,
+  "new": true,
+  "added": "2026-08-29",
+  "desc": "Snow Slider 3D sends a sled down a mountain that gets faster the further you go, with trees, rocks and snowmen closing off the clean lines. Play Snow Slider 3D online for free and steer left and right to stay upright long enough to collect gifts and unlock new sleds. Every run lays out its obstacles differently, so there is no memorising your way down.",
+  "howto": [
+    "Steer with the left and right arrow keys to guide the sled downhill.",
+    "Avoid trees, rocks, snowmen and other hazards as they appear.",
+    "Expect the speed to climb steadily the longer your run lasts.",
+    "Collect gifts on the way down to unlock new sleds.",
+    "Aim for distance — the mountain does not run out of slope."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Left / Arrow Right",
+      "action": "steer the sled downhill"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "use the in-game buttons and menus"
+    }
+  ],
+  "tips": [
+    "Aim for the gaps between trees instead of threading one tree at a time.",
+    "Small steering inputs hold your line better at high speed.",
+    "Gifts are usually worth a tiny detour, but never a head-on collision.",
+    "Look far down the mountain — the sled reacts slower than your eyes."
+  ],
+  "faqs": [
+    {
+      "question": "What is Snow Slider 3D?",
+      "answer": "It is an endless downhill sledding game where you dodge mountain obstacles, collect gifts and keep going as the speed increases."
+    },
+    {
+      "question": "How do you play Snow Slider 3D?",
+      "answer": "Steer left and right with the arrow keys to keep the sled on a clean line down the mountain."
+    },
+    {
+      "question": "Does Snow Slider 3D have unlockables?",
+      "answer": "Yes. Gifts collected during runs unlock additional sleds to use on later attempts."
+    }
+  ],
+  "thumbfile": "snow-slider-3d.jpg",
+  "sort_order": 152
+}
