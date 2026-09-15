@@ -33,6 +33,7 @@ collections:
           - { label: Games Email, name: games_email, widget: string }
           - { label: Legal Email, name: legal_email, widget: string }
           - { label: Ads Enabled, name: ads_enabled, widget: boolean, default: false }
+          - { label: AdSense Client, name: adsense_client, widget: string, required: false, hint: "AdSense ca-pub id, e.g. ca-pub-1234567890123456" }
           - { label: Aggregate Rating Schema, name: include_aggregate_rating_schema, widget: boolean, default: false }
           - { label: Turnstile Site Key, name: turnstile_site_key, widget: string, required: false }
 

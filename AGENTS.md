@@ -36,7 +36,7 @@ After deploy, rerun the same check against the production domain or the Pages pr
 SITE_BASE_URL=https://speedslope.net node check_game_availability.js new-game-slug another-new-game
 ```
 
-A successful build currently reports `131 games, 19 categories, 331 files total`.
+A successful build currently reports `131 games, 19 categories, 332 files total`.
 
 ## Production Hosting
 
@@ -59,3 +59,9 @@ The site is deployed on Cloudflare Pages.
 - Use `wrangler pages deploy` by hand only to bypass a broken workflow, and say so when you do
 - Keep the game availability gate for changed iframe URLs before merging
 - The D1 comments database is a separate runtime resource; do not change or migrate it as part of a normal static content deploy
+
+## AdSense
+
+- `adsense_client` in `site_config.json` (and `cms-data/sites/speedslope-net.json`, which the CMS edits and the build prefers) holds the AdSense `ca-pub-…` id.
+- When it is set, `build_site.py` writes the AdSense loader + `google-adsense-account` meta into the `<head>` of every public page, plus `app/ads.txt`. It is independent of `ads_enabled`, so site verification works before ad slots are switched on.
+- Noindex admin pages (`/admin/`, `/admin/cms/`, `/admin/comments/`) intentionally omit the loader.

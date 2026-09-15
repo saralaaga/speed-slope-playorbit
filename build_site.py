@@ -24,6 +24,7 @@ DEFAULT_CONFIG = {
     'games_email': 'games@speedslope.net',
     'legal_email': 'legal@speedslope.net',
     'ads_enabled': False,
+    'adsense_client': '',
     'include_aggregate_rating_schema': False,
     'turnstile_site_key': '',
 }
@@ -52,6 +53,7 @@ CONTACT_EMAIL = CONFIG['contact_email']
 GAMES_EMAIL = CONFIG['games_email']
 LEGAL_EMAIL = CONFIG['legal_email']
 TURNSTILE_SITE_KEY = CONFIG.get('turnstile_site_key', '')
+ADSENSE_CLIENT = str(CONFIG.get('adsense_client', '') or '').strip()
 TODAY = datetime.date.today().isoformat()
 
 ALL_CATS = {
@@ -502,8 +504,26 @@ JS_V = _asset_version('assets/js/main.js')
 STAR = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2 5.9 20.6l1.4-6.8L2.2 9.1l6.9-.8z"/></svg>'
 PLAY_TRI = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>'
 
-def head(title, desc, pre, canonical, extra='', og_image=None):
+def adsense_snippet():
+    """Google AdSense site-ownership snippet.
+
+    AdSense verifies ownership by finding this loader in the <head> of the
+    pages it crawls, so it is emitted whenever an adsense_client is
+    configured. It is deliberately independent of ads_enabled: verification
+    must work before any ad slot is switched on.
+    """
+    if not ADSENSE_CLIENT:
+        return ''
+    return (
+        f'<meta name="google-adsense-account" content="{ADSENSE_CLIENT}">\n'
+        f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={ADSENSE_CLIENT}" crossorigin="anonymous"></script>'
+    )
+
+
+def head(title, desc, pre, canonical, extra='', og_image=None, ads=True):
     social_image = f'{SITE_URL}/{og_image}' if og_image else ''
+    adsense = adsense_snippet() if ads else ''
+    adsense_block = f'{adsense}\n' if adsense else ''
     og = f'<meta property="og:image" content="{social_image}">\n<meta property="og:image:width" content="640">\n<meta property="og:image:height" content="640">' if og_image else ''
     twitter_image = f'<meta name="twitter:image" content="{social_image}">' if og_image else ''
     return f'''<!DOCTYPE html>
@@ -511,7 +531,7 @@ def head(title, desc, pre, canonical, extra='', og_image=None):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(title)}</title>
+{adsense_block}<title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="{SITE_URL}/{canonical}">
@@ -864,12 +884,14 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
     return html_doc
 
 def page_redirect(rel, target, label):
+    adsense = adsense_snippet()
+    adsense_block = f'{adsense}\n' if adsense else ''
     html_doc = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{esc(label)} | {SITE_NAME}</title>
+{adsense_block}<title>{esc(label)} | {SITE_NAME}</title>
 <meta name="robots" content="noindex,follow">
 <link rel="canonical" href="{SITE_URL}/{target}">
 <meta http-equiv="refresh" content="0; url={SITE_URL}/{target}">
@@ -1006,7 +1028,7 @@ def page_static(slug, h1, body):
 
 def page_admin_comments():
     pre = '../../'
-    html_doc = head(f'Comment Moderation | {SITE_NAME}', 'Review submitted comments.', pre, 'admin/comments/').replace(
+    html_doc = head(f'Comment Moderation | {SITE_NAME}', 'Review submitted comments.', pre, 'admin/comments/', ads=False).replace(
         'index,follow,max-image-preview:large', 'noindex,nofollow'
     )
     html_doc += header(pre)
@@ -1065,6 +1087,7 @@ collections:
           - {{ label: Games Email, name: games_email, widget: string }}
           - {{ label: Legal Email, name: legal_email, widget: string }}
           - {{ label: Ads Enabled, name: ads_enabled, widget: boolean, default: false }}
+          - {{ label: AdSense Client, name: adsense_client, widget: string, required: false, hint: "AdSense ca-pub id, e.g. ca-pub-1234567890123456" }}
           - {{ label: Aggregate Rating Schema, name: include_aggregate_rating_schema, widget: boolean, default: false }}
           - {{ label: Turnstile Site Key, name: turnstile_site_key, widget: string, required: false }}
 
@@ -1285,6 +1308,8 @@ def main():
     sm.append('</urlset>')
     write('sitemap.xml', '\n'.join(sm))
     write('robots.txt', f'User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n')
+    if ADSENSE_CLIENT and ADSENSE_CLIENT.startswith('ca-'):
+        write('ads.txt', f'google.com, {ADSENSE_CLIENT[3:]}, DIRECT, f08c47fec0942fa0\n')
     page_redirects()
 
     n = sum(len(fs) for _, _, fs in os.walk(ROOT))
