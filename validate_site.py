@@ -193,14 +193,16 @@ def assert_removed_game_redirects():
     published_slugs = {g['slug'] for g in load_json(os.path.join('app', 'games.json'))}
     leaked = sorted(published_slugs & set(removed_slugs))
     assert not leaked, f'Removed games still published: {leaked}'
-    with open(os.path.join(APP, '_redirects'), encoding='utf-8') as f:
-        redirects = set(line.strip() for line in f if line.strip() and not line.startswith('#'))
-    missing = [f'/{slug}/ / 301' for slug in sorted(removed_slugs) if f'/{slug}/ / 301' not in redirects]
+    with open(os.path.join(BASE, 'worker', 'redirects.json'), encoding='utf-8') as f:
+        redirect_entries = json.load(f)
+    redirect_sources = {entry['from'] for entry in redirect_entries}
+    redirect_targets = {entry['from']: entry['to'] for entry in redirect_entries}
+    missing = [f'/{slug}/ / 301' for slug in sorted(removed_slugs) if f'/{slug}/' not in redirect_sources]
     missing += [
         f'/games/{src}/ /games/{dst}/ 301'
         for src, dst in sorted(removed_categories.items())
         if not os.path.exists(os.path.join(APP, 'games', src, 'index.html'))
-        and f'/games/{src}/ /games/{dst}/ 301' not in redirects
+        and redirect_targets.get(f'/games/{src}/') != f'/games/{dst}/'
     ]
     assert not missing, f'Missing removed game/category redirects: {missing[:20]}'
 

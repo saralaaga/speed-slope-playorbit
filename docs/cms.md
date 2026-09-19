@@ -57,4 +57,4 @@ This is a migration/sync helper. Once editing moves fully to the CMS, treat `cms
 
 ## Notes
 
-This POC intentionally avoids a custom database-backed admin. It keeps the static site generator, Cloudflare Pages deployment, and existing D1 comments system intact.
+This POC intentionally avoids a custom database-backed admin. It keeps the static site generator, Cloudflare Worker deployment, and existing D1 comments system intact.

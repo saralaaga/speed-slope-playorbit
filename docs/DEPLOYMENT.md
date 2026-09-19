@@ -1,142 +1,151 @@
 # Deployment
 
-SpeedSlope is a generated Cloudflare Pages site with Pages Functions and a D1 comments binding.
-It publishes to `https://speedslope.net` (and `https://www.speedslope.net`).
+SpeedSlope is deployed as a Cloudflare Worker with Workers Static Assets and a
+D1 comments binding. The Worker handles `/api/*` and legacy redirects; all other
+requests are served from the generated `app/` directory.
 
 ## Short version
 
 ```bash
 python3 build_site.py
+node tests/worker.test.mjs
+node tests/comments_filter.test.mjs
 python3 validate_site.py
-node check_game_availability.js <changed-game-slugs>
 git push origin main
 ```
 
-Pushing to `main` is the deploy. Nothing else is required for a normal content change.
+Pushing to `main` deploys. The GitHub Actions workflow rebuilds the site, runs
+the Worker and filter tests, validates the generated output, and runs
+`wrangler deploy`.
 
-## Why the deploy runs in GitHub Actions
-
-`speedslope-net` was created with Direct Upload. Cloudflare cannot attach Git integration to an
-existing Direct Upload project, so Cloudflare never receives the repository and never sees a push.
-The push-to-deploy pipeline therefore lives in GitHub Actions, which is Cloudflare's documented
-continuous-integration path for Direct Upload projects.
-
-The upside is that the build stays in this repository, so `build_site.py` and `validate_site.py`
-run on the same inputs locally and in CI.
-
-## Pipeline
-
-```text
-git push origin main
-  -> .github/workflows/deploy.yml
-  -> actions/checkout + actions/setup-python
-  -> python3 build_site.py && python3 validate_site.py
-  -> cloudflare/wrangler-action@v4
-  -> wrangler pages deploy app --project-name=speedslope-net --branch=main
-  -> static files + Pages Functions + D1 binding publish together
-```
-
-The workflow also accepts a manual run through `workflow_dispatch`.
-
-## Fixed values
+## Runtime shape
 
 | Item | Value |
 | --- | --- |
-| Cloudflare account ID | `dad5acc42b3eb97b72f90f9c825339fe` |
-| Pages project | `speedslope-net` |
-| Publish directory | `app` |
-| Production branch | `main` |
+| Worker name | `speedslope-net` |
+| Worker entry point | `worker/index.mjs` |
+| Static asset directory | `app/` |
+| Worker-first paths | all requests, so legacy redirects remain active |
+| API paths | `/api/comments`, `/api/admin/comments/*` |
+| D1 database | `speedslope-comments` |
+| Production domains | `https://speedslope.net`, `https://www.speedslope.net` |
 | Workflow | `.github/workflows/deploy.yml` |
-| Site URL in `site_config.json` | `https://speedslope.net` |
+
+The Worker processes redirects generated into `worker/redirects.json`. Pages
+`_redirects` files are not used by Workers Static Assets, so removing that file
+without this Worker map would turn removed game and category URLs into 404s.
+
+## Cloudflare resources
+
+The account ID remains:
+
+```text
+dad5acc42b3eb97b72f90f9c825339fe
+```
+
+`wrangler.toml` references the existing D1 database by ID. D1 migrations are
+still a separate operational action and are not run during a normal content
+deploy.
 
 ## Credentials
 
-The workflow needs two repository secrets:
+The GitHub repository secrets are:
 
-| Secret | Value | State |
-| --- | --- | --- |
-| `CLOUDFLARE_ACCOUNT_ID` | `dad5acc42b3eb97b72f90f9c825339fe` | set |
-| `CLOUDFLARE_API_TOKEN` | Cloudflare account API token with `Account > Cloudflare Pages > Edit` | **required** |
+| Secret | Use |
+| --- | --- |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare account ID |
+| `CLOUDFLARE_API_TOKEN` | account API token used by Wrangler |
 
-`CLOUDFLARE_API_TOKEN` is an account-owned token (`cfat_` prefix). It lives in **Infisical** in the
-`speedslope` project (`bb2ed864-23f0-4304-b79f-f16ba16004b7`), `prod` environment, which is the
-store of record. The GitHub repository secret is a mirror of that value, so rotate it in Infisical
-first. Do not commit it and do not paste it into pull requests or issues.
+The old Pages token is insufficient for Workers deployment. Create an account
+API token with at least:
 
-This Infisical instance is self-hosted, so the CLI needs the domain. Link a working directory once
-and read the secrets back:
+- **Account -> Workers Scripts -> Edit**
+- **Account -> D1 -> Edit**
+- custom-domain/route permissions if automating domain attachment
+
+Store the value in the Infisical `speedslope` project first, then mirror it to
+the GitHub secret:
 
 ```bash
-infisical init                                   # pick the OPC org, then the speedslope project
-INFISICAL_DOMAIN=http://localhost/api infisical secrets --env prod
+gh secret set CLOUDFLARE_API_TOKEN -R saralaaga/speed-slope-playorbit
 ```
 
-To create or replace it:
+Do not commit or paste the token. Verify deployment permission by performing a
+dry deploy or a real deploy; `/user/tokens/verify` is the wrong endpoint for
+account-owned tokens.
 
-1. Cloudflare dashboard -> **Manage Account** -> **Account API Tokens** -> **Create Token**
-2. Permissions: **Account** -> **Cloudflare Pages** -> **Edit**. No other permission is needed.
-3. Store the value in Infisical, then set the GitHub secret:
+## One-time Pages-to-Workers cutover
 
-   ```bash
-   gh secret set CLOUDFLARE_API_TOKEN -R saralaaga/speed-slope-playorbit
-   ```
+The apex and `www` domains cannot be attached to Pages and the Worker at the
+same time. Use this order:
 
-A token that verifies successfully but has no Pages permission is the most common failure. Check
-permission rather than validity: `GET /accounts/<account_id>/pages/projects` must return
-`success: true`, while `/user/tokens/verify` is the wrong endpoint for account-owned tokens and
-always reports `Invalid API Token`.
+1. Update the repository token to the Workers/D1 permissions above.
+2. Run `python3 build_site.py && python3 validate_site.py`.
+3. Run `npx wrangler deploy` once to create/update the Worker and note its
+   workers.dev URL.
+4. Smoke-test static pages, `/api/comments?slug=neon-mini-golf`, and a removed
+   game redirect on that preview URL.
+5. In Cloudflare, remove `speedslope.net` and `www.speedslope.net` from the
+   Pages project.
+6. Add the same two custom domains to the `speedslope-net` Worker.
+7. Verify both hostnames, comments API, admin moderation, and redirects.
+8. After a soak period, disable or delete the old Pages project.
+
+There is a brief DNS/routing cutover between steps 5 and 6. Perform it in a
+maintenance window if comments and redirects need to remain continuously
+available.
 
 ## Local checks
 
 ```bash
-python3 build_site.py                          # regenerates app/, reports games/categories/files
-python3 validate_site.py                       # offline structural checks
-node check_game_availability.js changed-slug   # browser check, see below
+python3 build_site.py
+python3 validate_site.py
+node tests/worker.test.mjs
+node tests/comments_filter.test.mjs
+npx wrangler deploy --dry-run
 ```
 
-Run the availability check against a local build before pushing, and against production after the
-deploy. It needs a served copy of `app/`:
+For a local Worker/asset runtime:
 
 ```bash
-python3 -m http.server 8123 --directory app &
-SITE_BASE_URL=http://127.0.0.1:8123 node check_game_availability.js changed-slug
-SITE_BASE_URL=https://speedslope.net node check_game_availability.js changed-slug
+python3 build_site.py
+npx wrangler dev
 ```
 
-`AGENTS.md` lists the signals that disqualify an embed. Remove failing games via
-`REMOVED_GAME_SLUGS` rather than shipping them.
+The browser-based game availability gate is unchanged:
+
+```bash
+SITE_BASE_URL=http://127.0.0.1:8788 node check_game_availability.js changed-slug
+SITE_BASE_URL=https://speedslope.net node check_game_availability.js changed-slug
+```
 
 ## Verification after deploy
 
 ```bash
-gh run list -R saralaaga/speed-slope-playorbit --limit 3   # wait for the run to succeed
+gh run list -R saralaaga/speed-slope-playorbit --limit 3
 curl -s https://speedslope.net/games.json | python3 -c "import json,sys; print(len(json.load(sys.stdin)))"
+curl -sI https://speedslope.net/pool-duel/ | head -1
 ```
 
-The `games.json` entry count must match the build output. Cloudflare Pages serves the previous
-deployment until the new one finishes, so a stale count right after a push is expected; compare
-`app/games.json` in the commit against production once the workflow is green.
+The `games.json` entry count must match the build output. Workers deployments
+are atomic, but browser/CDN caches can briefly retain the previous response.
 
 ## Rollback
 
-Re-run a previous successful workflow, or revert the offending commit on `main` and push. Both
-routes rebuild from source, so the repository stays the source of truth. Selecting an older
-deployment in the Cloudflare dashboard also works, but the next push will overwrite it.
+For a bad Worker release, use Wrangler's version rollback from the deploy list
+or re-run the last good GitHub Actions workflow. If a Worker-only rollback is
+insufficient, redeploy a reverted commit on `main`; the repository remains the
+source of truth.
 
-## Manual deploy (escape hatch)
+Keep the old Pages project disabled, rather than deleting it immediately, until
+the Worker deployment has passed production verification and the rollback
+window.
 
-Only to get a hotfix out while the workflow is broken:
+## Manual deploy
+
+Only use this for a hotfix when Actions is unavailable, and say so afterward:
 
 ```bash
 python3 build_site.py && python3 validate_site.py
-npx wrangler pages deploy app --project-name=speedslope-net --branch=main
+npx wrangler deploy
 ```
-
-Say so when you do it, because production will then be ahead of the repository and the next push
-will roll it back.
-
-## Things that are not part of a normal deploy
-
-- D1 migrations and the comments database. `wrangler.toml` carries the binding only; do not
-  migrate the database as part of a content publish.
-- `dist/`. It is a build artifact and is gitignored.

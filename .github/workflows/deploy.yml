@@ -10,7 +10,7 @@ permissions:
   deployments: write
 
 concurrency:
-  group: pages-production
+  group: worker-production
   cancel-in-progress: false
 
 jobs:
@@ -21,14 +21,16 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: '3.x'
-      - name: Build and validate
+      - name: Build, test, and validate
         run: |
           python3 build_site.py
+          node tests/worker.test.mjs
+          node tests/comments_filter.test.mjs
           python3 validate_site.py
-      - name: Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy app --project-name=speedslope-net --branch=main
+          command: deploy
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}

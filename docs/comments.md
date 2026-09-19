@@ -1,10 +1,10 @@
 # Comments Setup
 
-The comments feature uses Cloudflare Pages Functions, D1, Turnstile, and Cloudflare Access.
+The comments feature uses a Cloudflare Worker, D1, Turnstile, and Cloudflare Access.
 
 ## Bindings and Secrets
 
-Create a D1 database and bind it to the Pages project as:
+Create a D1 database and bind it to the Worker as:
 
 ```text
 COMMENTS_DB
@@ -12,7 +12,7 @@ COMMENTS_DB
 
 Run the migration in `migrations/0001_comments.sql` against that database.
 
-Set these environment variables/secrets on the Pages project:
+Store Worker secrets with `npx wrangler secret put <name>`:
 
 ```text
 TURNSTILE_SECRET_KEY=<server secret from Cloudflare Turnstile>
@@ -36,7 +36,7 @@ python3 validate_site.py
 
 ## Deploy
 
-Cloudflare Pages deploys the generated `app/` directory and the `functions/` directory from the `main` branch through its native Git integration. Run the local build and validation commands before merging; do not deploy from a developer laptop with Wrangler.
+The Cloudflare Worker deploys the generated `app/` assets and `worker/` API from `main` through GitHub Actions. Run the build, Worker tests, and validation commands before merging; do not deploy from a developer laptop with Wrangler except for a documented hotfix.
 
 ## Moderation
 

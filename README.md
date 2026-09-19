@@ -10,9 +10,11 @@ full catalog in `games_data.json`, then publishes only the game set selected in
 python3 build_site.py
 python3 validate_site.py
 python3 -m http.server 8123 --directory app
+npx wrangler dev
 ```
 
 Open `http://127.0.0.1:8123/speed-slope/`.
+Use Wrangler to exercise `/api/*` with the configured Worker bindings.
 
 ## Current Launch Shape
 
@@ -94,7 +96,7 @@ Then rebuild and validate.
   render placeholder boxes.
 - Keep `include_aggregate_rating_schema` disabled until ratings and vote counts
   come from a trustworthy first-party source.
-- Run `validate_site.py` before uploading `app/`.
+- Run the build, Worker/filter tests, validation, and `wrangler deploy --dry-run` before deploying.
 
 ## License
 

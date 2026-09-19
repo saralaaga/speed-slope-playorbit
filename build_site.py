@@ -956,9 +956,20 @@ def category_player(canonical, pre, games):
 </section>'''
 
 def page_redirects():
-    lines = [f'/{slug}/ / 301' for slug in sorted(REMOVED_GAME_SLUGS)]
-    lines += [f'/games/{src}/ /games/{dst}/ 301' for src, dst in sorted(REMOVED_CATEGORY_REDIRECTS.items()) if src not in CATS]
-    write('_redirects', '\n'.join(lines) + '\n')
+    redirects = [
+        {'from': f'/{slug}/', 'to': '/', 'status': 301}
+        for slug in sorted(REMOVED_GAME_SLUGS)
+    ]
+    redirects += [
+        {'from': f'/games/{src}/', 'to': f'/games/{dst}/', 'status': 301}
+        for src, dst in sorted(REMOVED_CATEGORY_REDIRECTS.items())
+        if src not in CATS
+    ]
+    worker_dir = os.path.join(BASE, 'worker')
+    os.makedirs(worker_dir, exist_ok=True)
+    with open(os.path.join(worker_dir, 'redirects.json'), 'w', encoding='utf-8') as f:
+        json.dump(redirects, f, indent=2)
+        f.write('\n')
 
 def page_list(slug, h1, blurb, games, seo, canonical, active=''):
     pre = '../' * (slug.count('/') + 1)

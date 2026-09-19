@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { isAdminRequest, validateCommentInput } from '../functions/_shared/comments.mjs';
+import { isAdminRequest, validateCommentInput } from '../worker/comments.mjs';
 
 function valid(overrides = {}) {
   return {
@@ -78,7 +78,7 @@ function valid(overrides = {}) {
 }
 
 {
-  const request = new Request('https://preview.speedslope-net.pages.dev/api/admin/comments', {
+  const request = new Request('https://speedslope-net.example.workers.dev/api/admin/comments', {
     headers: { 'cf-access-jwt-assertion': 'access-jwt' },
   });
   assert.equal(isAdminRequest(request, {}), false);

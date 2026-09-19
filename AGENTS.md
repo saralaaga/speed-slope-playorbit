@@ -28,37 +28,36 @@ A game must not be published if the check detects any of these signals:
 - game frame shows `not available here` or `Click here to Play`
 - iframe returns 403 or fails to load after clicking Play
 
-When a game fails, add its slug to `REMOVED_GAME_SLUGS`, rebuild, and confirm it no longer appears in category pages, `app/games.json`, or `app/sitemap.xml`. If a removed category page would otherwise remain on Cloudflare Pages from an older deploy, add it to `REMOVED_CATEGORY_REDIRECTS`.
+When a game fails, add its slug to `REMOVED_GAME_SLUGS`, rebuild, and confirm it no longer appears in category pages, `app/games.json`, or `app/sitemap.xml`. If a removed category page would otherwise remain from an older deploy, add it to `REMOVED_CATEGORY_REDIRECTS`.
 
-After deploy, rerun the same check against the production domain or the Pages preview URL before considering the release complete:
+After deploy, rerun the same check against the production domain or the Worker preview URL before considering the release complete:
 
 ```sh
 SITE_BASE_URL=https://speedslope.net node check_game_availability.js new-game-slug another-new-game
 ```
 
-A successful build currently reports `131 games, 19 categories, 332 files total`.
+A successful build currently reports `131 games, 19 categories, 331 files total`.
 
 ## Production Hosting
 
-The site is deployed on Cloudflare Pages.
+The site is deployed as a Cloudflare Worker with Workers Static Assets.
 
-- Cloudflare Pages project: `speedslope-net`
+- Cloudflare Worker: `speedslope-net`
 - Production domains: `https://speedslope.net`, `https://www.speedslope.net`
-- Pages preview domain: `https://speedslope-net.pages.dev`
-- Publish directory: `app/`
+- Worker entry point: `worker/index.mjs`
+- Static asset directory: `app/`
 - Site URL configured in `site_config.json`: `https://speedslope.net`
 
 ## Deployment
 
-`speedslope-net` was created with Direct Upload, and Cloudflare does not allow attaching Git integration to an existing Direct Upload project. Continuous deployment therefore runs through GitHub Actions, which is Cloudflare's documented CI path for Direct Upload projects.
+Continuous deployment runs through GitHub Actions.
 
 - Workflow: `.github/workflows/deploy.yml`, triggered by push to `main` (and manual dispatch)
-- Required repository secrets: `CLOUDFLARE_API_TOKEN` (Cloudflare Pages: Edit) and `CLOUDFLARE_ACCOUNT_ID`
-- The workflow runs `python3 build_site.py` and `python3 validate_site.py`, then runs `wrangler pages deploy app`
-- Cloudflare never builds this site, so the committed `app/` output and the deployed output can drift; the workflow rebuilds before every upload
-- Use `wrangler pages deploy` by hand only to bypass a broken workflow, and say so when you do
+- Required repository secrets: `CLOUDFLARE_API_TOKEN` (Workers Scripts: Edit and D1: Edit) and `CLOUDFLARE_ACCOUNT_ID`
+- The workflow builds, runs Worker/filter tests, validates the output, then runs `wrangler deploy`
 - Keep the game availability gate for changed iframe URLs before merging
 - The D1 comments database is a separate runtime resource; do not change or migrate it as part of a normal static content deploy
+- `app/_redirects` is not supported by Workers Static Assets; legacy redirects are generated into `worker/redirects.json` and handled by the Worker
 
 ## AdSense
 

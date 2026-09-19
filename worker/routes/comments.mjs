@@ -1,22 +1,17 @@
-import { identityHash, json, validateCommentInput, validateSlug, verifyTurnstile } from '../_shared/comments.mjs';
+import { identityHash, json, validateCommentInput, validateSlug, verifyTurnstile } from '../comments.mjs';
 
-function getDb(env) {
-  return env.COMMENTS_DB || null;
-}
-
-export async function onRequestOptions() {
+export function commentsOptions() {
   return new Response(null, { status: 204 });
 }
 
-export async function onRequestGet({ request, env }) {
-  const db = getDb(env);
-  if (!db) return json({ ok: false, error: 'Comments are not configured yet.' }, 503);
+export async function getComments(request, env) {
+  if (!env.COMMENTS_DB) return json({ ok: false, error: 'Comments are not configured yet.' }, 503);
 
   const url = new URL(request.url);
   const slug = validateSlug(url.searchParams.get('slug'));
   if (!slug.ok) return json({ ok: false, error: slug.error }, 400);
 
-  const rows = await db.prepare(
+  const rows = await env.COMMENTS_DB.prepare(
     `SELECT id, display_name AS displayName, body, created_at AS createdAt
      FROM comments
      WHERE game_slug = ? AND status = 'approved'
@@ -27,9 +22,8 @@ export async function onRequestGet({ request, env }) {
   return json({ ok: true, comments: rows.results || [] });
 }
 
-export async function onRequestPost({ request, env }) {
-  const db = getDb(env);
-  if (!db) return json({ ok: false, error: 'Comments are not configured yet.' }, 503);
+export async function postComment(request, env) {
+  if (!env.COMMENTS_DB) return json({ ok: false, error: 'Comments are not configured yet.' }, 503);
 
   let input;
   try {
@@ -47,7 +41,7 @@ export async function onRequestPost({ request, env }) {
   const now = new Date().toISOString();
   const since = new Date(Date.now() - 10 * 60 * 1000).toISOString();
   const ipHash = await identityHash(request, env);
-  const recent = await db.prepare(
+  const recent = await env.COMMENTS_DB.prepare(
     `SELECT COUNT(*) AS count FROM comments WHERE ip_hash = ? AND created_at > ?`
   ).bind(ipHash, since).first();
 
@@ -56,7 +50,7 @@ export async function onRequestPost({ request, env }) {
   }
 
   const comment = checked.value;
-  await db.prepare(
+  await env.COMMENTS_DB.prepare(
     `INSERT INTO comments (game_slug, display_name, email, body, status, ip_hash, created_at)
      VALUES (?, ?, ?, ?, 'pending', ?, ?)`
   ).bind(comment.slug, comment.displayName, comment.email, comment.body, ipHash, now).run();
