@@ -362,6 +362,29 @@ h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.2; }
 .rate-num { font-weight: 800; font-family: var(--font-display); }
 .rate-count { color: var(--muted); font-size: 12px; }
 
+.report-modal {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  height: fit-content;
+  width: min(480px, calc(100vw - 32px));
+  padding: 24px;
+  border: var(--border);
+  border-radius: 20px;
+  background: var(--surface);
+  color: var(--text);
+}
+.report-modal::backdrop { background: rgba(4, 7, 2, .72); }
+.report-modal h3 { font-size: 20px; font-weight: 900; margin-bottom: 16px; }
+.report-modal label:not(.comment-hp) { display: grid; gap: 6px; margin-bottom: 14px; font-size: 13px; font-weight: 800; color: #c6cfba; }
+.report-modal select, .report-modal textarea {
+  width: 100%; padding: 11px 12px; border: var(--border); border-radius: 10px;
+  background: var(--surface-2); color: var(--text); font: inherit; outline: none;
+}
+.report-modal textarea { min-height: 108px; resize: vertical; }
+.report-modal select:focus, .report-modal textarea:focus { border-color: var(--accent); }
+.report-actions { display: flex; justify-content: flex-end; gap: 10px; }
+
 /* Theater mode */
 body.theater .play-layout { grid-template-columns: minmax(0, 1fr); }
 body.theater .play-side, body.theater .theater-hide { display: none; }

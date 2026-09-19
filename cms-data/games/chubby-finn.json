@@ -1,0 +1,49 @@
+{
+  "slug": "chubby-finn",
+  "title": "Chubby Finn",
+  "url": "https://html5.gamemonetize.co/5s2aj1koc8i13u7sawqoqogna70csybg/",
+  "cats": [
+    "puzzle",
+    "classics"
+  ],
+  "tags": [
+    "Sokoban",
+    "Logic",
+    "Animals",
+    "Movement Puzzle",
+    "Levels"
+  ],
+  "rating": 4.2,
+  "plays": 136000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Chubby Finn is a friendly Sokoban-style puzzle about a seal who can push balls but never pull them. Walk through each layout carefully, avoid trapping a ball against a wall and place every target perfectly.",
+  "howto": [
+    "Move Finn around the level with the arrow controls.",
+    "Push a ball into the correct target position.",
+    "Remember that balls cannot be pulled back.",
+    "Restart early if a ball gets wedged against a wall.",
+    "Solve every layout to complete the level set."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Keys",
+      "action": "move and push"
+    },
+    {
+      "key": "Touch",
+      "action": "on-screen arrows"
+    }
+  ],
+  "tips": [
+    "Plan the order of pushes before moving the first ball.",
+    "Corners are usually permanent traps.",
+    "Keep open space between balls until the route is clear."
+  ],
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rss.php?format=json",
+  "thumbfile": "chubby-finn.jpg",
+  "sort_order": 173,
+  "faqs": []
+}

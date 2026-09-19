@@ -1,0 +1,30 @@
+{
+  "slug": "slope-extra",
+  "title": "Slope Extra",
+  "url": "https://html5.gamedistribution.com/34c651d768404d11a564d2aa0cc96bca/",
+  "cats": ["slope", "runner", "arcade"],
+  "tags": ["Slope", "Ball", "Endless", "Rolling", "Reflex"],
+  "rating": 4.4,
+  "plays": 216000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Slope Extra keeps the classic downhill loop alive: steer a accelerating ball along raised ramps, read the next gap early and survive as the pace builds. It is a quick, focused alternative run for Speed Slope players.",
+  "howto": [
+    "Follow the ramp and keep the ball near a safe lane.",
+    "Steer left and right as the slope accelerates.",
+    "Avoid blocks, edges and sudden changes in the track.",
+    "Use straight sections to reset your position.",
+    "Chase a longer run after every fall."
+  ],
+  "controls": [
+    {"key": "Mouse", "action": "steer left and right"},
+    {"key": "Touch", "action": "swipe to steer"}
+  ],
+  "tips": ["Make small corrections instead of wide swerves.", "Look two ramps ahead.", "Return to center when the track opens up."],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/slope-extra/",
+  "thumbfile": "slope-extra.jpg",
+  "sort_order": 174,
+  "faqs": []
+}

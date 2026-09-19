@@ -21,11 +21,13 @@
   "added": "2026-07-23",
   "seo_title": "Speed Slope Game - Play Online Free | SpeedSlope.net",
   "meta_desc": "Play Speed Slope online for free. Guide a fast rolling ball down a neon slope, dodge obstacles, and try more slope games like Speed Slope.",
-  "desc": "Speed Slope is a fast 3D endless runner game where a rolling ball races down a steep neon track. Play Speed Slope online for free, stay on the platform, avoid blocks and gaps, and keep control as the speed keeps rising. It is easy to start, but every second demands sharper timing, calmer steering, and better anticipation.",
+  "desc": "Speed Slope is a fast 3D endless runner where a rolling ball races down a steep neon track. Play Speed Slope online for free, choose the endless or battle-style mode offered by the game, and keep control as the speed rises. Save your recovery ID if the game shows one, avoid blocks and gaps, and use small steering corrections as every second demands sharper timing and better anticipation.",
   "howto": [
     "The game loads automatically when you open the page — just wait a moment.",
+    "Pick Endless for a solo high-score run, or Battle Mode when you want a direct competitive challenge.",
     "Steer the ball left and right to keep it centered on the slope.",
     "Avoid red blocks, sudden gaps, and sharp edges that can end the run instantly.",
+    "Write down the recovery ID if the game shows one so you can continue later.",
     "Use small steering corrections instead of long swerves when the speed rises.",
     "Try to survive longer each run and build a rhythm for the track pattern."
   ],
@@ -74,6 +76,14 @@
     {
       "question": "Why does Speed Slope get harder?",
       "answer": "The track feels harder as your speed increases. Obstacles arrive faster, gaps become less forgiving, and small steering mistakes matter more."
+    },
+    {
+      "question": "Does Speed Slope have a Battle Mode?",
+      "answer": "The embedded Speed Slope game includes a Battle Mode alongside solo play. It is a competitive option for testing whether you can keep control longer under the same high-speed pressure."
+    },
+    {
+      "question": "What is the recovery ID in Speed Slope?",
+      "answer": "Some versions of Speed Slope show a recovery ID on the welcome screen. Save it somewhere safe if you want to continue a later session, because the ID is the game's way of identifying your saved progress."
     }
   ],
   "embed_source": "1000Games / AZGames public embed",

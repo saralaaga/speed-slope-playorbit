@@ -1,0 +1,54 @@
+{
+  "slug": "boxing-random",
+  "title": "Boxing Random",
+  "url": "https://html5.gamedistribution.com/e8c02771085e4c8b9de3deda5e087e0e/",
+  "cats": [
+    "2-player",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Boxing",
+    "Two Player",
+    "Physics",
+    "Ragdoll",
+    "Arcade Sports"
+  ],
+  "rating": 4.5,
+  "plays": 285000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Boxing Random turns short boxing matches into unpredictable physics duels. Long arms, rocket punches, slippery rings and silly ragdoll movement keep every round fresh. Land clean punches to the head and be the first fighter to score five.",
+  "howto": [
+    "Choose a single match or start a two-player bout.",
+    "Time your jump and punch to close the distance.",
+    "Hit your opponent's head to score a point.",
+    "Adjust to each round's random arms, field and punch type.",
+    "Reach five points before your rival to win."
+  ],
+  "controls": [
+    {
+      "key": "W",
+      "action": "Player 1 punch and jump"
+    },
+    {
+      "key": "Up Arrow",
+      "action": "Player 2 punch and jump"
+    },
+    {
+      "key": "Touch",
+      "action": "tap controls on mobile"
+    }
+  ],
+  "tips": [
+    "Wait for a clean distance instead of swinging on every jump.",
+    "Treat the first seconds of a new round as a timing test.",
+    "A single well-timed punch is worth more than a flurry."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/boxing-random/",
+  "thumbfile": "boxing-random.jpg",
+  "sort_order": 162,
+  "faqs": []
+}

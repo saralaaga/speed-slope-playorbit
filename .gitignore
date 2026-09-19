@@ -10,6 +10,7 @@ speed-slope-page.png
 .playwright-mcp/
 .omx/
 _gm_feed.json
+.wrangler/
 
 # Build artifacts
 dist/

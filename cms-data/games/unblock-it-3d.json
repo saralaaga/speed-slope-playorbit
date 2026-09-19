@@ -1,0 +1,49 @@
+{
+  "slug": "unblock-it-3d",
+  "title": "Unblock It 3D",
+  "url": "https://html5.gamedistribution.com/bb321f67a2fc481ba31308582f3df0d5/",
+  "cats": [
+    "puzzle",
+    "arcade"
+  ],
+  "tags": [
+    "Unblock",
+    "3D Puzzle",
+    "Logic",
+    "Spatial",
+    "Levels"
+  ],
+  "rating": 4.5,
+  "plays": 254000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Unblock It 3D rotates a cube-shaped logic puzzle in your hands. Slide arrow blocks in an open direction, clear every face and watch out for larger pieces. Classic mode offers hundreds of relaxed puzzles, while Adventure mode adds themed levels and limited moves.",
+  "howto": [
+    "Rotate the cube to inspect every side.",
+    "Find blocks whose arrows point into open space.",
+    "Swipe those blocks away without hitting obstructions.",
+    "Clear the entire cluster to finish the puzzle.",
+    "In Adventure mode, complete the layout within the move limit."
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "drag to rotate and slide blocks"
+    },
+    {
+      "key": "Touch",
+      "action": "swipe to rotate and clear blocks"
+    }
+  ],
+  "tips": [
+    "Inspect all sides before removing the obvious block.",
+    "Larger blocks can create or remove several routes at once.",
+    "In Adventure mode, count moves before experimenting."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/unblock-it-3d/",
+  "thumbfile": "unblock-it-3d.jpg",
+  "sort_order": 172,
+  "faqs": []
+}

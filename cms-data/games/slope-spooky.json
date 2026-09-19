@@ -1,0 +1,30 @@
+{
+  "slug": "slope-spooky",
+  "title": "Slope Spooky",
+  "url": "https://html5.gamedistribution.com/98a603d9b0c74812b3928d104605ddcd/",
+  "cats": ["slope", "runner", "arcade"],
+  "tags": ["Halloween", "Slope", "Ball", "Endless", "Reflex"],
+  "rating": 4.3,
+  "plays": 172000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Slope Spooky trades neon for an eerie Halloween track while keeping the familiar downhill challenge. Steer the rolling ball past obstacles, hold your line and survive longer than your last spooky run.",
+  "howto": [
+    "Roll onto the eerie slope.",
+    "Steer away from blocks and gaps.",
+    "Keep the ball on the platform.",
+    "Increase your focus as speed rises.",
+    "Restart immediately after a crash."
+  ],
+  "controls": [
+    {"key": "Left Arrow / A", "action": "steer left"},
+    {"key": "Right Arrow / D", "action": "steer right"}
+  ],
+  "tips": ["Look past the theme and read the track.", "Use short steering taps.", "Keep a rhythm through straight sections."],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/slope-spooky/",
+  "thumbfile": "slope-spooky.jpg",
+  "sort_order": 180,
+  "faqs": []
+}

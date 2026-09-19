@@ -219,6 +219,10 @@ def enrich_categories(game):
         add('runner', 'platformer', 'arcade')
     if game['slug'] == 'fireboy-watergirl-7-and-friends':
         add('2-player', 'platformer', 'obstacle-course', 'puzzle')
+    # Their titles would otherwise auto-create one-game football, soccer and
+    # merge category pages; the two-player and classic puzzle homes are better.
+    if game['slug'] in {'soccer-random', '2048-x2-legends'}:
+        return cats
 
     if 'basketball' in text:
         add('basketball', 'sports', 'shooting', 'arcade')
@@ -295,7 +299,7 @@ FEATURED_CATEGORY_GAMES = {
     'racing': 'speed-slope',
     'puzzle': 'marble-sort',
     'arcade': 'nullpulse-runner',
-    '2-player': 'fireboy-watergirl-7-and-friends',
+    '2-player': 'boxing-random',
     'classics': 'chess-3d',
     'runner': 'nullpulse-runner',
     'driving': 'highway-driver-3d',
@@ -309,10 +313,10 @@ FEATURED_CATEGORY_GAMES = {
     'archery': 'archery-legends',
     'pool': 'pool-duel',
     'golf': 'neon-mini-golf',
-    'shooting': 'archery-legends',
+    'shooting': 'bubble-shooter-free-3',
     'strategy': 'chess-3d',
     'word': 'word-search-universe-animals',
-    'sorting': 'marble-sort',
+    'sorting': 'stack-sorting',
     'fighting': 'martial-arts-fighter-duel',
 }
 
@@ -858,8 +862,35 @@ def game_page_html(g, pre='../', canonical=None, autoplay=False, breadcrumb=True
 <button class="btn btn-ghost" id="favBtn" data-slug="{g['slug']}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg><span>Save</span></button>
 <button class="btn btn-ghost" id="theaterBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15h18"/></svg>Theater</button>
 <button class="btn btn-ghost" id="fsBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>Fullscreen</button>
+<button class="btn btn-ghost" id="shareBtn" data-title="{esc(g['title'])}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M12 3v12M8 7l4-4 4 4M5 14v5a2 2 0 002 2h10a2 2 0 002-2v-5"/></svg><span>Share</span></button>
+<button class="btn btn-ghost" id="reportBtn" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M5 21V4m0 1h12l-2 4 2 4H5"/></svg><span>Report</span></button>
 </div>
 </div>
+<dialog id="reportModal" class="report-modal" aria-labelledby="reportTitle">
+<form id="reportForm" data-report-api="/api/reports" data-slug="{g['slug']}">
+<h3 id="reportTitle">Report {esc(g['title'])}</h3>
+<label>What happened?
+<select name="issue" required>
+<option value="">Choose a reason</option>
+<option value="not-loading">Game did not load</option>
+<option value="not-working">Game is not working</option>
+<option value="progress">Lost progress</option>
+<option value="inappropriate">Inappropriate content</option>
+<option value="purchase">In-game purchase issue</option>
+<option value="other">Other issue</option>
+</select>
+</label>
+<label>Details (optional)
+<textarea name="details" maxlength="500" placeholder="Tell us what you saw. Do not include links."></textarea>
+</label>
+<label class="comment-hp">Website <input name="website" tabindex="-1" autocomplete="off"></label>
+<div class="report-actions">
+<button class="btn btn-ghost" type="button" data-close-report>Cancel</button>
+<button class="btn btn-primary" type="submit">Send report</button>
+</div>
+<p class="comment-note" id="reportStatus" role="status"></p>
+</form>
+</dialog>
 {right_side}
 </div>
 {comments_section(g, pre)}

@@ -40,6 +40,45 @@ function database() {
 {
   const db = database();
   const response = await worker.fetch(
+    new Request('https://speedslope.net/api/reports', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        slug: 'speed-slope',
+        issue: 'not-loading',
+        details: 'The frame stays blank after retry.',
+      }),
+    }),
+    { COMMENTS_DB: db },
+  );
+  const data = await response.json();
+  assert.equal(response.status, 202);
+  assert.equal(data.ok, true);
+  assert.ok(
+    db.queries.some((query) => /INSERT INTO comments/.test(query) && /'hidden'/.test(query)),
+    'expected report to be inserted into the hidden moderation queue'
+  );
+}
+
+{
+  const db = database();
+  const response = await worker.fetch(
+    new Request('https://speedslope.net/api/reports', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ slug: 'speed-slope', issue: 'not-a-real-issue' }),
+    }),
+    { COMMENTS_DB: db },
+  );
+  const data = await response.json();
+  assert.equal(response.status, 400);
+  assert.equal(data.ok, false);
+  assert.equal(db.queries.length, 0);
+}
+
+{
+  const db = database();
+  const response = await worker.fetch(
     new Request('https://speedslope.net/api/comments?slug=neon-mini-golf'),
     { COMMENTS_DB: db },
   );

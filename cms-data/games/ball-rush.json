@@ -1,0 +1,30 @@
+{
+  "slug": "ball-rush",
+  "title": "Ball Rush",
+  "url": "https://html5.gamedistribution.com/0c36271483334c339e3ad72f3025d029/",
+  "cats": ["slope", "runner", "arcade"],
+  "tags": ["Ball", "Endless Running", "Avoid", "Skill", "Reflex"],
+  "rating": 4.3,
+  "plays": 193000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Ball Rush is a bright endless runner where a ball gains speed and the safe line keeps shrinking. Dodge blocks, stay on the track and turn each extra second of survival into a new best distance.",
+  "howto": [
+    "Start rolling and scan the obstacles ahead.",
+    "Move the ball into the widest safe lane.",
+    "Avoid blocks and track edges.",
+    "Adjust earlier as acceleration increases.",
+    "Beat your previous distance."
+  ],
+  "controls": [
+    {"key": "Arrow Keys", "action": "steer the ball"},
+    {"key": "Mouse", "action": "steer the ball"}
+  ],
+  "tips": ["Pick a lane before the obstacle appears.", "Do not overcorrect near edges.", "Use calm, repeated inputs."],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/ball-rush/",
+  "thumbfile": "ball-rush.jpg",
+  "sort_order": 177,
+  "faqs": []
+}

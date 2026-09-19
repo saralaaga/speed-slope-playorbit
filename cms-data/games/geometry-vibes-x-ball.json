@@ -1,0 +1,54 @@
+{
+  "slug": "geometry-vibes-x-ball",
+  "title": "Geometry Vibes X Ball",
+  "url": "https://html5.gamemonetize.co/734rvzp0kl14ytxspbpv4p6uytftdlfn/",
+  "cats": [
+    "2-player",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Geometry",
+    "One Button",
+    "Reflex",
+    "Obstacles",
+    "Two Player"
+  ],
+  "rating": 4.4,
+  "plays": 236000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Geometry Vibes X Ball is a sharp one-button reflex challenge through spinning gears, traps and tight geometry. Hold to rise, release to dive and find the rhythm of each course. Solo, two-player, three-player and four-player modes make it easy to race friends.",
+  "howto": [
+    "Pick your solo or multiplayer mode.",
+    "Hold the control to make your ball fly upward.",
+    "Release to dive back toward the safe line.",
+    "Avoid gears, walls and moving traps without losing rhythm.",
+    "Finish the level or outlast your rivals."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Up Arrow",
+      "action": "Player 1 hold to fly up"
+    },
+    {
+      "key": "H",
+      "action": "Player 3 control in multiplayer"
+    },
+    {
+      "key": "L",
+      "action": "Player 4 control in multiplayer"
+    }
+  ],
+  "tips": [
+    "Use short taps near gears instead of holding forever.",
+    "Learn the release point before the obstacle, not at it.",
+    "In multiplayer, protect your line rather than copying rivals."
+  ],
+  "embed_source": "GameMonetize public feed",
+  "embed_source_url": "https://gamemonetize.com/rss.php?format=json",
+  "thumbfile": "geometry-vibes-x-ball.jpg",
+  "sort_order": 166,
+  "faqs": []
+}

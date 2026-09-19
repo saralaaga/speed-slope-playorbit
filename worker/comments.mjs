@@ -6,6 +6,15 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const URL_RE = /(https?:\/\/|www\.|\b[a-z0-9][a-z0-9-]{1,}\.(?:com|net|org|io|xyz|top|club|online|site|info|biz|app|dev|co|cc|me|ru|cn|link|shop)\b)/i;
 const SPAM_RE = /\b(casino|crypto|loan|viagra|betting|telegram|whatsapp|escort|porn|bonus|coupon code)\b/i;
 
+export const REPORT_TYPES = {
+  'not-loading': 'Game did not load',
+  'not-working': 'Game is not working',
+  progress: 'Lost progress',
+  inappropriate: 'Inappropriate content',
+  purchase: 'In-game purchase issue',
+  other: 'Other issue',
+};
+
 function clean(value, max) {
   return String(value || '')
     .replace(/[\u0000-\u001f\u007f]/g, ' ')
@@ -50,6 +59,30 @@ export function validateCommentInput(input) {
       displayName,
       email: email || null,
       body,
+    },
+  };
+}
+
+export function validateReportInput(input) {
+  const honeypot = clean(input.website || input.homepage || input.company, 200);
+  if (honeypot) return fail('Spam check failed.');
+
+  const slug = validateSlug(input.slug);
+  if (!slug.ok) return slug;
+
+  const issue = clean(input.issue, 40).toLowerCase();
+  const label = REPORT_TYPES[issue];
+  if (!label) return fail('Choose a report reason.');
+
+  const details = clean(input.details || input.comment, 500);
+  if (URL_RE.test(details) || SPAM_RE.test(details)) return fail('This report looks like spam.');
+  if (/(.)\1{8,}/.test(details)) return fail('This report looks repetitive.');
+
+  return {
+    ok: true,
+    value: {
+      slug: slug.value,
+      body: details ? `[Report: ${label}] ${details}` : `[Report: ${label}]`,
     },
   };
 }

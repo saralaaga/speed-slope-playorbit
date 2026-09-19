@@ -1,0 +1,30 @@
+{
+  "slug": "slope-snowball",
+  "title": "Slope Snowball",
+  "url": "https://html5.gamedistribution.com/e313337fdab94c86b819311eb4fb222f/",
+  "cats": ["slope", "runner", "arcade"],
+  "tags": ["Snowball", "Winter", "Slope", "Endless", "Reflex"],
+  "rating": 4.4,
+  "plays": 227000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Slope Snowball gives the downhill formula a winter coat. Roll a snowball down slippery slopes, dodge hazards and keep the run alive as the track offers less room for hesitation.",
+  "howto": [
+    "Start rolling down the winter slope.",
+    "Steer left and right around hazards.",
+    "Stay on the snow-covered track.",
+    "Correct early when the ball drifts.",
+    "Roll as far as possible."
+  ],
+  "controls": [
+    {"key": "A / Q / Left Arrow", "action": "move left"},
+    {"key": "D / R / Right Arrow", "action": "move right"}
+  ],
+  "tips": ["Snowy tracks drift, so steer slightly earlier.", "Choose a lane before hazards arrive.", "Keep the ball away from sharp edges."],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/slope-snowball/",
+  "thumbfile": "slope-snowball.jpg",
+  "sort_order": 179,
+  "faqs": []
+}

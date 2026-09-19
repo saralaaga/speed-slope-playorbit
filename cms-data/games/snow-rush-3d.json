@@ -1,0 +1,58 @@
+{
+  "slug": "snow-rush-3d",
+  "title": "Snow Rush 3D",
+  "url": "https://html5.gamedistribution.com/e1e32230bdf040d69f4e367015e1c527/",
+  "cats": [
+    "slope",
+    "runner",
+    "2-player"
+  ],
+  "tags": [
+    "Snow",
+    "Sled",
+    "Two Player",
+    "Endless Runner",
+    "Winter"
+  ],
+  "rating": 4.3,
+  "plays": 194000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Snow Rush 3D is a winter sled run for one or two players. Slip down snow-covered tracks, dodge snowmen, read tricky turns and grab gifts before the course ends. Share the keyboard on desktop for an immediate side-by-side distance race.",
+  "howto": [
+    "Choose single-player or two-player mode.",
+    "Steer along the safest snowy line.",
+    "Jump over ramps, obstacles and awkward turns.",
+    "Collect gifts while holding your speed.",
+    "Race to the longest distance in two-player mode."
+  ],
+  "controls": [
+    {
+      "key": "A / D",
+      "action": "Player 1 steer"
+    },
+    {
+      "key": "W / Space",
+      "action": "Player 1 jump"
+    },
+    {
+      "key": "Left / Right Arrows",
+      "action": "Player 2 steer"
+    },
+    {
+      "key": "Up Arrow",
+      "action": "Player 2 jump"
+    }
+  ],
+  "tips": [
+    "In two-player mode, agree on screen sides before starting.",
+    "Do not fight for gifts if it puts you into an obstacle.",
+    "Release steering early; snowy tracks drift after a turn."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/snow-rush-3d/",
+  "thumbfile": "snow-rush-3d.jpg",
+  "sort_order": 168,
+  "faqs": []
+}

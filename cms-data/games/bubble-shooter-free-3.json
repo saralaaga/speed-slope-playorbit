@@ -1,0 +1,50 @@
+{
+  "slug": "bubble-shooter-free-3",
+  "title": "Bubble Shooter Free 3",
+  "url": "https://html5.gamedistribution.com/baa3715d0735443f9fe81631bb373f3d/",
+  "cats": [
+    "shooting",
+    "puzzle",
+    "arcade"
+  ],
+  "tags": [
+    "Bubble Shooter",
+    "Aim",
+    "Match 3",
+    "Relaxing",
+    "Puzzle"
+  ],
+  "rating": 4.5,
+  "plays": 267000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Bubble Shooter Free 3 is a pressure-free endless bubble puzzle with a strategic bubble swap and a bomb that clears a wide cluster. Aim carefully, match three or more colors and stop the board from creeping downward.",
+  "howto": [
+    "Aim with the guide arrow before shooting.",
+    "Match three or more bubbles of the same color.",
+    "Swap the current and next bubble when the board demands it.",
+    "Save the bomb for a dense, awkward cluster.",
+    "Keep popping groups before new rows push too low."
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "aim and shoot"
+    },
+    {
+      "key": "Touch",
+      "action": "drag to aim and release to shoot"
+    }
+  ],
+  "tips": [
+    "Look for shots that disconnect a whole branch.",
+    "Use swaps to keep two useful colors ready.",
+    "Do not waste the bomb on two or three bubbles."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/bubble-shooter-free-3/",
+  "thumbfile": "bubble-shooter-free-3.jpg",
+  "sort_order": 169,
+  "faqs": []
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "endless-lake",
+  "title": "Endless Lake",
+  "url": "https://html5.gamedistribution.com/fad19223bb6d4f0e83062dc3abc3e39f/",
+  "cats": ["reflex", "runner", "arcade"],
+  "tags": ["Endless", "Lake", "Timing", "Skill", "Reflex"],
+  "rating": 4.2,
+  "plays": 148000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Endless Lake turns a simple crossing into a timing challenge. Keep moving across narrow paths, judge each jump before the clock catches you and beat your best time in short, repeatable runs.",
+  "howto": [
+    "Start the run and read the path ahead.",
+    "Time each movement across the narrow route.",
+    "Avoid falling into the endless lake.",
+    "Keep enough speed to beat the clock.",
+    "Restart quickly to improve your time."
+  ],
+  "controls": [{"key": "Mouse", "action": "control the runner"}],
+  "tips": ["Commit to a jump only after reading the landing.", "Short corrections beat panic inputs.", "Learn the rhythm of each path."],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/endless-lake/",
+  "thumbfile": "endless-lake.jpg",
+  "sort_order": 175,
+  "faqs": []
+}

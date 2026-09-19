@@ -25,7 +25,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/style.css?v=14aeb1e6">
+<link rel="stylesheet" href="../assets/css/style.css?v=a982565b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "Tractor Drift 3D", "url": "https://speedslope.net/tractor-drift-3d/", "image": "https://speedslope.net/assets/thumbs/tractor-drift-3d.jpg", "description": "Master the art of tractor drifting in Tractor Drift 3D! Experience a unique mix of heavy machinery and high-speed sideways action. Chain smooth drifts, master the physics, and chase high scores on precision-built tracks. Raw Physics: Test your timing and throttle control with heavy machines. Progress: Unlock different tractors and find the perfect handling for your style. Leaderboards: Dominate the ranks with massive combos and perfect lines. Addictive gameplay that&amp;rsquo;s easy to learn but hard to master. Prove that tractors can drift just as hard as any race car!", "genre": ["Racing Games", "Driving Games", "Car Racing Games"], "gamePlatform": "Web Browser", "applicationCategory": "Game", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://speedslope.net/"}, {"@type": "ListItem", "position": 2, "name": "Racing Games", "item": "https://speedslope.net/games/racing/"}, {"@type": "ListItem", "position": 3, "name": "Tractor Drift 3D", "item": "https://speedslope.net/tractor-drift-3d/"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is Tractor Drift 3D free to play?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Tractor Drift 3D is completely free on SpeedSlope.net \u2014 it runs in your browser with no downloads, installs or accounts required."}}, {"@type": "Question", "name": "Can I play Tractor Drift 3D on mobile?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Tractor Drift 3D works in most mobile browsers. For the best experience rotate your phone to landscape and use the fullscreen button."}}, {"@type": "Question", "name": "Do I need to download anything to play Tractor Drift 3D?", "acceptedAnswer": {"@type": "Answer", "text": "No download is needed. The game loads automatically right on this page. Your progress stays in this browser."}}]}</script>
 </head>
 <body><header class="site-header">
@@ -95,8 +95,35 @@
 <button class="btn btn-ghost" id="favBtn" data-slug="tractor-drift-3d"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg><span>Save</span></button>
 <button class="btn btn-ghost" id="theaterBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15h18"/></svg>Theater</button>
 <button class="btn btn-ghost" id="fsBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>Fullscreen</button>
+<button class="btn btn-ghost" id="shareBtn" data-title="Tractor Drift 3D"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M12 3v12M8 7l4-4 4 4M5 14v5a2 2 0 002 2h10a2 2 0 002-2v-5"/></svg><span>Share</span></button>
+<button class="btn btn-ghost" id="reportBtn" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M5 21V4m0 1h12l-2 4 2 4H5"/></svg><span>Report</span></button>
 </div>
 </div>
+<dialog id="reportModal" class="report-modal" aria-labelledby="reportTitle">
+<form id="reportForm" data-report-api="/api/reports" data-slug="tractor-drift-3d">
+<h3 id="reportTitle">Report Tractor Drift 3D</h3>
+<label>What happened?
+<select name="issue" required>
+<option value="">Choose a reason</option>
+<option value="not-loading">Game did not load</option>
+<option value="not-working">Game is not working</option>
+<option value="progress">Lost progress</option>
+<option value="inappropriate">Inappropriate content</option>
+<option value="purchase">In-game purchase issue</option>
+<option value="other">Other issue</option>
+</select>
+</label>
+<label>Details (optional)
+<textarea name="details" maxlength="500" placeholder="Tell us what you saw. Do not include links."></textarea>
+</label>
+<label class="comment-hp">Website <input name="website" tabindex="-1" autocomplete="off"></label>
+<div class="report-actions">
+<button class="btn btn-ghost" type="button" data-close-report>Cancel</button>
+<button class="btn btn-primary" type="submit">Send report</button>
+</div>
+<p class="comment-note" id="reportStatus" role="status"></p>
+</form>
+</dialog>
 <aside class="play-side right theater-hide">
 <span class="side-title">More games</span><a class="mini-game" href="../city-parking-master-3d/" aria-label="Play City Parking Master 3D">
 <div class="thumb"><img loading="lazy" src="../assets/thumbs/city-parking-master-3d.jpg" alt="" width="96" height="96"></div></a><a class="mini-game" href="../upgrade-the-cars/" aria-label="Play Upgrade the CARS">
@@ -203,6 +230,6 @@
 </div>
 </footer>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script src="../assets/js/main.js?v=14c5f795"></script>
+<script src="../assets/js/main.js?v=31570660"></script>
 </body>
 </html>

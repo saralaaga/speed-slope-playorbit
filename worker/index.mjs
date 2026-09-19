@@ -3,6 +3,7 @@ import {
   getComments,
   postComment,
 } from './routes/comments.mjs';
+import { postReport } from './routes/reports.mjs';
 import {
   listAdminComments,
   updateAdminComment,
@@ -25,6 +26,10 @@ async function handleApi(request, env) {
     if (request.method === 'OPTIONS') return commentsOptions();
     if (request.method === 'GET') return getComments(request, env);
     if (request.method === 'POST') return postComment(request, env);
+  }
+
+  if (path === '/api/reports' && request.method === 'POST') {
+    return postReport(request, env);
   }
 
   if (path === '/api/admin/comments' && request.method === 'GET') {

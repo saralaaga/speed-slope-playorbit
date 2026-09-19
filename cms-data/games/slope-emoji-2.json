@@ -1,0 +1,30 @@
+{
+  "slug": "slope-emoji-2",
+  "title": "Slope Emoji 2",
+  "url": "https://html5.gamedistribution.com/566a3a6a293f464299216a53166aa2d7/",
+  "cats": ["slope", "runner", "arcade"],
+  "tags": ["Emoji", "Ball", "Slope", "Endless", "Leaderboard"],
+  "rating": 4.5,
+  "plays": 289000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Slope Emoji 2 adds a colorful cast to the rolling-ball formula. Guide emoji faces down fast slopes, dodge obstacles and bombs, unlock more characters and push your name up the in-game leaderboard.",
+  "howto": [
+    "Choose your emoji ball and start the slope.",
+    "Steer left and right through obstacles.",
+    "Avoid bombs and stay on the platform.",
+    "Collect likes to unlock more emoji characters.",
+    "Beat your best score on the leaderboard."
+  ],
+  "controls": [
+    {"key": "A / D", "action": "steer the ball"},
+    {"key": "Left / Right Arrow", "action": "steer the ball"}
+  ],
+  "tips": ["Avoid risky collectibles near edges.", "Bombs end runs instantly; give them space.", "Practice one emoji until your line control feels steady."],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/slope-emoji-2/",
+  "thumbfile": "slope-emoji-2.jpg",
+  "sort_order": 181,
+  "faqs": []
+}

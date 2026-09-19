@@ -1,0 +1,31 @@
+{
+  "slug": "ball-rolling-slope",
+  "title": "Ball Rolling Slope",
+  "url": "https://html5.gamedistribution.com/0022998ce3c54962be6ffe178229b168/",
+  "cats": ["slope", "reflex", "arcade"],
+  "tags": ["Ball", "Slope", "Neon", "Rolling", "3D"],
+  "rating": 4.6,
+  "plays": 322000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Ball Rolling Slope is the closest cousin in this batch: a neon ball rolls down steep tracks while sudden drops and obstacles test your line choice. It is easy to start, but staying alive depends on precise steering.",
+  "howto": [
+    "Keep the ball centered on the neon slope.",
+    "Steer left and right to avoid obstacles.",
+    "Watch for drops and narrow platforms.",
+    "Make small corrections as speed builds.",
+    "Aim for a higher score each run."
+  ],
+  "controls": [
+    {"key": "Arrow Left / A", "action": "steer left"},
+    {"key": "Arrow Right / D", "action": "steer right"},
+    {"key": "Touch", "action": "swipe or tilt to steer"}
+  ],
+  "tips": ["Look beyond the ball.", "Commit early to the safer lane.", "Straight lines are often fastest and safest."],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/slope-3d/",
+  "thumbfile": "ball-rolling-slope.jpg",
+  "sort_order": 178,
+  "faqs": []
+}

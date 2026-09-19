@@ -1,0 +1,49 @@
+{
+  "slug": "2048-x2-legends",
+  "title": "2048 X2 Legends",
+  "url": "https://html5.gamedistribution.com/5c583e0578964184a151873b6629105a/",
+  "cats": [
+    "classics",
+    "puzzle"
+  ],
+  "tags": [
+    "2048",
+    "Numbers",
+    "Merge",
+    "Logic",
+    "Classic Puzzle"
+  ],
+  "rating": 4.4,
+  "plays": 221000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "2048 X2 Legends gives the classic number-merge idea a shooting twist. Fire blocks into matching values, combine upward and manage the board before the available space disappears. Boosters help when a perfect merge is just out of reach.",
+  "howto": [
+    "Aim a block toward another block with the same number.",
+    "Shoot to combine them into a higher value.",
+    "Keep matching values available on the board.",
+    "Use boosters only when space is genuinely tight.",
+    "Reach the highest number you can before running out of room."
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "aim and shoot blocks"
+    },
+    {
+      "key": "Touch",
+      "action": "drag to aim and release"
+    }
+  ],
+  "tips": [
+    "Keep one low block available as a merge anchor.",
+    "Do not chase a large number while the center fills.",
+    "Check the whole board for a chain before every shot."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/2048-x2-legends/",
+  "thumbfile": "2048-x2-legends.jpg",
+  "sort_order": 171,
+  "faqs": []
+}

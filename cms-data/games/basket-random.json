@@ -1,0 +1,54 @@
+{
+  "slug": "basket-random",
+  "title": "Basket Random",
+  "url": "https://html5.gamedistribution.com/bf1268dccb5d43e7970bb3edaa54afc8/",
+  "cats": [
+    "2-player",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Basket",
+    "Two Player",
+    "Physics",
+    "Ragdoll",
+    "Arcade Sports"
+  ],
+  "rating": 4.6,
+  "plays": 318000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Basket Random makes basketball beautifully ridiculous. One button controls your entire ragdoll player while courts, balls and body types keep changing. Play against the CPU or a friend and be first to five baskets.",
+  "howto": [
+    "Pick solo play or local two-player mode.",
+    "Use your one control to jump, flail and shoot.",
+    "Take advantage of each random court and ball type.",
+    "Defend the basket when you do not have a clean shot.",
+    "Score five times first to win the match."
+  ],
+  "controls": [
+    {
+      "key": "W",
+      "action": "Player 1 jump and shoot"
+    },
+    {
+      "key": "Up Arrow",
+      "action": "Player 2 jump and shoot"
+    },
+    {
+      "key": "Touch",
+      "action": "tap controls on mobile"
+    }
+  ],
+  "tips": [
+    "Let the ball settle before forcing a shot.",
+    "Use the rim as a second chance rather than a failure.",
+    "The funniest jumps often produce the best steals."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/basket-random/",
+  "thumbfile": "basket-random.jpg",
+  "sort_order": 164,
+  "faqs": []
+}

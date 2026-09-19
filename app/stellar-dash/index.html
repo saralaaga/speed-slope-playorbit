@@ -25,7 +25,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/css/style.css?v=14aeb1e6">
+<link rel="stylesheet" href="../assets/css/style.css?v=a982565b">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "Stellar Dash", "url": "https://speedslope.net/stellar-dash/", "image": "https://speedslope.net/assets/thumbs/stellar-dash.jpg", "description": "Stellar Dash gives you one input \u2014 tap to boost \u2014 and a neon obstacle field that gets meaner every time your score climbs. Play Stellar Dash online for free and thread your ship through narrowing gaps while the game quietly speeds up around you. Simple to start, genuinely difficult once the gaps start arriving in pairs.", "genre": ["Reflex Games", "Arcade Games"], "gamePlatform": "Web Browser", "applicationCategory": "Game", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://speedslope.net/"}, {"@type": "ListItem", "position": 2, "name": "Reflex Games", "item": "https://speedslope.net/games/reflex/"}, {"@type": "ListItem", "position": 3, "name": "Stellar Dash", "item": "https://speedslope.net/stellar-dash/"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is Stellar Dash?", "acceptedAnswer": {"@type": "Answer", "text": "It is a one-tap arcade game where you boost a spaceship through neon obstacles and survive as the difficulty climbs."}}, {"@type": "Question", "name": "How do you play Stellar Dash?", "acceptedAnswer": {"@type": "Answer", "text": "Tap or click to boost. Releasing lets the ship drift down, so the skill is in short, well-timed taps."}}, {"@type": "Question", "name": "Does Stellar Dash get harder?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Obstacle spacing tightens as your score increases, so the same tap rhythm stops working later on."}}]}</script>
 </head>
 <body><header class="site-header">
@@ -95,17 +95,44 @@
 <button class="btn btn-ghost" id="favBtn" data-slug="stellar-dash"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg><span>Save</span></button>
 <button class="btn btn-ghost" id="theaterBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15h18"/></svg>Theater</button>
 <button class="btn btn-ghost" id="fsBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3"/></svg>Fullscreen</button>
+<button class="btn btn-ghost" id="shareBtn" data-title="Stellar Dash"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M12 3v12M8 7l4-4 4 4M5 14v5a2 2 0 002 2h10a2 2 0 002-2v-5"/></svg><span>Share</span></button>
+<button class="btn btn-ghost" id="reportBtn" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M5 21V4m0 1h12l-2 4 2 4H5"/></svg><span>Report</span></button>
 </div>
 </div>
+<dialog id="reportModal" class="report-modal" aria-labelledby="reportTitle">
+<form id="reportForm" data-report-api="/api/reports" data-slug="stellar-dash">
+<h3 id="reportTitle">Report Stellar Dash</h3>
+<label>What happened?
+<select name="issue" required>
+<option value="">Choose a reason</option>
+<option value="not-loading">Game did not load</option>
+<option value="not-working">Game is not working</option>
+<option value="progress">Lost progress</option>
+<option value="inappropriate">Inappropriate content</option>
+<option value="purchase">In-game purchase issue</option>
+<option value="other">Other issue</option>
+</select>
+</label>
+<label>Details (optional)
+<textarea name="details" maxlength="500" placeholder="Tell us what you saw. Do not include links."></textarea>
+</label>
+<label class="comment-hp">Website <input name="website" tabindex="-1" autocomplete="off"></label>
+<div class="report-actions">
+<button class="btn btn-ghost" type="button" data-close-report>Cancel</button>
+<button class="btn btn-primary" type="submit">Send report</button>
+</div>
+<p class="comment-note" id="reportStatus" role="status"></p>
+</form>
+</dialog>
 <aside class="play-side right theater-hide">
 <span class="side-title">More games</span><a class="mini-game" href="../extreme-ball-balancer-3d/" aria-label="Play Extreme Ball Balancer 3D">
 <div class="thumb"><img loading="lazy" src="../assets/thumbs/extreme-ball-balancer-3d.jpg" alt="" width="96" height="96"></div></a><a class="mini-game" href="../dummy-speed-bridger/" aria-label="Play Dummy Speed Bridger">
 <div class="thumb"><img loading="lazy" src="../assets/thumbs/dummy-speed-bridger.jpg" alt="" width="96" height="96"></div></a><a class="mini-game" href="../endless-tunnel-run/" aria-label="Play Endless Tunnel Run">
 <div class="thumb"><img loading="lazy" src="../assets/thumbs/endless-tunnel-run.jpg" alt="" width="96" height="96"></div></a><a class="mini-game" href="../gliding-over-dunes/" aria-label="Play Gliding over Dunes">
 <div class="thumb"><img loading="lazy" src="../assets/thumbs/gliding-over-dunes.jpg" alt="" width="96" height="96"></div></a><a class="mini-game" href="../gate-rusher-2/" aria-label="Play Gate Rusher 2">
-<div class="thumb"><img loading="lazy" src="../assets/thumbs/gate-rusher-2.jpg" alt="" width="96" height="96"></div></a><a class="mini-game" href="../momentum/" aria-label="Play Momentum">
-<div class="thumb"><img loading="lazy" src="../assets/thumbs/momentum.jpg" alt="" width="96" height="96"></div></a><a class="mini-game" href="../rainbow-color-ball-runner/" aria-label="Play Rainbow Color Ball Runner">
-<div class="thumb"><img loading="lazy" src="../assets/thumbs/rainbow-color-ball-runner.jpg" alt="" width="96" height="96"></div></a></aside>
+<div class="thumb"><img loading="lazy" src="../assets/thumbs/gate-rusher-2.jpg" alt="" width="96" height="96"></div></a><a class="mini-game" href="../ball-rolling-slope/" aria-label="Play Ball Rolling Slope">
+<div class="thumb"><img loading="lazy" src="../assets/thumbs/ball-rolling-slope.jpg" alt="" width="96" height="96"></div></a><a class="mini-game" href="../speed-run-3d/" aria-label="Play Speed Run 3D">
+<div class="thumb"><img loading="lazy" src="../assets/thumbs/speed-run-3d.jpg" alt="" width="96" height="96"></div></a></aside>
 </div>
 <section class="content-block comments-panel" id="comments" data-comments data-slug="stellar-dash">
 <div class="comments-head"><div><h2>Comments</h2><p>Share a quick note about this game. Email is optional and never shown publicly.</p></div><span id="commentsCount">0 comments</span></div>
@@ -203,6 +230,6 @@
 </div>
 </footer>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script src="../assets/js/main.js?v=14c5f795"></script>
+<script src="../assets/js/main.js?v=31570660"></script>
 </body>
 </html>

@@ -1,0 +1,54 @@
+{
+  "slug": "snow-rider-3d",
+  "title": "Snow Rider 3D",
+  "url": "https://html5.gamedistribution.com/3b79a8537ebc414fb4f9672a9b8c68c8/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Snow",
+    "Sled",
+    "Downhill",
+    "Endless Runner",
+    "Reflex"
+  ],
+  "rating": 4.7,
+  "plays": 522000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Snow Rider 3D sends a sled down a bright, snowy slope full of rocks, barriers and quick line changes. Collect gifts, unlock new sleds and chase a longer run every time. It is a natural winter companion to Speed Slope's downhill reflex loop.",
+  "howto": [
+    "Start the run and let the sled build speed.",
+    "Steer left and right to stay on the clear line.",
+    "Jump over logs, ramps and sudden obstacles.",
+    "Collect gifts along the route.",
+    "Use unlocks and practice to extend your best distance."
+  ],
+  "controls": [
+    {
+      "key": "Left Arrow / A",
+      "action": "steer left"
+    },
+    {
+      "key": "Right Arrow / D",
+      "action": "steer right"
+    },
+    {
+      "key": "Up Arrow / W",
+      "action": "jump"
+    }
+  ],
+  "tips": [
+    "Pick your lane early instead of swiping at the last moment.",
+    "Keep small corrections small; the sled still slides after input.",
+    "Learn where ramps give a safer line over obstacles."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/snow-rider-3d/",
+  "thumbfile": "snow-rider-3d.jpg",
+  "sort_order": 167,
+  "faqs": []
+}

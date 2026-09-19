@@ -1,0 +1,30 @@
+{
+  "slug": "speed-run-3d",
+  "title": "Speed Run 3D",
+  "url": "https://html5.gamedistribution.com/68c91de8354345d38c54aa8f81e13393/",
+  "cats": ["runner", "reflex", "arcade"],
+  "tags": ["Speedrun", "Speed", "Neon", "One Button", "Reflex"],
+  "rating": 4.5,
+  "plays": 268000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Speed Run 3D compresses the slope feeling into glowing tunnels and one-touch movement. Patterns arrive faster every second, so clean runs come from rhythm, anticipation and calm hands rather than lucky swerves.",
+  "howto": [
+    "Enter the tunnel and find a steady rhythm.",
+    "Move through the gaps in each pattern.",
+    "React early as the speed rises.",
+    "Keep your line centered where possible.",
+    "Restart fast and aim for a cleaner run."
+  ],
+  "controls": [
+    {"key": "Arrow Keys", "action": "move"},
+    {"key": "Mouse / Touch", "action": "drag to move"}
+  ],
+  "tips": ["Read the pattern, then move once.", "Do not chase a late gap.", "Stay relaxed as speed increases."],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/speed-run-3d/",
+  "thumbfile": "speed-run-3d.jpg",
+  "sort_order": 176,
+  "faqs": []
+}

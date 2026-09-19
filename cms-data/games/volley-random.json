@@ -1,0 +1,54 @@
+{
+  "slug": "volley-random",
+  "title": "Volley Random",
+  "url": "https://html5.gamedistribution.com/b6f03bdc505e4d78a17379a5a83e206b/",
+  "cats": [
+    "2-player",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Volleyball",
+    "Two Player",
+    "Physics",
+    "Ragdoll",
+    "Arcade Sports"
+  ],
+  "rating": 4.4,
+  "plays": 242000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Volley Random takes volleyball and hands it to floppy ragdoll physics. Courts, balls and player shapes change between rounds, so no lead is completely safe. Keep the ball airborne, score under any condition and outlast your opponent.",
+  "howto": [
+    "Start a quick match against the CPU or a friend.",
+    "Use one button to jump and send your player into the ball.",
+    "Read the new court, ball and body type each round.",
+    "Aim your touches toward the open side of the court.",
+    "Stay calm when the physics turn absurd."
+  ],
+  "controls": [
+    {
+      "key": "W",
+      "action": "Player 1 jump and hit"
+    },
+    {
+      "key": "Up Arrow",
+      "action": "Player 2 jump and hit"
+    },
+    {
+      "key": "Touch",
+      "action": "tap controls on mobile"
+    }
+  ],
+  "tips": [
+    "Small touches are safer than a full-power swing.",
+    "Watch the ball's shadow before moving under it.",
+    "New rounds reward quick reading more than speed."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/volley-random/",
+  "thumbfile": "volley-random.jpg",
+  "sort_order": 163,
+  "faqs": []
+}

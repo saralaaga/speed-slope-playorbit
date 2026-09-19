@@ -1,0 +1,49 @@
+{
+  "slug": "stack-sorting",
+  "title": "Stack Sorting",
+  "url": "https://html5.gamedistribution.com/581ecb31c19742a8a6762e2580c3850c/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Sorting",
+    "Stacks",
+    "Logic",
+    "Colors",
+    "Casual Puzzle"
+  ],
+  "rating": 4.2,
+  "plays": 148000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Stack Sorting asks you to tidy colorful cylinders into matching stacks before the clock runs out. Move the top cylinder to an empty stack or a matching color, then plan far enough ahead that no piece gets trapped.",
+  "howto": [
+    "Click or tap a stack to lift its top cylinder.",
+    "Place it on an empty stack or a matching top color.",
+    "Keep at least one useful empty stack available.",
+    "Sort every cylinder before the timer ends.",
+    "Move from the roomier easy mode into hard mode."
+  ],
+  "controls": [
+    {
+      "key": "Mouse",
+      "action": "select and move stacks"
+    },
+    {
+      "key": "Touchpad / Touch",
+      "action": "tap stacks"
+    }
+  ],
+  "tips": [
+    "Free a buried color before it locks the whole board.",
+    "Leave one emergency space whenever possible.",
+    "Sort from the stack causing the largest blockage first."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/stack-sorting/",
+  "thumbfile": "stack-sorting.jpg",
+  "sort_order": 170,
+  "faqs": []
+}

@@ -199,6 +199,71 @@
     });
   }
 
+  /* ---------- share and broken-game reports ---------- */
+  var shareBtn = $('#shareBtn');
+  if (shareBtn) {
+    var shareLabel = $('span', shareBtn);
+    shareBtn.addEventListener('click', function () {
+      var payload = { title: document.title, url: location.href };
+      if (navigator.share) {
+        navigator.share(payload).catch(function () {});
+        return;
+      }
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(location.href).then(function () {
+          shareLabel.textContent = 'Copied';
+          setTimeout(function () { shareLabel.textContent = 'Share'; }, 1800);
+        }).catch(function () {
+          prompt('Copy this game link', location.href);
+        });
+        return;
+      }
+      prompt('Copy this game link', location.href);
+    });
+  }
+
+  var reportModal = $('#reportModal');
+  if (reportModal) {
+    var reportBtn = $('#reportBtn');
+    var reportForm = $('#reportForm');
+    var reportStatus = $('#reportStatus');
+    reportBtn.addEventListener('click', function () {
+      reportStatus.textContent = '';
+      reportModal.showModal();
+    });
+    $('[data-close-report]', reportModal).addEventListener('click', function () {
+      reportModal.close();
+    });
+    reportForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var submit = $('button[type="submit"]', reportForm);
+      var fd = new FormData(reportForm);
+      reportStatus.textContent = 'Sending...';
+      submit.disabled = true;
+      fetch(reportForm.getAttribute('data-report-api'), {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          slug: reportForm.getAttribute('data-slug'),
+          issue: fd.get('issue'),
+          details: fd.get('details'),
+          website: fd.get('website')
+        })
+      }).then(function (r) {
+        return r.json().then(function (data) { return { ok: r.ok, data: data }; });
+      }).then(function (res) {
+        if (!res.ok || !res.data.ok) throw new Error(res.data.error || 'Could not send report.');
+        reportForm.reset();
+        reportStatus.textContent = res.data.message || 'Thanks. We will check this game.';
+        setTimeout(function () { reportModal.close(); }, 1200);
+      }).catch(function (err) {
+        reportStatus.textContent = err.message;
+      }).finally(function () {
+        submit.disabled = false;
+      });
+    });
+  }
+
   /* ---------- search page ---------- */
   var resultsBox = $('#searchResults');
   if (resultsBox) {

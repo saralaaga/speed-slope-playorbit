@@ -1,0 +1,54 @@
+{
+  "slug": "soccer-random",
+  "title": "Soccer Random",
+  "url": "https://html5.gamedistribution.com/308d826f20034d7b972f25258c8d0a44/",
+  "cats": [
+    "2-player",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Soccer",
+    "Football",
+    "Two Player",
+    "Physics",
+    "Arcade Sports"
+  ],
+  "rating": 4.7,
+  "plays": 412000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-19",
+  "desc": "Soccer Random is a one-button physics match where pitches, players and goalposts refuse to stay normal. Ice, beach and strange bodies all change how the ball travels. Score five goals before your opponent to take the match.",
+  "howto": [
+    "Start against the CPU or invite a friend to local play.",
+    "Use one button to jump and kick toward the goal.",
+    "Read each new pitch before committing to a tackle.",
+    "Use your body to block shots as well as to score.",
+    "Be first to five goals to win."
+  ],
+  "controls": [
+    {
+      "key": "W",
+      "action": "Player 1 jump and kick"
+    },
+    {
+      "key": "Up Arrow",
+      "action": "Player 2 jump and kick"
+    },
+    {
+      "key": "Touch",
+      "action": "tap controls on mobile"
+    }
+  ],
+  "tips": [
+    "On icy rounds, move earlier than feels natural.",
+    "A defensive jump can be as valuable as a shot.",
+    "Watch the ball arc instead of chasing the player."
+  ],
+  "embed_source": "GameDistribution public game page",
+  "embed_source_url": "https://gamedistribution.com/games/soccer-random/",
+  "thumbfile": "soccer-random.jpg",
+  "sort_order": 165,
+  "faqs": []
+}

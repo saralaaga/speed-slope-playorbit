@@ -187,6 +187,31 @@ def assert_featured_category_players():
     assert not missing, f'Missing featured category players: {missing}'
 
 
+def assert_player_support_actions(expected_slugs):
+    home = home_game_slug()
+    paths = ['index.html'] + [f'{slug}/index.html' for slug in sorted(expected_slugs - {home})]
+    missing = []
+    required = (
+        'id="shareBtn"',
+        'id="reportBtn"',
+        'id="reportModal"',
+        'id="reportForm"',
+        'data-report-api="/api/reports"',
+        'name="issue" required',
+    )
+    for rel in paths:
+        path = os.path.join(APP, rel)
+        if not os.path.exists(path):
+            missing.append(f'{rel}: page')
+            continue
+        with open(path, encoding='utf-8') as f:
+            html = f.read()
+        absent = [signal for signal in required if signal not in html]
+        if absent:
+            missing.append(f'{rel}: {", ".join(absent)}')
+    assert not missing, f'Missing player support actions: {missing[:10]}'
+
+
 def assert_removed_game_redirects():
     removed_slugs = build_constant('REMOVED_GAME_SLUGS', set())
     removed_categories = build_constant('REMOVED_CATEGORY_REDIRECTS', {})
@@ -256,6 +281,7 @@ def main():
     assert_golf_games_are_not_io_games()
     assert_categories_have_enough_games()
     assert_featured_category_players()
+    assert_player_support_actions(expected_slugs)
     assert_removed_game_redirects()
     assert_sidebar_mini_games_are_images_only()
     assert_search_preview_signals()
