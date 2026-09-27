@@ -1,0 +1,47 @@
+{
+  "slug": "fruit-sort-logic",
+  "title": "Fruit Sort Logic",
+  "url": "https://html5.gamemonetize.co/xc9peayspssscylbjy2sy1xoylwpz1zn/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Fruit Sort",
+    "Shelves",
+    "Juice",
+    "Logic",
+    "Relaxing"
+  ],
+  "rating": 4.2,
+  "plays": 98000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Fruit Sort Logic — Play Free Fruit Sorting Puzzle Game Online",
+  "meta_desc": "Play Fruit Sort Logic free online. Move fruit juices between shelves, match three of a kind and clear every shelf in a relaxing sorting puzzle.",
+  "desc": "Fruit Sort Logic lines shelves with colorful fruit juices and asks you to organize them. Slide bottles between shelves, group three identical juices, and clear each shelf to unlock the next challenge.",
+  "howto": [
+    "Move fruit juice items between shelves.",
+    "Match three identical juices to clear that shelf.",
+    "Watch the free space — every shelf slot counts.",
+    "Clear all shelves to complete the level.",
+    "Unlock harder layouts as you progress."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "select and move juice bottles"
+    }
+  ],
+  "tips": [
+    "Chase the juice type you have the most of first.",
+    "Hold an empty slot for the final missing bottle of a triple.",
+    "Avoid splitting a pair across distant shelves."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "fruit-sort-logic.jpg",
+  "sort_order": 189,
+  "faqs": []
+}

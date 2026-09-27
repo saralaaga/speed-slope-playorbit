@@ -1,0 +1,47 @@
+{
+  "slug": "ball-sort-puzzle-free",
+  "title": "Ball Sort Puzzle",
+  "url": "https://html5.gamemonetize.co/sd072z9zvvalrwbem1ha83dl7vep0so0/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Ball Sort",
+    "Sorting",
+    "Tubes",
+    "Brain",
+    "Casual"
+  ],
+  "rating": 4.3,
+  "plays": 198000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Ball Sort Puzzle — Play Free Ball Sorting Game Online",
+  "meta_desc": "Play Ball Sort Puzzle online free. Move colored balls between tubes until each tube holds one color — a classic brain-teasing sorting game.",
+  "desc": "Ball Sort Puzzle is the tube-sorting classic: colored balls sit stacked in tubes and only the top ball can move. Drop balls onto a matching color or into an empty tube and sort every tube down to a single color.",
+  "howto": [
+    "Click or tap a tube to lift its top ball.",
+    "Drop it onto a tube whose top ball matches, or an empty tube.",
+    "Only the topmost ball of each tube ever moves.",
+    "Complete the level when every tube is uniformly colored.",
+    "Levels add more colors and fuller tubes as you progress."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "select tubes and drop balls"
+    }
+  ],
+  "tips": [
+    "Avoid burying a rare single ball at the bottom of a nearly sorted tube.",
+    "Empty tubes are your most valuable resource — spend them reluctantly.",
+    "Sort colors you see most of first to free space faster."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "ball-sort-puzzle-free.jpg",
+  "sort_order": 184,
+  "faqs": []
+}

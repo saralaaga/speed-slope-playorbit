@@ -1,0 +1,47 @@
+{
+  "slug": "emoji-sort",
+  "title": "Emoji Sort",
+  "url": "https://html5.gamemonetize.co/g3gdro0n97mr5ar67bdj01z64283fh8k/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Emoji",
+    "Pattern Recognition",
+    "Logic",
+    "Brain",
+    "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 76000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Emoji Sort — Play Free Emoji Pattern & Sorting Puzzle Online",
+  "meta_desc": "Play Emoji Sort free online. Read emoji patterns, categories and sequences to fill the missing emoji in each grid — a light logic sorting puzzle.",
+  "desc": "Emoji Sort is a pattern puzzle dressed in emoji. Each grid hides a rule — a category, a sequence or an association — and one cell is missing its emoji. Read the pattern, pick the right face, and keep the streak alive.",
+  "howto": [
+    "Study the filled emoji cells in the grid.",
+    "Work out the hidden pattern, sequence or category.",
+    "Pick the emoji that completes the missing cell.",
+    "Confirm your answer and move to the next grid.",
+    "Patterns get subtler as the levels climb."
+  ],
+  "controls": [
+    {
+      "key": "Mouse Click / Touch",
+      "action": "choose the missing emoji"
+    }
+  ],
+  "tips": [
+    "Check rows and columns separately before assuming diagonals.",
+    "Look for emoji categories like food, weather or faces first.",
+    "Counting repeats quickly reveals sequence-based rules."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "emoji-sort.jpg",
+  "sort_order": 191,
+  "faqs": []
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "magic-water-sort-color-puzzle",
+  "title": "Magic Water Sort: Color Puzzle",
+  "url": "https://html5.gamemonetize.co/41xsdnxxv9zcj69f9j0qhfeguoce059e/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Water Sort",
+    "Color Sorting",
+    "Bottles",
+    "Brain",
+    "Casual"
+  ],
+  "rating": 4.4,
+  "plays": 154000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Magic Water Sort — Free Color Bottle Sorting Game Online",
+  "meta_desc": "Play Magic Water Sort free online. Pour water between bottles until each bottle holds a single color across hundreds of relaxing sort puzzle levels.",
+  "desc": "Magic Water Sort fills dozens of bottles with mixed colors and asks you to un-mix them. Tap to pour, plan the order, and leave every bottle holding exactly one color. Later levels add more bottles, deeper stacks and trickier color combinations.",
+  "howto": [
+    "Tap a bottle to select it, then tap another to pour.",
+    "Pours are only allowed onto a matching top color or into an empty bottle.",
+    "A bottle is done when it contains a single color and is full.",
+    "Clear every bottle to finish the level.",
+    "Work through hundreds of levels that grow steadily harder."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "pick and pour bottles"
+    }
+  ],
+  "tips": [
+    "Count how many units of each color exist before your first pour.",
+    "Never fill your last empty bottle unless the pour frees a stuck color.",
+    "Start with colors that already have the most units grouped together."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "magic-water-sort-color-puzzle.jpg",
+  "sort_order": 183,
+  "faqs": []
+}

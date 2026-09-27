@@ -3368,5 +3368,215 @@
   "plays": 289000,
   "isHot": true,
   "isNew": true
+ },
+ {
+  "title": "Water Sort Puzzle 3",
+  "slug": "water-sort-puzzle-3",
+  "url": "water-sort-puzzle-3/",
+  "thumb": "assets/thumbs/water-sort-puzzle-3.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Water Sort",
+   "Sorting",
+   "Color Puzzle",
+   "Logic",
+   "Relaxing"
+  ],
+  "rating": 4.5,
+  "plays": 265000,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Magic Water Sort: Color Puzzle",
+  "slug": "magic-water-sort-color-puzzle",
+  "url": "magic-water-sort-color-puzzle/",
+  "thumb": "assets/thumbs/magic-water-sort-color-puzzle.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Water Sort",
+   "Color Sorting",
+   "Bottles",
+   "Brain",
+   "Casual"
+  ],
+  "rating": 4.4,
+  "plays": 154000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Ball Sort Puzzle",
+  "slug": "ball-sort-puzzle-free",
+  "url": "ball-sort-puzzle-free/",
+  "thumb": "assets/thumbs/ball-sort-puzzle-free.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Ball Sort",
+   "Sorting",
+   "Tubes",
+   "Brain",
+   "Casual"
+  ],
+  "rating": 4.3,
+  "plays": 198000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Ball Sort Master 3D",
+  "slug": "ball-sort-master-3d",
+  "url": "ball-sort-master-3d/",
+  "thumb": "assets/thumbs/ball-sort-master-3d.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Ball Sort",
+   "3D",
+   "Sorting",
+   "Color Match",
+   "Relaxing"
+  ],
+  "rating": 4.2,
+  "plays": 121000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Nut Sort: Color Puzzle Game",
+  "slug": "nut-sort-color-puzzle-game",
+  "url": "nut-sort-color-puzzle-game/",
+  "thumb": "assets/thumbs/nut-sort-color-puzzle-game.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Nut Sort",
+   "Bolts",
+   "Color Sorting",
+   "Logic",
+   "Satisfying"
+  ],
+  "rating": 4.4,
+  "plays": 176000,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Color Hoop: Sort Puzzle",
+  "slug": "color-hoop-sort-puzzle",
+  "url": "color-hoop-sort-puzzle/",
+  "thumb": "assets/thumbs/color-hoop-sort-puzzle.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Hoop Sort",
+   "Rings",
+   "Color Sorting",
+   "Logic",
+   "Casual"
+  ],
+  "rating": 4.3,
+  "plays": 143000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Goods Triple Sort",
+  "slug": "goods-triple-sort",
+  "url": "goods-triple-sort/",
+  "thumb": "assets/thumbs/goods-triple-sort.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Goods Sort",
+   "Shelf Sort",
+   "Triple Match",
+   "Shopping",
+   "Casual"
+  ],
+  "rating": 4.3,
+  "plays": 167000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Fruit Sort Logic",
+  "slug": "fruit-sort-logic",
+  "url": "fruit-sort-logic/",
+  "thumb": "assets/thumbs/fruit-sort-logic.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Fruit Sort",
+   "Shelves",
+   "Juice",
+   "Logic",
+   "Relaxing"
+  ],
+  "rating": 4.2,
+  "plays": 98000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Gems Sort Puzzle",
+  "slug": "gems-sort-puzzle",
+  "url": "gems-sort-puzzle/",
+  "thumb": "assets/thumbs/gems-sort-puzzle.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Gems",
+   "Block Sorting",
+   "Color Puzzle",
+   "Strategy",
+   "Casual"
+  ],
+  "rating": 4.2,
+  "plays": 87000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Emoji Sort",
+  "slug": "emoji-sort",
+  "url": "emoji-sort/",
+  "thumb": "assets/thumbs/emoji-sort.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Emoji",
+   "Pattern Recognition",
+   "Logic",
+   "Brain",
+   "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 76000,
+  "isHot": false,
+  "isNew": true
  }
 ]

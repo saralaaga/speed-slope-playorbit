@@ -1,0 +1,47 @@
+{
+  "slug": "nut-sort-color-puzzle-game",
+  "title": "Nut Sort: Color Puzzle Game",
+  "url": "https://html5.gamemonetize.co/bqo62nz1cpec68bw0mb8z8deln9yrq5a/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Nut Sort",
+    "Bolts",
+    "Color Sorting",
+    "Logic",
+    "Satisfying"
+  ],
+  "rating": 4.4,
+  "plays": 176000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Nut Sort Color Puzzle — Play Free Nut & Bolt Sorting Game",
+  "meta_desc": "Play Nut Sort free online. Stack colored nuts onto matching bolts until each bolt holds a single color in this satisfying logic sorting puzzle.",
+  "desc": "Nut Sort hands you bolts loaded with mismatched nuts and asks you to reorganize them. Thread nuts onto bolts of the same color, one at a time, until every bolt is uniform. New levels add more bolts, deeper threads and extra colors to juggle.",
+  "howto": [
+    "Left-click or tap a nut to select it.",
+    "Move it onto another bolt to thread it on.",
+    "Nuts only stack on matching colors or onto bolts with free space.",
+    "Solve the puzzle when each bolt holds one color only.",
+    "Handle growing bolt counts as levels progress."
+  ],
+  "controls": [
+    {
+      "key": "Left-click / Tap",
+      "action": "select a nut and move it to a bolt"
+    }
+  ],
+  "tips": [
+    "Clear the top of the most crowded bolt before starting new stacks.",
+    "Match nuts by color early — partial stacks lock up quickly.",
+    "Save one bolt with spare capacity for late reshuffles."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "nut-sort-color-puzzle-game.jpg",
+  "sort_order": 186,
+  "faqs": []
+}

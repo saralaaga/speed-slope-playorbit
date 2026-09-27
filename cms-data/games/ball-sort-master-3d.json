@@ -1,0 +1,47 @@
+{
+  "slug": "ball-sort-master-3d",
+  "title": "Ball Sort Master 3D",
+  "url": "https://html5.gamemonetize.co/bgl5ee9biz9th9pgn183erv5iitx1n40/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Ball Sort",
+    "3D",
+    "Sorting",
+    "Color Match",
+    "Relaxing"
+  ],
+  "rating": 4.2,
+  "plays": 121000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Ball Sort Master 3D — Free 3D Color Ball Sorting Game",
+  "meta_desc": "Play Ball Sort Master 3D free online. Sort vibrant 3D balls into matching tubes with smooth animations and calm, satisfying gameplay.",
+  "desc": "Ball Sort Master 3D renders the tube-sorting formula with glossy 3D balls and smooth, calming animations. Move the top ball to a matching color or empty tube, and watch each level resolve into tidy single-color stacks.",
+  "howto": [
+    "Tap a tube to pick up the ball on top.",
+    "Tap a destination tube to drop the ball in.",
+    "Balls stack only on matching colors or in empty tubes.",
+    "Fill each tube with one color to clear the board.",
+    "Advance through levels with more tubes and colors."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "move balls between tubes"
+    }
+  ],
+  "tips": [
+    "Plan two moves ahead so you never strand a ball mid-stack.",
+    "Use rotation-friendly early levels to learn each color count.",
+    "Keep one spare tube for emergency unburying."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "ball-sort-master-3d.jpg",
+  "sort_order": 185,
+  "faqs": []
+}

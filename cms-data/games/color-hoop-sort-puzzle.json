@@ -1,0 +1,47 @@
+{
+  "slug": "color-hoop-sort-puzzle",
+  "title": "Color Hoop: Sort Puzzle",
+  "url": "https://html5.gamemonetize.co/q2fcgyk3dtprdnf8279v45ssixlwqi9v/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Hoop Sort",
+    "Rings",
+    "Color Sorting",
+    "Logic",
+    "Casual"
+  ],
+  "rating": 4.3,
+  "plays": 143000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Color Hoop Sort Puzzle — Play Free Ring Sorting Game Online",
+  "meta_desc": "Play Color Hoop: Sort Puzzle free online. Stack colorful hoops onto pillars until each pillar holds one color in this vibrant sorting puzzle.",
+  "desc": "Color Hoop: Sort Puzzle stacks vibrant rings across a row of pillars. Move the top hoop to a pillar with the same top color or free space, and turn a mixed pile of rings into clean, single-color stacks.",
+  "howto": [
+    "Tap a hoop to lift it off its pillar.",
+    "Tap another pillar to drop the hoop onto it.",
+    "Hoops sit only on matching colors or where there is room.",
+    "Finish when every pillar carries hoops of a single color.",
+    "Take on hundreds of progressively trickier boards."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "move hoops between pillars"
+    }
+  ],
+  "tips": [
+    "Unbury the bottom hoop of the messiest pillar first.",
+    "Short pillars are precious — keep one nearly empty for swaps.",
+    "Group hoop colors mentally before your first move."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "color-hoop-sort-puzzle.jpg",
+  "sort_order": 187,
+  "faqs": []
+}

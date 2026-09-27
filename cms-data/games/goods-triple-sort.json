@@ -1,0 +1,47 @@
+{
+  "slug": "goods-triple-sort",
+  "title": "Goods Triple Sort",
+  "url": "https://html5.gamemonetize.co/dfia7yy9m3o6a4xqhn1vvd3rglmbtkwj/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Goods Sort",
+    "Shelf Sort",
+    "Triple Match",
+    "Shopping",
+    "Casual"
+  ],
+  "rating": 4.3,
+  "plays": 167000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Goods Triple Sort — Play Free Goods & Shelf Sorting Game Online",
+  "meta_desc": "Play Goods Triple Sort free online. Drag milk, cola and cakes onto shelves and match three identical items to clear them in this goods sorting puzzle.",
+  "desc": "Goods Triple Sort turns a cluttered store into a tidy one. Drag everyday products between shelves and line up three identical items to clear them off the board. Shelf space is tight, so every drag needs a reason.",
+  "howto": [
+    "Tap or click a product to select it.",
+    "Drag it to another shelf with matching items or free space.",
+    "Line up three identical products to clear them from the shelf.",
+    "Keep at least one shelf slot open for reorganizing.",
+    "Clear every shelf to finish the level."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Touch",
+      "action": "drag and drop products between shelves"
+    }
+  ],
+  "tips": [
+    "Build pairs early so a third matching item clears instantly.",
+    "Never fill your last empty slot without an immediate match.",
+    "Clear the most crowded shelf first to unlock breathing room."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "goods-triple-sort.jpg",
+  "sort_order": 188,
+  "faqs": []
+}

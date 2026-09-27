@@ -1,0 +1,47 @@
+{
+  "slug": "water-sort-puzzle-3",
+  "title": "Water Sort Puzzle 3",
+  "url": "https://html5.gamemonetize.co/nk047jem0uwb6ai2155fgh7dvary9lks/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Water Sort",
+    "Sorting",
+    "Color Puzzle",
+    "Logic",
+    "Relaxing"
+  ],
+  "rating": 4.5,
+  "plays": 265000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Water Sort Puzzle 3 — Play Free Water Sorting Game Online",
+  "meta_desc": "Play Water Sort Puzzle 3 online free. Pour colored water between glasses until every glass holds one color in this relaxing liquid sorting game.",
+  "desc": "Water Sort Puzzle 3 pours fresh levels into the classic liquid sorting formula. Each glass holds layered colors, and you can only pour water onto a matching top color or into an empty glass. Separate every hue into its own glass to clear the board.",
+  "howto": [
+    "Tap a glass to pick up its top layer of water.",
+    "Tap a second glass to pour into it.",
+    "Water only flows onto the same top color or into empty space.",
+    "Finish when every glass contains a single color.",
+    "Use the undo button when a pour turns out to be a mistake."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "select and pour water"
+    }
+  ],
+  "tips": [
+    "Keep one glass completely empty as breathing room for late-game reshuffles.",
+    "Isolate the color sitting at the bottom of the tallest glass first.",
+    "If two colors block each other everywhere, undo a few moves rather than restarting."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "water-sort-puzzle-3.jpg",
+  "sort_order": 182,
+  "faqs": []
+}

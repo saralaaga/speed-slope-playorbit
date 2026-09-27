@@ -85,7 +85,7 @@ ALL_CATS = {
     'solitaire':  ('Solitaire Games', 'Free solitaire games with quick setups and calm solo play.'),
     'mahjong':    ('Mahjong Games', 'Tile-matching mahjong games with fast resets and clean board reads.'),
     'word':       ('Word Games', 'Word search and language games for quick, low-pressure play.'),
-    'sorting':    ('Sorting Games', 'Arrange, classify and untangle objects in tidy sorting games.'),
+    'sorting':    ('Sorting Games', 'Play sorting games online for free — water sort, ball sort, nut, hoop and goods puzzles that turn chaos into tidy order, straight in your browser.'),
     'merge':      ('Merge Games', 'Combine matching pieces and climb numbers in merge games.'),
     'fighting':   ('Fighting Games', 'Face off in duels, brawls and combat-focused browser games.'),
 }

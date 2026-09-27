@@ -1,0 +1,47 @@
+{
+  "slug": "gems-sort-puzzle",
+  "title": "Gems Sort Puzzle",
+  "url": "https://html5.gamemonetize.co/crlost1vzeo2t0wwa84gmqlflzkisuq0/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Gems",
+    "Block Sorting",
+    "Color Puzzle",
+    "Strategy",
+    "Casual"
+  ],
+  "rating": 4.2,
+  "plays": 87000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Gems Sort Puzzle — Play Free Gem Block Sorting Game Online",
+  "meta_desc": "Play Gems Sort Puzzle free online. Drag colorful gem blocks into the target grid and fill every shape before the timer runs out.",
+  "desc": "Gems Sort Puzzle mixes sorting with block-fitting. Drag colorful gem pieces into a target grid, rotate your thinking around awkward shapes, and fill the entire outline before time runs out.",
+  "howto": [
+    "Drag gem blocks from the tray toward the target grid.",
+    "Place pieces so they snap into the shape cleanly.",
+    "Fill the entire grid to complete the puzzle.",
+    "Beat the timer for a better score.",
+    "Handle bigger grids and stranger shapes at higher levels."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "drag and place gem blocks"
+    }
+  ],
+  "tips": [
+    "Place the largest, most awkward piece first.",
+    "Keep corners and edges for shapes that fit them exactly.",
+    "Scan the tray before dropping anything — order matters."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "gems-sort-puzzle.jpg",
+  "sort_order": 190,
+  "faqs": []
+}
