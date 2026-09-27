@@ -1,0 +1,48 @@
+{
+  "slug": "skiing-downhill",
+  "title": "Skiing Downhill",
+  "url": "https://html5.gamemonetize.co/m8s2esn1r56013miafqgscnttn5upxzd/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Skiing",
+    "Downhill",
+    "Snow",
+    "Winter Sports",
+    "Reflex"
+  ],
+  "rating": 4.0,
+  "plays": 121000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Skiing Downhill — Play Free Ski Game Online",
+  "meta_desc": "Play Skiing Downhill free online. Ski down snowy mountains, jump the rocks and keep your run alive in this quick browser winter sports game.",
+  "desc": "Skiing Downhill asks one thing: can you read a mountain? Ski the snowy slopes, jump the rocks that block your line, and keep the descent going as long as your legs hold.",
+  "howto": [
+    "Ski down the mountain automatically.",
+    "Click or press Space to jump rocks.",
+    "Time each jump — late jumps clip the rock.",
+    "Keep your run alive to grow the score.",
+    "The descent speeds up the longer you last."
+  ],
+  "controls": [
+    {
+      "key": "Click / Space",
+      "action": "jump the rocks"
+    }
+  ],
+  "tips": [
+    "Jump the moment a rock enters your line of sight.",
+    "Do not spam jumps — mistimed hops land on rocks.",
+    "Stay relaxed: the pace rises gradually, not suddenly."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "skiing-downhill.jpg",
+  "sort_order": 210,
+  "faqs": []
+}

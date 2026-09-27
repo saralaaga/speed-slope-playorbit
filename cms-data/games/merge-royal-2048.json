@@ -1,0 +1,45 @@
+{
+  "slug": "merge-royal-2048",
+  "title": "Merge Royal 2048",
+  "url": "https://html5.gamemonetize.co/25r9f4p2wvx39zl81xmfz0s6v6txvyoa/",
+  "cats": [
+    "classics",
+    "puzzle"
+  ],
+  "tags": [
+    "2048",
+    "Merge",
+    "Logic"
+  ],
+  "rating": 4.3,
+  "plays": 213000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Merge Royal 2048 — Play Free 2048 Card Puzzle Game Online",
+  "meta_desc": "Play Merge Royal 2048 free online. Combine matching cards solitaire-style and merge your way to 2048 in this free browser number puzzle.",
+  "desc": "Merge Royal 2048 fuses solitaire strategy with 2048 merging. Drag cards between stacks, combine matching values, and chain your way up to 2048.",
+  "howto": [
+    "Drag cards from one stack to another with the mouse.",
+    "Merge cards holding the same value.",
+    "Each merge doubles the card's value.",
+    "Plan stacks so merges chain into each other.",
+    "Reach 2048 to take the crown."
+  ],
+  "controls": [
+    {
+      "key": "Left mouse drag",
+      "action": "move cards between stacks"
+    }
+  ],
+  "tips": [
+    "Keep one stack for low cards you cannot use yet.",
+    "Chain merges: set up 2-4-8 sequences before you commit.",
+    "Never bury a high card under an unmergeable one."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "merge-royal-2048.jpg",
+  "sort_order": 208,
+  "faqs": []
+}

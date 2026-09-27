@@ -1,0 +1,48 @@
+{
+  "slug": "bubble-shooter-challenge",
+  "title": "Bubble Shooter Challenge",
+  "url": "https://html5.gamemonetize.co/yp7vtch9c6vott101pztfdfm0p19c5c5/",
+  "cats": [
+    "shooting",
+    "puzzle",
+    "arcade"
+  ],
+  "tags": [
+    "Bubble Shooter",
+    "Match 3",
+    "Casual",
+    "Puzzle",
+    "Relaxing"
+  ],
+  "rating": 4.4,
+  "plays": 259000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Bubble Shooter Challenge — Play Free Bubble Shooter Online",
+  "meta_desc": "Play Bubble Shooter Challenge free online. Aim, match and pop bubbles with bombs, rainbow bubbles and fire shots across hundreds of relaxing levels.",
+  "desc": "Bubble Shooter Challenge is classic bubble popping with serious boosters. Aim, bounce and match colors to clear the board, and break open hard levels with bombs, rainbow bubbles and fire shots.",
+  "howto": [
+    "Aim with the mouse and click to shoot.",
+    "Match three or more bubbles of a color to pop them.",
+    "Bounce shots off the walls for tight angles.",
+    "Use bombs, rainbow bubbles and fire shots when stuck.",
+    "Clear the board before bubbles reach the bottom."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "aim and shoot bubbles"
+    }
+  ],
+  "tips": [
+    "Cut floating clusters first — everything below drops with them.",
+    "Bank shots off walls reach the middle columns.",
+    "Save rainbow bubbles for the last tricky color."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "bubble-shooter-challenge.jpg",
+  "sort_order": 207,
+  "faqs": []
+}

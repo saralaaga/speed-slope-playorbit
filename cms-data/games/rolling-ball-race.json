@@ -1,0 +1,52 @@
+{
+  "slug": "rolling-ball-race",
+  "title": "Rolling Ball Race",
+  "url": "https://html5.gamemonetize.co/5swxfxpua5oif6lt9jp1po42300ormlq/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Ball Race",
+    "Rolling Ball",
+    "Reflex",
+    "Speed",
+    "Arcade"
+  ],
+  "rating": 4.3,
+  "plays": 276000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Rolling Ball Race — Play Free Ball Racing Game Online",
+  "meta_desc": "Play Rolling Ball Race free online. Race a rolling ball through dynamic tracks, dodge obstacles and keep rolling as fast as your reflexes allow.",
+  "desc": "Rolling Ball Race turns ball rolling into a race. Keep the ball moving through dynamic tracks, dodge whatever the course throws at you, and survive longer each time.",
+  "howto": [
+    "Use Left and Right arrows to steer.",
+    "Avoid obstacles scattered across the track.",
+    "Keep rolling without falling off.",
+    "Click on-screen buttons with the mouse.",
+    "Push for a longer run every attempt."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Left / Right",
+      "action": "move left and right"
+    },
+    {
+      "key": "Mouse",
+      "action": "click on-screen buttons"
+    }
+  ],
+  "tips": [
+    "Stay centered until an obstacle forces a lane.",
+    "Do not overcorrect — small tilts keep speed.",
+    "Memorize obstacle clusters that end your runs."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "rolling-ball-race.jpg",
+  "sort_order": 197,
+  "faqs": []
+}

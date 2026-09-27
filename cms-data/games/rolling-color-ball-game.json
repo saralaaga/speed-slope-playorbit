@@ -1,0 +1,48 @@
+{
+  "slug": "rolling-color-ball-game",
+  "title": "Rolling Color Ball",
+  "url": "https://html5.gamemonetize.co/gbsfn2uts49a1j53nfqqrikznu08oaek/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Color Ball",
+    "Color Match",
+    "Rolling",
+    "3D",
+    "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 189000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Rolling Color Ball — Play Free Color Ball Matching Game Online",
+  "meta_desc": "Play Rolling Color Ball free online. Roll a colorful ball down 3D tracks and dodge the wrong colors in a fast color-matching arcade challenge.",
+  "desc": "Rolling Color Ball rolls you down a colorful 3D track with one rule: never touch the wrong color. Match, dodge and weave as the track throws new color gates at you.",
+  "howto": [
+    "Roll your ball down the colorful track.",
+    "Avoid every section that is the wrong color.",
+    "Steer toward matching colors to stay safe.",
+    "React as new color patterns appear.",
+    "Survive as the track speeds up."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "steer the ball"
+    }
+  ],
+  "tips": [
+    "Read the next gate color early, not at contact.",
+    "Stay off the track edges when colors alternate fast.",
+    "One clean lane change beats three panicked ones."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "rolling-color-ball-game.jpg",
+  "sort_order": 198,
+  "faqs": []
+}

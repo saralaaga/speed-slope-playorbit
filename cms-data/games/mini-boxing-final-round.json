@@ -1,0 +1,52 @@
+{
+  "slug": "mini-boxing-final-round",
+  "title": "Mini Boxing Final Round",
+  "url": "https://html5.gamemonetize.co/75qwpngek98802qfcz71n538jou9f71u/",
+  "cats": [
+    "2-player",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Boxing",
+    "Fighting",
+    "Sports",
+    "Arcade",
+    "Retro"
+  ],
+  "rating": 4.3,
+  "plays": 271000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Mini Boxing Final Round — Play Free Boxing Game Online",
+  "meta_desc": "Play Mini Boxing Final Round free online. Jab, straight and uppercut your way past six fighters to win the mini boxing world championship.",
+  "desc": "Mini Boxing Final Round is a retro-style boxing campaign. Fight as Nick Joe, mix jabs, straights and uppercuts, guard and dodge, and beat six opponents to take the world championship.",
+  "howto": [
+    "Press Z for a jab and X for a straight.",
+    "Press C for the super uppercut.",
+    "Hold Up or W to guard, Down or S to dodge.",
+    "Move with Left and Right arrows.",
+    "Tap Space fast to get up after a knockdown."
+  ],
+  "controls": [
+    {
+      "key": "Z / X / C",
+      "action": "jab / straight / uppercut"
+    },
+    {
+      "key": "Up / Down",
+      "action": "guard / dodge"
+    }
+  ],
+  "tips": [
+    "Jab first — it opens the guard for the straight.",
+    "Dodge the opponent's power punch, then counter with the uppercut.",
+    "Never uppercut into a guarding opponent."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "mini-boxing-final-round.jpg",
+  "sort_order": 203,
+  "faqs": []
+}

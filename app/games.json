@@ -2763,27 +2763,6 @@
   "isNew": true
  },
  {
-  "title": "Snowboard Game",
-  "slug": "snowboard-game",
-  "url": "snowboard-game/",
-  "thumb": "assets/thumbs/snowboard-game.jpg",
-  "categories": [
-   "Slope Games",
-   "Racing Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Snowboard",
-   "Slopes",
-   "Obstacles",
-   "Sports"
-  ],
-  "rating": 4.2,
-  "plays": 507144,
-  "isHot": false,
-  "isNew": true
- },
- {
   "title": "Dummy Speed Bridger",
   "slug": "dummy-speed-bridger",
   "url": "dummy-speed-bridger/",
@@ -2931,94 +2910,6 @@
   "isNew": true
  },
  {
-  "title": "Boxing Random",
-  "slug": "boxing-random",
-  "url": "boxing-random/",
-  "thumb": "assets/thumbs/boxing-random.jpg",
-  "categories": [
-   "2 Player Games",
-   "Sports Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Boxing",
-   "Two Player",
-   "Physics",
-   "Ragdoll",
-   "Arcade Sports"
-  ],
-  "rating": 4.5,
-  "plays": 285000,
-  "isHot": true,
-  "isNew": true
- },
- {
-  "title": "Volley Random",
-  "slug": "volley-random",
-  "url": "volley-random/",
-  "thumb": "assets/thumbs/volley-random.jpg",
-  "categories": [
-   "2 Player Games",
-   "Sports Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Volleyball",
-   "Two Player",
-   "Physics",
-   "Ragdoll",
-   "Arcade Sports"
-  ],
-  "rating": 4.4,
-  "plays": 242000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Basket Random",
-  "slug": "basket-random",
-  "url": "basket-random/",
-  "thumb": "assets/thumbs/basket-random.jpg",
-  "categories": [
-   "2 Player Games",
-   "Sports Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Basket",
-   "Two Player",
-   "Physics",
-   "Ragdoll",
-   "Arcade Sports"
-  ],
-  "rating": 4.6,
-  "plays": 318000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Soccer Random",
-  "slug": "soccer-random",
-  "url": "soccer-random/",
-  "thumb": "assets/thumbs/soccer-random.jpg",
-  "categories": [
-   "2 Player Games",
-   "Sports Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Soccer",
-   "Football",
-   "Two Player",
-   "Physics",
-   "Arcade Sports"
-  ],
-  "rating": 4.7,
-  "plays": 412000,
-  "isHot": true,
-  "isNew": true
- },
- {
   "title": "Geometry Vibes X Ball",
   "slug": "geometry-vibes-x-ball",
   "url": "geometry-vibes-x-ball/",
@@ -3041,117 +2932,6 @@
   "isNew": true
  },
  {
-  "title": "Snow Rider 3D",
-  "slug": "snow-rider-3d",
-  "url": "snow-rider-3d/",
-  "thumb": "assets/thumbs/snow-rider-3d.jpg",
-  "categories": [
-   "Slope Games",
-   "Runner Games",
-   "Arcade Games",
-   "Platformer Games"
-  ],
-  "tags": [
-   "Snow",
-   "Sled",
-   "Downhill",
-   "Endless Runner",
-   "Reflex"
-  ],
-  "rating": 4.7,
-  "plays": 522000,
-  "isHot": true,
-  "isNew": true
- },
- {
-  "title": "Snow Rush 3D",
-  "slug": "snow-rush-3d",
-  "url": "snow-rush-3d/",
-  "thumb": "assets/thumbs/snow-rush-3d.jpg",
-  "categories": [
-   "Slope Games",
-   "Runner Games",
-   "2 Player Games",
-   "Platformer Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Snow",
-   "Sled",
-   "Two Player",
-   "Endless Runner",
-   "Winter"
-  ],
-  "rating": 4.3,
-  "plays": 194000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Bubble Shooter Free 3",
-  "slug": "bubble-shooter-free-3",
-  "url": "bubble-shooter-free-3/",
-  "thumb": "assets/thumbs/bubble-shooter-free-3.jpg",
-  "categories": [
-   "Shooting Games",
-   "Puzzle Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Bubble Shooter",
-   "Aim",
-   "Match 3",
-   "Relaxing",
-   "Puzzle"
-  ],
-  "rating": 4.5,
-  "plays": 267000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "2048 X2 Legends",
-  "slug": "2048-x2-legends",
-  "url": "2048-x2-legends/",
-  "thumb": "assets/thumbs/2048-x2-legends.jpg",
-  "categories": [
-   "Classic Games",
-   "Puzzle Games"
-  ],
-  "tags": [
-   "2048",
-   "Numbers",
-   "Merge",
-   "Logic",
-   "Classic Puzzle"
-  ],
-  "rating": 4.4,
-  "plays": 221000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Unblock It 3D",
-  "slug": "unblock-it-3d",
-  "url": "unblock-it-3d/",
-  "thumb": "assets/thumbs/unblock-it-3d.jpg",
-  "categories": [
-   "Puzzle Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Unblock",
-   "3D Puzzle",
-   "Logic",
-   "Spatial",
-   "Levels"
-  ],
-  "rating": 4.5,
-  "plays": 254000,
-  "isHot": false,
-  "isNew": true
- },
- {
   "title": "Chubby Finn",
   "slug": "chubby-finn",
   "url": "chubby-finn/",
@@ -3170,182 +2950,6 @@
   "rating": 4.2,
   "plays": 136000,
   "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Slope Extra",
-  "slug": "slope-extra",
-  "url": "slope-extra/",
-  "thumb": "assets/thumbs/slope-extra.jpg",
-  "categories": [
-   "Slope Games",
-   "Runner Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Slope",
-   "Ball",
-   "Endless",
-   "Rolling",
-   "Reflex"
-  ],
-  "rating": 4.4,
-  "plays": 216000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Endless Lake",
-  "slug": "endless-lake",
-  "url": "endless-lake/",
-  "thumb": "assets/thumbs/endless-lake.jpg",
-  "categories": [
-   "Reflex Games",
-   "Runner Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Endless",
-   "Lake",
-   "Timing",
-   "Skill",
-   "Reflex"
-  ],
-  "rating": 4.2,
-  "plays": 148000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Speed Run 3D",
-  "slug": "speed-run-3d",
-  "url": "speed-run-3d/",
-  "thumb": "assets/thumbs/speed-run-3d.jpg",
-  "categories": [
-   "Runner Games",
-   "Reflex Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Speedrun",
-   "Speed",
-   "Neon",
-   "One Button",
-   "Reflex"
-  ],
-  "rating": 4.5,
-  "plays": 268000,
-  "isHot": true,
-  "isNew": true
- },
- {
-  "title": "Ball Rush",
-  "slug": "ball-rush",
-  "url": "ball-rush/",
-  "thumb": "assets/thumbs/ball-rush.jpg",
-  "categories": [
-   "Slope Games",
-   "Runner Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Ball",
-   "Endless Running",
-   "Avoid",
-   "Skill",
-   "Reflex"
-  ],
-  "rating": 4.3,
-  "plays": 193000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Ball Rolling Slope",
-  "slug": "ball-rolling-slope",
-  "url": "ball-rolling-slope/",
-  "thumb": "assets/thumbs/ball-rolling-slope.jpg",
-  "categories": [
-   "Slope Games",
-   "Reflex Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Ball",
-   "Slope",
-   "Neon",
-   "Rolling",
-   "3D"
-  ],
-  "rating": 4.6,
-  "plays": 322000,
-  "isHot": true,
-  "isNew": true
- },
- {
-  "title": "Slope Snowball",
-  "slug": "slope-snowball",
-  "url": "slope-snowball/",
-  "thumb": "assets/thumbs/slope-snowball.jpg",
-  "categories": [
-   "Slope Games",
-   "Runner Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Snowball",
-   "Winter",
-   "Slope",
-   "Endless",
-   "Reflex"
-  ],
-  "rating": 4.4,
-  "plays": 227000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Slope Spooky",
-  "slug": "slope-spooky",
-  "url": "slope-spooky/",
-  "thumb": "assets/thumbs/slope-spooky.jpg",
-  "categories": [
-   "Slope Games",
-   "Runner Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Halloween",
-   "Slope",
-   "Ball",
-   "Endless",
-   "Reflex"
-  ],
-  "rating": 4.3,
-  "plays": 172000,
-  "isHot": false,
-  "isNew": true
- },
- {
-  "title": "Slope Emoji 2",
-  "slug": "slope-emoji-2",
-  "url": "slope-emoji-2/",
-  "thumb": "assets/thumbs/slope-emoji-2.jpg",
-  "categories": [
-   "Slope Games",
-   "Runner Games",
-   "Arcade Games"
-  ],
-  "tags": [
-   "Emoji",
-   "Ball",
-   "Slope",
-   "Endless",
-   "Leaderboard"
-  ],
-  "rating": 4.5,
-  "plays": 289000,
-  "isHot": true,
   "isNew": true
  },
  {
@@ -3576,6 +3180,409 @@
   ],
   "rating": 4.2,
   "plays": 132000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Snow Rider Neo",
+  "slug": "snow-rider-neo",
+  "url": "snow-rider-neo/",
+  "thumb": "assets/thumbs/snow-rider-neo.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Snow Rider",
+   "Sledding",
+   "Slope",
+   "Winter",
+   "Endless"
+  ],
+  "rating": 4.4,
+  "plays": 486000,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Run Snowball Run",
+  "slug": "run-snowball-run",
+  "url": "run-snowball-run/",
+  "thumb": "assets/thumbs/run-snowball-run.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Arcade Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Snowball",
+   "Endless Runner",
+   "Pixel",
+   "Jumping",
+   "Highscore"
+  ],
+  "rating": 4.1,
+  "plays": 174000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "SnowBoard Game",
+  "slug": "snowboard-game",
+  "url": "snowboard-game/",
+  "thumb": "assets/thumbs/snowboard-game.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Snowboarding",
+   "Winter Sports",
+   "Slope",
+   "3D",
+   "Casual"
+  ],
+  "rating": 4.2,
+  "plays": 158000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Rolling Speed Ball",
+  "slug": "rolling-speed-ball",
+  "url": "rolling-speed-ball/",
+  "thumb": "assets/thumbs/rolling-speed-ball.jpg",
+  "categories": [
+   "Slope Games",
+   "Reflex Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Rolling Ball",
+   "Speed",
+   "Reflex",
+   "3D",
+   "Arcade"
+  ],
+  "rating": 4.3,
+  "plays": 312000,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Rolling Ball Race",
+  "slug": "rolling-ball-race",
+  "url": "rolling-ball-race/",
+  "thumb": "assets/thumbs/rolling-ball-race.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Arcade Games",
+   "Racing Games",
+   "Driving Games"
+  ],
+  "tags": [
+   "Ball Race",
+   "Rolling Ball",
+   "Reflex",
+   "Speed",
+   "Arcade"
+  ],
+  "rating": 4.3,
+  "plays": 276000,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Rolling Color Ball",
+  "slug": "rolling-color-ball-game",
+  "url": "rolling-color-ball-game/",
+  "thumb": "assets/thumbs/rolling-color-ball-game.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Color Ball",
+   "Color Match",
+   "Rolling",
+   "3D",
+   "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 189000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Going Rolling Ball",
+  "slug": "going-rolling-ball",
+  "url": "going-rolling-ball/",
+  "thumb": "assets/thumbs/going-rolling-ball.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Rolling Ball",
+   "Balance",
+   "Obstacles",
+   "3D",
+   "Arcade"
+  ],
+  "rating": 4.2,
+  "plays": 207000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Neon Ball Slope",
+  "slug": "neon-ball-slope",
+  "url": "neon-ball-slope/",
+  "thumb": "assets/thumbs/neon-ball-slope.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Neon",
+   "Slope",
+   "Rolling Ball",
+   "Endless",
+   "Reflex"
+  ],
+  "rating": 4.5,
+  "plays": 254000,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Soccer Battle Online",
+  "slug": "soccer-battle-online",
+  "url": "soccer-battle-online/",
+  "thumb": "assets/thumbs/soccer-battle-online.jpg",
+  "categories": [
+   "2 Player Games",
+   "Sports Games",
+   "Arcade Games",
+   "Football Games",
+   "Soccer Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Soccer",
+   "Football",
+   "Sports",
+   "2 Player",
+   "Arcade"
+  ],
+  "rating": 4.2,
+  "plays": 398000,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Drunk Basket",
+  "slug": "drunk-basket",
+  "url": "drunk-basket/",
+  "thumb": "assets/thumbs/drunk-basket.jpg",
+  "categories": [
+   "2 Player Games",
+   "Sports Games",
+   "Arcade Games",
+   "Basketball Games",
+   "Shooting Games"
+  ],
+  "tags": [
+   "Basketball",
+   "2 Player",
+   "Physics",
+   "Ragdoll",
+   "Funny"
+  ],
+  "rating": 4.3,
+  "plays": 305000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Mini Boxing Final Round",
+  "slug": "mini-boxing-final-round",
+  "url": "mini-boxing-final-round/",
+  "thumb": "assets/thumbs/mini-boxing-final-round.jpg",
+  "categories": [
+   "2 Player Games",
+   "Sports Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Boxing",
+   "Fighting",
+   "Sports",
+   "Arcade",
+   "Retro"
+  ],
+  "rating": 4.3,
+  "plays": 271000,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Volley Clash",
+  "slug": "volley-clash",
+  "url": "volley-clash/",
+  "thumb": "assets/thumbs/volley-clash.jpg",
+  "categories": [
+   "2 Player Games",
+   "Sports Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Volleyball",
+   "2 Player",
+   "Sports",
+   "Arcade",
+   "Beach"
+  ],
+  "rating": 4.4,
+  "plays": 233000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Speed Run Game",
+  "slug": "speed-run-game",
+  "url": "speed-run-game/",
+  "thumb": "assets/thumbs/speed-run-game.jpg",
+  "categories": [
+   "Runner Games",
+   "Reflex Games",
+   "Arcade Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Speed Run",
+   "Runner",
+   "Obstacles",
+   "Arcade",
+   "Reflex"
+  ],
+  "rating": 4.2,
+  "plays": 249000,
+  "isHot": true,
+  "isNew": true
+ },
+ {
+  "title": "Run Pet Surfer",
+  "slug": "run-pet-surfer",
+  "url": "run-pet-surfer/",
+  "thumb": "assets/thumbs/run-pet-surfer.jpg",
+  "categories": [
+   "Reflex Games",
+   "Runner Games",
+   "Arcade Games",
+   "Platformer Games"
+  ],
+  "tags": [
+   "Pet Runner",
+   "Endless",
+   "Surfer",
+   "Jumping",
+   "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 142000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Bubble Shooter Challenge",
+  "slug": "bubble-shooter-challenge",
+  "url": "bubble-shooter-challenge/",
+  "thumb": "assets/thumbs/bubble-shooter-challenge.jpg",
+  "categories": [
+   "Shooting Games",
+   "Puzzle Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Bubble Shooter",
+   "Match 3",
+   "Casual",
+   "Puzzle",
+   "Relaxing"
+  ],
+  "rating": 4.4,
+  "plays": 259000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Merge Royal 2048",
+  "slug": "merge-royal-2048",
+  "url": "merge-royal-2048/",
+  "thumb": "assets/thumbs/merge-royal-2048.jpg",
+  "categories": [
+   "Classic Games",
+   "Puzzle Games",
+   "Merge Games"
+  ],
+  "tags": [
+   "2048",
+   "Merge",
+   "Logic"
+  ],
+  "rating": 4.3,
+  "plays": 213000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Unroll Ball Slide Puzzle",
+  "slug": "unroll-ball-slide-puzzle",
+  "url": "unroll-ball-slide-puzzle/",
+  "thumb": "assets/thumbs/unroll-ball-slide-puzzle.jpg",
+  "categories": [
+   "Puzzle Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Unblock",
+   "Slide Puzzle",
+   "Logic",
+   "Brain",
+   "Classic"
+  ],
+  "rating": 4.2,
+  "plays": 196000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Skiing Downhill",
+  "slug": "skiing-downhill",
+  "url": "skiing-downhill/",
+  "thumb": "assets/thumbs/skiing-downhill.jpg",
+  "categories": [
+   "Slope Games",
+   "Runner Games",
+   "Arcade Games"
+  ],
+  "tags": [
+   "Skiing",
+   "Downhill",
+   "Snow",
+   "Winter Sports",
+   "Reflex"
+  ],
+  "rating": 4.0,
+  "plays": 121000,
   "isHot": false,
   "isNew": true
  }

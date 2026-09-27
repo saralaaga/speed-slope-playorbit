@@ -1,0 +1,48 @@
+{
+  "slug": "going-rolling-ball",
+  "title": "Going Rolling Ball",
+  "url": "https://html5.gamemonetize.co/0e2hjszjwju68p8x4fo2rm9ffduzi83v/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Rolling Ball",
+    "Balance",
+    "Obstacles",
+    "3D",
+    "Arcade"
+  ],
+  "rating": 4.2,
+  "plays": 207000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Going Rolling Ball — Play Free Rolling Ball Game Online",
+  "meta_desc": "Play Going Rolling Ball free online. Keep a rolling ball balanced through narrow tracks, sharp turns and moving obstacles in a free 3D arcade challenge.",
+  "desc": "Going Rolling Ball is a balance-and-speed challenge. Keep the ball on narrow paths, steer through sharp turns, and slip past moving obstacles that try to knock you off.",
+  "howto": [
+    "Roll the ball along the path.",
+    "Keep your balance on narrow tracks.",
+    "Steer through sharp turns without falling.",
+    "Time your way past moving obstacles.",
+    "Progress through increasingly tricky paths."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "guide the rolling ball"
+    }
+  ],
+  "tips": [
+    "Slow down mentally — panicked steering causes falls.",
+    "Cut turns early to hold the center line.",
+    "Watch moving obstacles for one cycle before passing."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "going-rolling-ball.jpg",
+  "sort_order": 199,
+  "faqs": []
+}

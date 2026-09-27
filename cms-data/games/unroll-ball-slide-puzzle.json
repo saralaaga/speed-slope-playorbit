@@ -1,0 +1,47 @@
+{
+  "slug": "unroll-ball-slide-puzzle",
+  "title": "Unroll Ball Slide Puzzle",
+  "url": "https://html5.gamemonetize.co/oy0576nsthzhmspnepimxl570zq4vzxj/",
+  "cats": [
+    "puzzle",
+    "arcade"
+  ],
+  "tags": [
+    "Unblock",
+    "Slide Puzzle",
+    "Logic",
+    "Brain",
+    "Classic"
+  ],
+  "rating": 4.2,
+  "plays": 196000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Unroll Ball Slide Puzzle — Play Free Unblock Puzzle Game Online",
+  "meta_desc": "Play Unroll Ball Slide Puzzle free online. Slide tiles to unblock the ball's path and roll it to the exit in this classic sliding block puzzle.",
+  "desc": "Unroll Ball Slide Puzzle is the classic unblock formula with a rolling twist. Slide the tiles, open a path through the jammed board, and watch the ball roll free to the exit.",
+  "howto": [
+    "Click a tile to slide it into the empty space.",
+    "Rearrange tiles to open a path for the ball.",
+    "Keep the route to the exit clear.",
+    "Roll the ball out to finish the level.",
+    "Solve bigger jams as levels progress."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "slide tiles"
+    }
+  ],
+  "tips": [
+    "Clear the exit lane before anything else.",
+    "Move the ball's tile as few times as possible.",
+    "Solve edge blocks first — center tiles have more options."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "unroll-ball-slide-puzzle.jpg",
+  "sort_order": 209,
+  "faqs": []
+}

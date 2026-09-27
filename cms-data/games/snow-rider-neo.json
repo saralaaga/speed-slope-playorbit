@@ -1,0 +1,52 @@
+{
+  "slug": "snow-rider-neo",
+  "title": "Snow Rider Neo",
+  "url": "https://html5.gamemonetize.co/e4woyszceuiqga5qts3de48wf7gczzsb/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Snow Rider",
+    "Sledding",
+    "Slope",
+    "Winter",
+    "Endless"
+  ],
+  "rating": 4.4,
+  "plays": 486000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Snow Rider Neo — Play Free 3D Sled Racing Game Online",
+  "meta_desc": "Play Snow Rider Neo free online. Sled down snowy 3D slopes, dodge trees and snowballs, jump gaps and ride ramps in an endless downhill run.",
+  "desc": "Snow Rider Neo is a fast 3D endless sledding run. Carve between trees, rocks and snowmen, jump logs and gaps, and hit ramps for air as the mountain speeds up the longer you survive.",
+  "howto": [
+    "Steer with the left and right arrows or A and D.",
+    "Jump with Space, Up or W to clear logs and gaps.",
+    "Dodge trees, rocks, snowmen and rolling snowballs.",
+    "Ride ramps for extra air and faster lines.",
+    "Survive longer to ramp up the downhill speed."
+  ],
+  "controls": [
+    {
+      "key": "Left / Right or A / D",
+      "action": "steer the sled"
+    },
+    {
+      "key": "Space / Up / W",
+      "action": "jump"
+    }
+  ],
+  "tips": [
+    "Stay near the middle of the run so both dodging directions stay open.",
+    "Jump early on gaps — late jumps clip the far edge.",
+    "Let rolling snowballs pass on one side instead of weaving."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "snow-rider-neo.jpg",
+  "sort_order": 193,
+  "faqs": []
+}

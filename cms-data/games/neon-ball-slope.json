@@ -1,0 +1,52 @@
+{
+  "slug": "neon-ball-slope",
+  "title": "Neon Ball Slope",
+  "url": "https://html5.gamemonetize.co/tvffgv3xt5p39edpb54kiulbaa86ia21/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Neon",
+    "Slope",
+    "Rolling Ball",
+    "Endless",
+    "Reflex"
+  ],
+  "rating": 4.5,
+  "plays": 254000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Neon Ball Slope — Play Free Neon Slope Game Online",
+  "meta_desc": "Play Neon Ball Slope free online. Roll a glowing neon ball down an endless 3D slope, dodge hazards and test your reflexes in this fast slope game.",
+  "desc": "Neon Ball Slope is pure slope-game energy: a glowing ball, an endless 3D descent and speed that never stops climbing. Steer across the slope, dodge hazards and survive the neon rush.",
+  "howto": [
+    "Use the arrow keys to move horizontally.",
+    "On mobile, press the left or right side of the screen.",
+    "Dodge the hazards scattered down the slope.",
+    "Stay on the track as the angle shifts.",
+    "Survive as long as the slope allows."
+  ],
+  "controls": [
+    {
+      "key": "Arrow keys",
+      "action": "move left and right"
+    },
+    {
+      "key": "Touch left / right side",
+      "action": "steer on mobile"
+    }
+  ],
+  "tips": [
+    "Keep inputs small — the ball carries momentum.",
+    "Center the ball before big slope changes.",
+    "Scan ahead a full second, not just the next hazard."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "neon-ball-slope.jpg",
+  "sort_order": 200,
+  "faqs": []
+}

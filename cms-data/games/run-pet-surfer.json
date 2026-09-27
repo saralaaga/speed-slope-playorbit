@@ -1,0 +1,48 @@
+{
+  "slug": "run-pet-surfer",
+  "title": "Run Pet Surfer",
+  "url": "https://html5.gamemonetize.co/eyimeq93m1pi4j2calk8n0k04f7xlo2l/",
+  "cats": [
+    "reflex",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Pet Runner",
+    "Endless",
+    "Surfer",
+    "Jumping",
+    "Casual"
+  ],
+  "rating": 4.1,
+  "plays": 142000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Run Pet Surfer — Play Free Endless Runner Game Online",
+  "meta_desc": "Play Run Pet Surfer free online. Surf and run with cute pets, dodge obstacles, collect coins, magnets and jetpacks in an endless browser runner.",
+  "desc": "Run Pet Surfer is a cheerful endless runner. Dash with your pet, dodge road obstacles, and grab coins, magnets, elastic shoes, jetpacks and boosters while unlocking new pet characters.",
+  "howto": [
+    "Tap or click to jump obstacles.",
+    "Collect coins and score pickups.",
+    "Grab power-ups: magnets, jetpacks, shoes, boosters.",
+    "Dodge everything the road throws at you.",
+    "Unlock more pets as you run."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "jump and interact"
+    }
+  ],
+  "tips": [
+    "Bank coins early — pets get expensive.",
+    "Ride the jetpack line for the safest stretch.",
+    "Save boosts for dense obstacle sections."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "run-pet-surfer.jpg",
+  "sort_order": 206,
+  "faqs": []
+}

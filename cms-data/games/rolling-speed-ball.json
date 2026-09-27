@@ -1,0 +1,48 @@
+{
+  "slug": "rolling-speed-ball",
+  "title": "Rolling Speed Ball",
+  "url": "https://html5.gamemonetize.co/v8wzgvtoycj5jqjm4ncypo11hf4oyzt5/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Rolling Ball",
+    "Speed",
+    "Reflex",
+    "3D",
+    "Arcade"
+  ],
+  "rating": 4.3,
+  "plays": 312000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Rolling Speed Ball — Play Free Rolling Ball Game Online",
+  "meta_desc": "Play Rolling Speed Ball free online. Guide a fast rolling ball through tricky 3D tracks, keep control at full speed and test your reflexes.",
+  "desc": "Rolling Speed Ball is a speed-first ball runner. Guide your ball along dynamic tracks where every second counts, keep control through corners, and push your reflexes as the pace climbs.",
+  "howto": [
+    "Click or tap to start the run.",
+    "Steer the ball along the track.",
+    "React to corners, gaps and moving hazards.",
+    "Keep the speed without losing control.",
+    "Beat your best distance each run."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "control the rolling ball"
+    }
+  ],
+  "tips": [
+    "Look two obstacles ahead, not at the ball.",
+    "Small corrections beat big swerves at speed.",
+    "Learn each hazard's timing before pushing pace."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "rolling-speed-ball.jpg",
+  "sort_order": 196,
+  "faqs": []
+}

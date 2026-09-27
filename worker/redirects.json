@@ -20,6 +20,11 @@
     "status": 301
   },
   {
+    "from": "/2048-x2-legends/",
+    "to": "/",
+    "status": 301
+  },
+  {
     "from": "/ace-car-racing/",
     "to": "/",
     "status": 301
@@ -41,6 +46,21 @@
   },
   {
     "from": "/archery-master-bow-and-arrow/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/ball-rolling-slope/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/ball-rush/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/basket-random/",
     "to": "/",
     "status": 301
   },
@@ -80,6 +100,16 @@
     "status": 301
   },
   {
+    "from": "/boxing-random/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/bubble-shooter-free-3/",
+    "to": "/",
+    "status": 301
+  },
+  {
     "from": "/city-drift-racing/",
     "to": "/",
     "status": 301
@@ -96,6 +126,11 @@
   },
   {
     "from": "/drift-car-driving/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/endless-lake/",
     "to": "/",
     "status": 301
   },
@@ -285,6 +320,26 @@
     "status": 301
   },
   {
+    "from": "/slope-emoji-2/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/slope-extra/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/slope-snowball/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/slope-spooky/",
+    "to": "/",
+    "status": 301
+  },
+  {
     "from": "/snake-duel/",
     "to": "/",
     "status": 301
@@ -295,12 +350,32 @@
     "status": 301
   },
   {
+    "from": "/snow-rider-3d/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/snow-rush-3d/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/soccer-random/",
+    "to": "/",
+    "status": 301
+  },
+  {
     "from": "/solitaire-klondike-eternal-russian-classic/",
     "to": "/",
     "status": 301
   },
   {
     "from": "/solitaire-quest/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/speed-run-3d/",
     "to": "/",
     "status": 301
   },
@@ -350,6 +425,16 @@
     "status": 301
   },
   {
+    "from": "/unblock-it-3d/",
+    "to": "/",
+    "status": 301
+  },
+  {
+    "from": "/volley-random/",
+    "to": "/",
+    "status": 301
+  },
+  {
     "from": "/word-search-universe-2/",
     "to": "/",
     "status": 301
@@ -375,22 +460,12 @@
     "status": 301
   },
   {
-    "from": "/games/basketball/",
-    "to": "/games/arcade/",
-    "status": 301
-  },
-  {
     "from": "/games/card/",
     "to": "/games/classics/",
     "status": 301
   },
   {
     "from": "/games/fighting/",
-    "to": "/games/arcade/",
-    "status": 301
-  },
-  {
-    "from": "/games/football/",
     "to": "/games/arcade/",
     "status": 301
   },
@@ -405,18 +480,8 @@
     "status": 301
   },
   {
-    "from": "/games/merge/",
-    "to": "/games/puzzle/",
-    "status": 301
-  },
-  {
     "from": "/games/pool/",
     "to": "/games/classics/",
-    "status": 301
-  },
-  {
-    "from": "/games/soccer/",
-    "to": "/games/arcade/",
     "status": 301
   },
   {

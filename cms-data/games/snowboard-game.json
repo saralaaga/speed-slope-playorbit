@@ -1,65 +1,48 @@
 {
   "slug": "snowboard-game",
-  "title": "Snowboard Game",
+  "title": "SnowBoard Game",
   "url": "https://html5.gamemonetize.co/4jlpcom1sy0z4thlimget2ew3z6ow05d/",
   "cats": [
     "slope",
-    "racing",
+    "runner",
     "arcade"
   ],
   "tags": [
-    "Snowboard",
-    "Slopes",
-    "Obstacles",
-    "Sports"
+    "Snowboarding",
+    "Winter Sports",
+    "Slope",
+    "3D",
+    "Casual"
   ],
   "rating": 4.2,
-  "plays": 507144,
+  "plays": 158000,
   "hot": false,
   "new": true,
-  "added": "2026-08-31",
-  "desc": "Snowboard Game takes you down icy slopes that get tighter the further you ride, with barriers and obstacles waiting on every clean line. Play Snowboard Game online for free and stay upright long enough to reach the finish and land your moves. It is a straightforward downhill reflex run: read the slope early, steer gently, and let your speed work for you.",
+  "added": "2026-09-27",
+  "seo_title": "SnowBoard Game — Play Free Snowboarding Game Online",
+  "meta_desc": "Play SnowBoard Game free online. Ride snowy slopes, carve around obstacles and snowboard your way to the finish line in a free browser winter sports game.",
+  "desc": "SnowBoard Game is a winter sports run where you glide down icy tracks, carve around obstacles and ride smooth lines to the finish. Each descent mixes speed with tight avoidance.",
   "howto": [
-    "Start the run and let the board settle before you commit to a line.",
-    "Steer left and right to follow the slope down.",
-    "Avoid the barriers and obstacles placed along the track.",
-    "Pull off tricks where the slope opens up, but land cleanly.",
-    "Reach the finish line to complete the run."
+    "Steer your boarder down the slope.",
+    "Weave between rocks, trees and course markers.",
+    "Keep your speed through open sections.",
+    "Reach the finish line to clear the run.",
+    "Progress to steeper, faster tracks."
   ],
   "controls": [
     {
-      "key": "Mouse / touch",
-      "action": "steer the snowboard"
-    },
-    {
-      "key": "Arrow Left / Arrow Right",
-      "action": "steer the snowboard"
-    },
-    {
-      "key": "Mouse / touch",
-      "action": "use the in-game menus"
+      "key": "Mouse / Tap",
+      "action": "steer and control the boarder"
     }
   ],
   "tips": [
-    "Hold a steady line instead of carving back and forth.",
-    "Start a trick only where you can see the landing.",
-    "Aim between obstacles rather than at them.",
-    "Keep your speed up on the flats — the slope is easier to read quickly."
+    "Start your turn before the obstacle, not at it.",
+    "Wide berths cost less speed than crashes.",
+    "Learn each track's first corners — they set your rhythm."
   ],
-  "faqs": [
-    {
-      "question": "What is Snowboard Game?",
-      "answer": "It is a downhill snowboarding game where you steer through icy tracks, dodge barriers and try to finish a clean run."
-    },
-    {
-      "question": "How do you control Snowboard Game?",
-      "answer": "Steer left and right to stay on the slope, avoid obstacles and keep your board upright."
-    },
-    {
-      "question": "Is Snowboard Game a slope game?",
-      "answer": "Yes — it is a downhill slope run with obstacles, which puts it in the same family as the ball-rolling slope games."
-    }
-  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
   "thumbfile": "snowboard-game.jpg",
-  "sort_order": 154
+  "sort_order": 195,
+  "faqs": []
 }

@@ -1,0 +1,52 @@
+{
+  "slug": "drunk-basket",
+  "title": "Drunk Basket",
+  "url": "https://html5.gamemonetize.co/b9jfc8czktb44s8iqts7de2le6l6sfb7/",
+  "cats": [
+    "2-player",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Basketball",
+    "2 Player",
+    "Physics",
+    "Ragdoll",
+    "Funny"
+  ],
+  "rating": 4.3,
+  "plays": 305000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Drunk Basket — Play Free 2 Player Basketball Game Online",
+  "meta_desc": "Play Drunk Basket free online. Wobbly ragdoll basketball for 1-2 players — charge shots, sink baskets and outscore your friend on one keyboard.",
+  "desc": "Drunk Basket is ragdoll basketball at its wobbliest. Physics-driven players lurch, lean and launch shots; charge the right amount and sink baskets solo or against a friend on the same keyboard.",
+  "howto": [
+    "Player 1 holds W to charge a shot and releases to throw.",
+    "Player 2 holds the Up Arrow to charge and releases to throw.",
+    "Time the charge — overcooked shots sail long.",
+    "Play solo against the AI or head-to-head.",
+    "Sink more baskets than your rival."
+  ],
+  "controls": [
+    {
+      "key": "W",
+      "action": "charge and release shots (player 1)"
+    },
+    {
+      "key": "Up Arrow",
+      "action": "charge and release shots (player 2)"
+    }
+  ],
+  "tips": [
+    "Learn one charge level that hits consistently.",
+    "Watch the lean of your player — it telegraphs the arc.",
+    "Shoot first after every make to steal the rhythm."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "drunk-basket.jpg",
+  "sort_order": 202,
+  "faqs": []
+}

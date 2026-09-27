@@ -1,0 +1,52 @@
+{
+  "slug": "run-snowball-run",
+  "title": "Run Snowball Run",
+  "url": "https://html5.gamemonetize.co/1jqyeyaf9lwbuuruhjej5jeq2s06f56b/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Snowball",
+    "Endless Runner",
+    "Pixel",
+    "Jumping",
+    "Highscore"
+  ],
+  "rating": 4.1,
+  "plays": 174000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Run Snowball Run — Play Free Snowball Runner Game Online",
+  "meta_desc": "Play Run Snowball Run free online. Jump and slide a rolling snowball through pixel worlds, dodge obstacles and flying enemies in an endless runner.",
+  "desc": "Run Snowball Run sends a rolling snowball through endless pixel landscapes. Time your jumps, slide under low blocks, and watch the sky for flying enemies as the levels never stop coming.",
+  "howto": [
+    "Press X to jump over obstacles.",
+    "Press Z to slide under barriers.",
+    "Avoid ground traps and flying enemies.",
+    "Collect pickups to build your score.",
+    "Survive as the procedural levels speed up."
+  ],
+  "controls": [
+    {
+      "key": "X",
+      "action": "jump"
+    },
+    {
+      "key": "Z",
+      "action": "slide"
+    }
+  ],
+  "tips": [
+    "Slide only when a barrier is genuinely low — jumping is usually safer.",
+    "Listen for the flying-enemy cue before committing to a jump.",
+    "Stay mid-screen to keep both escape routes open."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "run-snowball-run.jpg",
+  "sort_order": 194,
+  "faqs": []
+}

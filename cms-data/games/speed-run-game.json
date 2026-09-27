@@ -1,0 +1,48 @@
+{
+  "slug": "speed-run-game",
+  "title": "Speed Run Game",
+  "url": "https://html5.gamemonetize.co/krkgsx435z6atm8ed8owl3aggjoy6b50/",
+  "cats": [
+    "runner",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Speed Run",
+    "Runner",
+    "Obstacles",
+    "Arcade",
+    "Reflex"
+  ],
+  "rating": 4.2,
+  "plays": 249000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Speed Run Game — Play Free Running Game Online",
+  "meta_desc": "Play Speed Run Game free online. Run fast, dodge obstacles, collect rewards and reach the finish line in this quick browser runner.",
+  "desc": "Speed Run Game is a quick-fire runner: sprint through obstacle-packed levels, grab rewards on the way, and cross the finish line before the hazards catch you.",
+  "howto": [
+    "Control your runner with the keyboard arrows.",
+    "Jump and dodge obstacles in your path.",
+    "Collect rewards as you run.",
+    "Reach the finish line to clear the level.",
+    "Keep the pace — hesitating costs the run."
+  ],
+  "controls": [
+    {
+      "key": "Keyboard Arrows",
+      "action": "run, jump and dodge"
+    }
+  ],
+  "tips": [
+    "Grab rewards on your natural line only.",
+    "Jump obstacle chains in rhythm, not one by one.",
+    "Finish-line sprints make up for early mistakes."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "speed-run-game.jpg",
+  "sort_order": 205,
+  "faqs": []
+}

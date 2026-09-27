@@ -1,0 +1,52 @@
+{
+  "slug": "soccer-battle-online",
+  "title": "Soccer Battle Online",
+  "url": "https://html5.gamemonetize.co/y08eouzwdisflpzrb4r0i23fmdus8l0d/",
+  "cats": [
+    "2-player",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Soccer",
+    "Football",
+    "Sports",
+    "2 Player",
+    "Arcade"
+  ],
+  "rating": 4.2,
+  "plays": 398000,
+  "hot": true,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Soccer Battle Online — Play Free Soccer Game Online",
+  "meta_desc": "Play Soccer Battle Online free in your browser. Pass, tackle and shoot in fast-paced football matches against the AI or a friend on one keyboard.",
+  "desc": "Soccer Battle Online drops you into quick football matches where every pass, tackle and shot counts. Pick your jersey, take the field, and battle through arcade-paced games.",
+  "howto": [
+    "Move with WASD.",
+    "Press K to pass or switch player.",
+    "Press J to shoot at goal.",
+    "Tackle opponents to win the ball back.",
+    "Outscore your opponent before the clock ends."
+  ],
+  "controls": [
+    {
+      "key": "WASD",
+      "action": "move your player"
+    },
+    {
+      "key": "J / K",
+      "action": "shoot / pass and switch"
+    }
+  ],
+  "tips": [
+    "Pass to move defenders, then shoot into the gap.",
+    "Switch to the player nearest the ball constantly.",
+    "Shoot across the keeper rather than straight at them."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "soccer-battle-online.jpg",
+  "sort_order": 201,
+  "faqs": []
+}
