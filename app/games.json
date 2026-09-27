@@ -3110,27 +3110,6 @@
   "isNew": true
  },
  {
-  "title": "Stack Sorting",
-  "slug": "stack-sorting",
-  "url": "stack-sorting/",
-  "thumb": "assets/thumbs/stack-sorting.jpg",
-  "categories": [
-   "Sorting Games",
-   "Puzzle Games"
-  ],
-  "tags": [
-   "Sorting",
-   "Stacks",
-   "Logic",
-   "Colors",
-   "Casual Puzzle"
-  ],
-  "rating": 4.2,
-  "plays": 148000,
-  "isHot": false,
-  "isNew": true
- },
- {
   "title": "2048 X2 Legends",
   "slug": "2048-x2-legends",
   "url": "2048-x2-legends/",
@@ -3576,6 +3555,27 @@
   ],
   "rating": 4.1,
   "plays": 76000,
+  "isHot": false,
+  "isNew": true
+ },
+ {
+  "title": "Hoop Stack: Sort Puzzle",
+  "slug": "hoop-stack-sort-puzzle",
+  "url": "hoop-stack-sort-puzzle/",
+  "thumb": "assets/thumbs/hoop-stack-sort-puzzle.jpg",
+  "categories": [
+   "Sorting Games",
+   "Puzzle Games"
+  ],
+  "tags": [
+   "Hoop Stack",
+   "Sorting",
+   "3D",
+   "Colors",
+   "Casual Puzzle"
+  ],
+  "rating": 4.2,
+  "plays": 132000,
   "isHot": false,
   "isNew": true
  }

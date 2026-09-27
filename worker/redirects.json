@@ -305,6 +305,11 @@
     "status": 301
   },
   {
+    "from": "/stack-sorting/",
+    "to": "/",
+    "status": 301
+  },
+  {
     "from": "/stickman-temple-duel/",
     "to": "/",
     "status": 301

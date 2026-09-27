@@ -1,0 +1,47 @@
+{
+  "slug": "hoop-stack-sort-puzzle",
+  "title": "Hoop Stack: Sort Puzzle",
+  "url": "https://html5.gamemonetize.co/w4fl93r07raosopumiuh6lee2x61sr7j/",
+  "cats": [
+    "sorting",
+    "puzzle"
+  ],
+  "tags": [
+    "Hoop Stack",
+    "Sorting",
+    "3D",
+    "Colors",
+    "Casual Puzzle"
+  ],
+  "rating": 4.2,
+  "plays": 132000,
+  "hot": false,
+  "new": true,
+  "added": "2026-09-27",
+  "seo_title": "Hoop Stack Sort Puzzle — Play Free 3D Hoop Sorting Game Online",
+  "meta_desc": "Play Hoop Stack: Sort Puzzle free online. Stack colorful hoops onto poles in the right order and solve 3D color sorting challenges in your browser.",
+  "desc": "Hoop Stack: Sort Puzzle asks you to slide colorful hoops onto poles until each pole carries a single color. Every move lifts the top hoop to a matching color or a freer pole, and the neat 3D stacks make each solved board satisfying to look at.",
+  "howto": [
+    "Click or tap a pole to lift its top hoop.",
+    "Drop the hoop onto a pole with the same top color or spare room.",
+    "Build single-color stacks pole by pole.",
+    "Watch for buried hoops that block several colors at once.",
+    "Clear every pole to finish the level."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / Tap",
+      "action": "move hoops between poles"
+    }
+  ],
+  "tips": [
+    "Free the hoop hiding at the bottom of the tallest pole early.",
+    "Keep one pole half-empty as your sorting buffer.",
+    "Group the color you see most of before touching rare colors."
+  ],
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "hoop-stack-sort-puzzle.jpg",
+  "sort_order": 192,
+  "faqs": []
+}

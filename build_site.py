@@ -127,6 +127,7 @@ REMOVED_GAME_SLUGS = {
     'prismroll-3d', 'push-io', 'race-it-car-racing', 'racing-game-king-hp',
     'robin-hood-archer', 'shanghai-town', 'slippery-drift-racing', 'slithoria',
     'snake-duel', 'snakelands-io', 'solitaire-klondike-eternal-russian-classic',
+    'stack-sorting',
     'solitaire-quest', 'stickman-temple-duel', 'tank-duel-3d', 'tetro-merge',
     'the-drag-racing-challenge', 'theme-word-search', 'tiny-golf-king',
     'traffic-racing', 'triple-shelf-match', 'word-search-universe-2',
