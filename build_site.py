@@ -54,6 +54,7 @@ GAMES_EMAIL = CONFIG['games_email']
 LEGAL_EMAIL = CONFIG['legal_email']
 TURNSTILE_SITE_KEY = CONFIG.get('turnstile_site_key', '')
 ADSENSE_CLIENT = str(CONFIG.get('adsense_client', '') or '').strip()
+GA_MEASUREMENT_ID = str(CONFIG.get('ga_measurement_id', '') or '').strip()
 TODAY = datetime.date.today().isoformat()
 
 ALL_CATS = {
@@ -524,10 +525,22 @@ def adsense_snippet():
     )
 
 
+def ga_snippet():
+    """Google Analytics 4 gtag.js loader; empty when no measurement ID is configured."""
+    if not GA_MEASUREMENT_ID:
+        return ''
+    return (
+        f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>\n'
+        f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA_MEASUREMENT_ID}');</script>"
+    )
+
+
 def head(title, desc, pre, canonical, extra='', og_image=None, ads=True):
     social_image = f'{SITE_URL}/{og_image}' if og_image else ''
     adsense = adsense_snippet() if ads else ''
     adsense_block = f'{adsense}\n' if adsense else ''
+    ga = ga_snippet()
+    ga_block = f'{ga}\n' if ga else ''
     og = f'<meta property="og:image" content="{social_image}">\n<meta property="og:image:width" content="640">\n<meta property="og:image:height" content="640">' if og_image else ''
     twitter_image = f'<meta name="twitter:image" content="{social_image}">' if og_image else ''
     return f'''<!DOCTYPE html>
@@ -554,7 +567,7 @@ def head(title, desc, pre, canonical, extra='', og_image=None, ads=True):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{pre}assets/css/style.css?v={CSS_V}">
-{extra}
+{ga_block}{extra}
 </head>
 <body>'''
 
