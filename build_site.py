@@ -5,6 +5,23 @@ Reads the full game catalog, publishes the configured subset, and emits HTML
 pages, thumbnails, games.json, sitemap.xml and robots.txt into ./app.
 """
 import json, os, html, hashlib, colorsys, datetime, shutil, re, struct, zlib
+import pathlib
+
+
+def _write_file(target, data, mode=0o644):
+    """Write bytes to an already-validated path, confined by dir_fd so even
+    a swapped parent directory cannot redirect the write."""
+    dir_fd = os.open(target.parent, os.O_RDONLY)
+    try:
+        fd = os.open(target.name, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, mode, dir_fd=dir_fd)
+        try:
+            os.write(fd, data)
+        finally:
+            os.close(fd)
+    finally:
+        os.close(dir_fd)
+
+
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(BASE, 'app')
@@ -25,6 +42,8 @@ DEFAULT_CONFIG = {
     'legal_email': 'legal@speedslope.net',
     'ads_enabled': False,
     'adsense_client': '',
+    'adsterra_banner_script': '',
+    'adsterra_direct_link': '',
     'include_aggregate_rating_schema': False,
     'turnstile_site_key': '',
 }
@@ -54,6 +73,12 @@ GAMES_EMAIL = CONFIG['games_email']
 LEGAL_EMAIL = CONFIG['legal_email']
 TURNSTILE_SITE_KEY = CONFIG.get('turnstile_site_key', '')
 ADSENSE_CLIENT = str(CONFIG.get('adsense_client', '') or '').strip()
+ADSTERRA_BANNER_SCRIPT = str(CONFIG.get('adsterra_banner_script', '') or '').strip()
+ADSTERRA_DIRECT_LINK = str(CONFIG.get('adsterra_direct_link', '') or '').strip()
+# Adsterra native banners target a container whose id embeds the banner key,
+# so the key is derived from the invoke.js URL instead of configured separately.
+_adsterra_key = re.search(r'/([0-9a-f]+)/invoke\.js', ADSTERRA_BANNER_SCRIPT)
+ADSTERRA_BANNER_KEY = _adsterra_key.group(1) if _adsterra_key else ''
 GA_MEASUREMENT_ID = str(CONFIG.get('ga_measurement_id', '') or '').strip()
 TODAY = datetime.date.today().isoformat()
 
@@ -415,7 +440,7 @@ MOTIFS = {
     'classics': ''.join(f'<rect x="{(i % 4) * 160}" y="{(i // 4) * 160}" width="160" height="160" fill="#000000" opacity="0.08"/>' for i in range(16) if (i % 4 + i // 4) % 2 == 0),
 }
 
-def write_png(path, w, h, rgb_at):
+def write_png(rel, w, h, rgb_at):
     raw = bytearray()
     for y in range(h):
         raw.append(0)
@@ -424,11 +449,13 @@ def write_png(path, w, h, rgb_at):
     def chunk(kind, data):
         return struct.pack('>I', len(data)) + kind + data + struct.pack('>I', zlib.crc32(kind + data) & 0xffffffff)
     png = b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>IIBBBBB', w, h, 8, 2, 0, 0, 0)) + chunk(b'IDAT', zlib.compress(bytes(raw), 9)) + chunk(b'IEND', b'')
-    with open(path, 'wb') as f:
-        f.write(png)
+    assets_root = pathlib.Path(ROOT, 'assets').resolve()
+    target = (assets_root / rel).resolve()
+    target.relative_to(assets_root)
+    _write_file(target, png)
 
 
-def make_speed_slope_png(path, size=640):
+def make_speed_slope_png(rel, size=640):
     def rgb_at(x, y):
         t = y / (size - 1)
         r = int(3 + 4 * (1 - t))
@@ -455,10 +482,10 @@ def make_speed_slope_png(path, size=640):
         elif d <= 34:
             r, g, b = 3, 18, 14
         return r, g, b
-    write_png(path, size, size, rgb_at)
+    write_png(rel, size, size, rgb_at)
 
 
-def make_icon_png(path, size):
+def make_icon_png(rel, size):
     def rgb_at(x, y):
         cx = cy = size / 2
         r = ((x - cx) ** 2 + (y - cy) ** 2) ** .5
@@ -467,12 +494,12 @@ def make_icon_png(path, size):
         if x > size * .39 and x < size * .39 + (y - size * .30) * .85 and x < size * .39 + (size * .70 - y) * .85 and size * .30 < y < size * .70:
             return 17, 21, 3
         return 185, 242, 38
-    write_png(path, size, size, rgb_at)
+    write_png(rel, size, size, rgb_at)
 
 
 def make_thumb(g):
     if g['slug'] == 'speed-slope':
-        make_speed_slope_png(os.path.join(ROOT, 'assets', 'thumbs', 'speed-slope.png'))
+        make_speed_slope_png('thumbs/speed-slope.png')
         return
     c1, c2 = palette(g['slug'])
     motif = MOTIFS.get(g['cats'][0], MOTIFS['arcade'])
@@ -490,8 +517,10 @@ def make_thumb(g):
  font-family="Nunito, 'Arial Black', Arial, sans-serif" font-weight="900" font-size="{size}"
  fill="#ffffff">{esc(ini)}</text>
 </svg>'''
-    path = os.path.join(ROOT, 'assets', 'thumbs', g['slug'] + '.svg')
-    with open(path, 'w', encoding='utf-8') as f: f.write(svg)
+    thumbs_root = pathlib.Path(ROOT, 'assets', 'thumbs').resolve()
+    target = (thumbs_root / (g['slug'] + '.svg')).resolve()
+    target.relative_to(thumbs_root)
+    _write_file(target, svg.encode('utf-8'))
 
 # ============================================================ shared chrome
 def _asset_version(rel):
@@ -533,6 +562,38 @@ def ga_snippet():
         f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_MEASUREMENT_ID}"></script>\n'
         f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA_MEASUREMENT_ID}');</script>"
     )
+
+
+def adsterra_banner_snippet():
+    """Adsterra native banner: loader script plus its container div, in the
+    exact adjacent placement Adsterra issues. The loader targets the container
+    by id, so a page must contain at most one instance of this snippet."""
+    if not (ADSTERRA_BANNER_SCRIPT and ADSTERRA_BANNER_KEY):
+        return ''
+    return (
+        f'<script async="async" data-cfasync="false" src="{ADSTERRA_BANNER_SCRIPT}"></script>\n'
+        f'<div id="container-{ADSTERRA_BANNER_KEY}"></div>'
+    )
+
+
+def adsterra_direct_link_snippet():
+    """Adsterra direct link: opens the URL in a new tab on the first click of
+    a browser session (per tab), then stays quiet for the rest of it."""
+    if not ADSTERRA_DIRECT_LINK:
+        return ''
+    return f'''<script>
+(function () {{
+  var url = '{esc(ADSTERRA_DIRECT_LINK)}';
+  try {{ if (sessionStorage.getItem('adsterraDl') === '1') return; }} catch (e) {{}}
+  var fire = function () {{
+    try {{ sessionStorage.setItem('adsterraDl', '1'); }} catch (e) {{}}
+    document.removeEventListener('click', fire, true);
+    var w = window.open(url, '_blank');
+    if (w) w.opener = null;
+  }};
+  document.addEventListener('click', fire, true);
+}})();
+</script>'''
 
 
 def head(title, desc, pre, canonical, extra='', og_image=None, ads=True):
@@ -608,6 +669,7 @@ def header(pre, active=''):
 
 def footer(pre):
     turnstile = '<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>' if TURNSTILE_SITE_KEY else ''
+    adsterra = adsterra_direct_link_snippet()
     return f'''<footer class="site-footer">
 <div class="container footer-grid">
 <div>
@@ -634,6 +696,7 @@ def footer(pre):
 </div>
 </footer>
 {turnstile}
+{adsterra}
 <script src="{pre}assets/js/main.js?v={JS_V}"></script>
 </body>
 </html>'''
@@ -651,6 +714,11 @@ def mini_card(g, pre):
 <div class="thumb"><img loading="lazy" src="{thumb_url(g, pre)}" alt="" width="96" height="96"></div></a>'''
 
 def ad(cls_, size):
+    adsterra = adsterra_banner_snippet()
+    if adsterra and cls_ == 'ad-banner':
+        # Top-of-page slot carries the real Adsterra banner; one per page
+        # because the loader fills a single id-keyed container.
+        return f'<div class="ad-slot {cls_} ad-live"><span class="ad-label">Advertisement</span>{adsterra}</div>'
     if not CONFIG.get('ads_enabled'):
         return ''
     return f'<div class="ad-slot {cls_}"><span class="ad-label">Advertisement</span><span class="ad-size">{esc(size)}</span></div>'
@@ -675,9 +743,11 @@ def comments_section(g, pre):
 
 # ============================================================ pages
 def write(rel, content):
-    path = os.path.join(ROOT, rel)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, 'w', encoding='utf-8') as f: f.write(content)
+    os.makedirs(os.path.dirname(os.path.join(ROOT, rel)), exist_ok=True)
+    root = pathlib.Path(ROOT).resolve()
+    target = (root / rel).resolve()
+    target.relative_to(root)
+    _write_file(target, content.encode('utf-8'))
 
 def clean_output():
     os.makedirs(ROOT, exist_ok=True)
@@ -1009,11 +1079,11 @@ def page_redirects():
         for src, dst in sorted(REMOVED_CATEGORY_REDIRECTS.items())
         if src not in CATS
     ]
-    worker_dir = os.path.join(BASE, 'worker')
-    os.makedirs(worker_dir, exist_ok=True)
-    with open(os.path.join(worker_dir, 'redirects.json'), 'w', encoding='utf-8') as f:
-        json.dump(redirects, f, indent=2)
-        f.write('\n')
+    worker_root = pathlib.Path(BASE, 'worker')
+    os.makedirs(worker_root, exist_ok=True)
+    target = (worker_root / 'redirects.json').resolve()
+    target.relative_to(worker_root)
+    _write_file(target, (json.dumps(redirects, indent=2) + '\n').encode('utf-8'))
 
 def page_list(slug, h1, blurb, games, seo, canonical, active=''):
     pre = '../' * (slug.count('/') + 1)
@@ -1143,6 +1213,8 @@ collections:
           - {{ label: Legal Email, name: legal_email, widget: string }}
           - {{ label: Ads Enabled, name: ads_enabled, widget: boolean, default: false }}
           - {{ label: AdSense Client, name: adsense_client, widget: string, required: false, hint: "AdSense ca-pub id, e.g. ca-pub-1234567890123456" }}
+          - {{ label: Adsterra Banner Script, name: adsterra_banner_script, widget: string, required: false, hint: "Adsterra native banner invoke.js URL; the container id is derived from the key inside the URL" }}
+          - {{ label: Adsterra Direct Link, name: adsterra_direct_link, widget: string, required: false, hint: "Adsterra direct link URL, opened in a new tab on the first click of a session" }}
           - {{ label: Aggregate Rating Schema, name: include_aggregate_rating_schema, widget: boolean, default: false }}
           - {{ label: Turnstile Site Key, name: turnstile_site_key, widget: string, required: false }}
 
@@ -1264,11 +1336,11 @@ CONTACT = f'''<p>Questions, feedback, a game suggestion or a business inquiry? W
 <li>Copyright / DMCA — <a href="mailto:{LEGAL_EMAIL}">{LEGAL_EMAIL}</a> (see our <a href="../dmca/">DMCA page</a>)</li></ul>
 <p>We usually reply within 2–3 business days.</p>'''
 
-PRIVACY = f'''<p><em>Last updated: July 2026.</em> This policy explains what {SITE_NAME} collects when you use the site and why.</p>
+PRIVACY = f'''<p><em>Last updated: October 2026.</em> This policy explains what {SITE_NAME} collects when you use the site and why.</p>
 <h2>What we collect</h2>
 <ul><li><strong>Local preferences.</strong> Favorites and ratings are stored in your browser’s localStorage and never leave your device.</li>
 <li><strong>Usage analytics.</strong> We may use privacy-friendly analytics (page views, device type, country) to understand which games people enjoy.</li>
-<li><strong>Advertising cookies.</strong> Third-party ad partners may set cookies to show relevant ads and measure campaigns. You can disable cookies in your browser settings.</li></ul>
+<li><strong>Advertising cookies.</strong> Ads are served by third-party ad networks, currently Google AdSense and Adsterra. These partners may set cookies or similar identifiers to display, cap and measure ads, including interest-based ads. You can disable cookies in your browser settings and opt out of personalised ads via your browser settings or industry tools such as <a href="https://www.youronlinechoices.com/" rel="noopener nofollow" target="_blank">Your Online Choices</a>.</li></ul>
 <h2>What we never do</h2>
 <ul><li>We don’t require accounts, names or email addresses to play.</li><li>We don’t sell personal data.</li></ul>
 <h2>Third-party games</h2>
@@ -1304,8 +1376,8 @@ def main():
 
     favicon = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="#b9f226"/><path d="M26 20l18 12-18 12z" fill="#111503"/></svg>'''
     write('assets/favicon.svg', favicon)
-    make_icon_png(os.path.join(ROOT, 'assets', 'favicon-48x48.png'), 48)
-    make_icon_png(os.path.join(ROOT, 'assets', 'apple-touch-icon.png'), 180)
+    make_icon_png('favicon-48x48.png', 48)
+    make_icon_png('apple-touch-icon.png', 180)
     write('site.webmanifest', json.dumps({"name": SITE_NAME, "short_name": "SpeedSlope", "icons": [
         {"src": "assets/favicon-48x48.png", "sizes": "48x48", "type": "image/png"},
         {"src": "assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}

@@ -34,6 +34,8 @@ collections:
           - { label: Legal Email, name: legal_email, widget: string }
           - { label: Ads Enabled, name: ads_enabled, widget: boolean, default: false }
           - { label: AdSense Client, name: adsense_client, widget: string, required: false, hint: "AdSense ca-pub id, e.g. ca-pub-1234567890123456" }
+          - { label: Adsterra Banner Script, name: adsterra_banner_script, widget: string, required: false, hint: "Adsterra native banner invoke.js URL; the container id is derived from the key inside the URL" }
+          - { label: Adsterra Direct Link, name: adsterra_direct_link, widget: string, required: false, hint: "Adsterra direct link URL, opened in a new tab on the first click of a session" }
           - { label: Aggregate Rating Schema, name: include_aggregate_rating_schema, widget: boolean, default: false }
           - { label: Turnstile Site Key, name: turnstile_site_key, widget: string, required: false }
 

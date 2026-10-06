@@ -2,7 +2,24 @@
 """Split the legacy SpeedSlope JSON files into Git-backed CMS data files."""
 import json
 import os
+import pathlib
 import re
+
+
+def _write_file(target, data, mode=0o644):
+    """Write bytes to an already-validated path, confined by dir_fd so even
+    a swapped parent directory cannot redirect the write."""
+    dir_fd = os.open(target.parent, os.O_RDONLY)
+    try:
+        fd = os.open(target.name, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, mode, dir_fd=dir_fd)
+        try:
+            os.write(fd, data)
+        finally:
+            os.close(fd)
+    finally:
+        os.close(dir_fd)
+
+
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CMS = os.path.join(BASE, 'cms-data')
@@ -14,10 +31,11 @@ def read_json(path):
 
 
 def write_json(path, data):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-        f.write('\n')
+    cms_root = pathlib.Path(CMS).resolve()
+    target = pathlib.Path(path).resolve()
+    target.relative_to(cms_root)
+    os.makedirs(target.parent, exist_ok=True)
+    _write_file(target, (json.dumps(data, ensure_ascii=False, indent=2) + '\n').encode('utf-8'))
 
 
 def pair_list(items, first, second):

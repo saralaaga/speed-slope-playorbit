@@ -1,13 +1,34 @@
 # -*- coding: utf-8 -*-
 """Build the final game dataset from GameDistribution / GameMonetize feeds:
 verify embed URLs, download real thumbnails, emit games_data.json."""
-import json, re, os, html, hashlib, urllib.request, datetime
+import json, re, os, html, hashlib, datetime
+import http.client
+import pathlib
+
+
+def _write_file(target, data, mode=0o644):
+    """Write bytes to an already-validated path, confined by dir_fd so even
+    a swapped parent directory cannot redirect the write."""
+    dir_fd = os.open(target.parent, os.O_RDONLY)
+    try:
+        fd = os.open(target.name, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, mode, dir_fd=dir_fd)
+        try:
+            os.write(fd, data)
+        finally:
+            os.close(fd)
+    finally:
+        os.close(dir_fd)
+
+
+import ipaddress
+import socket
+import urllib.parse
 
 OUT = os.path.dirname(os.path.abspath(__file__))
 THUMB_DIR = os.path.join(OUT, 'app', 'assets', 'thumbs')
 os.makedirs(THUMB_DIR, exist_ok=True)
 
-pool = json.load(open('/tmp/gd_pool.json'))
+pool = json.load(open(os.path.join(OUT, 'gd_pool.json')))
 gm = json.load(open(os.path.join(OUT, '_gm_feed.json')))
 
 def clean(s):
@@ -40,22 +61,104 @@ def gm_item(title):
             return g
     return None
 
+class _PinnedHTTP(http.client.HTTPConnection):
+    """TCP connection pinned to a pre-validated public IP, so a later DNS
+    answer (rebinding) cannot redirect the request."""
+
+    pinned_ip = None
+
+    def connect(self):
+        self.sock = socket.create_connection(
+            (self.pinned_ip, self.port or self.default_port), timeout=self.timeout)
+        if self._tunnel_host:
+            self._tunnel()
+
+
+class _PinnedHTTPS(http.client.HTTPSConnection):
+    pinned_ip = None
+
+    def connect(self):
+        self.sock = socket.create_connection(
+            (self.pinned_ip, self.port or self.default_port), timeout=self.timeout)
+        # TLS certificate and SNI checks keep using the real hostname.
+        self.sock = self._context.wrap_socket(self.sock, server_hostname=self.host)
+
+
+def _validated_target(url):
+    """Return (hostname, port, public_ip) for an http(s) URL. Every other
+    scheme is rejected, as are localhost and hosts whose DNS records resolve
+    to loopback, private, link-local or otherwise reserved addresses."""
+    parsed = urllib.parse.urlsplit(str(url))
+    if parsed.scheme not in ('http', 'https'):
+        raise ValueError(f'non-http(s) URL rejected: {url!r}')
+    host = (parsed.hostname or '').lower()
+    if not host:
+        raise ValueError(f'URL without host rejected: {url!r}')
+    if host == 'localhost' or host.endswith(('.localhost', '.local', '.internal')):
+        raise ValueError(f'local URL host rejected: {url!r}')
+    port = parsed.port or (443 if parsed.scheme == 'https' else 80)
+    try:
+        literal = ipaddress.ip_address(host)
+    except ValueError:
+        literal = None
+    if literal is not None:
+        if not literal.is_global:
+            raise ValueError(f'non-public URL host rejected: {url!r}')
+        return host, port, str(literal)
+    infos = socket.getaddrinfo(host, port, proto=socket.IPPROTO_TCP)
+    addrs = [ipaddress.ip_address(i[4][0]) for i in infos]
+    if not addrs or not all(a.is_global for a in addrs):
+        raise ValueError(f'URL host resolves to non-public addresses: {url!r}')
+    return host, port, str(addrs[0])
+
+
+def fetch_public(url, timeout=15, max_hops=4):
+    """GET an http(s) URL after validating that every hop - including each
+    redirect - points at a public host. Returns (status, body)."""
+    for _ in range(max_hops + 1):
+        host, port, ip = _validated_target(url)
+        parsed = urllib.parse.urlsplit(url)
+        conn_cls = _PinnedHTTPS if parsed.scheme == 'https' else _PinnedHTTP
+        conn = conn_cls(host, port, timeout=timeout)
+        conn.pinned_ip = ip
+        target = parsed.path or '/'
+        if parsed.query:
+            target += '?' + parsed.query
+        try:
+            conn.request('GET', target, headers={'User-Agent': 'Mozilla/5.0'})
+            resp = conn.getresponse()
+            body, status, location = resp.read(), resp.status, resp.getheader('Location')
+        finally:
+            conn.close()
+        if status in (301, 302, 303, 307, 308) and location:
+            url = urllib.parse.urljoin(url, location)
+            continue
+        return status, body
+    raise ValueError(f'too many redirects: {url!r}')
+
+
 def http_ok(url):
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        return urllib.request.urlopen(req, timeout=15).status == 200
+        return fetch_public(url, timeout=15)[0] == 200
     except Exception:
         return False
 
-def dl(url, path):
+
+def dl(url, base_dir, filename):
+    """Download into base_dir; the filename must be a single path-safe
+    component and the destination is verified to stay inside base_dir."""
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        data = urllib.request.urlopen(req, timeout=30).read()
-        if len(data) < 3000: return False
-        open(path, 'wb').write(data)
+        status, data = fetch_public(url, timeout=30)
+        if status != 200 or len(data) < 3000:
+            return False
+        base_root = pathlib.Path(base_dir).resolve()
+        target = (base_root / filename).resolve()
+        target.relative_to(base_root)
+        _write_file(target, data)
         return True
     except Exception:
         return False
+
 
 def steps(text):
     """Split instruction text into short step strings."""
@@ -160,10 +263,9 @@ for src, title, cats, tags in PICKS:
     if not http_ok(url):
         failed.append((title, 'embed dead')); continue
     slug = slugify(title, used)
-    tpath = os.path.join(THUMB_DIR, slug + '.jpg')
-    if not thumb or not dl(thumb, tpath):
+    if not thumb or not dl(thumb, THUMB_DIR, slug + '.jpg'):
         failed.append((title, 'thumb fail')); continue
-    h = int(hashlib.md5(slug.encode()).hexdigest()[:8], 16)
+    h = int(hashlib.sha256(slug.encode()).hexdigest()[:8], 16)
     rating = round(4.1 + (h % 8) / 10, 1)
     plays = 120000 + (h % 3900000)
     howto = steps(instr) or steps(desc)
@@ -186,6 +288,9 @@ for lst in byc.values():
 for g in sorted(games, key=lambda x: x['added'], reverse=True)[:6]:
     g['new'] = True
 
-json.dump(games, open(os.path.join(OUT, 'games_data.json'), 'w'), ensure_ascii=False, indent=1)
+out_root = pathlib.Path(OUT).resolve()
+out_target = (out_root / 'games_data.json').resolve()
+out_target.relative_to(out_root)
+_write_file(out_target, json.dumps(games, ensure_ascii=False, indent=1).encode('utf-8'))
 print('OK', len(games), 'games')
 for f in failed: print('FAIL', f)

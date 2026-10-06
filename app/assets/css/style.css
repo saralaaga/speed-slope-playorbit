@@ -569,3 +569,9 @@ body.theater .stage { aspect-ratio: 16 / 8.2; }
 @media (min-width: 861px) {
   .related-strip-desktop-only { display: grid; }
 }
+
+/* ---------- Live ad slots (Adsterra) ---------- */
+.ad-slot.ad-live { border: 0; background: none; display: block; min-height: 0; }
+.ad-slot.ad-live .ad-label { display: block; margin-bottom: 6px; }
+.ad-slot.ad-live > div[id^="container-"] { display: flex; justify-content: center; }
+.ad-slot.ad-live iframe { max-width: 100%; }
