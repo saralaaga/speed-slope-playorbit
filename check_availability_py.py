@@ -14,7 +14,11 @@ from playwright.sync_api import sync_playwright
 BASE = os.environ.get('SITE_BASE_URL', 'http://127.0.0.1:8000').rstrip('/')
 REQUESTED = set(sys.argv[1:])
 GAMES_JSON = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'app', 'games.json')
-BLOCKED_TEXT = re.compile(r'not available here|click here to play|game is not available', re.I)
+# The Cloudflare markers catch interstitials (challenge / "Attention Required")
+# that would otherwise contain none of the game-unavailable phrases and pass.
+BLOCKED_TEXT = re.compile(
+    r'not available here|click here to play|game is not available'
+    r'|just a moment|attention required|enable javascript and cookies', re.I)
 BLOCKED_URL = re.compile(r'blocked\.html|unregistered=true|chrome-error://chromewebdata', re.I)
 
 

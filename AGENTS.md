@@ -36,7 +36,15 @@ After deploy, rerun the same check against the production domain or the Worker p
 SITE_BASE_URL=https://speedslope.net node check_game_availability.js new-game-slug another-new-game
 ```
 
-A successful build currently reports `131 games, 19 categories, 331 files total`.
+If the npm playwright package is unavailable, run the committed Python port with the uv-managed interpreter instead:
+
+```sh
+SITE_BASE_URL=http://127.0.0.1:8000 /Users/carlos/.local/share/uv/tools/playwright/bin/python check_availability_py.py new-game-slug
+```
+
+The apex domain sits behind zone-level bot protection that challenges automated clients (curl, headless Chromium); for post-deploy verification use the Worker preview URL (`https://speedslope-net.saralaagarwal1990.workers.dev`), which serves the same deployed assets without the zone firewall. The checker treats Cloudflare interstitials ("Just a moment...", "Attention Required!") as failures.
+
+A successful build currently reports `174 games, 23 categories, 422 files total`.
 
 ## Production Hosting
 
