@@ -4,6 +4,12 @@
 
 SpeedSlope.net is a generated static browser-game portal. The production site is the contents of `app/` after running `build_site.py`.
 
+## Local Machine Rules (user directive 2026-10-07)
+
+- Any browser automation must go through **ego lite** (`ego-browser` CLI / the `ego-browser` skill). Do NOT drive the user's Google Chrome, do NOT open windows or tabs in it, and never take over the user's screen focus. The user works on this machine concurrently ("不要和我抢电脑").
+- Headless Playwright via the uv interpreter is fine for the availability gate (it owns no visible window).
+- Cloudflare dashboard changes: prefer handing off to the user (they keep a logged-in session) or use ego lite after the user logs in there once.
+
 ## Build And Validate
 
 Run this before every deploy:
