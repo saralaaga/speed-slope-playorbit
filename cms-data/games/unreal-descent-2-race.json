@@ -1,0 +1,83 @@
+{
+  "slug": "unreal-descent-2-race",
+  "title": "Unreal Descent 2: Race",
+  "url": "https://html5.gamemonetize.co/chgyscg0hxpr1sat5h043qvmmitmcnse/",
+  "cats": [
+    "slope",
+    "racing",
+    "arcade"
+  ],
+  "tags": [
+    "Unreal Descent 2",
+    "Descent Racing",
+    "Downhill Race",
+    "Offroad",
+    "Racing"
+  ],
+  "rating": 4.4,
+  "plays": 87000,
+  "hot": false,
+  "new": true,
+  "sort_order": 231,
+  "seo_title": "Unreal Descent 2: Race — Play Free Descent Racing Game Online",
+  "meta_desc": "Play Unreal Descent 2: Race free online. Extreme downhill races with nitro, unique vehicles and improved 3D tracks where only speed and reaction win.",
+  "desc": "Unreal Descent 2: Race is the sequel to the popular extreme-descent arcade racer, now with improved graphics, new levels and tracks, and unique vehicles that make every race more spectacular. Each descent is a survival race: gas, brake, nitro and nerve as you plunge down treacherous courses where only speed and reaction carry you to the finish first. Switch between views, pick your machine, and get ready for a real high-speed descent.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Gas with W or the up arrow, brake with S or the down arrow.",
+    "Turn with A/D or the left and right arrows.",
+    "Hit C for nitro when the track straightens out.",
+    "Press F to change camera view mid-race.",
+    "Cross the finish line first to win the descent."
+  ],
+  "controls": [
+    {
+      "key": "W / Up arrow",
+      "action": "gas"
+    },
+    {
+      "key": "S / Down arrow",
+      "action": "brake"
+    },
+    {
+      "key": "A / D or Left / Right arrows",
+      "action": "steer"
+    },
+    {
+      "key": "C",
+      "action": "nitro"
+    },
+    {
+      "key": "F",
+      "action": "change view"
+    },
+    {
+      "key": "On-screen wheel / buttons",
+      "action": "controls on phones"
+    }
+  ],
+  "tips": [
+    "Save nitro for straight sections — boosting through bends wastes it in the barriers.",
+    "Braking into a descent corner is faster than flying off it.",
+    "Learn each track's rhythm in the first lap, then attack on the second.",
+    "Switch views (F) until one gives you readable depth on steep drops."
+  ],
+  "faqs": [
+    {
+      "question": "What is Unreal Descent 2: Race?",
+      "answer": "Unreal Descent 2: Race is a free browser racing game about extreme downhill courses, featuring improved graphics, new tracks, unique vehicles, nitro boosts and multiple camera views."
+    },
+    {
+      "question": "How do I use nitro in Unreal Descent 2: Race?",
+      "answer": "Press C to fire the nitro once your speed is up — it is most effective on straight sections where the extra pace will not throw you off the track."
+    },
+    {
+      "question": "Does it work on phones?",
+      "answer": "Yes — on phones the game provides an on-screen steering wheel and buttons so you can gas, brake and steer with touch controls."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "unreal-descent-2-race.jpg"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "tile-hill-descent",
+  "title": "Tile Hill Descent",
+  "url": "https://html5.gamemonetize.co/38zhf4fnds95r8xgmj3v2dn17zibgepc/",
+  "cats": [
+    "slope",
+    "arcade",
+    "reflex"
+  ],
+  "tags": [
+    "Tile Hill Descent",
+    "Endless Descent",
+    "Bouncing Ball",
+    "Reflex",
+    "Arcade"
+  ],
+  "rating": 4.1,
+  "plays": 52000,
+  "hot": false,
+  "new": true,
+  "sort_order": 228,
+  "seo_title": "Tile Hill Descent — Play Free Tile Descent Game Online",
+  "meta_desc": "Play Tile Hill Descent free online. Bounce downhill across an endless path of tiles, tap to switch direction and survive as the descent speeds up.",
+  "desc": "Tile Hill Descent is a fast arcade descent down a never-ending path of tiles. Your character bounces diagonally downward on its own — tap to switch direction between left and right, land on tiles to keep descending safely, and use special blocks like bounce pads to skip ahead and expansion tiles to widen your path. One wrong move sends you off the edge or onto a deadly tile, so stay sharp, react fast and survive the descent.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Tap or click to switch your bounce direction between left and right.",
+    "Land on tiles to keep descending safely.",
+    "Use bounce pads to skip ahead and expansion tiles to widen the path.",
+    "Avoid deadly tiles and the edges — one wrong move ends the run.",
+    "Go as far as possible to set a high score."
+  ],
+  "controls": [
+    {
+      "key": "Tap / click",
+      "action": "switch bounce direction left-right"
+    }
+  ],
+  "tips": [
+    "The bounce is constant — plan two tiles ahead of where you are.",
+    "Expansion tiles are safety nets: route toward them when the path narrows.",
+    "Bounce pads skip danger but also skip control; only take them with a clear read.",
+    "Rhythm beats reaction. Find the beat and the taps take care of themselves."
+  ],
+  "faqs": [
+    {
+      "question": "What is Tile Hill Descent?",
+      "answer": "Tile Hill Descent is a free arcade game where a character bounces endlessly downhill across tiles and you tap to switch direction, dodging deadly tiles and edges while chasing a high score."
+    },
+    {
+      "question": "How do the special tiles work?",
+      "answer": "Bounce pads launch you further down the path to skip sections, while expansion tiles temporarily widen your safe path — both are tools for surviving tighter stretches."
+    },
+    {
+      "question": "Is Tile Hill Descent endless?",
+      "answer": "Yes — the tile path never ends. The run continues until you miss a tile, hit a deadly block or slide off the edge, and the goal is always to beat your best distance."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "tile-hill-descent.jpg"
+}

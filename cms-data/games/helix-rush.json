@@ -1,0 +1,67 @@
+{
+  "slug": "helix-rush",
+  "title": "Helix Rush",
+  "url": "https://html5.gamemonetize.co/1ehud7d5r74n62c9crved3i2qchvrccp/",
+  "cats": [
+    "slope",
+    "arcade",
+    "reflex"
+  ],
+  "tags": [
+    "Helix Rush",
+    "Helix Jump",
+    "Ball Drop",
+    "Arcade",
+    "Endless"
+  ],
+  "rating": 4.6,
+  "plays": 243000,
+  "hot": true,
+  "new": true,
+  "sort_order": 224,
+  "seo_title": "Helix Rush — Play Free Helix Jump Ball Game Online",
+  "meta_desc": "Play Helix Rush free online. Rotate the spiral tower, drop the ball through gaps, smash stacks and trigger Fever Mode in this fast 3D helix jump game.",
+  "desc": "Helix Rush is a fast-paced 3D helix jump arcade game. Rotate the spiral tower and guide the bouncing ball down through the gaps between platforms, smashing through colorful stacks while avoiding the red danger zones — one wrong bounce ends the run. Skip three or more platforms in a single fall to enter Fever Mode and crush everything in your path. Collect coins on every run, unlock 12 unique ball skins, and climb through endless procedurally generated levels of steadily increasing difficulty.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Click and drag (or swipe) left or right to rotate the spiral tower.",
+    "Drop the ball through the gaps between the platforms.",
+    "Avoid the red danger zones — one bounce there ends the run.",
+    "Skip 3+ platforms in one fall to trigger Fever Mode.",
+    "Collect coins and unlock new ball skins in the shop."
+  ],
+  "controls": [
+    {
+      "key": "Drag / swipe left-right",
+      "action": "rotate the tower"
+    },
+    {
+      "key": "Click / tap",
+      "action": "start and confirm menus"
+    }
+  ],
+  "tips": [
+    "Line up the next two gaps before your ball lands, not just the next one.",
+    "Fever Mode makes you invincible — chain long drops into red sections deliberately.",
+    "Coins cluster on alternating platforms; small rotations collect them safely.",
+    "Never rush the final stretch of a level; the last gaps are the tightest."
+  ],
+  "faqs": [
+    {
+      "question": "What is Helix Rush?",
+      "answer": "Helix Rush is a free 3D helix jump game where you rotate a spiral tower to drop a bouncing ball through gaps, smash stacks of platforms and avoid red danger zones."
+    },
+    {
+      "question": "What is Fever Mode in Helix Rush?",
+      "answer": "Fever Mode is a bonus state you trigger by skipping three or more platforms in a single fall. While it lasts, the ball smashes through everything in its path, including danger zones."
+    },
+    {
+      "question": "How many levels does Helix Rush have?",
+      "answer": "Helix Rush uses endless procedurally generated levels that keep getting harder, plus 12 ball skins you can unlock with coins collected during runs."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "helix-rush.jpg"
+}

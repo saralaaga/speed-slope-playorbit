@@ -1,0 +1,67 @@
+{
+  "slug": "color-helix-spin-it",
+  "title": "Color Helix: Spin It",
+  "url": "https://html5.gamemonetize.co/c61av2k6vud5i4zxl0q7p2srta57ilhp/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Color Helix",
+    "Spin Ball",
+    "Color Match",
+    "Reflex",
+    "Arcade"
+  ],
+  "rating": 4.2,
+  "plays": 64000,
+  "hot": false,
+  "new": true,
+  "sort_order": 227,
+  "seo_title": "Color Helix: Spin It — Play Free Color Ball Game Online",
+  "meta_desc": "Play Color Helix: Spin It free online. Rotate the cylinder so your rolling ball passes the matching color sections and dodge every wrong-colored obstacle.",
+  "desc": "Color Helix: Spin It drops you into a world of color and speed. Your ball rolls automatically along a rotating cylinder streaked with obstacles of different colors — your job is to turn the cylinder so the ball always passes through the section that matches its own color. The catch: the ball can change color mid-level, forcing instant decisions. Every stage layers on increasingly complex combinations, testing your reactions and your nerve all the way down.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Turn the cylinder left or right to align the sections.",
+    "The ball rolls automatically — your rotation is the only control.",
+    "Always pass through sections that match the ball's current color.",
+    "React fast when the ball changes color mid-level.",
+    "Clear each stage as the color combinations grow harder."
+  ],
+  "controls": [
+    {
+      "key": "Left / right steering",
+      "action": "rotate the cylinder"
+    },
+    {
+      "key": "Click / tap",
+      "action": "start the game"
+    }
+  ],
+  "tips": [
+    "Keep the cylinder moving gently — small rotations beat big snaps.",
+    "Track the ball's color, not the obstacles; your eyes should lead your hands.",
+    "When the color flips, immediately re-scan the nearest matching section.",
+    "Late stages mix colors faster: slow your breathing, speed your wrists."
+  ],
+  "faqs": [
+    {
+      "question": "What is Color Helix: Spin It?",
+      "answer": "Color Helix: Spin It is a free arcade game where you rotate a cylinder so an automatically rolling ball passes through obstacles of its matching color, with the ball changing color mid-level to raise the challenge."
+    },
+    {
+      "question": "How do you control the ball in Color Helix: Spin It?",
+      "answer": "You never control the ball directly — it rolls on its own. You rotate the cylinder left or right so the matching-colored sections line up with the ball's path."
+    },
+    {
+      "question": "Does Color Helix: Spin It get harder?",
+      "answer": "Yes. Each new stage adds faster color changes and more complex obstacle combinations that demand quicker reactions and decisions."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "color-helix-spin-it.jpg"
+}

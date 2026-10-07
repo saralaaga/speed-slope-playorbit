@@ -14,3 +14,7 @@ _gm_feed.json
 
 # Build artifacts
 dist/
+
+# Local tool state
+.mimosa/
+.infisical.json

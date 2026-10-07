@@ -1,0 +1,65 @@
+{
+  "slug": "fruit-helix-jump",
+  "title": "Fruit Helix Jump",
+  "url": "https://html5.gamemonetize.co/v6fb51qjfbf7oo9hyfwr81diygoko9d0/",
+  "cats": [
+    "slope",
+    "arcade"
+  ],
+  "tags": [
+    "Fruit Helix Jump",
+    "Helix Jump",
+    "Ball Drop",
+    "Arcade",
+    "Casual"
+  ],
+  "rating": 4.2,
+  "plays": 76000,
+  "hot": false,
+  "new": true,
+  "sort_order": 226,
+  "seo_title": "Fruit Helix Jump — Play Free Fruit Helix Game Online",
+  "meta_desc": "Play Fruit Helix Jump free online. Drop your ball down a spiral fruit tower, smash through juicy layers and score big combos in this 3D helix arcade game.",
+  "desc": "Fruit Helix Jump takes the classic helix adventure and makes it juicy. Drop your colorful ball down the spiral helix tower and smash through layer after layer of fruit, keeping the fall going through the gaps to break juicy fruit slices and score big combos. It is bright, fast, instantly understandable 3D arcade fun — rotate the tower, find the openings, and juice everything on the way down.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Click or tap Play to begin.",
+    "Swipe or drag left and right to rotate the fruit tower.",
+    "Aim the ball through the gaps to keep it falling.",
+    "Smash through fruit layers for points and combos."
+  ],
+  "controls": [
+    {
+      "key": "Swipe / drag left-right",
+      "action": "rotate the tower"
+    },
+    {
+      "key": "Click / tap",
+      "action": "start the game"
+    }
+  ],
+  "tips": [
+    "Rotate before the ball bounces — timing the gap beats chasing it.",
+    "Chain multiple fruit layers in one drop for bigger combos.",
+    "Watch for solid core sections and steer around them.",
+    "Speed comes from momentum: keep the ball falling, never idle."
+  ],
+  "faqs": [
+    {
+      "question": "What is Fruit Helix Jump?",
+      "answer": "Fruit Helix Jump is a free 3D arcade game where you rotate a spiral fruit tower to drop your ball through gaps and smash through juicy fruit layers for combos and high scores."
+    },
+    {
+      "question": "Is Fruit Helix Jump free to play?",
+      "answer": "Yes, Fruit Helix Jump is free to play online in your browser on SpeedSlope.net — no download or signup needed."
+    },
+    {
+      "question": "How do I score big combos in Fruit Helix Jump?",
+      "answer": "Keep the ball falling through multiple fruit layers in a single drop without stopping — the more layers you break in one continuous fall, the bigger the combo multiplier."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "fruit-helix-jump.jpg"
+}

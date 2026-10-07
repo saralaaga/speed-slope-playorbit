@@ -1,0 +1,67 @@
+{
+  "slug": "dice-helix-drop",
+  "title": "Dice Helix Drop",
+  "url": "https://html5.gamemonetize.co/y6bajsuhgrocjtzklsdijrucx51djuiu/",
+  "cats": [
+    "slope",
+    "arcade",
+    "reflex"
+  ],
+  "tags": [
+    "Dice Helix Drop",
+    "Helix Drop",
+    "Ball Drop",
+    "One-Touch",
+    "Arcade"
+  ],
+  "rating": 4.3,
+  "plays": 95000,
+  "hot": false,
+  "new": true,
+  "sort_order": 225,
+  "seo_title": "Dice Helix Drop — Play Free Helix Drop Game Online",
+  "meta_desc": "Play Dice Helix Drop free online. Hold to smash the ball through spinning helix stacks, avoid black blocks and build combos across 300+ levels.",
+  "desc": "Dice Helix Drop is a one-touch 3D arcade game about the art of falling. Guide your ball through spinning helix stacks: hold to smash through platforms, release to stop, and build powerful combos that break even the black blocks. The longer you hold, the faster and stronger your drop becomes — but greed meets gravity fast. Bounce, crash and blast your way down through more than 300 colorful levels tuned to run smoothly on any device.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Hold the screen or mouse button to make the ball drop and smash.",
+    "Release to stop the ball on a platform.",
+    "Avoid the black blocks unless your combo is strong enough to break them.",
+    "Build combos by smashing several platforms in a row.",
+    "Clear all 300+ levels, one satisfying drop at a time."
+  ],
+  "controls": [
+    {
+      "key": "Hold click / hold touch",
+      "action": "drop and smash through platforms"
+    },
+    {
+      "key": "Release",
+      "action": "stop the ball"
+    }
+  ],
+  "tips": [
+    "Pulse your holds — short drops keep control while still chaining combos.",
+    "Only commit to a black block when your combo is nearly full.",
+    "Long unbroken holds are tempting but end runs; bank your progress instead.",
+    "Watch the stack rotation direction before re-entering a gap."
+  ],
+  "faqs": [
+    {
+      "question": "What is Dice Helix Drop?",
+      "answer": "Dice Helix Drop is a free one-touch arcade game where you hold to smash a falling ball through spinning helix stacks, release to stop, and build combos to break black blocks."
+    },
+    {
+      "question": "How many levels are in Dice Helix Drop?",
+      "answer": "Dice Helix Drop includes over 300 levels of increasing difficulty, each built around spinning helix stacks and combo-based smashing."
+    },
+    {
+      "question": "Can I break the black blocks in Dice Helix Drop?",
+      "answer": "Yes — build a powerful enough combo by smashing several platforms in a row, and your drop becomes strong enough to break through black blocks."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "dice-helix-drop.jpg"
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "snowboard-game-party",
+  "title": "Snowboard Game Party",
+  "url": "https://html5.gamemonetize.co/e60tb5zjmg6wfnkaddqv8bji60h8gx50/",
+  "cats": [
+    "slope",
+    "sports",
+    "racing"
+  ],
+  "tags": [
+    "Snowboard Game Party",
+    "Snow Racing",
+    "Winter Sports",
+    "Multiplayer",
+    "Racing"
+  ],
+  "rating": 4.2,
+  "plays": 118000,
+  "hot": false,
+  "new": true,
+  "sort_order": 230,
+  "seo_title": "Snowboard Game Party — Play Free Snow Racing Game Online",
+  "meta_desc": "Play Snowboard Game Party free online. Race your snowboard against rivals on dynamic ski tracks, dodge snowballs and fences and win to unlock gear.",
+  "desc": "Snowboard Game Party is a high-energy winter racing party. Join other racers on dynamic ski tracks full of surprises, flexibly control your hero, and fight for the lead while keeping your speed through sudden slopes, fences and flying snowballs. Win races to earn points, unlock gear and customize your style — an adrenaline-filled multiplayer-flavored snow sport challenge you can drop straight into from your browser.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Click or tap Play to join the race.",
+    "Control your racer flexibly down the dynamic ski tracks.",
+    "Avoid snowballs, fences and sudden slopes.",
+    "Keep your speed and beat the other racers to the line.",
+    "Earn points from wins and unlock new gear."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "steer your racer"
+    },
+    {
+      "key": "Click / tap",
+      "action": "start the race"
+    }
+  ],
+  "tips": [
+    "Choose the cleanest line, not the shortest — crashes cost more than detours.",
+    "Sudden slopes are speed boosts if you enter them straight.",
+    "Steer around snowball clusters early; they cluster near fences.",
+    "Consistent podiums unlock gear faster than one lucky win."
+  ],
+  "faqs": [
+    {
+      "question": "What is Snowboard Game Party?",
+      "answer": "Snowboard Game Party is a free online snow racing game where you race a snowboarder against rivals on dynamic ski tracks, dodging snowballs and fences while fighting for first place."
+    },
+    {
+      "question": "Can I unlock gear in Snowboard Game Party?",
+      "answer": "Yes — winning races earns points that unlock new gear and customization options for your racer."
+    },
+    {
+      "question": "What obstacles are on the tracks?",
+      "answer": "Tracks feature snowballs, fences and sudden slope changes that test your steering and speed control throughout the race."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "snowboard-game-party.jpg"
+}

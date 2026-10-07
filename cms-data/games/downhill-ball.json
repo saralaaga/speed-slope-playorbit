@@ -1,0 +1,66 @@
+{
+  "slug": "downhill-ball",
+  "title": "DownHill Ball",
+  "url": "https://html5.gamemonetize.co/io5ki4khjljm7chot5lxqmvx8ttg9830/",
+  "cats": [
+    "slope",
+    "reflex",
+    "arcade"
+  ],
+  "tags": [
+    "Downhill Ball",
+    "Endless Descent",
+    "Slope",
+    "Reflex",
+    "Arcade"
+  ],
+  "rating": 4.3,
+  "plays": 132000,
+  "hot": false,
+  "new": true,
+  "sort_order": 222,
+  "seo_title": "DownHill Ball — Play Free Downhill Ball Game Online",
+  "meta_desc": "Play DownHill Ball free online. Control a constantly descending ball, dodge tricky obstacles and survive an endless downhill run that keeps speeding up.",
+  "desc": "DownHill Ball is an endless-descent arcade game where your ball never stops falling downhill. Control the descent, weave through tricky obstacles, and rely on quick reflexes as the pace escalates run after run. The endless-runner structure means the only goal that matters is distance: stay focused, plan each dodge a beat ahead, and travel as far as possible without crashing.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Tap or press the controls to move the ball left or right.",
+    "Bypass obstacles and keep the ball rolling downhill.",
+    "Plan moves ahead of time to dodge upcoming hazards.",
+    "Survive as speed increases and the run gets harder."
+  ],
+  "controls": [
+    {
+      "key": "Tap left / right",
+      "action": "move the ball left or right"
+    },
+    {
+      "key": "Click / tap",
+      "action": "start the game"
+    }
+  ],
+  "tips": [
+    "Look two or three obstacles ahead instead of the ball itself.",
+    "Early small dodges are safer than late big swerves.",
+    "As speed rises, favor open lanes over tight gaps.",
+    "Restart quickly after a crash to keep your rhythm warm."
+  ],
+  "faqs": [
+    {
+      "question": "What is DownHill Ball?",
+      "answer": "DownHill Ball is a free browser arcade game where you control a constantly descending ball down an endless slope, dodging obstacles while the speed keeps increasing."
+    },
+    {
+      "question": "How do you play DownHill Ball?",
+      "answer": "Move the ball left or right with simple taps to bypass obstacles. The key is planning each move before the obstacle arrives, because the ball accelerates the whole way down."
+    },
+    {
+      "question": "Does DownHill Ball ever end?",
+      "answer": "No — DownHill Ball is an endless runner. The run only ends when you crash, and your goal is to beat your own best distance each time."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "downhill-ball.jpg"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "neonroll",
+  "title": "NeonRoll",
+  "url": "https://html5.gamemonetize.co/jgl9qn3meq496p7envd6kxdtl7l2dyrk/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "NeonRoll",
+    "Neon Ball",
+    "Rolling Ball",
+    "Endless",
+    "Arcade"
+  ],
+  "rating": 4.4,
+  "plays": 88000,
+  "hot": false,
+  "new": true,
+  "sort_order": 223,
+  "seo_title": "NeonRoll — Play Free Neon Rolling Ball Game Online",
+  "meta_desc": "Play NeonRoll free online. Roll a neon ball through a broken universe, dodge every obstacle, grow your ball and build the longest roll run.",
+  "desc": "NeonRoll sends a glowing ball rolling through a broken universe where even time fluctuates. Dodge every obstacle the void throws at you, touch the tunnel walls to grow your ball, and charge your dash by crossing hazards. The longer you survive, the longer your roll run becomes — and coins earned along the way unlock new ball colors, patterns and trails so you can roll like a true neon.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Steer left and right with the arrow keys or A/D, or aim with the mouse.",
+    "Dodge all obstacles scattered through the tunnel.",
+    "Touch tunnel walls to grow the ball.",
+    "Cross obstacles to charge your dash, then press E to use it.",
+    "Survive longer to build the longest possible roll run."
+  ],
+  "controls": [
+    {
+      "key": "Arrow Left / A",
+      "action": "steer left"
+    },
+    {
+      "key": "Arrow Right / D",
+      "action": "steer right"
+    },
+    {
+      "key": "Arrow Up-Down / W S",
+      "action": "steer up and down"
+    },
+    {
+      "key": "Mouse",
+      "action": "aim to steer"
+    },
+    {
+      "key": "E",
+      "action": "dash (charged by crossing obstacles)"
+    },
+    {
+      "key": "Esc / P",
+      "action": "pause"
+    }
+  ],
+  "tips": [
+    "Mouse steering gives the smoothest lines through dense obstacle fields.",
+    "Growing the ball makes you easier to hit — grow when the tunnel is calm.",
+    "Save your charged dash for clusters you cannot steer around.",
+    "Unlock trails early; they make your position easier to read at speed."
+  ],
+  "faqs": [
+    {
+      "question": "What is NeonRoll?",
+      "answer": "NeonRoll is a free online arcade game where you roll a neon ball through a broken universe, dodging obstacles, growing your ball and charging a dash to survive as long as possible."
+    },
+    {
+      "question": "How do I unlock ball colors and trails in NeonRoll?",
+      "answer": "You unlock new ball colors, patterns and trails by collecting rewards during your runs and surviving longer, then spending them in the unlock menu."
+    },
+    {
+      "question": "What does the dash do in NeonRoll?",
+      "answer": "The dash lets you burst through danger. It charges as you cross obstacles, and you trigger it with the E key when you need to escape a tight spot."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "neonroll.jpg"
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "rolling-going-balls",
+  "title": "Rolling Going Balls",
+  "url": "https://html5.gamemonetize.co/ozbxx1p7gw04eauwlp3vqf2ejimwkfqc/",
+  "cats": [
+    "slope",
+    "runner",
+    "arcade"
+  ],
+  "tags": [
+    "Rolling Going Balls",
+    "Rolling Ball",
+    "Slope",
+    "Endless Runner",
+    "3D"
+  ],
+  "rating": 4.5,
+  "plays": 198000,
+  "hot": true,
+  "new": true,
+  "sort_order": 220,
+  "seo_title": "Rolling Going Balls — Play Free Rolling Ball Game Online",
+  "meta_desc": "Play Rolling Going Balls free online. Steer a fast 3D ball through twisting tracks, dodge spikes and pendulums, and collect balls to level up.",
+  "desc": "Rolling Going Balls is an addictive 3D rolling-ball runner that pushes your reflexes to the limit. Take charge of a fast-moving ball, roll and run through tricky tracks full of twists, turns and traps, and collect extra balls along the way to boost your level. Smooth steering lets you guide the ball with precision, but dangerous obstacles such as spikes and swinging pendulums will end the run the moment you lose focus.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Click or tap Play to start rolling.",
+    "Steer the ball along the track with smooth, small inputs.",
+    "Collect the balls scattered along the route to raise your level.",
+    "Avoid spikes, pendulums and other dangerous obstacles.",
+    "Keep rolling as the tracks get twistier and faster."
+  ],
+  "controls": [
+    {
+      "key": "Mouse / touch",
+      "action": "steer the ball along the track"
+    },
+    {
+      "key": "Click / tap",
+      "action": "start the game and use menus"
+    }
+  ],
+  "tips": [
+    "Steer early — waiting until the last second makes every turn sharper.",
+    "Collecting bonus balls grows your level, so detour for them when the lane is clear.",
+    "Watch pendulums for one full swing before you commit to passing.",
+    "Slow hands beat fast hands: small corrections keep the ball alive longest."
+  ],
+  "faqs": [
+    {
+      "question": "What is Rolling Going Balls?",
+      "answer": "Rolling Going Balls is a browser-based 3D rolling-ball runner where you steer a fast ball through twisting tracks, dodge obstacles like spikes and pendulums, and collect balls to level up."
+    },
+    {
+      "question": "Is Rolling Going Balls free to play?",
+      "answer": "Yes, Rolling Going Balls is completely free to play online in your browser on SpeedSlope.net with no download or signup required."
+    },
+    {
+      "question": "How do I improve at Rolling Going Balls?",
+      "answer": "Keep steering inputs small, scan the track ahead for obstacles before you reach them, and grab extra balls whenever the lane is safe to level up faster."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "rolling-going-balls.jpg"
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "downhill-snowboard",
+  "title": "Downhill Snowboard",
+  "url": "https://html5.gamemonetize.co/xxlz1gjpdxfhl98zmshxkqg3a90gccvz/",
+  "cats": [
+    "slope",
+    "sports",
+    "arcade"
+  ],
+  "tags": [
+    "Downhill Snowboard",
+    "Snowboard Game",
+    "Slope",
+    "Winter Sports",
+    "Endless"
+  ],
+  "rating": 4.3,
+  "plays": 141000,
+  "hot": false,
+  "new": true,
+  "sort_order": 229,
+  "seo_title": "Downhill Snowboard — Play Free Snowboarding Game Online",
+  "meta_desc": "Play Downhill Snowboard free online. Ride down the slope, collect coins, unlock new characters and snowboards and chase your highest score.",
+  "desc": "Downhill Snowboard is a challenging winter sports ride down an endless snowy slope. Carve your way downhill, accumulate the highest score you can, and collect coins along the run to unlock new characters and snowboards. The mountain never flattens out — every second demands tighter lines and braver decisions as speed builds, making it a true test of slope-riding skill for snowboard and skiing game fans.",
+  "howto": [
+    "The game loads automatically when you open the page — just wait a moment.",
+    "Steer with A/D, the arrow keys, or the mouse.",
+    "Carve down the slope and keep your speed under control.",
+    "Collect coins scattered across the mountain.",
+    "Spend coins to unlock new characters and snowboards.",
+    "Chase your highest score on every run."
+  ],
+  "controls": [
+    {
+      "key": "A / D or Arrow keys",
+      "action": "steer the snowboard"
+    },
+    {
+      "key": "Mouse / touch",
+      "action": "steer and use menus"
+    }
+  ],
+  "tips": [
+    "Stay on the fall line for speed, drift to the edges for safety.",
+    "Coins usually mark the fastest safe route down — follow them.",
+    "Unlock a better snowboard before chasing pure high scores.",
+    "Long carved turns bleed less speed than panicked corrections."
+  ],
+  "faqs": [
+    {
+      "question": "What is Downhill Snowboard?",
+      "answer": "Downhill Snowboard is a free browser snowboarding game where you ride down an endless snowy slope, collect coins and unlock characters and snowboards while chasing a high score."
+    },
+    {
+      "question": "Can I unlock characters in Downhill Snowboard?",
+      "answer": "Yes — collect coins during your runs and spend them to unlock new characters and snowboards with different looks."
+    },
+    {
+      "question": "Is Downhill Snowboard hard?",
+      "answer": "It is very challenging: the slope keeps building speed, so clean lines and early steering are the difference between a long run and an early crash."
+    }
+  ],
+  "added": "2026-10-07",
+  "embed_source": "GameMonetize public embed",
+  "embed_source_url": "https://gamemonetize.com/rssfeed.php?format=json",
+  "thumbfile": "downhill-snowboard.jpg"
+}
